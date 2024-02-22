@@ -25,19 +25,19 @@ const Navbar = () => {
     };
   }, []);
 
-  const navClasses = `fixed z-20 w-full transition-all duration-300 ${scrolled ? 'bg-[#252525] z-20' : ''}`;
+  const navClasses = `flex duration-500 ${scrolled ? 'bg-white rounded-full z-20 shadow-xl px-2' : ''}`;
+  const navClasses2 = `sm:flex absolute left-0 duration-300 cursor-pointer 2xl:text-3xl text-xl text-[#59342C] font-lora font-black italic z-10 py-1 px-4 ${scrolled ? 'bg-white rounded-full shadow-xl' : ''}`;
   
 
   const navigation = [
     {id:1, name: "Inicio", href: '/', current: false },
     {id:2, name: "Servicios", href: '#servicios', current: false },
-    {id:3, name: "Paquetes", href: '#paquetes', current: false },
-    {id:4, name: "Nosotros", href: '#nosotros', current: false },
-    {id:5, name: "Contacto", href: '#contacto', current: false },
+    {id:3, name: "Nosotros", href: '#nosotros', current: false },
+    {id:4, name: "Testimonios", href: '#testimonios', current: false },
   ]
 
   return (
-    <Disclosure as="nav" className={navClasses}>
+    <Disclosure as="nav" className='fixed z-20 w-full transition-all duration-300'>
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:4 z-20">
@@ -55,10 +55,10 @@ const Navbar = () => {
                 </Disclosure.Button>
               </div>
               <div className='w-full'>
-                <div className="flex flex-1 justify-center items-center ">
-                    <a href='#home' className="sm:flex absolute left-0  duration-500 cursor-pointer 2xl:text-3xl text-2xl text-[#59342C] font-lora font-black italic">LOGO</a>
-                  <div className="hidden lg:flex lg:justify-center lg:items-center lg:w-full lg:ml-6">
-                    <div className="flex">
+                <div className="flex flex-1 justify-center items-center">
+                    <a href='#home' className={navClasses2}>LOGO</a>
+                  <div className='hidden lg:flex lg:justify-center lg:items-center lg:w-full'>
+                    <div className={navClasses}>
                       {navigation.map((item) => (
                         <a
                           key={item.id}
