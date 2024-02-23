@@ -28,7 +28,7 @@ const Nosotros = () => {
                 </div>
             </section>
             <section className='flex flex-col items-center'>
-                <div className='w-full flex justify-start space-x-32'>
+                <div className='flex justify-start space-x-32'>
                     <div className=''>
                     <div className="md:h-60 h-28 w-36 md:w-60 rounded-full overflow-hidden bg-gray-200">
                     <img
