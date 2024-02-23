@@ -12,6 +12,7 @@
   "dependencies": {
     "@headlessui/react": "^1.7.18",
     "@heroicons/react": "^2.1.1",
+    "@midudev/tailwind-animations": "^0.0.7",
     "@radix-ui/react-icons": "^1.3.0",
     "aos": "^2.3.4",
     "class-variance-authority": "^0.7.0",
