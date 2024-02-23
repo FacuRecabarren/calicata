@@ -2,7 +2,7 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <div className='pt-20 relative'>
+    <div id='servicios' className='pt-20 relative'>
       <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1708712106/Meteor_utmbba.svg" alt="" className='absolute -z-10 hidden sm:flex sm:h-[30rem] w-full'/>
       <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1708711530/Meteor_1_zyru00.svg" alt="" className='sm:hidden absolute -z-10 h-[35rem]'/>
       <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1708711530/Meteor_1_zyru00.svg" alt="" className='sm:hidden absolute -z-10 h-[35rem] bottom-10'/>
