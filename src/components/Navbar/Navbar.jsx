@@ -11,20 +11,25 @@ function classNames(...classes) {
 }
 
 const Navbar = () => {
+
   
   const { t } = useTranslation()
+  const [current, setCurrent] = useState(null)
 
   const [scrolled, setScrolled] = useState(false);
+
+  const handleClick = (id) => {
+    setCurrent(id);
+  };
   
   useEffect(() => {
     const handleScroll = () => {
       const isScrolled = window.scrollY > 10;
       setScrolled(isScrolled);
+      
     };
 
     window.addEventListener('scroll', handleScroll);
-
-    // Desuscribirse del evento al desmontar el componente
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -37,12 +42,13 @@ const Navbar = () => {
   
 
   const navigation = [
-    {id:1, name: <span>{t("home")}</span>, href: '/', current: false },
-    {id:2, name: <span>{t("service")}</span>, href: '#servicios', current: false },
-    {id:3, name: <span>{t("aboutUs")}</span>, href: '#nosotros', current: false },
-    {id:4, name: <span>{t("reviews")}</span>, href: '#testimonios', current: false },
-    {id:5, name: <span>{t("contact")}</span>, href: '#contact', current: false },
+    {id:1, name: <span>{t("home")}</span>, href: '/', current: current === 1  },
+    {id:2, name: <span>{t("service")}</span>, href: '#servicios', current: current === 2 },
+    {id:3, name: <span>{t("aboutUs")}</span>, href: '#nosotros', current: current === 3 },
+    {id:4, name: <span>{t("reviews")}</span>, href: '#testimonios', current: current === 4 },
+    {id:5, name: <span>{t("contact")}</span>, href: '#contact', current: current === 5 },
   ]
+
 
   return (
     <Disclosure as="nav" className={navClasses1}>
@@ -71,8 +77,9 @@ const Navbar = () => {
                         <a
                           key={item.id}
                           href={item.href}
+                          onClick={() => handleClick(item.id)}
                           className={classNames(
-                            item.current ? 'transform hover:scale-110 duration-500 text-primary' : 'text-[#023059] hover:text-[#59342C] transform hover:scale-105 duration-500',
+                            item.current ? 'transform hover:scale-110 duration-500 text-[#59342C]' : 'text-[#023059] hover:text-[#59342C] transform hover:scale-105 duration-500',
                             'rounded-md px-3 py-2 text-[15px] font-bold 2xl:text-base'
                           )}
                           aria-current={item.current ? 'page' : undefined}
