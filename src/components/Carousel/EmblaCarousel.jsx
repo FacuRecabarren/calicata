@@ -25,7 +25,7 @@ const EmblaCarousel = (props) => {
   return (
     <section className="embla">
       <div className="embla__viewport" ref={emblaRef}>
-        <div className="embla__container">
+        <div className="embla__container cursor-grab">
           <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1708712604/Carla_Rodr%C3%ADguez_2_cdtjci.png" alt=""  className='rounded-lg w-[30rem] px-3 shadow-xl'/>
           <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1708712755/Carla_Rodr%C3%ADguez_3_wycrcr.png" alt=""  className='rounded-lg w-[30rem] px-3 shadow-xl'/>
           <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1708713081/Carla_Rodr%C3%ADguez_4_kghury.png" alt=""  className='rounded-lg w-[30rem] px-3 shadow-xl'/>
