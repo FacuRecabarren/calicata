@@ -1,0 +1,33 @@
+{
+    "home": "Inicio",
+    "service": "Servicios",
+    "aboutUs": "Sobre Nosotros",
+    "reviews": "Reseñas",
+    "contact": "Contacto",
+    "lang": "Language",
+    
+    
+    "title": "Viajar, disfrutar y vivir una vida nueva y plena",
+    "packages": "Ver paquetes",
+
+
+
+    "travel" : "Viajes",
+    "excursions": "Excursiones",
+    "whoAreWe" : "¿Quiénes somos?",
+    "travelAgent": "Agente de Viajes",
+    "operation": "Especialista en Operaciones",
+    "ratings": "Calificaciones de algunos de nuestros clientes",
+    
+
+    "contactUs": "Contáctanos",
+    "name": "Tu nombre *",
+    "email": "Correo electrónico *",
+    "message": "Mensaje *",
+    "placeholderMail": "hola@correo.com",
+    "send": "Enviar mensaje",
+
+    
+    "rights": "Todos los derechos reservados.",
+    "madeBy": "Hecho por Elizca"
+}

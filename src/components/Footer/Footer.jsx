@@ -1,8 +1,13 @@
 import React from 'react'
 import { FaFacebookF, FaInstagram  } from "react-icons/fa6";
 import { BiLogoGmail } from "react-icons/bi";
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
+
+
+  const { t } = useTranslation()
+
   return (
     <div className='px-10 pt-20'>
       <section className='flex justify-between items-center py-5'>
@@ -20,14 +25,14 @@ const Footer = () => {
             </a>
           </div>
           <div className='flex justify-center items-center gap-3 text-[#023059] font-semibold text-sm'>
-            <a href="" className='hover:text-[#59342C] duration-300'>Inicio</a><a href="" className='hover:text-[#59342C] duration-300'>Servicios</a><a href="" className='hover:text-[#59342C] duration-300'>Nosotros</a><a href="" className='hover:text-[#59342C] duration-300'>Testimonios</a>
+            <a href="" className='hover:text-[#59342C] duration-300'>{t("home")}</a><a href="" className='hover:text-[#59342C] duration-300'>{t("service")}</a><a href="" className='hover:text-[#59342C] duration-300'>{t("aboutUs")}</a><a href="" className='hover:text-[#59342C] duration-300'>{t("reviews")}</a><a href="" className='hover:text-[#59342C] duration-300'>{t("contact")}</a>
           </div>
         </article>
       </section>
       <hr />
       <section className='py-5 flex flex-col justify-center items-center gap-3'>
-        <p className='text-sm font-medium opacity-80'>© 2024 Nombre. All Rights Reserved.</p>
-        <p className='font-bold text-[#023059]'>Made by Elizca</p>
+        <p className='text-sm font-medium opacity-80'>© 2024 Nombre. {t("rights")}</p>
+        <p className='font-bold text-[#023059]'>{t("madeBy")}</p>
       </section>
     </div>
   )

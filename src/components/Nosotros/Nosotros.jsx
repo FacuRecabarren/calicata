@@ -1,11 +1,15 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Nosotros = () => {
+
+    const { t } = useTranslation()
+
     return (
       <div className="pt-10">
         <div className="flex flex-col justify-center items-center gap-4 py-10">
           <h2 className="text-[#023059] text-4xl font-extrabold">
-            ¿Quiénes somos?
+            {t("whoAreWe")}
           </h2>
           <h3 className="text-[#023059] opacity-80 font-semibold">
             Lorem ipsum dolor sit amet consectetur numquam reprehenderit error
@@ -40,7 +44,7 @@ const Nosotros = () => {
                     <a className="text-lg font-medium text-stone-700 cursor-pointer hover:text-stone-900  dark:text-gray-100" href="https://www.linkedin.com/in/juan-emilio-elizondo/">
                         Juan Emilio Elizondo
                     </a>
-                    <div className=" italic text-gray-500">Gerente de viajes</div>
+                    <div className=" italic text-gray-500">{t("travelAgent")}</div>
                 </div>
                 <div className="flex-col px-6 py-2 ">
                     <div className="md:h-60 h-28 w-28 md:w-60 rounded-full overflow-hidden bg-gray-200">
@@ -54,7 +58,7 @@ const Nosotros = () => {
                     <a className="text-lg font-medium text-stone-700 cursor-pointer hover:text-stone-900  dark:text-gray-100" href="https://www.linkedin.com/in/laradecillis/">
                         Lara María De Cillis
                     </a>
-                    <div className=" italic text-gray-500">Especialista en operaciones</div>
+                    <div className=" italic text-gray-500">{t("operation")}</div>
                 </div>
               </div>
                 <div>
