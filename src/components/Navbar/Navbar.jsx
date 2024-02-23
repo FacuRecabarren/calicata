@@ -1,14 +1,21 @@
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import {useState, useEffect} from 'react';
+import Language from '../Language/Language';
+import { useTranslation } from 'react-i18next';
 
 function classNames(...classes) {
+
+  
   return classes.filter(Boolean).join(' ')
 }
 
 const Navbar = () => {
 
+  
+  const { t } = useTranslation()
   const [current, setCurrent] = useState(null)
+
   const [scrolled, setScrolled] = useState(false);
 
   const handleClick = (id) => {
@@ -35,11 +42,13 @@ const Navbar = () => {
   
 
   const navigation = [
-    { id: 1, name: "Inicio", href: '/', current: current === 1 },
-    { id: 2, name: "Servicios", href: '#servicios', current: current === 2 },
-    { id: 3, name: "Nosotros", href: '#nosotros', current: current === 3 },
-    { id: 4, name: "Testimonios", href: '#testimonios', current: current === 4 },
-  ];
+    {id:1, name: <span>{t("home")}</span>, href: '/', current: current === 1  },
+    {id:2, name: <span>{t("service")}</span>, href: '#servicios', current: current === 2 },
+    {id:3, name: <span>{t("aboutUs")}</span>, href: '#nosotros', current: current === 3 },
+    {id:4, name: <span>{t("reviews")}</span>, href: '#testimonios', current: current === 4 },
+    {id:5, name: <span>{t("contact")}</span>, href: '#contact', current: current === 5 },
+  ]
+
 
   return (
     <Disclosure as="nav" className={navClasses1}>
@@ -81,6 +90,7 @@ const Navbar = () => {
                     </div>
                       
                   </div>
+                      <Language/>
                 </div>
               </div>
             </div>

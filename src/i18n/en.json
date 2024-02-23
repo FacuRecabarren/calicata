@@ -1,0 +1,34 @@
+{
+    "home": "Home",
+    "service": "Services",
+    "aboutUs": "About Us",
+    "reviews": "Reviews",
+    "contact": "Contact",
+    "lang": "Idioma",
+    
+    
+    "title": "Traveling, enjoying and living a new and fulfilling life",
+    "packages": "See packages",
+
+
+
+    "travel" : "Trips",
+    "excursions": "Excursions",
+    "whoAreWe" : "About us",
+    "travelAgent": "Travel Agent",
+    "operation": "Operations Specialist",
+    "ratings": "Ratings from some of our clients",
+    
+
+
+    "contactUs": "Contact us",
+    "name": "Your Name *",
+    "email": "Email Adress *",
+    "message": "Message *",
+    "placeholderMail": "hello@email.com",
+    "send": "Send message",
+
+    
+    "rights": "All Rights Reserved.",
+    "madeBy": "Made by Elizca"
+}

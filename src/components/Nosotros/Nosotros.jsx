@@ -1,11 +1,15 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Nosotros = () => {
+
+    const { t } = useTranslation()
+
     return (
       <div id='nosotros' className="pt-20">
         <div className="flex flex-col justify-center items-center gap-4 py-10">
           <h2 className="text-[#023059] text-4xl font-extrabold">
-            ¿Quiénes somos?
+            {t("whoAreWe")}
           </h2>
           <h3 className="text-[#023059] opacity-80 font-semibold text-center px-5 lg:text-start lg:px-0">
             Lorem ipsum dolor sit amet consectetur numquam reprehenderit error
@@ -42,21 +46,31 @@ const Nosotros = () => {
                             <p className="text-center opacity-80">Gerente de viajes</p>
                         </div>
                     </div>
-                    <div className='flex flex-col justify-center items-center gap-2'>
-                        <div className="h-60 w-60 rounded-full overflow-hidden border-l-8 border-[#023059]">
-                            <img
-                            src='https://res.cloudinary.com/dhqudb28a/image/upload/v1697066819/lara_fd5dtn.png'
-                            alt="Imagen de Lara María De Cillis"
-                            className='lg:grayscale lg:hover:grayscale-0 duration-500 w-full h-full object-cover'
-                            />
-                        </div>
-                        <div className='flex flex-col justify-center items-center'>
-                            <a className="text-lg font-bold text-[#023059] cursor-pointer hover:text-[#59342C] dark:text-gray-100" href="https://www.linkedin.com/in/laradecillis/">
-                            Lara María De Cillis
-                            </a>
-                            <p className="text-center opacity-80">Especialista en operaciones</p>
-                        </div>
+
+                    <a className="text-lg font-medium text-stone-700 cursor-pointer hover:text-stone-900  dark:text-gray-100" href="https://www.linkedin.com/in/juan-emilio-elizondo/">
+                        Juan Emilio Elizondo
+                    </a>
+                    <div className=" italic text-gray-500">{t("travelAgent")}</div>
+                </div>
+                <div className="flex flex-col justify-center items-center gap-2">
+                    <div className="h-60 w-60 rounded-full overflow-hidden border-l-8 border-[#023059]">
+                    <img
+                        src='https://res.cloudinary.com/dhqudb28a/image/upload/v1697066819/lara_fd5dtn.png'
+                        alt="Imagen de Lara María De Cillis"
+                        className="lg:grayscale lg:hover:grayscale-0 duration-500 w-full h-full object-cover"
+                    />
                     </div>
+                      <div className='flex flex-col justify-center items-center'>
+                      <a className="text-lg font-bold text-[#023059] cursor-pointer hover:text-[#59342C] dark:text-gray-100" href="https://www.linkedin.com/in/laradecillis/">
+                        Lara María De Cillis
+                      </a>
+                    <div className="text-center opacity-80">{t("operation")}</div>
+                    </div>
+                </div>
+              </div>
+                <div>
+                    <p className='hidden lg:flex pt-9 w-[50rem] text-[#023059] font-light'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit asperiores consequatur distinctio itaque ipsum perferendis repudiandae ab commodi dignissimos nostrum exercitationem ratione quo aliquam dicta, ea facere ex quasi architecto.</p>
+
                 </div>
                 <p className='hidden lg:flex pt-9 w-[50rem] text-[#023059] font-light'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit asperiores consequatur distinctio itaque ipsum perferendis repudiandae ab commodi dignissimos nostrum exercitationem ratione quo aliquam dicta, ea facere ex quasi architecto.</p>
             </section>
