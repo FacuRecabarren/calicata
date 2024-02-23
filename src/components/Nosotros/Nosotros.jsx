@@ -2,7 +2,7 @@ import React from 'react';
 
 const Nosotros = () => {
     return (
-      <div className="pt-20">
+      <div id='nosotros' className="pt-20">
         <div className="flex flex-col justify-center items-center gap-4 py-10">
           <h2 className="text-[#023059] text-4xl font-extrabold">
             ¿Quiénes somos?
