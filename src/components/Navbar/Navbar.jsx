@@ -25,8 +25,10 @@ const Navbar = () => {
     };
   }, []);
 
+  const navClasses1 = `fixed z-20 w-full backdrop-filter backdrop-filter backdrop-blur-sm transition-all duration-300 ${scrolled ? 'lg:backdrop-none lg:backdrop-blur-none' : ''}`;
   const navClasses = `flex duration-500 ${scrolled ? 'bg-white rounded-full z-20 shadow-xl px-2' : ''}`;
-  const navClasses2 = `sm:flex absolute left-0 duration-300 cursor-pointer 2xl:text-3xl text-xl text-[#59342C] font-lora font-black italic z-10 py-1 px-4 ${scrolled ? 'bg-white rounded-full shadow-xl' : ''}`;
+  const navClasses2 = `sm:flex absolute left-0 z-30 duration-300 cursor-pointer 2xl:text-3xl text-xl text-[#59342C] font-lora font-black z-10 py-1 px-4 ${scrolled ? 'bg-white rounded-full shadow-xl z-30' : ''}`;
+  const navClasses3 = `block h-10 w-10 text-[#023059] py-1 px-2 ${scrolled ? 'bg-white rounded-full shadow-xl z-30' : ''}`;
   
 
   const navigation = [
@@ -37,7 +39,7 @@ const Navbar = () => {
   ]
 
   return (
-    <Disclosure as="nav" className='fixed z-20 w-full transition-all duration-300'>
+    <Disclosure as="nav" className={navClasses1}>
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:4 z-20">
@@ -48,9 +50,9 @@ const Navbar = () => {
                   <span className="absolute -inset-0.5" />
                   <span className="sr-only">Open main menu</span>
                   {open ? (
-                    <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
+                    <XMarkIcon className={navClasses3} aria-hidden="true" />
                   ) : (
-                    <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
+                    <Bars3Icon className={navClasses3} aria-hidden="true" />
                   )}
                 </Disclosure.Button>
               </div>
@@ -80,15 +82,15 @@ const Navbar = () => {
             </div>
           </div>
           <Disclosure.Panel className="lg:hidden h-screen z-10">
-            <div className="space-y-1 px-6 pb-3 pt-2">
+            <div className="space-y-4 px-6 pb-3 pt-2 flex flex-col justify-center items-center">
               {navigation.map((item) => (
                 <Disclosure.Button
                 key={item.id}
                 as="a"
                 href={item.href}
                 className={classNames(
-                  item.current ? 'text-primary' : 'text-primary hover:text-palette-500 transform hover:scale-105 duration-500',
-                  'block rounded-md px-3 py-2 text-base text-center font-medium bg-[#252525]'
+                  item.current ? 'text-[#59342C]' : 'text-[#023059] hover:text-[#59342C] transform hover:scale-105 duration-500',
+                  'block rounded-full text-[#023059] font-bold shadow-md px-3 py-2 text-base text-center bg-white w-[10rem]'
                   )}
                   aria-current={item.current ? 'page' : undefined}
                   >
