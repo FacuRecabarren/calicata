@@ -1,4 +1,5 @@
 import Hero from '@/components/Hero/Hero'
+import Nosotros from '@/components/Nosotros/Nosotros'
 import Services from '@/components/Services/Services'
 import React from 'react'
 
@@ -7,6 +8,7 @@ const Home = () => {
     <>
       <Hero/>
       <Services/>
+      <Nosotros/>
     </>
   )
 }
