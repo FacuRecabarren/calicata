@@ -11,9 +11,7 @@ function App() {
 
   return (
       <BrowserRouter>
-      <div className='fixed w-full z-20'>
-        <Navbar/>
-      </div>
+      <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/contact' element={<Contact/>}/>

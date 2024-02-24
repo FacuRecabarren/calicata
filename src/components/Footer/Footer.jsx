@@ -10,8 +10,8 @@ const Footer = () => {
 
   return (
     <div className='px-10 pt-3'>
-      <section className='flex justify-between items-center py-5'>
-        <h2 className='font-extrabold text-xl text-[#023059]'>LOGO</h2>
+      <section className='flex flex-col gap-8 lg:gap-0 lg:flex-row justify-between items-center py-5'>
+        <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1708796313/Agencia%20viajes/Recurso_5_mhtwhe.svg" alt="" className='w-40 cursor-pointer'/>
         <article className='flex flex-col justify-center items-center gap-5'>
           <div className='flex justify-center items-center gap-3 h-6'>
             <a className='rounded-full border-[#023059] border cursor-pointer p-2 hover:border-[#59342C] duration-300'>
@@ -24,7 +24,7 @@ const Footer = () => {
               <BiLogoGmail className='text-[#023059] hover:text-[#59342C] duration-300'/>
             </a>
           </div>
-          <div className='flex justify-center items-center gap-3 text-[#023059] font-semibold text-sm'>
+          <div className='flex justify-center items-center gap-3 text-[#023059] font-semibold text-xs sm:text-sm'>
             <a href="" className='hover:text-[#59342C] duration-300'>{t("home")}</a><a href="" className='hover:text-[#59342C] duration-300'>{t("service")}</a><a href="" className='hover:text-[#59342C] duration-300'>{t("aboutUs")}</a><a href="" className='hover:text-[#59342C] duration-300'>{t("reviews")}</a><a href="" className='hover:text-[#59342C] duration-300'>{t("contact")}</a>
           </div>
         </article>

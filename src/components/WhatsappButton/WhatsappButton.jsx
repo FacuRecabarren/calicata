@@ -7,7 +7,7 @@ const WhatsappButton = () => {
   
     return (
       <a href={whatsappLink} target="_blank"
-      className='fixed bottom-3 right-1 z-50 w-20 h-20 justify-center items-center hover:animate-vertical-bounce'
+      className='fixed bottom-3 right-1 z-50 justify-center items-center hover:animate-vertical-bounce'
       >
         <img
             className='img z-50 w-14 h-14'
