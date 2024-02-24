@@ -21,12 +21,14 @@
     "ratings": "Avaliações de alguns de nossos clientes",
 
     
-    "contactUs": "Contáctanos",
-    "name": "Tu nombre *",
-    "email": "Correo electrónico *",
-    "message": "Mensaje *",
-    "placeholderMail": "hola@correo.com",
-    "send": "Enviar mensaje",
+    "contactUs": "Contate-nos",
+    "name": "Teu nome *",
+    "placeholderName": "ex. João Silva",
+    "email": "Correio eletrônico *",
+    "message": "Mensagem *",
+    "placeholderMessage": "Mensagem...",
+    "placeholderMail": "ola@correio.com",
+    "send": "Enviar mensagem",
 
 
     "rights": "Todos os direitos reservados.",

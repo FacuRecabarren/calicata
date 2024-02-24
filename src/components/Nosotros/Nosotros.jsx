@@ -34,14 +34,14 @@ const Nosotros = () => {
                     <div className='flex flex-col justify-center items-center gap-2'>
                         <div className="h-60 w-60 rounded-full overflow-hidden border-l-8 border-[#023059]">
                             <img
-                            src='https://res.cloudinary.com/dhqudb28a/image/upload/v1697066818/juane_w65i3b.jpg'
+                            src='https://res.cloudinary.com/dfschbyq2/image/upload/v1708743323/joven-empresario-al-aire-libre_53419-7471_lgs5dd.avif'
                             alt="Imagen de Juan Emilio Elizondo"
-                            className='lg:grayscale lg:hover:grayscale-0 duration-500 object-cover'
+                            className='lg:grayscale lg:hover:grayscale-0 duration-500 object-cover w-full h-full'
                             />
                         </div>
                         <div className='flex flex-col justify-center items-center'>
                             <a className="text-lg font-bold text-[#023059] cursor-pointer hover:text-[#59342C] dark:text-gray-100" href="https://www.linkedin.com/in/juan-emilio-elizondo/">
-                            Juan Emilio Elizondo
+                            Martin Puebla
                             </a>
                             <p className="text-center opacity-80">{t("travelAgent")}</p>
                         </div>

@@ -23,8 +23,10 @@
 
     "contactUs": "Contact us",
     "name": "Your Name *",
+    "placeholderName": "ex. John Smith",
     "email": "Email Adress *",
     "message": "Message *",
+    "placeholderMessage": "Message...",
     "placeholderMail": "hello@email.com",
     "send": "Send message",
 

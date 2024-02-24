@@ -14,11 +14,12 @@ const Language = () => {
 
     return (
       <div className="pl-2">
-        <select name="" id="" onChange={changeLanguage} className="bg-transparent text-[#023059] text-[15px] font-bold">
+        <select name="" id="" onChange={changeLanguage} className="bg-transparent text-[#023059] text-[15px] font-bold hover:text-[#374283]">
             <option value="es">Español</option>
             <option value="en">English</option>
             <option value="port">Português</option>
         </select>
+        
       </div>
     );
 };

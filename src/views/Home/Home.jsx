@@ -1,3 +1,4 @@
+import ContactUs from '@/components/ContactUs/ContactUs'
 import Hero from '@/components/Hero/Hero'
 import Nosotros from '@/components/Nosotros/Nosotros'
 import Services from '@/components/Services/Services'
@@ -11,6 +12,7 @@ const Home = () => {
       <Services/>
       <Nosotros/>
       <Testimonial/>
+      <ContactUs/>
     </>
   )
 }

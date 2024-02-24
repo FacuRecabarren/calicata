@@ -22,8 +22,10 @@
 
     "contactUs": "Contáctanos",
     "name": "Tu nombre *",
+    "placeholderName": "ej. Juan Pérez",
     "email": "Correo electrónico *",
     "message": "Mensaje *",
+    "placeholderMessage": "Mensaje...",
     "placeholderMail": "hola@correo.com",
     "send": "Enviar mensaje",
 

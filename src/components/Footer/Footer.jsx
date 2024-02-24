@@ -9,7 +9,7 @@ const Footer = () => {
   const { t } = useTranslation()
 
   return (
-    <div className='px-10 pt-20'>
+    <div className='px-10 pt-3'>
       <section className='flex justify-between items-center py-5'>
         <h2 className='font-extrabold text-xl text-[#023059]'>LOGO</h2>
         <article className='flex flex-col justify-center items-center gap-5'>
