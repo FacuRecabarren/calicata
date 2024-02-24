@@ -20,7 +20,7 @@ const Footer = () => {
             <a className='rounded-full border-[#023059] border cursor-pointer p-2 hover:border-[#59342C] duration-300'>
               <FaInstagram className='text-[#023059] hover:text-[#59342C] duration-300'/>
             </a>
-            <a className='rounded-full border-[#023059] border cursor-pointer p-2 hover:border-[#59342C] duration-300'>
+            <a href='mailto:calicataconsultas@gmail.com' target='_blank' className='rounded-full border-[#023059] border cursor-pointer p-2 hover:border-[#59342C] duration-300'>
               <BiLogoGmail className='text-[#023059] hover:text-[#59342C] duration-300'/>
             </a>
           </div>
@@ -31,7 +31,7 @@ const Footer = () => {
       </section>
       <hr />
       <section className='py-5 flex flex-col justify-center items-center gap-3'>
-        <p className='text-sm font-medium opacity-80'>© 2024 Nombre. {t("rights")}</p>
+        <p className='text-sm font-medium opacity-80'>© 2024 Calicata. {t("rights")}</p>
         <p className='font-bold text-[#023059]'>{t("madeBy")}</p>
       </section>
     </div>
