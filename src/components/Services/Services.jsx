@@ -8,9 +8,9 @@ const Services = () => {
   return (
     <div id='servicios' className='pt-20 relative'>
       <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1708712106/Meteor_utmbba.svg" alt="" className='absolute -z-10 hidden sm:flex sm:h-[30rem] w-full'/>
-      <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1708711530/Meteor_1_zyru00.svg" alt="" className='sm:hidden absolute -z-10 h-[35rem]'/>
-      <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1708711530/Meteor_1_zyru00.svg" alt="" className='sm:hidden absolute -z-10 h-[35rem] bottom-10'/>
-      <div className='flex flex-col sm:flex sm:flex-row justify-center items-center gap-10 lg:gap-20 px-10'>
+      <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1708711530/Meteor_1_zyru00.svg" alt="" className='lg:hidden absolute -z-10 h-[35rem]'/>
+      <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1708711530/Meteor_1_zyru00.svg" alt="" className='lg:hidden absolute -z-10 h-[35rem] bottom-10'/>
+      <div className='flex flex-col lg:flex lg:flex-row justify-center items-center gap-10 lg:gap-20 px-10'>
         <a href="">
         <section className='flex flex-col justify-center items-center gap-10 pt-5 pb-10 w-[22rem] sm:w-[38rem] shadow-md rounded-xl bg-white border-2 border-t-[2rem] border-[#023059] transform hover:scale-105 duration-300'>
           <div className='flex flex-col justify-center items-center gap-6 pt-10'>

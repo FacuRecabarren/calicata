@@ -35,7 +35,7 @@ const Navbar = () => {
     };
   }, []);
 
-  const navClasses1 = `fixed z-20 w-full backdrop-filter backdrop-filter backdrop-blur-sm transition-all duration-300 ${scrolled ? 'lg:backdrop-none lg:backdrop-blur-none' : ''}`;
+  const navClasses1 = `fixed z-20 w-full backdrop-filter backdrop-filter backdrop-blur-sm transition-all duration-300 py-3 ${scrolled ? 'lg:backdrop-none lg:backdrop-blur-none' : ''}`;
   const navClasses = `flex duration-500 ${scrolled ? 'bg-white rounded-full z-20 shadow-xl px-2' : ''}`;
   const navClasses2 = `sm:flex absolute left-0 z-30 duration-300 cursor-pointer 2xl:text-3xl text-xl text-[#59342C] font-lora font-black z-10 py-1 px-4 ${scrolled ? 'bg-white rounded-full shadow-xl z-30' : ''}`;
   const navClasses3 = `block h-10 w-10 text-[#023059] py-1 px-2 ${scrolled ? 'bg-white rounded-full shadow-xl z-30' : ''}`;
@@ -70,7 +70,7 @@ const Navbar = () => {
               </div>
               <div className='w-full'>
                 <div className="flex flex-1 justify-center items-center">
-                    <a href='#home' className={navClasses2}>LOGO</a>
+                  <a href='#home' className={navClasses2}><img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1708796313/Agencia%20viajes/Recurso_5_mhtwhe.svg" alt="" className='w-40'/></a>
                   <div className='hidden lg:flex lg:justify-center lg:items-center lg:w-full'>
                     <div className={navClasses}>
                       {navigation.map((item) => (
@@ -88,9 +88,8 @@ const Navbar = () => {
                         </a>
                       ))}
                     </div>
-                      
                   </div>
-                      <Language/>
+                  <Language/>
                 </div>
               </div>
             </div>
