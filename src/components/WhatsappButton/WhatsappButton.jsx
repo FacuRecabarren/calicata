@@ -1,4 +1,4 @@
-const phoneNumber = '+542612404253'; // Acá tienen que agregar su número de teléfono
+const phoneNumber = '+5492612457513'; // Acá tienen que agregar su número de teléfono
 
 
 const WhatsappButton = () => {
@@ -7,7 +7,7 @@ const WhatsappButton = () => {
   
     return (
       <a href={whatsappLink} target="_blank"
-      className='fixed bottom-3 right-1 z-50 justify-center items-center hover:animate-vertical-bounce'
+      className='fixed bottom-7 right-5 z-50 justify-center items-center hover:animate-vertical-bounce'
       >
         <img
             className='img z-50 w-14 h-14'
