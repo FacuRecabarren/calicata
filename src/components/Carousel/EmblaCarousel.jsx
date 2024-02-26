@@ -35,22 +35,10 @@ const EmblaCarousel = (props) => {
         
       </div>
 
-      <div className="embla__controls">
-        <div className="embla__buttons">
-          <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
-          <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
-        </div>
-
-        <div className="embla__dots">
-          {scrollSnaps.map((_, index) => (
-            <DotButton
-              key={index}
-              onClick={() => onDotButtonClick(index)}
-              className={'embla__dot'.concat(
-                index === selectedIndex ? ' embla__dot--selected' : ''
-              )}
-            />
-          ))}
+      <div className="embla__controls w-full flex justify-center items-center">
+        <div className="embla__buttons ">
+          <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} className='text-[#218B7D] hover:text-[#66a295] duration-300 w-20 flex justify-center items-center outline-none'/>
+          <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} className='text-[#218B7D] hover:text-[#66a295] duration-300 w-20 flex justify-center items-center outline-none' />
         </div>
       </div>
     </section>

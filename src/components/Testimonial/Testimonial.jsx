@@ -12,8 +12,8 @@ const Testimonial = () => {
     return (
         <div id='testimonios' className='pt-20 pb-10 px-5'>
             <div className="flex flex-col justify-center items-center gap-4 pb-10">
-                <h2 className="text-[#023059] text-4xl font-extrabold">{t("reviews")}</h2>
-                <h3 className="text-[#023059] opacity-80 font-semibold">{t("ratings")}</h3>
+                <h2 className="text-[#218B7D] text-4xl font-extrabold">{t("reviews")}</h2>
+                <h3 className="text-[#218B7D] opacity-80 font-semibold">{t("ratings")}</h3>
             </div>
             <EmblaCarousel options={OPTIONS}/>
         </div>
