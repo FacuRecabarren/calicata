@@ -1,7 +1,10 @@
 import React from 'react';
+import Atropos from 'atropos/react';
 import { useTranslation } from 'react-i18next';
+import 'atropos/css'
 
 const Nosotros = () => {
+
 
     const { t } = useTranslation()
 
@@ -32,13 +35,15 @@ const Nosotros = () => {
             <section className='flex flex-col items-center justify-center'>
                 <div className='flex flex-col sm:flex-row justify-center items-center gap-10'>
                     <div className='flex flex-col justify-center items-center gap-2'>
-                        <div className="h-60 w-60 rounded-full overflow-hidden border-l-8 border-[#FCCC71]">
-                            <img
-                            src='https://res.cloudinary.com/dfschbyq2/image/upload/v1708743323/joven-empresario-al-aire-libre_53419-7471_lgs5dd.avif'
-                            alt="Imagen de Juan Emilio Elizondo"
-                            className=' duration-500 object-cover w-full h-full'
-                            />
-                        </div>
+                        <Atropos shadow={false} className="my-atropos shadow-md rounded-full">
+                            <div className="h-60 w-60 rounded-full overflow-hidden border-l-8 border-[#FCCC71]">
+                                <img
+                                src='https://res.cloudinary.com/dfschbyq2/image/upload/v1708743323/joven-empresario-al-aire-libre_53419-7471_lgs5dd.avif'
+                                alt="Imagen de Juan Emilio Elizondo"
+                                className=' duration-500 object-cover w-full h-full'
+                                />
+                            </div>
+                        </Atropos>
                         <div className='flex flex-col justify-center items-center'>
                             <a className="text-lg font-bold text-[#218B7D] cursor-pointer hover:text-[#FCCC71] duration-300 dark:text-gray-100" href="https://www.linkedin.com/in/juan-emilio-elizondo/">
                             Martin Puebla
@@ -47,13 +52,15 @@ const Nosotros = () => {
                         </div>
                     </div>
                     <div className='flex flex-col justify-center items-center gap-2'>
-                        <div className="h-60 w-60 rounded-full overflow-hidden border-l-8 border-[#FCCC71]">
-                            <img
-                            src='https://res.cloudinary.com/dhqudb28a/image/upload/v1697066819/lara_fd5dtn.png'
-                            alt="Imagen de Lara María De Cillis"
-                            className=' duration-500 w-full h-full object-cover'
-                            />
-                        </div>
+                        <Atropos shadow={false} className="my-atropos shadow-md rounded-full">
+                            <div className="h-60 w-60 rounded-full overflow-hidden border-l-8 border-[#FCCC71]">
+                                <img
+                                src='https://res.cloudinary.com/dhqudb28a/image/upload/v1697066819/lara_fd5dtn.png'
+                                alt="Imagen de Lara María De Cillis"
+                                className=' duration-500 w-full h-full object-cover'
+                                />
+                            </div>
+                        </Atropos>
                         <div className='flex flex-col justify-center items-center'>
                             <a className="text-lg font-bold text-[#218B7D] cursor-pointer hover:text-[#FCCC71] duration-300 dark:text-gray-100" href="https://www.linkedin.com/in/laradecillis/">
                             Lara María De Cillis
