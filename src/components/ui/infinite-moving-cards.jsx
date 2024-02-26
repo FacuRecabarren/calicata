@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 const InfiniteMovingCards = ({
   items,
   direction = "left",
-  speed = "fast",
+  speed = "slow",
   pauseOnHover = true,
   className,
 }) => {
@@ -85,19 +85,19 @@ const InfiniteMovingCards = ({
                 aria-hidden="true"
                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
-              <span className="relative z-20 text-sm leading-[1.6] text-gray-900 font-normal">
-                {item.quote}
-              </span>
-              <div className="relative z-20 mt-6 flex flex-row items-center">
-                <span className="flex flex-col gap-1">
+                <span className="flex flex-col gap-1 pb-4">
                   <span className="text-sm leading-[1.6] text-gray-500 font-normal">
+                </span>
                     {item.name}
-                  </span>
+              <div className="relative z-20 mt-3 flex flex-row items-center">
                   <span className="text-sm leading-[1.6] text-gray-500 font-normal">
                     {item.title}
                   </span>
-                </span>
               </div>
+                  </span>
+              <span className="relative z-20 text-sm leading-[1.6] text-gray-900 font-normal">
+                {item.quote}
+              </span>
             </blockquote>
           </li>
         ))}

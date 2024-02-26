@@ -1,42 +1,43 @@
 import  InfiniteMovingCards  from "../ui/infinite-moving-cards";
+import { RiStarSLine } from "react-icons/ri";
 
 const Carousel2 = () => {
 
     const testimonials = [
         {
           quote:
-            "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-          name: "Charles Dickens",
-          title: "A Tale of Two Cities",
+            "Amazing experience with Calicata. Their attention to detail and personalized recommendations made my trip unforgettable. Highly recommend!",
+          name: "Emily Johnson",
+          title: <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1708964855/5-star-rating-review-star-transparent-free-png_qb9mxi-removebg-preview_rzjbpq.png" alt="" className="w-[6rem]"/>,
         },
         {
           quote:
-            "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-          name: "William Shakespeare",
-          title: "Hamlet",
+            "Top-notch service from start to finish with Calicata. They went above and beyond to ensure my travel plans were seamless and memorable. Will definitely book with them again!",
+          name: "Alex Martinez",
+          title: <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1708965100/4.5-star-rating-review-star-transparent-free-png_qb9mxi-removebg-preview_l5mp7q.png" alt="" className="w-[6rem]" />,
         },
         {
-          quote: "All that we see or seem is but a dream within a dream.",
-          name: "Edgar Allan Poe",
-          title: "A Dream Within a Dream",
-        },
-        {
-          quote:
-            "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-          name: "Jane Austen",
-          title: "Pride and Prejudice",
+          quote: "Exceptional service and expert guidance from Calicata. Cande tailored my itinerary perfectly to my preferences, ensuring a stress-free and enjoyable journey.",
+          name: "Jessica Lee",
+          title: <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1708964855/5-star-rating-review-star-transparent-free-png_qb9mxi-removebg-preview_rzjbpq.png" alt="" className="w-[6rem]"/>
         },
         {
           quote:
-            "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-          name: "Herman Melville",
-          title: "Moby-Dick",
+            "Highly impressed with the professionalism and efficiency of Calicata. From booking to accommodations, every aspect of my trip was handled flawlessly by Roman and Cande. Definitely my go-to agency for future travels.",
+          name: "Daniel Smith",
+          title: <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1708965105/4-star-rating-review-star-transparent-free-png_qb9mxi-removebg-preview_tejzvj.png" alt="" className="w-[5rem]"/>
+        },
+        {
+          quote:
+            "Outstanding attention to detail and customer care from Calicata. Their knowledgeable staff made planning my trip a breeze, and I couldn't be happier with the results. 10/10 recommend for anyone seeking a memorable travel experience.",
+          name: "Samantha Taylor",
+          title: <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1708965100/4.5-star-rating-review-star-transparent-free-png_qb9mxi-removebg-preview_l5mp7q.png" alt="" className="w-[6rem]"/>
         },
       ];
       
 
     return (
-      <div className="h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+      <div className="h-[35rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
         <InfiniteMovingCards
           items={testimonials}
           direction="right"

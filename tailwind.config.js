@@ -62,10 +62,10 @@ module.exports = {
         "accordion-down": {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
-          scroll: {
-            to: {
-              transform: "translate(calc(-50% - 0.5rem))",
-            },
+        },
+        scroll: {
+          to: {
+            transform: "translate(calc(-50% - 0.5rem))",
           },
         },
         "accordion-up": {
