@@ -62,6 +62,11 @@ module.exports = {
         "accordion-down": {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
+          scroll: {
+            to: {
+              transform: "translate(calc(-50% - 0.5rem))",
+            },
+          },
         },
         "accordion-up": {
           from: { height: "var(--radix-accordion-content-height)" },
@@ -69,10 +74,24 @@ module.exports = {
         },
       },
       animation: {
+        scroll:
+          "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
     },
   },
-  plugins: [require("tailwindcss-animate"), animations],
+  plugins: [require("tailwindcss-animate"), animations,[addVariablesForColors]]
+}
+
+
+function addVariablesForColors({ addBase, theme }) {
+  let allColors = flattenColorPalette(theme("colors"));
+  let newVars = Object.fromEntries(
+    Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
+  );
+ 
+  addBase({
+    ":root": newVars,
+  });
 }
