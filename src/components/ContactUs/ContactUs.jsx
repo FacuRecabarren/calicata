@@ -15,11 +15,11 @@ const ContactUs = () => {
 
 
     return (
-        <div className='py-10 w-full z-0 bg-[url("https://res.cloudinary.com/dreso9ye9/image/upload/v1708908953/Animated_Shape_1_da9bke.svg")] bg-cover bg-top '>
+        <div className='py-10 w-full z-0 bg-[url("https://res.cloudinary.com/dreso9ye9/image/upload/v1709128519/Animated_Shape_1_1_lhixt9.svg")] bg-cover bg-top '>
             <div id='contact' className="h-full w-full">
             <div className="flex flex-col justify-center items-center gap-4 py-10">
               <h2 className="text-[#218B7D] text-4xl font-extrabold">{t("contact")}</h2>
-              <h3 className="text-[#218B7D] opacity-80 font-semibold text-center px-5 lg:text-start lg:px-0">Lorem ipsum dolor sit amet consectetur numquam reprehender.</h3>
+              <h3 className="text-[#218B7D] opacity-80 font-semibold text-center px-5 lg:text-start lg:px-0">Consulta tus dudas y nosotros te ayudamos</h3>
             </div>
         <section className='flex justify-center items-center mx-5 sm:mx-0'>
           <div className="bg-white px-8 py-8 rounded-lg shadow-lg max-w-sm lg:w-1/3 z-10">
@@ -77,7 +77,7 @@ const ContactUs = () => {
               </div>
               <button
                 type="submit"
-                className="w-full font-bold text-white bg-[#218B7D] hover:bg-[#fccb716d] px-4 py-2 rounded-lg hover:text-[#218B7D] duration-500 focus:outline-none focus:ring-2 focus:ring-[#E8C368] focus:ring-opacity-50"
+                className="w-full font-bold text-white bg-[#218B7D] hover:bg-[#FE904D] px-4 py-2 rounded-lg duration-500 focus:outline-none focus:ring-2 focus:ring-[#E8C368] focus:ring-opacity-50"
               >
                 {t("send")}
               </button>

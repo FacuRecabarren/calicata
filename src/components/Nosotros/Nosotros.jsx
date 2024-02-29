@@ -9,7 +9,7 @@ const Nosotros = () => {
     const { t } = useTranslation()
 
     return (
-      <div id='nosotros' className="pt-20">
+      <div id='nosotros' className="py-20 bg-white">
         <div className="flex flex-col justify-center items-center gap-4 py-10">
           <h2 className="text-[#218B7D] text-4xl font-extrabold">
             ¿Quiénes somos?
@@ -22,21 +22,21 @@ const Nosotros = () => {
         <div className="flex justify-center lg:flex-row lg:justify-between lg:items-center">
             <div className="relative hidden lg:flex">
                 <img
-                    src="https://res.cloudinary.com/dreso9ye9/image/upload/v1708906415/vecteezy_3d-masculino-personaje-tiene-un-idea-mientras-trabajando-en_24658855_tghna9.webp"
+                    src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709125757/vecteezy_3d-masculino-personaje-presentacion-a-el-izquierda_24658988_1_zst9ln.webp"
                     alt=""
-                    className="w-[25rem]"
+                    className="w-[25rem] z-10"
                 />
                 <img
-                    src="https://res.cloudinary.com/dreso9ye9/image/upload/v1708907849/asset_10_3_t6zqfm.svg"
+                    src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709126767/Vector_5_urtzo4.svg"
                     alt=""
-                    className="absolute -z-10 w-full"
+                    className="absolute left-0 z-0 w-[15rem]"
                 />
             </div>
             <section className='flex flex-col items-center justify-center'>
                 <div className='flex flex-col sm:flex-row justify-center items-center gap-10'>
                     <div className='flex flex-col justify-center items-center gap-2'>
                         <Atropos shadow={false} className="my-atropos shadow-md rounded-full">
-                            <div className="h-60 w-60 rounded-full overflow-hidden border-l-8 border-[#FCCC71]">
+                            <div className="h-60 w-60 rounded-full overflow-hidden">
                                 <img
                                 src='https://res.cloudinary.com/dfschbyq2/image/upload/v1708743323/joven-empresario-al-aire-libre_53419-7471_lgs5dd.avif'
                                 alt="Imagen de Juan Emilio Elizondo"
@@ -45,15 +45,15 @@ const Nosotros = () => {
                             </div>
                         </Atropos>
                         <div className='flex flex-col justify-center items-center'>
-                            <a className="text-lg font-bold text-[#218B7D] cursor-pointer hover:text-[#FCCC71] duration-300 dark:text-gray-100" href="https://www.linkedin.com/in/juan-emilio-elizondo/">
+                            <a className="text-lg font-bold text-[#218B7D] cursor-pointer hover:text-[#FE904D] duration-300 dark:text-gray-100" href="https://www.linkedin.com/in/juan-emilio-elizondo/">
                             Martin Puebla
                             </a>
-                            <p className="text-center opacity-80">{t("travelAgent")}</p>
+                            <p className="text-center opacity-60">{t("travelAgent")}</p>
                         </div>
                     </div>
                     <div className='flex flex-col justify-center items-center gap-2'>
                         <Atropos shadow={false} className="my-atropos shadow-md rounded-full">
-                            <div className="h-60 w-60 rounded-full overflow-hidden border-l-8 border-[#FCCC71]">
+                            <div className="h-60 w-60 rounded-full overflow-hidden">
                                 <img
                                 src='https://res.cloudinary.com/dhqudb28a/image/upload/v1697066819/lara_fd5dtn.png'
                                 alt="Imagen de Lara María De Cillis"
@@ -62,24 +62,24 @@ const Nosotros = () => {
                             </div>
                         </Atropos>
                         <div className='flex flex-col justify-center items-center'>
-                            <a className="text-lg font-bold text-[#218B7D] cursor-pointer hover:text-[#FCCC71] duration-300 dark:text-gray-100" href="https://www.linkedin.com/in/laradecillis/">
+                            <a className="text-lg font-bold text-[#218B7D] cursor-pointer hover:text-[#FE904D] duration-300 dark:text-gray-100" href="https://www.linkedin.com/in/laradecillis/">
                             Lara María De Cillis
                             </a>
-                            <p className="text-center opacity-80">{t("operation")}</p>
+                            <p className="text-center opacity-60">{t("operation")}</p>
                         </div>
                     </div>
                 </div>
             </section>
             <div className="relative hidden lg:flex">
                 <img
-                    src="https://res.cloudinary.com/dreso9ye9/image/upload/v1708906411/Group_12_xalgel.webp"
+                    src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709125755/Group_14_r7al6g.webp"
                     alt=""
-                    className="w-[25rem]"
+                    className="w-[25rem] z-10"
                 />
                 <img
-                    src="https://res.cloudinary.com/dreso9ye9/image/upload/v1708907851/asset_10_2_1_manzjl.svg"
+                    src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709126761/Vector_4_xurgbc.svg"
                     alt=""
-                    className="absolute -z-10 w-full"
+                    className="absolute right-0 z-0 w-[15rem]"
                 />
             </div>
           </div>

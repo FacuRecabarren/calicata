@@ -1,9 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Contact from "./views/Contact/Contact"
 import Home from "./views/Home/Home"
 import Navbar from "./components/Navbar/Navbar"
 import Footer from "./components/Footer/Footer"
 import WhatsappButton from "./components/WhatsappButton/WhatsappButton"
+import Viajes from "./views/Viajes/Viajes"
+import Excursiones from "./views/Excursiones/Excursiones"
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/contact' element={<Contact/>}/>
+        <Route path='/travel' element={<Viajes/>}/>
+        <Route path='/excursions' element={<Excursiones/>}/>
       </Routes>
       <WhatsappButton/>
       <Footer/>
