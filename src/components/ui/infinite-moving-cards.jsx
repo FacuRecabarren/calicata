@@ -60,7 +60,7 @@ const InfiniteMovingCards = ({
     <div
       ref={containerRef}
       className={cn(
-        "scroller relative z-20 max-w-7xl overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
+        "scroller relative z-20 max-w-6xl overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_5%,white_90%,transparent)]",
         className
       )}
     >
@@ -74,10 +74,7 @@ const InfiniteMovingCards = ({
       >
         {items.map((item, idx) => (
           <li
-            className="w-[350px] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-700 px-8 py-6 md:w-[450px]"
-            style={{
-              background: "linear-gradient(180deg, var(--slate-800), var(--slate-900)",
-            }}
+            className="w-[350px] shadow-md max-w-full bg-black bg-opacity-80 relative rounded-2xl flex-shrink-0 px-4 py-4 md:w-[450px]"
             key={item.name}
           >
             <blockquote>
@@ -85,19 +82,18 @@ const InfiniteMovingCards = ({
                 aria-hidden="true"
                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
-                <span className="flex flex-col gap-1 pb-4">
-                  <span className="text-sm leading-[1.6] text-gray-500 font-normal">
-                </span>
-                    {item.name}
-              <div className="relative z-20 mt-3 flex flex-row items-center">
-                  <span className="text-sm leading-[1.6] text-gray-500 font-normal">
-                    {item.title}
-                  </span>
+              <div className="flex justify-start items-start gap-2">
+                {item.image}
+                <div className="flex flex-col items-start justify-center gap-2">
+                  <h2 className="text-sm text-[#218B7D] font-semibold">
+                      {item.name}
+                  </h2>
+                  {item.title}
+                  <p className="relative z-20 text-sm text-white font-normal">
+                    {item.quote}
+                  </p>
+                </div>
               </div>
-                  </span>
-              <span className="relative z-20 text-sm leading-[1.6] text-gray-900 font-normal">
-                {item.quote}
-              </span>
             </blockquote>
           </li>
         ))}

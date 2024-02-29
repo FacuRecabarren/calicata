@@ -51,20 +51,20 @@ const Navbar = () => {
     <Disclosure as="nav" className={navClasses1}>
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:4 z-20 back">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:4 z-40">
             <div className="relative flex h-16 items-center justify-between">
               
               <div className='w-full'>
                 <div className="flex justify-between items-center">
-                  <a href='#home' className="bg-white rounded-full shadow-xl sm:flex z-30 duration-300 cursor-pointer py-2 px-4 hover:animate-jiggle"><img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1708796313/Agencia%20viajes/Recurso_5_mhtwhe.svg" alt="" className='w-28'/></a>
-                  <div className='hidden lg:flex lg:justify-center lg:items-center gap-4 bg-white rounded-full z-20 shadow-xl px-4 py-2'>
+                  <a href='#home' className="bg-white rounded-full shadow-xl sm:flex z-40 duration-300 cursor-pointer py-2 px-4 hover:animate-jiggle"><img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1708796313/Agencia%20viajes/Recurso_5_mhtwhe.svg" alt="" className='w-28'/></a>
+                  <div className='hidden lg:flex lg:justify-center lg:items-center gap-4 bg-white rounded-full z-40 shadow-xl px-4 py-2'>
                       {navigation.map((item) => (
                         <a
                           key={item.id}
                           href={item.href}
                           onClick={() => handleClick(item.id)}
                           className={classNames(
-                            item.current ? 'transform hover:scale-110 duration-500 text-[#66a295]' : 'text-[#218B7D] hover:text-[#66a295] transform hover:scale-105 duration-500',
+                            item.current ? 'transform hover:scale-110 duration-500 text-[#FE904D]' : 'text-[#218B7D] hover:text-[#FE904D] transform hover:scale-105 duration-500',
                             'rounded-md text-[15px] font-bold 2xl:text-base'
                           )}
                           aria-current={item.current ? 'page' : undefined}
@@ -82,9 +82,9 @@ const Navbar = () => {
                       <span className="absolute -inset-0.5" />
                       <span className="sr-only">Open main menu</span>
                       {open ? (
-                        <XMarkIcon className='block h-10 w-10 text-[#218B7D] py-1 px-2 bg-white rounded-full shadow-xl z-30' aria-hidden="true" />
+                        <XMarkIcon className='block h-10 w-10 text-[#218B7D] py-1 px-2 bg-white rounded-full shadow-xl z-40' aria-hidden="true" />
                       ) : (
-                        <Bars3Icon className='block h-10 w-10 text-[#218B7D] py-1 px-2 bg-white rounded-full shadow-xl z-30' aria-hidden="true" />
+                        <Bars3Icon className='block h-10 w-10 text-[#218B7D] py-1 px-2 bg-white rounded-full shadow-xl z-40' aria-hidden="true" />
                       )}
                     </Disclosure.Button>
                   </div>
@@ -92,7 +92,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <Disclosure.Panel className="lg:hidden h-screen z-10">
+          <Disclosure.Panel className="lg:hidden h-screen z-40">
             <div className="space-y-4 px-6 pb-3 pt-2 flex flex-col justify-center items-center">
               {navigation.map((item) => (
                 <Disclosure.Button
@@ -100,7 +100,7 @@ const Navbar = () => {
                 as="a"
                 href={item.href}
                 className={classNames(
-                  item.current ? 'text-[#66a295]' : 'text-[#218B7D] hover:text-[#66a295] transform hover:scale-105 duration-500',
+                  item.current ? 'text-[#FE904D]' : 'text-[#218B7D] hover:text-[#FE904D] transform hover:scale-105 duration-500',
                   'block rounded-full text-[#218B7D] font-bold shadow-md px-3 py-2 text-base text-center bg-white w-[10rem]'
                   )}
                   aria-current={item.current ? 'page' : undefined}

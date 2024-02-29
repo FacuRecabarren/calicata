@@ -9,10 +9,12 @@ const Home = () => {
   return (
     <>
       <Hero/>
-      <Services/>
-      <Nosotros/>
-      <Testimonial/>
-      <ContactUs/>
+      <div className='bg-white'>
+        <Services/>
+        <Nosotros/>
+        <Testimonial/>
+        <ContactUs/>
+      </div>
     </>
   )
 }

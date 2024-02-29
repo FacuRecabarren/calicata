@@ -14,18 +14,18 @@ const Footer = () => {
         <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1708796313/Agencia%20viajes/Recurso_5_mhtwhe.svg" alt="" className='w-40 cursor-pointer z-30'/>
         <article className='flex flex-col justify-center items-center gap-5'>
           <div className='flex justify-center items-center gap-3 h-6'>
-            <a className='rounded-full border-[#218B7D] border cursor-pointer p-2 hover:border-[#FCCC71] duration-300'>
-              <FaFacebookF className='text-[#218B7D] hover:text-[#FCCC71] duration-300'/>
+            <a className='rounded-full border-[#218B7D] border cursor-pointer p-2 hover:border-[#FE904D] duration-300'>
+              <FaFacebookF className='text-[#218B7D] hover:text-[#FE904D] duration-300'/>
             </a>
-            <a className='rounded-full border-[#218B7D] border cursor-pointer p-2 hover:border-[#FCCC71] duration-300'>
-              <FaInstagram className='text-[#218B7D] hover:text-[#FCCC71] duration-300'/>
+            <a className='rounded-full border-[#218B7D] border cursor-pointer p-2 hover:border-[#FE904D] duration-300'>
+              <FaInstagram className='text-[#218B7D] hover:text-[#FE904D] duration-300'/>
             </a>
-            <a className='rounded-full border-[#218B7D] border cursor-pointer p-2 hover:border-[#FCCC71] duration-300'>
-              <BiLogoGmail className='text-[#218B7D] hover:text-[#FCCC71] duration-300'/>
+            <a className='rounded-full border-[#218B7D] border cursor-pointer p-2 hover:border-[#FE904D] duration-300'>
+              <BiLogoGmail className='text-[#218B7D] hover:text-[#FE904D] duration-300'/>
             </a>
           </div>
           <div className='flex justify-center items-center gap-3 text-[#218B7D] font-semibold text-xs sm:text-sm'>
-            <a href="" className='hover:text-[#FCCC71] duration-300'>{t("home")}</a><a href="" className='hover:text-[#FCCC71] duration-300'>{t("service")}</a><a href="" className='hover:text-[#FCCC71] duration-300'>{t("aboutUs")}</a><a href="" className='hover:text-[#FCCC71] duration-300'>{t("reviews")}</a><a href="" className='hover:text-[#FCCC71] duration-300'>{t("contact")}</a>
+            <a href="" className='hover:text-[#FE904D] duration-300'>{t("home")}</a><a href="" className='hover:text-[#FE904D] duration-300'>{t("service")}</a><a href="" className='hover:text-[#FE904D] duration-300'>{t("aboutUs")}</a><a href="" className='hover:text-[#FE904D] duration-300'>{t("reviews")}</a><a href="" className='hover:text-[#FE904D] duration-300'>{t("contact")}</a>
           </div>
         </article>
       </section>
