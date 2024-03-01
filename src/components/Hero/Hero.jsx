@@ -23,8 +23,8 @@ const Hero = () => {
         <section className='lg:w-[50%] lg:pl-20 flex justify-center lg:justify-start items-center z-10'>
           <div className='flex flex-col items-center justify-center lg:items-start gap-8 px-10 lg:px-0'>
               <h1 id="title" className='text-4xl sm:text-5xl w-full lg:text-7xl 2xl:text-8xl font-extrabold text-[#FCCC71] m-0 text-center lg:text-start sm:px-10 lg:px-0'>{t("title")}</h1>
-              <p className="text-white font-lora text-center lg:text-start">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae nihil, eligendi labore consequuntur tenetur magnam ducimus suscipit incidunt natus hic dignissimos mollitia!</p>
-              <a href='#servicios' className='flex gap-2 justify-center items-center py-3 px-10 lg:px-6 text-lg sm:text-xl font-bold bg-transparent border-4 border-[#ffffff] text-[#FCCC71] hover:scale-105 duration-500 rounded-xl'>{t("packages")}<IoArrowDownOutline className="text-xl"/></a>
+              <p className="text-white font-lora italic text-center lg:text-start">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae nihil, eligendi labore consequuntur tenetur magnam ducimus suscipit incidunt natus hic dignissimos mollitia!</p>
+              <a href='#servicios' className='flex gap-2 justify-center items-center py-3 px-10 lg:px-6 text-lg sm:text-xl font-bold bg-transparent border-4 border-[#ffffff] text-[#FCCC71] hover:bg-[#FCCC71] hover:text-white hover:scale-105 duration-500 rounded-xl'>{t("packages")}<IoArrowDownOutline className="text-xl"/></a>
           </div>
         </section>
         <section className="flex justify-end items-center w-full lg:px-0 h-screen absolute -z-10">
