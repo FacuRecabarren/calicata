@@ -111,10 +111,10 @@ const Viajes = () => {
     <div>
         <div className='h-[30rem] relative flex flex-col justify-center items-center gap-2'>
             <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709168761/elizeu-dias-xarhNpLSHTk-unsplash_wjrjp0.jpg" alt="" className='w-full h-full object-cover absolute top-0 -z-10'/>
-            <h2 id='title' className='text-7xl text-[#FCCC71] font-extrabold'>VIAJES</h2>
+            <h2 id='title' className='text-7xl text-[#ffffff] font-extrabold'>VIAJES</h2>
             <p className='text-[#ffffff] bg-[#218B7D] rounded-xl p-2 bg-opacity-45 font-lora italic font-bold text-xl'>Descubre las ideas de viajes que tenemos para ti</p>
         </div>
-        <section className='py-10 px-20 h-[10rem] flex flex-col gap-10 shadow-xl'>
+        <section className='py-10 px-20 flex flex-col justify-center items-center gap-10 shadow-xl'>
             <Carousel
             opts={{
                 align: "start",
@@ -123,7 +123,7 @@ const Viajes = () => {
             >
                 <CarouselContent className='m-0'>
                     {temas.map((tema) => (
-                    <CarouselItem key={tema.id} className="md:basis-1/2 lg:basis-1/6 p-0 w-[10rem]">
+                    <CarouselItem key={tema.id} className="md:basis-1/2 lg:basis-1/5 p-0 w-[10rem]">
                         <Card className='bg-white flex justify-center items-center shadow-none border-none rounded-none'>
                             <CardContent className="flex flex-col gap-2 items-center justify-center p-0 cursor-pointer hover:opacity-60 duration-300">
                             <span
@@ -133,7 +133,7 @@ const Viajes = () => {
                                 } flex flex-col justify-center items-center gap-2`}
                                 onClick={() => handleThemeClick(tema.name)}
                             >
-                                <span className='text-xl text-white bg-[#218B7D] p-3 rounded-full'>{tema.icono}</span>
+                                <p className='text-xl text-white bg-[#218B7D] w-10 h-10 flex justify-center items-center rounded-full'>{tema.icono}</p>
                                 <h2 className='text-[#218B7D] font-bold'>{tema.name}</h2>
                             </span>
                             </CardContent>
@@ -144,6 +144,9 @@ const Viajes = () => {
                 <CarouselPrevious className='ml-28 text-[#ffffff] w-10 h-10 bg-[#218B7D] shadow-xl border-[#218B7D] hover:bg-[#218b7d58] duration-300'/>
                 <CarouselNext className='mr-28 text-[#ffffff] w-10 h-10 bg-[#218B7D] shadow-xl border-none border-[#218B7D] hover:bg-[#218b7d58] duration-300'/>
             </Carousel>
+            {selectedTheme !== null && (
+                <button onClick={() => setSelectedTheme(null)} className='bg-[#218B7D] py-2 px-4 rounded-xl text-white font-bold hover:bg-[#218b7d58] duration-300'>Quitar filtro</button>
+            )}
         </section>
         {selectedTheme === null && (
             <section className='flex justify-center items-center gap-5 flex-wrap py-10 px-10 bg-[#fe914d43]'>

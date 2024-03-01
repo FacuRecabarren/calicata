@@ -5,6 +5,7 @@ import Footer from "./components/Footer/Footer"
 import WhatsappButton from "./components/WhatsappButton/WhatsappButton"
 import Viajes from "./views/Viajes/Viajes"
 import Excursiones from "./views/Excursiones/Excursiones"
+import Eventos from "./views/Eventos/Eventos"
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/travel' element={<Viajes/>}/>
         <Route path='/excursions' element={<Excursiones/>}/>
+        <Route path='/events' element={<Eventos/>}/>
       </Routes>
       <WhatsappButton/>
       <Footer/>

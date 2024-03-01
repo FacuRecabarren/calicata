@@ -9,12 +9,12 @@ const Nosotros = () => {
     const { t } = useTranslation()
 
     return (
-      <div id='nosotros' className="py-20 bg-white">
+      <div id='nosotros' className="pb-20 pt-10 bg-white">
         <div className="flex flex-col justify-center items-center gap-4 py-10">
           <h2 className="text-[#218B7D] text-4xl font-extrabold">
             ¿Quiénes somos?
           </h2>
-          <h3 className="text-[#218B7D] opacity-80 font-semibold text-center px-5 lg:text-start lg:px-0">
+          <h3 className="text-[#218B7D] opacity-80 font-semibold text-center px-5 lg:text-start lg:px-0 font-lora italic">
             Lorem ipsum dolor sit amet consectetur numquam reprehenderit error
             atque delectus dolore veniam ducimus.
           </h3>
@@ -48,7 +48,7 @@ const Nosotros = () => {
                             <a className="text-lg font-bold text-[#218B7D] cursor-pointer hover:text-[#FE904D] duration-300 dark:text-gray-100" href="https://www.linkedin.com/in/juan-emilio-elizondo/">
                             Martin Puebla
                             </a>
-                            <p className="text-center opacity-60">{t("travelAgent")}</p>
+                            <p className="text-center opacity-60 font-lora italic">{t("travelAgent")}</p>
                         </div>
                     </div>
                     <div className='flex flex-col justify-center items-center gap-2'>
@@ -65,7 +65,7 @@ const Nosotros = () => {
                             <a className="text-lg font-bold text-[#218B7D] cursor-pointer hover:text-[#FE904D] duration-300 dark:text-gray-100" href="https://www.linkedin.com/in/laradecillis/">
                             Lara María De Cillis
                             </a>
-                            <p className="text-center opacity-60">{t("operation")}</p>
+                            <p className="text-center opacity-60 font-lora italic">{t("operation")}</p>
                         </div>
                     </div>
                 </div>

@@ -19,7 +19,7 @@ const ContactUs = () => {
             <div id='contact' className="h-full w-full">
             <div className="flex flex-col justify-center items-center gap-4 py-10">
               <h2 className="text-[#218B7D] text-4xl font-extrabold">{t("contact")}</h2>
-              <h3 className="text-[#218B7D] opacity-80 font-semibold text-center px-5 lg:text-start lg:px-0">Consulta tus dudas y nosotros te ayudamos</h3>
+              <h3 className="text-[#218B7D] opacity-80 font-semibold text-center px-5 lg:text-start lg:px-0 font-lora italic">Consulta tus dudas y nosotros te ayudamos</h3>
             </div>
         <section className='flex justify-center items-center mx-5 sm:mx-0'>
           <div className="bg-white px-8 py-8 rounded-lg shadow-lg max-w-sm lg:w-1/3 z-10">
