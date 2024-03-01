@@ -12,11 +12,10 @@ const Nosotros = () => {
       <div id='nosotros' className="pb-20 pt-10 bg-white">
         <div className="flex flex-col justify-center items-center gap-4 py-10">
           <h2 className="text-[#218B7D] text-4xl font-extrabold">
-            ¿Quiénes somos?
+            {t("aboutUs")}
           </h2>
           <h3 className="text-[#218B7D] opacity-80 font-semibold text-center px-5 lg:text-start lg:px-0 font-lora italic">
-            Lorem ipsum dolor sit amet consectetur numquam reprehenderit error
-            atque delectus dolore veniam ducimus.
+            {t("aboutUsInfo")}
           </h3>
         </div>
         <div className="flex justify-center lg:flex-row lg:justify-between lg:items-center">

@@ -8,19 +8,45 @@
     
     
     "title": "Traveling, enjoying and living a new and fulfilling life",
+    "secondTitle": "Discover the world with us. Tailor-made trips to create unforgettable memories.",
     "packages": "See packages",
 
 
 
+
     "travel" : "Trips",
+    "travelInfo": "Discover our wide range of travel packages specially designed for you.",
+    "travelUppercase": "TRIPS",
+    "travelInsideInfo": "Discover the travel ideas we have for you",
+    "family": "Family",
+    "beach": "Beach",
+    "nature": "Nature",
+    "cities": "Cities",
+    "brazil": "Brazil",
+    "argentina":"Argentina",
     "excursions": "Excursions",
+    "excursionsInfo": "Discover a variety of exciting excursions in the province of Mendoza.",
+    "excursionsUppercase": "EXCURSIONS",
+    "excursionsInsideInfo": "Discover the different tours we have for you",
+    "wineries":"Wineries",
+    "theaters":"Theaters",
+    "trailRides": "Trail Rides",
+    "reservoirs": "Reservoirs",
+    "hills": "Hills",
+    "museums": "Museums",
     "events": "Events",
+    "eventsInfo": "Explore and find the event that perfectly fits your preferences and needs.",
+    "eventsUppercase": "EVENTS",
+    "eventsInsideInfo": "Discover all the types of events we have",
+    "futbol": "Soccer",
     "whoAreWe" : "About us",
     "travelAgent": "Travel Agent",
     "operation": "Operations Specialist",
     "ratings": "Ratings from some of our clients",
-    
+    "filter": "Remove filter",
+    "consult": "More info",
 
+    "aboutUsInfo":"Meet our team of experts dedicated to making your dream trip a reality.",
 
     "contactUs": "Contact us",
     "name": "Your Name *",

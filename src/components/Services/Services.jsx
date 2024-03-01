@@ -14,7 +14,7 @@ const Services = () => {
                 <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709305731/Tu_Historia_Promo_en_Compras_Online_Ilustrado_Lila-modified_ltriho.webp" alt=""/>
               </div>
               <h2 className='text-[#218B7D] border-b-4 border-b-[#218B7D] rounded-lg px-4 py-2 font-bold text-2xl'>{t("travel")}</h2>
-              <p className='px-12 text-center text-sm font-medium opacity-50 font-lora italic'>Descubre nuestra amplia gama de paquetes de viaje especialmente diseñados para ti</p>
+              <p className='px-12 text-center text-sm font-medium opacity-50 font-lora italic'>{t("travelInfo")}</p>
             </div>
           </section>
         </a>
@@ -25,7 +25,7 @@ const Services = () => {
                 <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709305757/Tu_Historia_Promo_en_Compras_Online_Ilustrado_Lila_2_-modified_njsydp.webp" alt=""/>
               </div>
               <h2 className='text-[#218B7D] border-b-4 border-b-[#218B7D] rounded-lg px-4 py-2 font-bold text-2xl'>{t("excursions")}</h2>
-              <p className='px-12 text-center text-sm font-medium opacity-50 font-lora italic'>Descubre una variedad de emocionantes excursiones en la provincia de Mendoza</p>
+              <p className='px-12 text-center text-sm font-medium opacity-50 font-lora italic'>{t("excursionsInfo")}</p>
             </div>
           </section>
         </a>
@@ -36,7 +36,7 @@ const Services = () => {
                 <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709305726/Tu_Historia_Promo_en_Compras_Online_Ilustrado_Lila_1_-modified_msoioy.webp" alt=""/>
               </div>
               <h2 className='text-[#218B7D] border-b-4 border-b-[#218B7D] rounded-lg px-4 py-2 font-bold text-2xl'>{t("events")}</h2>
-              <p className='px-12 text-center text-sm font-medium opacity-50 font-lora italic'>Explora y encuentra el evento que se ajuste perfectamente a tus preferencias y necesidades</p>
+              <p className='px-12 text-center text-sm font-medium opacity-50 font-lora italic'>{t("eventsInfo")}</p>
             </div>
           </section>
         </a>

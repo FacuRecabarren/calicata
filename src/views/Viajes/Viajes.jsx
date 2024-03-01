@@ -11,41 +11,44 @@ import { MdFamilyRestroom } from "react-icons/md";
 import { FaUmbrellaBeach, FaTree, FaCity  } from "react-icons/fa6";
 import { LuPartyPopper } from "react-icons/lu";
 import { PiWineFill } from "react-icons/pi";
+import { useTranslation } from 'react-i18next';
 
 
 const Viajes = () => {
+
+    const { t } = useTranslation()
 
     const [selectedTheme, setSelectedTheme] = useState(null);
 
     const temas = [
         {
             id: 1,
-            name: "Familia",
+            name: <span>{t("family")}</span>,
             icono: <MdFamilyRestroom/>
         },
         {
             id: 2,
-            name: "Playa",
+            name: <span>{t("beach")}</span>,
             icono: <FaUmbrellaBeach/>
         },
         {
             id: 3,
-            name: "Naturaleza",
+            name: <span>{t("nature")}</span>,
             icono: <FaTree/>
         },
         {
             id: 4,
-            name: "Ciudades",
+            name: <span>{t("cities")}</span>,
             icono: <FaCity/>
         },
         {
             id: 5,
-            name: "Brasil",
+            name: <span>{t("brazil")}</span>,
             icono: <LuPartyPopper/>
         },
         {
             id: 6,
-            name: "Argentina",
+            name: <span>{t("argentina")}</span>,
             icono: <PiWineFill/>
         },
     ]
@@ -111,8 +114,8 @@ const Viajes = () => {
     <div>
         <div className='h-[30rem] relative flex flex-col justify-center items-center gap-2'>
             <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709168761/elizeu-dias-xarhNpLSHTk-unsplash_wjrjp0.jpg" alt="" className='w-full h-full object-cover absolute top-0 -z-10'/>
-            <h2 id='title' className='text-7xl text-[#ffffff] font-extrabold'>VIAJES</h2>
-            <p className='text-[#ffffff] bg-[#218B7D] rounded-xl p-2 bg-opacity-45 font-lora italic font-bold text-xl'>Descubre las ideas de viajes que tenemos para ti</p>
+            <h2 id='title' className='text-7xl text-[#ffffff] font-extrabold'>{t("travelUppercase")}</h2>
+            <p className='text-[#ffffff] bg-[#218B7D] rounded-xl p-2 bg-opacity-45 font-lora italic font-bold text-xl'>{t("travelInsideInfo")}</p>
         </div>
         <section className='py-10 px-20 flex flex-col justify-center items-center gap-10 shadow-xl'>
             <Carousel
@@ -145,7 +148,7 @@ const Viajes = () => {
                 <CarouselNext className='mr-28 text-[#ffffff] w-10 h-10 bg-[#218B7D] shadow-xl border-none border-[#218B7D] hover:bg-[#218b7d58] duration-300'/>
             </Carousel>
             {selectedTheme !== null && (
-                <button onClick={() => setSelectedTheme(null)} className='bg-[#218B7D] py-2 px-4 rounded-xl text-white font-bold hover:bg-[#218b7d58] duration-300'>Quitar filtro</button>
+                <button onClick={() => setSelectedTheme(null)} className='bg-[#218B7D] py-2 px-4 rounded-xl text-white font-bold hover:bg-[#218b7d58] duration-300'>{t("filter")}</button>
             )}
         </section>
         {selectedTheme === null && (
@@ -155,7 +158,7 @@ const Viajes = () => {
                         <img src={idea.image} alt="" className='w-[20rem] h-[30rem] object-cover object-top shadow-lg group/edit group-hover/item:grayscale duration-500'/>
                         <a href="" className='cursor-alias invisible group/edit group-hover/item:visible absolute flex flex-col justify-center items-center gap-2 bg-opacity-60 bg-[#218B7D] p-10 rounded-full'>
                             <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1708744509/WhatsApp_icon.png_yfozry.webp" alt="" className='w-12 h-12 '/>
-                            <p className='flex justify-center items-center gap-2 font-bold text-white'>Consultar</p>
+                            <p className='flex justify-center items-center gap-2 font-bold text-white'>{t("consult")}</p>
                         </a>
                     </div>
                 ))}
@@ -170,7 +173,7 @@ const Viajes = () => {
                         <img src={idea.image} alt="" className='w-[20rem] h-[30rem] object-cover object-top shadow-lg group/edit group-hover/item:grayscale duration-500'/>
                         <a href="" className='cursor-alias invisible group/edit group-hover/item:visible absolute flex flex-col justify-center items-center gap-2 bg-opacity-60 bg-[#218B7D] p-10 rounded-full'>
                             <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1708744509/WhatsApp_icon.png_yfozry.webp" alt="" className='w-12 h-12 '/>
-                            <p className='flex justify-center items-center gap-2 font-bold text-white'>Consultar</p>
+                            <p className='flex justify-center items-center gap-2 font-bold text-white'>{t("consult")}</p>
                         </a>
                     </div>
               ))}

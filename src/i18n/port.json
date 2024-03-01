@@ -8,18 +8,47 @@
 
 
     "title": "Viajar, aproveitar e viver uma vida nova e gratificante",
+    "secondTitle": "Descubra o mundo connosco. Viagens personalizadas para criar memórias inesquecíveis.",
     "packages": "Ver pacotes",
 
 
 
 
     "travel" : "Viagens",
+    "travelInfo": "Descubra nossa ampla variedade de pacotes de viagem especialmente projetados para você.",
+    "travelUppercase": "VIAGEM",
+    "travelInsideInfo": "Descubra as ideias de viagem que temos para você",
+    "family": "Família",
+    "beach": "Praia",
+    "nature": "Natureza",
+    "cities": "Cidades",
+    "brazil": "Brasil",
+    "argentina":"Argentina",
     "excursions": "Excursões",
+    
+    "excursionsInfo": "Descubra uma variedade de excursões emocionantes na província de Mendoza.",
+    "excursionsUppercase": "EXCURSÕES",
+    "excursionsInsideInfo": "Descubra as diferentes excursões que temos para você",
+    "wineries":"Vinícolas",
+    "theaters":"Teatros",
+    "trailRides": "Cavalgadas",
+    "reservoirs": "Reservatórios",
+    "hills": "Colinas",
+    "museums": "Museus",
     "events": "Eventos",
+    "eventsInfo": "Explore e encontre o evento que se encaixa perfeitamente em suas preferências e necessidades.",
+    "eventsUppercase": "EVENTOS",
+    "eventsInsideInfo": "Descubra todos os tipos de eventos que temos",
+    "futbol": "Futebol",
     "whoAreWe" : "Quem somos?",
     "travelAgent": "Agente de viagens",
     "operation": "Especialista em Operações",
     "ratings": "Avaliações de alguns de nossos clientes",
+    "filter": "Remover filtro",
+    "consult": "Consultar",
+
+    "aboutUsInfo":"Conheça nossa equipe de especialistas dedicados a tornar realidade a viagem dos seus sonhos.",
+
 
     
     "contactUs": "Contate-nos",

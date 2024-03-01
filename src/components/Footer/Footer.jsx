@@ -14,13 +14,10 @@ const Footer = () => {
         <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1708796313/Agencia%20viajes/Recurso_5_mhtwhe.svg" alt="" className='w-40 cursor-pointer z-30'/>
         <article className='flex flex-col justify-center items-center gap-5'>
           <div className='flex justify-center items-center gap-3 h-6'>
-            <a className='rounded-full border-[#218B7D] border cursor-pointer p-2 hover:border-[#FE904D] duration-300'>
-              <FaFacebookF className='text-[#218B7D] hover:text-[#FE904D] duration-300'/>
-            </a>
-            <a className='rounded-full border-[#218B7D] border cursor-pointer p-2 hover:border-[#FE904D] duration-300'>
+            <a href='https://www.instagram.com/calicatatours/' target='_blank' className='rounded-full border-[#218B7D] border cursor-pointer p-2 hover:border-[#FE904D] duration-300'>
               <FaInstagram className='text-[#218B7D] hover:text-[#FE904D] duration-300'/>
             </a>
-            <a className='rounded-full border-[#218B7D] border cursor-pointer p-2 hover:border-[#FE904D] duration-300'>
+            <a href='mailto:calicataconsultas@gmail.com' target='_blank' className='rounded-full border-[#218B7D] border cursor-pointer p-2 hover:border-[#FE904D] duration-300'>
               <BiLogoGmail className='text-[#218B7D] hover:text-[#FE904D] duration-300'/>
             </a>
           </div>

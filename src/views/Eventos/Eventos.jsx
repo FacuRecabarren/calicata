@@ -9,23 +9,27 @@ import {
 } from "@/components/ui/carousel"
 import { MdFamilyRestroom } from "react-icons/md";
 import { FaUmbrellaBeach, FaTree, FaCity  } from "react-icons/fa6";
+import { MdOutlineSportsSoccer } from "react-icons/md";
+import { GiRaceCar } from "react-icons/gi";
 import { LuPartyPopper } from "react-icons/lu";
 import { PiWineFill } from "react-icons/pi";
+import { useTranslation } from 'react-i18next';
 
 const Eventos = () => {
 
+    const { t } = useTranslation()
     const [selectedTheme, setSelectedTheme] = useState(null);
 
     const temas = [
         {
             id: 1,
             name: "Formula 1",
-            icono: <MdFamilyRestroom/>
+            icono: <GiRaceCar />
         },
         {
             id: 2,
-            name: "Fútbol",
-            icono: <FaUmbrellaBeach/>
+            name: <span>{t("futbol")}</span>,
+            icono: <MdOutlineSportsSoccer />
         },
     ]
 
@@ -50,8 +54,8 @@ const Eventos = () => {
     <div>
         <div className='h-[30rem] relative flex flex-col justify-center items-center gap-2'>
             <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp" alt="" className='w-full h-full object-cover absolute top-0 -z-10'/>
-            <h2 id='title' className='text-7xl text-[#ffffff] font-extrabold'>EVENTOS</h2>
-            <p className='text-[#ffffff] bg-[#218B7D] rounded-xl p-2 bg-opacity-45 font-lora italic font-bold text-xl'>Descubre todos los tipos de eventos que tenemos</p>
+            <h2 id='title' className='text-7xl text-[#ffffff] font-extrabold'>{t("eventsUppercase")}</h2>
+            <p className='text-[#ffffff] bg-[#218B7D] rounded-xl p-2 bg-opacity-45 font-lora italic font-bold text-xl'>{t("eventsInsideInfo")}</p>
         </div>
         <section className='py-10 px-20 flex flex-col justify-center items-center gap-10 shadow-xl'>
             <Carousel
@@ -84,7 +88,7 @@ const Eventos = () => {
                 <CarouselNext className='mr-28 text-[#ffffff] w-10 h-10 bg-[#218B7D] shadow-xl border-none border-[#218B7D] hover:bg-[#218b7d58] duration-300'/>
             </Carousel>
             {selectedTheme !== null && (
-                <button onClick={() => setSelectedTheme(null)} className='bg-[#218B7D] py-2 px-4 rounded-xl text-white font-bold hover:bg-[#218b7d58] duration-300'>Quitar filtro</button>
+                <button onClick={() => setSelectedTheme(null)} className='bg-[#218B7D] py-2 px-4 rounded-xl text-white font-bold hover:bg-[#218b7d58] duration-300'>{t("filter")}</button>
             )}
         </section>
         {selectedTheme === null && (
@@ -94,7 +98,7 @@ const Eventos = () => {
                         <img src={idea.image} alt="" className='w-[20rem] h-[30rem] object-cover object-top shadow-lg group/edit group-hover/item:grayscale duration-500'/>
                         <a href="" className='cursor-alias invisible group/edit group-hover/item:visible absolute flex flex-col justify-center items-center gap-2 bg-opacity-60 bg-[#218B7D] p-10 rounded-full'>
                             <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1708744509/WhatsApp_icon.png_yfozry.webp" alt="" className='w-12 h-12 '/>
-                            <p className='flex justify-center items-center gap-2 font-bold text-white'>Consultar</p>
+                            <p className='flex justify-center items-center gap-2 font-bold text-white'>{t("consult")}</p>
                         </a>
                     </div>
                 ))}
@@ -109,7 +113,7 @@ const Eventos = () => {
                         <img src={idea.image} alt="" className='w-[20rem] h-[30rem] object-cover object-top shadow-lg group/edit group-hover/item:grayscale duration-500'/>
                         <a href="" className='cursor-alias invisible group/edit group-hover/item:visible absolute flex flex-col justify-center items-center gap-2 bg-opacity-60 bg-[#218B7D] p-10 rounded-full'>
                             <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1708744509/WhatsApp_icon.png_yfozry.webp" alt="" className='w-12 h-12 '/>
-                            <p className='flex justify-center items-center gap-2 font-bold text-white'>Consultar</p>
+                            <p className='flex justify-center items-center gap-2 font-bold text-white'>{t("consult")}</p>
                         </a>
                     </div>
               ))}
