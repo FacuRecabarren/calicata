@@ -51,11 +51,12 @@
     "contactUs": "Contact us",
     "name": "Your Name *",
     "placeholderName": "ex. John Smith",
-    "email": "Email Adress *",
+    "email": "Email Address *",
     "message": "Message *",
     "placeholderMessage": "Message...",
     "placeholderMail": "hello@email.com",
     "send": "Send message",
+    "consultUs": "Ask your questions and we will help you",
 
     
     "rights": "All Rights Reserved.",
