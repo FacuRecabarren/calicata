@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Card, CardContent } from "@/components/ui/card"
 import {
   Carousel,
@@ -16,9 +16,16 @@ import { useTranslation } from 'react-i18next';
 
 const Viajes = () => {
 
-    const { t } = useTranslation()
+    const { t, i18n } = useTranslation()
 
     const [selectedTheme, setSelectedTheme] = useState(null);
+
+    useEffect(() => {
+        const selectedLanguage = localStorage.getItem("selectedLanguage");
+        if (selectedLanguage) {
+            i18n.changeLanguage(selectedLanguage);
+        }
+    }, []); // Run only once on component mount
 
     const temas = [
         {
