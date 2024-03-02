@@ -6,8 +6,8 @@ const Carousel2 = () => {
     const testimonials = [
         {
           quote:
-            "Amazing experience with Calicata. Their attention to detail and personalized recommendations made my trip unforgettable. Highly recommend!",
-          name: "Emily Johnson",
+            "Experiencia increíble con Calicata. Su atención al detalle y recomendaciones personalizadas hicieron que mi viaje fuera inolvidable. ¡Altamente recomendado!",
+          name: "Emilia Santos",
           image: <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1708909733/vecteezy_3d-male-character-jumping-out-from-computer-screen-and_24658878_r54dyf.webp" alt="" className="w-20 rounded-full object-cover"/>,
           title: <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1708964855/5-star-rating-review-star-transparent-free-png_qb9mxi-removebg-preview_rzjbpq.png" alt="" className="w-[6rem]"/>,
         },
@@ -19,22 +19,22 @@ const Carousel2 = () => {
           title: <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1708965100/4.5-star-rating-review-star-transparent-free-png_qb9mxi-removebg-preview_l5mp7q.png" alt="" className="w-[6rem]" />,
         },
         {
-          quote: "Exceptional service and expert guidance from Calicata. Cande tailored my itinerary perfectly to my preferences, ensuring a stress-free and enjoyable journey.",
+          quote: "Thanks to Calicata Travel Agency, I was able to embark on the 'Caminos del vino' tour, and I absolutely loved it. Their expert guidance and seamless arrangements ensured an unforgettable experience. I highly recommend Calicata for anyone looking to explore the world of wine with ease and enjoyment.",
           name: "Jessica Lee",
           image: <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1708909733/vecteezy_3d-male-character-jumping-out-from-computer-screen-and_24658878_r54dyf.webp" alt="" className="w-20 rounded-full object-cover"/>,
           title: <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1708964855/5-star-rating-review-star-transparent-free-png_qb9mxi-removebg-preview_rzjbpq.png" alt="" className="w-[6rem]"/>
         },
         {
           quote:
-            "Fiquei muito impressionado com o profissionalismo e a eficiência da Calicata. Desde a reserva até as acomodações, todos os aspectos da minha viagem foram tratados com perfeição por Roman e Cande. Sem dúvida, minha agência preferida para futuras viagens.",
+            "Graças à agência de viagens Calicata, tive a oportunidade de participar do tour 'Outdoors' e foi incrível. A atenção personalizada e os detalhes bem cuidados tornaram toda a experiência ainda mais especial. Recomendo Calicata para todos os amantes da natureza em busca de aventuras memoráveis.",
           name: "Daniel Pereira",
           image: <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1708909733/vecteezy_3d-male-character-jumping-out-from-computer-screen-and_24658878_r54dyf.webp" alt="" className="w-20 rounded-full object-cover"/>,
           title: <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1708965105/4-star-rating-review-star-transparent-free-png_qb9mxi-removebg-preview_tejzvj.png" alt="" className="w-[5rem]"/>
         },
         {
           quote:
-            "Outstanding attention to detail and customer care from Calicata. Their knowledgeable staff made planning my trip a breeze, and I couldn't be happier with the results. 10/10 recommend for anyone seeking a memorable travel experience.",
-          name: "Samantha Taylor",
+            "Atención excepcional al detalle y cuidado al cliente por parte de Calicata. Su personal experto hizo que planificar mi viaje fuera muy fácil, y no podría estar más feliz con los resultados. ¡Recomiendo 10/10 a cualquiera que busque una muy buena experiencia de viaje!",
+          name: "Mateo Sánchez.",
           image: <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1708909733/vecteezy_3d-male-character-jumping-out-from-computer-screen-and_24658878_r54dyf.webp" alt="" className="w-20 rounded-full object-cover"/>,
           title: <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1708965100/4.5-star-rating-review-star-transparent-free-png_qb9mxi-removebg-preview_l5mp7q.png" alt="" className="w-[6rem]"/>
         },
