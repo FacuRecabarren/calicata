@@ -15,7 +15,7 @@ const ContactUs = () => {
 
 
     return (
-      <div className='py-20 w-full z-0 bg-[url("https://res.cloudinary.com/dreso9ye9/image/upload/v1709128519/Animated_Shape_1_1_lhixt9.svg")] bg-cover bg-top '>
+      <div className='py-20 w-full z-0 bg-[url("https://res.cloudinary.com/dreso9ye9/image/upload/v1709128519/Animated_Shape_1_1_lhixt9.svg")] bg-cover bg-top ' id='contact'>
         <div className="flex flex-col items-center lg:flex-row justify-evenly">
           <div className="flex flex-col justify-center items-center gap-4 py-10">
             <h2 className="text-[#218B7D] text-4xl font-extrabold">
