@@ -10,7 +10,7 @@ const Hero = () => {
   const images = [
     "https://res.cloudinary.com/dfschbyq2/image/upload/v1708984819/natalya-zaritskaya-SIOdjcYotms-unsplash_artxcj.jpg",
     "https://res.cloudinary.com/dreso9ye9/image/upload/v1709222233/elizeu-dias-RN6ts8IZ4_0-unsplash_zlwv0f.webp",
-    "https://res.cloudinary.com/dreso9ye9/image/upload/v1709222347/matt-jones-9CPAjGVB378-unsplash_mueexz.webp",
+    "https://res.cloudinary.com/dreso9ye9/image/upload/v1709350380/engin-yapici-WA1u0scVLZU-unsplash_rtkwmd.webp",
     "https://res.cloudinary.com/dreso9ye9/image/upload/v1709222231/lucia-macedo-WbU-8xoco9o-unsplash_xqagal.webp",
     "https://res.cloudinary.com/dreso9ye9/image/upload/v1709222061/boxed-water-is-better-jbcY_yvsDzk-unsplash_ymmvwr.webp"
   ];

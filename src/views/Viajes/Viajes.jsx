@@ -20,6 +20,17 @@ const Viajes = () => {
 
     const [selectedTheme, setSelectedTheme] = useState(null);
 
+    const handleConsultClick = (idea) => {
+    
+        const message = `Hola, ¿cómo están? Me gustaría tener más información sobre el paquete "${idea.description}"`;
+      
+        const encodedMessage = encodeURIComponent(message);
+    
+        const whatsappLink = `https://wa.me/+5492612457513?text=${encodedMessage}`;
+    
+        window.location.href = whatsappLink;
+    };
+
     useEffect(() => {
         const selectedLanguage = localStorage.getItem("selectedLanguage");
         if (selectedLanguage) {
@@ -63,53 +74,75 @@ const Viajes = () => {
     const ideas = [
         {
             id: 1,
-            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171615/WhatsApp_Image_2024-02-28_at_12.50.20_1_bejc2r.jpg',
-            target: 'Argentina'
+            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171613/WhatsApp_Image_2024-02-28_at_20.02.44_e4zem0.jpg',
+            description: "Turquía: salidas junio a octubre",
+            target: 4
         },
         {
             id: 2,
-            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171615/WhatsApp_Image_2024-02-28_at_12.50.20_1_bejc2r.jpg',
-            target: 'Brasil'
+            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171613/WhatsApp_Image_2024-02-28_at_20.02.33_kqtlt0.jpg',
+            description: "Turquía: salidas 07 JUN | 01-07-25 JUL | 03-14-21 AGO | 04-14-20-25-26 SEP | 03-08-14 OCT 2024",
+            target: 4
         },
         {
             id: 3,
-            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171615/WhatsApp_Image_2024-02-28_at_12.50.20_1_bejc2r.jpg',
-            target: 'Ciudades'
+            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171614/WhatsApp_Image_2024-02-28_at_17.53.59_rjdivy.jpg',
+            description: "Grecia y Turquía: salida 31 de mayo 2024",
+            target: 4
         },
         {
             id: 4,
-            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171615/WhatsApp_Image_2024-02-28_at_12.50.20_1_bejc2r.jpg',
-            target: 'Naturaleza'
+            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171614/WhatsApp_Image_2024-02-28_at_12.50.21_1_oxxukj.jpg',
+            description: "Maceió: salida desde Buenos Aires",
+            target: 2
         },
         {
             id: 5,
-            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171615/WhatsApp_Image_2024-02-28_at_12.50.20_1_bejc2r.jpg',
-            target: 'Playa'
+            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171614/WhatsApp_Image_2024-02-28_at_12.50.22_x6rxtz.jpg',
+            description: "Samaná: salida desde Buenos Aires",
+            target: 2
         },
         {
             id: 6,
-            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171614/WhatsApp_Image_2024-02-28_at_12.50.22_x6rxtz.jpg',
-            target: 'Playa'
+            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171614/WhatsApp_Image_2024-02-28_at_12.50.21_veaofp.jpg',
+            description: "Egipto 2x1: salidas martes y domingos del 1 al 22 MAR y del 9 ABR al 30 SEP",
+            target: 4
         },
         {
             id: 7,
-            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171617/WhatsApp_Image_2024-02-28_at_17.53.43_clgh2i.jpg',
-            target: 'Playa'
+            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171615/WhatsApp_Image_2024-02-28_at_12.50.20_1_bejc2r.jpg',
+            description: "Punta Cana - Bayahibe: 2 al 13 de junio",
+            target: 2
         },
         {
             id: 8,
-            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171614/WhatsApp_Image_2024-02-28_at_12.50.21_1_oxxukj.jpg',
-            target: 'Playa'
+            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171615/WhatsApp_Image_2024-02-28_at_12.50.20_szztrj.jpg',
+            description: "Circuitos Exóticos: Turquía premium",
+            target: 4
         },
         {
             id: 9,
-            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171615/WhatsApp_Image_2024-02-28_at_12.50.20_1_bejc2r.jpg',
-            target: 'Familia'
+            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171616/WhatsApp_Image_2024-02-28_at_12.50.19_1_tksliy.jpg',
+            description: "Circuitos en Europa: Europa del este",
+            target: 4
         },
         {
             id: 10,
+            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171617/WhatsApp_Image_2024-02-28_at_17.53.43_clgh2i.jpg',
+            description: "San Andrés: salida 7 de noviembre de 2024",
+            target: 2
+        },
+        {
+            id: 11,
+            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171617/WhatsApp_Image_2024-02-28_at_12.50.19_pifqrg.jpg',
+            description: "Circuitos en Europa: Paris, Alpes, Italia y Barcelona",
+            target: 4
+        },
+        {
+            id: 12,
             image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171617/WhatsApp_Image_2024-02-28_at_12.50.18_qfkosu.jpg',
-            target: 'Familia'
+            description: "Circuitos en Europa: gran tour de Europa",
+            target: 4
         },
     ]
 
@@ -121,8 +154,8 @@ const Viajes = () => {
     <div>
         <div className='h-[30rem] relative flex flex-col justify-center items-center gap-2'>
             <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709168761/elizeu-dias-xarhNpLSHTk-unsplash_wjrjp0.jpg" alt="" className='w-full h-full object-cover absolute top-0 -z-10'/>
-            <h2 id='title' className='text-7xl text-[#ffffff] font-extrabold'>{t("travelUppercase")}</h2>
-            <p className='text-[#ffffff] bg-[#218B7D] rounded-xl p-2 bg-opacity-45 font-lora italic font-bold text-xl'>{t("travelInsideInfo")}</p>
+            <h2 id='title' className='text-5xl lg:text-7xl text-[#ffffff] font-extrabold'>{t("travelUppercase")}</h2>
+            <p className='text-[#ffffff] bg-[#218B7D] rounded-xl p-2 bg-opacity-45 font-lora italic font-bold text-base lg:text-xl'>{t("travelInsideInfo")}</p>
         </div>
         <section className='py-10 px-20 flex flex-col justify-center items-center gap-10 shadow-xl'>
             <Carousel
@@ -133,15 +166,15 @@ const Viajes = () => {
             >
                 <CarouselContent className='m-0'>
                     {temas.map((tema) => (
-                    <CarouselItem key={tema.id} className="md:basis-1/2 lg:basis-1/5 p-0 w-[10rem]">
+                    <CarouselItem key={tema.id} className="basis-1/2 md:basis-1/4 lg:basis-1/5 p-0 w-[10rem]">
                         <Card className='bg-white flex justify-center items-center shadow-none border-none rounded-none'>
                             <CardContent className="flex flex-col gap-2 items-center justify-center p-0 cursor-pointer hover:opacity-60 duration-300">
                             <span
                                 key={tema.id}
                                 className={`cursor-pointer ${
-                                selectedTheme === tema.name ? "border-b-2 border-[#218B7D]" : "flex flex-col justify-center items-center gap-2"
+                                selectedTheme === tema.id ? "border-b-2 border-[#218B7D]" : "flex flex-col justify-center items-center gap-2"
                                 } flex flex-col justify-center items-center gap-2`}
-                                onClick={() => handleThemeClick(tema.name)}
+                                onClick={() => handleThemeClick(tema.id)}
                             >
                                 <p className='text-xl text-white bg-[#218B7D] w-10 h-10 flex justify-center items-center rounded-full'>{tema.icono}</p>
                                 <h2 className='text-[#218B7D] font-bold'>{tema.name}</h2>
@@ -151,8 +184,8 @@ const Viajes = () => {
                     </CarouselItem>
                     ))}
                 </CarouselContent>
-                <CarouselPrevious className='ml-28 text-[#ffffff] w-10 h-10 bg-[#218B7D] shadow-xl border-[#218B7D] hover:bg-[#218b7d58] duration-300'/>
-                <CarouselNext className='mr-28 text-[#ffffff] w-10 h-10 bg-[#218B7D] shadow-xl border-none border-[#218B7D] hover:bg-[#218b7d58] duration-300'/>
+                <CarouselPrevious className='lg:ml-28 text-[#ffffff] w-10 h-10 bg-[#218B7D] shadow-xl border-[#218B7D] hover:bg-[#218b7d58] duration-300'/>
+                <CarouselNext className='lg:mr-28 text-[#ffffff] w-10 h-10 bg-[#218B7D] shadow-xl border-none border-[#218B7D] hover:bg-[#218b7d58] duration-300'/>
             </Carousel>
             {selectedTheme !== null && (
                 <button onClick={() => setSelectedTheme(null)} className='bg-[#218B7D] py-2 px-4 rounded-xl text-white font-bold hover:bg-[#218b7d58] duration-300'>{t("filter")}</button>
@@ -163,7 +196,7 @@ const Viajes = () => {
                 {ideas.map(idea => (
                     <div key={idea.id} className='group/item relative flex justify-center items-center hover:scale-105 duration-500'>
                         <img src={idea.image} alt="" className='w-[20rem] h-[30rem] object-cover object-top shadow-lg group/edit group-hover/item:grayscale duration-500'/>
-                        <a href="" className='cursor-alias invisible group/edit group-hover/item:visible absolute flex flex-col justify-center items-center gap-2 bg-opacity-60 bg-[#218B7D] p-10 rounded-full'>
+                        <a onClick={() => handleConsultClick(idea)} className='cursor-alias invisible group/edit group-hover/item:visible absolute flex flex-col justify-center items-center gap-2 bg-opacity-60 bg-[#218B7D] p-10 rounded-full'>
                             <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1708744509/WhatsApp_icon.png_yfozry.webp" alt="" className='w-12 h-12 '/>
                             <p className='flex justify-center items-center gap-2 font-bold text-white'>{t("consult")}</p>
                         </a>
@@ -178,10 +211,10 @@ const Viajes = () => {
               .map((idea) => (
                     <div key={idea.id} className='group/item relative flex justify-center items-center hover:scale-105 duration-500'>
                         <img src={idea.image} alt="" className='w-[20rem] h-[30rem] object-cover object-top shadow-lg group/edit group-hover/item:grayscale duration-500'/>
-                        <a href="" className='cursor-alias invisible group/edit group-hover/item:visible absolute flex flex-col justify-center items-center gap-2 bg-opacity-60 bg-[#218B7D] p-10 rounded-full'>
+                        <button onClick={() => handleConsultClick(idea)} className='cursor-alias invisible group/edit group-hover/item:visible absolute flex flex-col justify-center items-center gap-2 bg-opacity-60 bg-[#218B7D] p-10 rounded-full'>
                             <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1708744509/WhatsApp_icon.png_yfozry.webp" alt="" className='w-12 h-12 '/>
                             <p className='flex justify-center items-center gap-2 font-bold text-white'>{t("consult")}</p>
-                        </a>
+                        </button>
                     </div>
               ))}
           </section>

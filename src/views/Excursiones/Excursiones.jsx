@@ -19,6 +19,17 @@ const Excursiones = () => {
     const { t, i18n } = useTranslation()
     const [selectedTheme, setSelectedTheme] = useState(null);
 
+    const handleConsultClick = (idea) => {
+    
+        const message = `Hola, ¿cómo están? Me gustaría tener más información sobre el paquete "${idea.description}"`;
+      
+        const encodedMessage = encodeURIComponent(message);
+    
+        const whatsappLink = `https://wa.me/+5492612457513?text=${encodedMessage}`;
+    
+        window.location.href = whatsappLink;
+    };
+
     useEffect(() => {
         const selectedLanguage = localStorage.getItem("selectedLanguage");
         if (selectedLanguage) {
@@ -63,11 +74,13 @@ const Excursiones = () => {
         {
             id: 1,
             image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709248914/WhatsApp_Image_2024-02-29_at_11.49.50_1_pqjupj.jpg',
+            description: "Caminos del vino: Maipú - Lujan de Cuyo",
             target: 1,
         },
         {
             id: 2,
             image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709248894/WhatsApp_Image_2024-02-29_at_11.49.50_wmcvrd.jpg',
+            description: 'Outdoors: "armamos tu visita medida"',
             target: 3,
         },
     ]
@@ -80,8 +93,8 @@ const Excursiones = () => {
     <div>
         <div className='h-[30rem] relative flex flex-col justify-center items-center gap-2'>
             <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709250556/39-facts-about-mendoza-1688522494_te42ax.jpg" alt="" className='w-full h-full object-cover absolute top-0 -z-10'/>
-            <h2 id='title' className='text-7xl text-[#ffffff] font-extrabold'>{t("excursionsUppercase")}</h2>
-            <p className='text-[#ffffff] bg-[#218B7D] rounded-xl p-2 bg-opacity-45 font-lora italic font-bold text-xl'>{t("excursionsInsideInfo")}</p>
+            <h2 id='title' className='text-5xl lg:text-7xl text-[#ffffff] font-extrabold'>{t("excursionsUppercase")}</h2>
+            <p className='text-[#ffffff] bg-[#218B7D] rounded-xl p-2 bg-opacity-45 font-lora italic font-bold text-base lg:text-xl'>{t("excursionsInsideInfo")}</p>
         </div>
         <section className='py-10 px-20 flex flex-col justify-center items-center gap-10 shadow-xl'>
             <Carousel
@@ -92,7 +105,7 @@ const Excursiones = () => {
             >
                 <CarouselContent className='m-0'>
                     {temas.map((tema) => (
-                    <CarouselItem key={tema.id} className="md:basis-1/2 lg:basis-1/5 p-0 w-[10rem] flex justify-center items-center">
+                    <CarouselItem key={tema.id} className="basis-1/2 md:basis-1/4 lg:basis-1/5 p-0 w-[10rem] flex justify-center items-center">
                         <Card className='bg-white flex justify-center items-center shadow-none border-none rounded-none'>
                             <CardContent className="flex flex-col gap-2 items-center justify-center p-0 cursor-pointer hover:opacity-60 duration-300">
                             <span
@@ -110,8 +123,8 @@ const Excursiones = () => {
                     </CarouselItem>
                     ))}
                 </CarouselContent>
-                <CarouselPrevious className='ml-28 text-[#ffffff] w-10 h-10 bg-[#218B7D] shadow-xl border-[#218B7D] hover:bg-[#218b7d58] duration-300'/>
-                <CarouselNext className='mr-28 text-[#ffffff] w-10 h-10 bg-[#218B7D] shadow-xl border-none border-[#218B7D] hover:bg-[#218b7d58] duration-300'/>
+                <CarouselPrevious className='lg:ml-28 text-[#ffffff] w-10 h-10 bg-[#218B7D] shadow-xl border-[#218B7D] hover:bg-[#218b7d58] duration-300'/>
+                <CarouselNext className='lg:mr-28 text-[#ffffff] w-10 h-10 bg-[#218B7D] shadow-xl border-none border-[#218B7D] hover:bg-[#218b7d58] duration-300'/>
             </Carousel>
             {selectedTheme !== null && (
                 <button onClick={() => setSelectedTheme(null)} className='bg-[#218B7D] py-2 px-4 rounded-xl text-white font-bold hover:bg-[#218b7d58] duration-300'>{t("filter")}</button>
@@ -122,10 +135,10 @@ const Excursiones = () => {
                 {ideas.map(idea => (
                     <div key={idea.id} className='group/item relative flex justify-center items-center hover:scale-105 duration-500'>
                         <img src={idea.image} alt="" className='w-[20rem] h-[30rem] object-cover object-top shadow-lg group/edit group-hover/item:grayscale duration-500'/>
-                        <a href="" className='cursor-alias invisible group/edit group-hover/item:visible absolute flex flex-col justify-center items-center gap-2 bg-opacity-60 bg-[#218B7D] p-10 rounded-full'>
+                        <button onClick={() => handleConsultClick(idea)} className='cursor-alias invisible group/edit group-hover/item:visible absolute flex flex-col justify-center items-center gap-2 bg-opacity-60 bg-[#218B7D] p-10 rounded-full'>
                             <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1708744509/WhatsApp_icon.png_yfozry.webp" alt="" className='w-12 h-12 '/>
                             <p className='flex justify-center items-center gap-2 font-bold text-white'>{t("consult")}</p>
-                        </a>
+                        </button>
                     </div>
                 ))}
             </section>
@@ -137,10 +150,10 @@ const Excursiones = () => {
               .map((idea) => (
                     <div key={idea.id} className='group/item relative flex justify-center items-center hover:scale-105 duration-500'>
                         <img src={idea.image} alt="" className='w-[20rem] h-[30rem] object-cover object-top shadow-lg group/edit group-hover/item:grayscale duration-500'/>
-                        <a href="" className='cursor-alias invisible group/edit group-hover/item:visible absolute flex flex-col justify-center items-center gap-2 bg-opacity-60 bg-[#218B7D] p-10 rounded-full'>
+                        <button onClick={() => handleConsultClick(idea)} className='cursor-alias invisible group/edit group-hover/item:visible absolute flex flex-col justify-center items-center gap-2 bg-opacity-60 bg-[#218B7D] p-10 rounded-full'>
                             <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1708744509/WhatsApp_icon.png_yfozry.webp" alt="" className='w-12 h-12 '/>
                             <p className='flex justify-center items-center gap-2 font-bold text-white'>{t("consult")}</p>
-                        </a>
+                        </button>
                     </div>
               ))}
           </section>

@@ -20,19 +20,19 @@ const Nosotros = () => {
         </div>
         <div className="flex justify-center lg:flex-row lg:justify-between lg:items-center">
             <div className="relative hidden lg:flex">
-                <img
+                {/* <img
                     src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709125757/vecteezy_3d-masculino-personaje-presentacion-a-el-izquierda_24658988_1_zst9ln.webp"
                     alt=""
                     className="w-[25rem] z-10"
-                />
+                /> */}
                 <img
                     src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709126767/Vector_5_urtzo4.svg"
                     alt=""
-                    className="absolute left-0 z-0 w-[15rem]"
+                    className="w-[18rem]"
                 />
             </div>
             <section className='flex flex-col items-center justify-center'>
-                <div className='flex flex-col sm:flex-row justify-center items-center gap-10'>
+                <div className='flex flex-col sm:flex-row justify-center items-center gap-10 lg:gap-20'>
                     <div className='flex flex-col justify-center items-center gap-2'>
                         <Atropos shadow={false} className="my-atropos shadow-md rounded-full">
                             <div className="h-60 w-60 rounded-full overflow-hidden">
@@ -70,15 +70,15 @@ const Nosotros = () => {
                 </div>
             </section>
             <div className="relative hidden lg:flex">
-                <img
+                {/* <img
                     src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709125755/Group_14_r7al6g.webp"
                     alt=""
                     className="w-[25rem] z-10"
-                />
+                /> */}
                 <img
                     src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709126761/Vector_4_xurgbc.svg"
                     alt=""
-                    className="absolute right-0 z-0 w-[15rem]"
+                    className="w-[18rem]"
                 />
             </div>
           </div>
