@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Card, CardContent } from "@/components/ui/card"
 import {
   Carousel,
@@ -16,8 +16,15 @@ import { useTranslation } from 'react-i18next';
 
 const Excursiones = () => {
 
-    const { t } = useTranslation()
+    const { t, i18n } = useTranslation()
     const [selectedTheme, setSelectedTheme] = useState(null);
+
+    useEffect(() => {
+        const selectedLanguage = localStorage.getItem("selectedLanguage");
+        if (selectedLanguage) {
+            i18n.changeLanguage(selectedLanguage);
+        }
+    }, []); // Run only once on component mount
 
     const temas = [
         {
@@ -56,12 +63,12 @@ const Excursiones = () => {
         {
             id: 1,
             image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709248914/WhatsApp_Image_2024-02-29_at_11.49.50_1_pqjupj.jpg',
-            target: 'Bodegas'
+            target: 1,
         },
         {
             id: 2,
             image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709248894/WhatsApp_Image_2024-02-29_at_11.49.50_wmcvrd.jpg',
-            target: 'Cabalgatas'
+            target: 3,
         },
     ]
 
@@ -91,9 +98,9 @@ const Excursiones = () => {
                             <span
                                 key={tema.id}
                                 className={`cursor-pointer ${
-                                selectedTheme === tema.name ? "border-b-2 border-[#218B7D]" : "flex flex-col justify-center items-center gap-2"
+                                selectedTheme === tema.id ? "border-b-2 border-[#218B7D]" : "flex flex-col justify-center items-center gap-2"
                                 } flex flex-col justify-center items-center gap-2`}
-                                onClick={() => handleThemeClick(tema.name)}
+                                onClick={() => handleThemeClick(tema.id)}
                             >
                                 <p className='text-xl text-white bg-[#218B7D] w-10 h-10 flex justify-center items-center rounded-full'>{tema.icono}</p>
                                 <h2 className='text-[#218B7D] font-bold'>{tema.name}</h2>
