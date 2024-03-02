@@ -26,9 +26,9 @@ const Nosotros = () => {
             </div>
             <section className='h-full flex flex-col items-center justify-center'>
                 <Atropos shadow={false}>
-                    <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1709396883/Recurso_6_tphjac.svg" alt="" className='w-[30rem]'/>
+                    <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1709397552/Group_14_smyrle.svg" alt="" className='w-[30rem]'/>
                 </Atropos>
-                <p className='text-center pt-10 font-semibold leading-loose text-[18px] w-[70%]'>{t("aboutUsInfo")}</p>
+                <p className='text-center pt-10 font-semibold leading-loose text-[18px] w-[90%] md:w-[70%]'>{t("aboutUsInfo")}</p>
             </section>
             <div className="relative hidden lg:flex">
                 {/* <img
