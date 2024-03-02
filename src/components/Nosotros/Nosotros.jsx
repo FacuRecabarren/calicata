@@ -9,7 +9,7 @@ const Nosotros = () => {
     const { t } = useTranslation()
 
     return (
-      <div id='nosotros' className="py-36 bg-white px-5">
+      <div id='nosotros' className="py-36 bg-white">
         
         <div className="flex justify-center lg:flex-row lg:justify-between lg:items-center">
             <div className="relative hidden lg:flex">
