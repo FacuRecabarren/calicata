@@ -9,7 +9,7 @@ const Nosotros = () => {
     const { t } = useTranslation()
 
     return (
-      <div id='nosotros' className="py-36 bg-white">
+      <div id='nosotros' className="py-36 bg-white px-5">
         
         <div className="flex justify-center lg:flex-row lg:justify-between lg:items-center">
             <div className="relative hidden lg:flex">
@@ -28,7 +28,7 @@ const Nosotros = () => {
                 <Atropos shadow={false}>
                     <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1709396883/Recurso_6_tphjac.svg" alt="" className='w-[30rem]'/>
                 </Atropos>
-                <p className='text-center w-[50rem] pt-10 font-semibold leading-loose'>{t("aboutUsInfo")}</p>
+                <p className='text-center pt-10 font-semibold leading-loose text-[18px] w-[70%]'>{t("aboutUsInfo")}</p>
             </section>
             <div className="relative hidden lg:flex">
                 {/* <img
