@@ -59,16 +59,6 @@ const Viajes = () => {
             name: <span>{t("cities")}</span>,
             icono: <FaCity/>
         },
-        {
-            id: 5,
-            name: <span>{t("brazil")}</span>,
-            icono: <LuPartyPopper/>
-        },
-        {
-            id: 6,
-            name: <span>{t("argentina")}</span>,
-            icono: <PiWineFill/>
-        },
     ]
 
     const ideas = [
@@ -94,7 +84,7 @@ const Viajes = () => {
             id: 4,
             image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171614/WhatsApp_Image_2024-02-28_at_12.50.21_1_oxxukj.jpg',
             description: "Maceió: salida desde Buenos Aires",
-            target: 2
+            target: 2 
         },
         {
             id: 5,
@@ -166,7 +156,7 @@ const Viajes = () => {
             >
                 <CarouselContent className='m-0'>
                     {temas.map((tema) => (
-                    <CarouselItem key={tema.id} className="basis-1/2 md:basis-1/4 lg:basis-1/5 p-0 w-[10rem]">
+                    <CarouselItem key={tema.id} className="basis-1/2 md:basis-1/4 p-0 w-[10rem]">
                         <Card className='bg-white flex justify-center items-center shadow-none border-none rounded-none'>
                             <CardContent className="flex flex-col gap-2 items-center justify-center p-0 cursor-pointer hover:opacity-60 duration-300">
                             <span

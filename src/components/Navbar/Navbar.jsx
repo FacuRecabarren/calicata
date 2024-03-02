@@ -56,7 +56,7 @@ const Navbar = () => {
               
               <div className='w-full'>
                 <div className="flex justify-between items-center">
-                  <a href='/' className="bg-white rounded-full shadow-xl sm:flex z-40 duration-300 cursor-pointer py-2 px-4 hover:animate-jiggle"><img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1708796313/Agencia%20viajes/Recurso_5_mhtwhe.svg" alt="" className='w-28'/></a>
+                  <a href='/' className="bg-white rounded-full shadow-xl sm:flex z-40 duration-300 cursor-pointer py-2 px-4 hover:animate-jiggle"><img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1709396883/Recurso_6_tphjac.svg" alt="" className='w-28'/></a>
                   <div className='hidden lg:flex lg:justify-center lg:items-center gap-4 bg-white rounded-full z-40 shadow-xl px-4 py-2'>
                       {navigation.map((item) => (
                         <a

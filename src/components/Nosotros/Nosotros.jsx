@@ -9,15 +9,8 @@ const Nosotros = () => {
     const { t } = useTranslation()
 
     return (
-      <div id='nosotros' className="pb-20 pt-10 bg-white">
-        <div className="flex flex-col justify-center items-center gap-4 py-10">
-          <h2 className="text-[#218B7D] text-4xl font-extrabold">
-            {t("aboutUs")}
-          </h2>
-          <h3 className="text-[#218B7D] opacity-80 font-semibold text-center px-5 lg:text-start lg:px-0 font-lora italic">
-            {t("aboutUsInfo")}
-          </h3>
-        </div>
+      <div id='nosotros' className="py-36 bg-white">
+        
         <div className="flex justify-center lg:flex-row lg:justify-between lg:items-center">
             <div className="relative hidden lg:flex">
                 {/* <img
@@ -31,43 +24,11 @@ const Nosotros = () => {
                     className="w-[18rem]"
                 />
             </div>
-            <section className='flex flex-col items-center justify-center'>
-                <div className='flex flex-col sm:flex-row justify-center items-center gap-10 lg:gap-20'>
-                    <div className='flex flex-col justify-center items-center gap-2'>
-                        <Atropos shadow={false} className="my-atropos shadow-md rounded-full">
-                            <div className="h-60 w-60 rounded-full overflow-hidden">
-                                <img
-                                src='https://res.cloudinary.com/dfschbyq2/image/upload/v1708743323/joven-empresario-al-aire-libre_53419-7471_lgs5dd.avif'
-                                alt="Imagen de Juan Emilio Elizondo"
-                                className=' duration-500 object-cover w-full h-full'
-                                />
-                            </div>
-                        </Atropos>
-                        <div className='flex flex-col justify-center items-center'>
-                            <a className="text-lg font-bold text-[#218B7D] cursor-pointer hover:text-[#FE904D] duration-300 dark:text-gray-100" href="https://www.linkedin.com/in/juan-emilio-elizondo/">
-                            Martin Puebla
-                            </a>
-                            <p className="text-center opacity-60 font-lora italic">{t("travelAgent")}</p>
-                        </div>
-                    </div>
-                    <div className='flex flex-col justify-center items-center gap-2'>
-                        <Atropos shadow={false} className="my-atropos shadow-md rounded-full">
-                            <div className="h-60 w-60 rounded-full overflow-hidden">
-                                <img
-                                src='https://res.cloudinary.com/dhqudb28a/image/upload/v1697066819/lara_fd5dtn.png'
-                                alt="Imagen de Lara María De Cillis"
-                                className=' duration-500 w-full h-full object-cover'
-                                />
-                            </div>
-                        </Atropos>
-                        <div className='flex flex-col justify-center items-center'>
-                            <a className="text-lg font-bold text-[#218B7D] cursor-pointer hover:text-[#FE904D] duration-300 dark:text-gray-100" href="https://www.linkedin.com/in/laradecillis/">
-                            Lara María De Cillis
-                            </a>
-                            <p className="text-center opacity-60 font-lora italic">{t("operation")}</p>
-                        </div>
-                    </div>
-                </div>
+            <section className='h-full flex flex-col items-center justify-center'>
+                <Atropos shadow={false}>
+                    <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1709396883/Recurso_6_tphjac.svg" alt="" className='w-[30rem]'/>
+                </Atropos>
+                <p className='text-center w-[50rem] pt-10 font-semibold leading-loose'>{t("aboutUsInfo")}</p>
             </section>
             <div className="relative hidden lg:flex">
                 {/* <img
