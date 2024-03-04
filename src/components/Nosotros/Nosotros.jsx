@@ -28,8 +28,8 @@ const Nosotros = () => {
                 alt=""
                 className="hidden lg:flex w-[18rem] absolute left-0 top-0 z-10"
             />
-            <section data-aos='zoom-in' className='h-full flex flex-col gap-5 items-center justify-center z-30'>
-                <Atropos shadow={false} className='hidden sm:flex'>
+            <section data-aos='zoom-in' className='h-full flex flex-col gap-5 items-center justify-center z-10'>
+                <Atropos shadow={false} className='hidden lg:flex'>
                     <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1709397552/Group_14_smyrle.svg" alt="" className='w-[30rem]'/>
                 </Atropos>
                 <div className='lg:hidden'>
