@@ -1,13 +1,18 @@
 import emailjs from '@emailjs/browser';
 import { useState, useRef } from 'react';
-// import Aos from 'aos';
-// import 'aos/dist/aos.css';
-// import { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import Swal from 'sweetalert2';
 
 
 const ContactUs = () => {
+
+  useEffect(()=>{
+    Aos.init({duration: 2000});
+    Aos.refresh();
+  },[])
 
   const { t, i18n } = useTranslation()
 
@@ -57,7 +62,7 @@ const ContactUs = () => {
 
 
     return (
-      <div className='py-20 w-full z-0 bg-[url("https://res.cloudinary.com/dreso9ye9/image/upload/v1709128519/Animated_Shape_1_1_lhixt9.svg")] bg-cover bg-top ' id='contact'>
+      <div className='py-20 w-full z-0 bg-[url("https://res.cloudinary.com/dreso9ye9/image/upload/v1709128519/Animated_Shape_1_1_lhixt9.svg")] bg-cover bg-top ' id='contact' data-aos="fade-up">
         <div className="flex flex-col items-center justify-center gap-7">
           <div className="flex flex-col justify-center items-center gap-4 py-10">
             <h2 className="text-[#218B7D] text-4xl font-extrabold">
@@ -68,7 +73,7 @@ const ContactUs = () => {
             </h3>
           </div>
           <div>
-          <form ref={refForm} onSubmit={handleSubmit} className='w-[17rem] sm:w-[22rem] md:w-[30rem]'>
+          <form ref={refForm} onSubmit={handleSubmit} className='w-[17rem] sm:w-[22rem] md:w-[30rem]' >
               <div className="mb-4">
                 <label
                   htmlFor="username"

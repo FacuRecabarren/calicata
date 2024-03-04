@@ -12,7 +12,7 @@ const Nosotros = () => {
 
     
   useEffect(()=>{
-    Aos.init({duration: 500});
+    Aos.init({duration: 2000});
     Aos.refresh();
   },[])
 
