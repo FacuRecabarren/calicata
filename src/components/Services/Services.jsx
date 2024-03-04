@@ -1,13 +1,21 @@
+import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Services = () => {
 
   const { t } = useTranslation()
 
+  useEffect(()=>{
+    Aos.init({duration: 3000});
+    Aos.refresh();
+  },[])
+
   return (
     <div id='servicios' className='pt-20 relative bg-white lg:bg-[url(https://res.cloudinary.com/dreso9ye9/image/upload/v1709125624/Group_13_1_vgyvfn.svg)] bg-cover bg-no-repeat bg-bottom bg-[url(https://res.cloudinary.com/dreso9ye9/image/upload/v1709083896/Group_13_zsavu4.svg)]'>
       <div className='flex flex-col lg:flex lg:flex-row justify-center items-center gap-10 lg:gap-10 px-10'>
-        <a href="/travel">
+        <a data-aos='fade-up' href="/travel">
           <section className='flex flex-col justify-center items-center gap-10 pt-5 pb-10 shadow-2xl rounded-xl bg-white transform hover:scale-105 duration-300'>
             <div className='flex flex-col justify-center items-center gap-6'>
               <div className='flex justify-center items-center w-full'>
@@ -18,7 +26,7 @@ const Services = () => {
             </div>
           </section>
         </a>
-        <a href="/excursions">  
+        <a data-aos='fade-up' href="/excursions">  
           <section className='flex flex-col justify-center items-center gap-10 pt-5 pb-10 shadow-2xl rounded-xl bg-white transform hover:scale-105 duration-300'>
             <div className='flex flex-col justify-center items-center gap-6'>
               <div className='flex justify-center items-center w-full'>
@@ -29,7 +37,7 @@ const Services = () => {
             </div>
           </section>
         </a>
-        <a href="/events">
+        <a data-aos='fade-up' href="/events">
           <section className='flex flex-col justify-center items-center gap-10 pt-5 pb-10 shadow-2xl rounded-xl bg-white transform hover:scale-105 duration-300'>
             <div className='flex flex-col justify-center items-center gap-6'>
               <div className='flex justify-center items-center w-full'>
