@@ -5,6 +5,8 @@ import { ImagesSlider } from "../ui/images-slider";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import { PromosSlider } from "../ui/images-slider-promos";
+import promos from '../../utils/promos.json'
 
 const Hero = () => {
 
@@ -25,8 +27,8 @@ const Hero = () => {
   
   return (
     <div data-aos='fade' className='h-screen flex flex-col lg:flex lg:flex-row lg:justify-start justify-center items-center relative' id="home">
-        <section className='lg:w-[50%] lg:pl-20 flex justify-center lg:justify-start items-center z-10'>
-          <div data-aos='fade-up' className='flex flex-col items-center justify-center lg:items-start gap-8 px-10 lg:px-0'>
+        <section className='w-full lg:pl-20 flex justify-center lg:justify-start items-center z-10'>
+          <div data-aos='fade-up' className='flex flex-col items-center justify-center lg:items-start gap-8 px-10 lg:px-0 w-[80%]'>
               <h1 id="title" className='text-4xl sm:text-5xl w-full lg:text-7xl 2xl:text-8xl font-extrabold text-[#FCCC71] m-0 text-center lg:text-start sm:px-10 lg:px-0'>{t("title")}</h1>
               <p className="text-white font-lora italic text-center lg:text-start">{t("secondTitle")}</p>
               <a href='#servicios' className='flex gap-2 justify-center items-center py-3 px-10 lg:px-6 text-lg sm:text-xl font-bold bg-transparent border-4 border-[#ffffff] text-[#FCCC71] hover:bg-[#FCCC71] hover:text-white hover:scale-105 duration-500 rounded-xl'>{t("packages")}<IoArrowDownOutline className="text-xl"/></a>
@@ -49,20 +51,30 @@ const Hero = () => {
                 }}
                 className="z-50 flex flex-col justify-center items-center w-full"
               >
-                {/* <motion.p className="font-bold text-xl md:text-6xl text-center bg-clip-text text-transparent bg-gradient-to-b from-[#FCCC71] to-[#ffdfa4] py-4">
-                PROMOS
-                </motion.p>
-                <button className="px-4 py-2 backdrop-blur-sm border bg-[#FCCC71] bg-opacity-40 border-[#FCCC71] text-white text-center rounded-full relative mt-4">
-                  <span>Consultar →</span>
-                  <div className="absolute inset-x-0  h-px -bottom-px bg-gradient-to-r w-3/4 mx-auto from-transparent via-gray-600 to-transparent" />
-                </button> */}
               </motion.div>
             </ImagesSlider>
           </div>
         </section>
-        {/* <section className="h-screen grayscale w-1/2 flex justify-center items-center">
-            <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709224855/RECA_S-mofsdfdified_gavhqs.png" alt="" className="w-[30rem]"/>
-        </section> */}
+        <section className="h-screen w-1/2 flex justify-center items-center border-8 border-[#FCCC71] rounded-l-full">
+          <PromosSlider promos={promos}>
+              <motion.div
+                initial={{
+                  opacity: 0,
+                  y: -80,
+                }}
+                animate={{
+                  opacity: 1,
+                  y: 0,
+                }}
+                transition={{
+                  duration: 1,
+                }}
+                className="z-50 flex flex-col justify-center items-center w-full"
+              >
+                {/* Contenido adicional dentro del slider */}
+              </motion.div>
+            </PromosSlider>
+        </section>
     </div>
   )
 }

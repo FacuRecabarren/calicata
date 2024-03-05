@@ -16,16 +16,6 @@ const Eventos = () => {
     const { t, i18n } = useTranslation()
     const [selectedTheme, setSelectedTheme] = useState(null);
 
-    const handleConsultClick = (idea) => {
-    
-        const message = `Hola, ¿cómo están? Me gustaría tener más información sobre el paquete "${idea.description}"`;
-      
-        const encodedMessage = encodeURIComponent(message);
-    
-        const whatsappLink = `https://wa.me/+5492612457513?text=${encodedMessage}`;
-    
-        window.location.href = whatsappLink;
-    };
 
     useEffect(() => {
         const selectedLanguage = localStorage.getItem("selectedLanguage");
@@ -52,13 +42,15 @@ const Eventos = () => {
             id: 1,
             image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171618/WhatsApp_Image_2024-02-28_at_12.49.38_waqeuy.jpg',
             description: "Formula 1 Sao Paulo",
-            target: 1
+            target: 1,
+            link: "formula1"
         },
         {
             id: 2,
             image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171614/WhatsApp_Image_2024-02-28_at_14.27.50_ao9hzy.jpg',
             description: "Selección Argentina USA 2024",
-            target: 2
+            target: 2,
+            link: "futbol"
         },
     ]
 
@@ -112,10 +104,9 @@ const Eventos = () => {
                 {ideas.map(idea => (
                     <div key={idea.id} className='group/item relative flex justify-center items-center hover:scale-105 duration-500'>
                         <img src={idea.image} alt="" className='w-[20rem] h-[30rem] object-cover object-top shadow-lg group/edit group-hover/item:grayscale duration-500'/>
-                        <button onClick={() => handleConsultClick(idea)} className='cursor-alias invisible group/edit group-hover/item:visible absolute flex flex-col justify-center items-center gap-2 bg-opacity-60 bg-[#218B7D] p-10 rounded-full'>
-                            <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1708744509/WhatsApp_icon.png_yfozry.webp" alt="" className='w-12 h-12 '/>
+                        <a href={`/events/${idea.link}`} className='cursor-alias invisible group/edit group-hover/item:visible absolute flex flex-col justify-center items-center gap-2 bg-opacity-60 bg-[#218B7D] p-10 rounded-full'>
                             <p className='flex justify-center items-center gap-2 font-bold text-white'>{t("consult")}</p>
-                        </button>
+                        </a>
                     </div>
                 ))}
             </section>
@@ -127,10 +118,10 @@ const Eventos = () => {
               .map((idea) => (
                     <div key={idea.id} className='group/item relative flex justify-center items-center hover:scale-105 duration-500'>
                         <img src={idea.image} alt="" className='w-[20rem] h-[30rem] object-cover object-top shadow-lg group/edit group-hover/item:grayscale duration-500'/>
-                        <button onClick={() => handleConsultClick(idea)} className='cursor-alias invisible group/edit group-hover/item:visible absolute flex flex-col justify-center items-center gap-2 bg-opacity-60 bg-[#218B7D] p-10 rounded-full'>
+                        <a href={`/events/${idea.link}`} className='cursor-alias invisible group/edit group-hover/item:visible absolute flex flex-col justify-center items-center gap-2 bg-opacity-60 bg-[#218B7D] p-10 rounded-full'>
                             <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1708744509/WhatsApp_icon.png_yfozry.webp" alt="" className='w-12 h-12 '/>
                             <p className='flex justify-center items-center gap-2 font-bold text-white'>{t("consult")}</p>
-                        </button>
+                        </a>
                     </div>
               ))}
           </section>

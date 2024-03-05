@@ -32,7 +32,7 @@ const Services = () => {
               <div className='flex justify-center items-center w-full'>
                 <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709305757/Tu_Historia_Promo_en_Compras_Online_Ilustrado_Lila_2_-modified_njsydp.webp" alt=""/>
               </div>
-              <h2 className='text-[#218B7D] border-b-4 border-b-[#218B7D] rounded-lg px-4 py-2 font-bold text-2xl'>{t("excursions")}</h2>
+              <h2 className='text-[#218B7D] border-b-4 border-b-[#218B7D] rounded-lg px-4 py-2 font-bold text-2xl'>Mendoza</h2>
               <p className='px-12 text-center text-sm font-medium opacity-50 font-lora italic'>{t("excursionsInfo")}</p>
             </div>
           </section>
