@@ -42,8 +42,7 @@ const Navbar = () => {
     {id:1, name: <span>{t("home")}</span>, href: '/', current: current === 1  },
     {id:2, name: <span>{t("service")}</span>, href: '/#servicios', current: current === 2 },
     {id:3, name: <span>{t("aboutUs")}</span>, href: '/#nosotros', current: current === 3 },
-    {id:4, name: <span>{t("reviews")}</span>, href: '/#testimonios', current: current === 4 },
-    {id:5, name: <span>{t("contact")}</span>, href: '/#contact', current: current === 5 },
+    {id:4, name: <span>{t("contact")}</span>, href: '/#contact', current: current === 4 },
   ]
 
 

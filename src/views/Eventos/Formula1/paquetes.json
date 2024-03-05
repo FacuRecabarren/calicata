@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
+        "title": "Formula 1 Mendoza",
+        "country": "Mendoza",
+        "initialDate": "marzo 2024",
+        "finishDate": "septiembre 2024",
+        "price": "613",
+        "nights": 7
+    },
+    {
+        "id": 2,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
+        "title": "Formula 1 Brasil",
+        "country": "Brasil",
+        "initialDate": "marzo 2024",
+        "finishDate": "septiembre 2024",
+        "price": "613",
+        "nights": 3
+    },
+    {
+        "id": 3,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
+        "title": "Formula 1 Monaco",
+        "country": "Monaco",
+        "initialDate": "marzo 2024",
+        "finishDate": "septiembre 2024",
+        "price": "613",
+        "nights": 5
+    }
+]
