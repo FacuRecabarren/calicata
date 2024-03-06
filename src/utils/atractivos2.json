@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709674088/Agencia%20viajes/47105_k39jlt.webp",
+        "title": "CONOCÉ MENDOZA",
+        "link": "/events/futbol"
+    },
+    {
+        "id": 2,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709675971/Agencia%20viajes/f79f73eaf207ceb2746843147c0b6e53_chmcw3.jpg",
+        "title": "CONOCÉ TURQUÍA",
+        "link": "/events/futbol"
+    },
+    {
+        "id": 3,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709676273/Agencia%20viajes/7b9ca73e2edfc93e1cb337e0fc4a55e1_zt60jd.jpg",
+        "title": "FORMULA 1",
+        "link": "/events/formula 1"
+    },
+    {
+        "id": 4,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709676346/Agencia%20viajes/f1f63c98bde90e14a5903f94d1972432_zj86u3.jpg",
+        "title": "RECITALES",
+        "link": "/events/futbol"
+    }
+]

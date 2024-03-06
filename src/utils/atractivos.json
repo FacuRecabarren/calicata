@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709682101/Agencia%20viajes/wp3119472_kso98a.jpg",
+        "title": "CONOCÉ MENDOZA",
+        "link": "/events/futbol"
+    },
+    {
+        "id": 2,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709682184/Agencia%20viajes/seleccion-argentina-con-trofeo-copa-mundial-fifa-11268_xxnmvd.webp",
+        "title": "SEGUÍ A LA SELECCIÓN",
+        "link": "/events/futbol"
+    },
+    {
+        "id": 3,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709682342/Agencia%20viajes/home-monteviejo_xy2nk9.jpg",
+        "title": "BODEGAS MENDOZA",
+        "link": "/events/futbol"
+    },
+    {
+        "id": 4,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709682433/Agencia%20viajes/wc1792225_n5tb2p.jpg",
+        "title": "FORMULA 1",
+        "link": "/events/futbol"
+    },
+    {
+        "id": 5,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709682565/Agencia%20viajes/zachary-smith-zorgErvL_Fs-unsplash_ub5ipk.jpg",
+        "title": "CONCIERTOS",
+        "link": "/events/futbol"
+    }
+]
