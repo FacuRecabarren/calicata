@@ -6,6 +6,7 @@ import Viajes from "./views/Viajes/Viajes"
 import Excursiones from "./views/Excursiones/Excursiones"
 import Eventos from "./views/Eventos/Eventos"
 import Formula1 from "./views/Eventos/Formula1/Formula1"
+import DetailFormula1 from "./views/Eventos/Formula1/DetailFormula1/DetailFormula1"
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path='/excursions' element={<Excursiones/>}/>
         <Route path='/events' element={<Eventos/>}/>
         <Route path='/events/formula1' element={<Formula1/>}/>
+        <Route path='/events/formula1/:id' element={<DetailFormula1/>} />
       </Routes>
       <Footer/>
     </BrowserRouter>

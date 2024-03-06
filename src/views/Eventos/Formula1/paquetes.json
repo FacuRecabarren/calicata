@@ -2,31 +2,43 @@
     {
         "id": 1,
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
-        "title": "Formula 1 Mendoza",
-        "country": "Mendoza",
+        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709690723/raphael-nogueira-0phxdasdsaYpfFHpg-unsplash_nzshqd.jpg",
+        "title": "Formula 1 Sao Paulo",
+        "country": "Sao Paulo, Brasil",
         "initialDate": "marzo 2024",
         "finishDate": "septiembre 2024",
+        "galleryImages": ["https://res.cloudinary.com/dreso9ye9/image/upload/v1709687102/raphael-nogueira-0phxYpfFHpg-unsplash_idpwg1.jpg","https://res.cloudinary.com/dreso9ye9/image/upload/v1709696114/brazil-sao-paulo-r-jose-maria-lisboa-drone_u88das.webp","https://res.cloudinary.com/dreso9ye9/image/upload/v1709696111/581842_qaq3lg.webp","https://res.cloudinary.com/dreso9ye9/image/upload/v1709698049/bkg-home5_jvqdrl.webp"],
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero animi impedit ea non praesentium, illo sed, porro, quod dolorum numquam adipisci odit? Reiciendis, adipisci ipsum accusantium sed odio sunt eos!",
         "price": "613",
+        "persons": "2",
         "nights": 7
     },
     {
         "id": 2,
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
+        "coverImage": "",
         "title": "Formula 1 Brasil",
         "country": "Brasil",
         "initialDate": "marzo 2024",
         "finishDate": "septiembre 2024",
+        "galleryImages": ["","","",""],
+        "description": "loremddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
         "price": "613",
+        "persons": "2",
         "nights": 3
     },
     {
         "id": 3,
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
+        "coverImage": "",
         "title": "Formula 1 Monaco",
         "country": "Monaco",
         "initialDate": "marzo 2024",
         "finishDate": "septiembre 2024",
+        "galleryImages": ["","","",""],
+        "description": "loremddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
         "price": "613",
+        "persons": "2",
         "nights": 5
     }
 ]
