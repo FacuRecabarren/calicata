@@ -7,16 +7,16 @@
     "lang": "Language",
     
     
-    "title": "Viajar, disfrutar y vivir una vida nueva y plena",
-    "secondTitle": "Descubre el mundo con nosotros. Viajes hechos a medida para crear recuerdos inolvidables.",
-    "packages": "Ver paquetes",
+    "title": "Disfrutá la vida viajando...el mundo está cerca",
+    "secondTitle": "Descubrí el mundo con nosotros. Viajes hechos a medida para crear recuerdos inolvidables.",
+    "packages": "Ideas de viajes",
 
 
 
     "travel" : "Viajes",
-    "travelInfo": "Descubre nuestra amplia gama de paquetes de viaje especialmente diseñados para ti",
+    "travelInfo": "Descubrí nuestra amplia gama de paquetes de viaje especialmente diseñados para vos",
     "travelUppercase": "VIAJES",
-    "travelInsideInfo": "Descubre las ideas de viajes que tenemos para ti",
+    "travelInsideInfo": "Descubrí las ideas de viajes que tenemos para vos",
     "family": "Familia",
     "beach": "Playa",
     "nature": "Naturaleza",
@@ -24,9 +24,9 @@
     "brazil": "Brasil",
     "argentina":"Argentina",
     "excursions": "Excursiones",
-    "excursionsInfo": "Descubre una variedad de emocionantes excursiones en la provincia de Mendoza",
+    "excursionsInfo": "Descubrí una variedad de emocionantes excursiones en la provincia de Mendoza",
     "excursionsUppercase": "EXCURSIONES",
-    "excursionsInsideInfo": "Descubre las diferentes excursiones que tenemos para ti",
+    "excursionsInsideInfo": "Descubrí las diferentes excursiones que tenemos para vos",
     "wineries":"Bodegas",
     "theaters":"Teatros",
     "trailRides": "Cabalgatas",
@@ -34,9 +34,9 @@
     "hills": "Cerros",
     "museums": "Museos",
     "events": "Eventos",
-    "eventsInfo": "Explora y encuentra el evento que se ajuste perfectamente a tus preferencias y necesidades",
+    "eventsInfo": "Explorá y encontrá el evento que se ajuste perfectamente a tus preferencias y necesidades",
     "eventsUppercase": "EVENTOS",
-    "eventsInsideInfo": "Descubre todos los tipos de eventos que tenemos",
+    "eventsInsideInfo": "Descubrí todos los tipos de eventos que tenemos",
     "futbol": "Fútbol",
     "whoAreWe" : "¿Quiénes somos?",
     "travelAgent": "Agente de Viajes",
@@ -48,7 +48,7 @@
     "aboutUsInfo":"En la agencia de viajes Calicata, nos enorgullecemos de ser vendedores experimentados de paquetes turísticos. Con una pasión por la exploración y un compromiso de brindar experiencias inolvidables, nos esforzamos por adaptar cada viaje a las preferencias únicas de nuestros clientes. Nuestro equipo está comprometido en asegurar arreglos de viaje sin contratiempos, dejándote libre para concentrarte en crear recuerdos que perdurarán toda la vida.",
     
 
-    "contactUs": "Contáctanos",
+    "contactUs": "Contactanos",
     "name": "Tu nombre *",
     "placeholderName": "ej. Juan Pérez",
     "email": "Correo electrónico *",
@@ -56,7 +56,7 @@
     "placeholderMessage": "Mensaje...",
     "placeholderMail": "hola@correo.com",
     "send": "Enviar mensaje",
-    "consultUs": "Consulta tus dudas y nosotros te ayudamos",
+    "consultUs": "Consultá tus dudas y nosotros te ayudamos",
 
     
     "rights": "Todos los derechos reservados.",

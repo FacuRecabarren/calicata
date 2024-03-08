@@ -7,6 +7,8 @@ import Excursiones from "./views/Excursiones/Excursiones"
 import Eventos from "./views/Eventos/Eventos"
 import Formula1 from "./views/Eventos/Formula1/Formula1"
 import DetailFormula1 from "./views/Eventos/Formula1/DetailFormula1/DetailFormula1"
+import Futbol from "./views/Eventos/Futbol/Futbol"
+import DetailFutbol from "./views/Eventos/Futbol/DetailFutbol/DetailFutbol"
 
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
         <Route path='/events' element={<Eventos/>}/>
         <Route path='/events/formula1' element={<Formula1/>}/>
         <Route path='/events/formula1/:id' element={<DetailFormula1/>} />
+        <Route path='/events/futbol' element={<Futbol/>}/>
+        <Route path='/events/futbol/:id' element={<DetailFutbol/>} />
       </Routes>
       <Footer/>
     </BrowserRouter>

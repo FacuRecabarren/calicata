@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import paquetes from '../Formula1/paquetes.json';
+import paquetes from '../Futbol/paquetes.json';
 import { FaRegMoon } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import Filters from '@/components/Filters/Filters';
 
-const Formula1 = () => {
+const Futbol = () => {
   const [filters, setFilters] = useState({
     country: null,
     oneLodgings: false,
@@ -41,8 +41,8 @@ const Formula1 = () => {
   return (
     <div className='bg-[#f2f2f2]'>
       <div className='relative'>
-        <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709682433/Agencia%20viajes/wc1792225_n5tb2p.jpg" alt="" className='h-[20rem] w-full object-cover object-center'/>
-        <h2 className='text-center w-full py-2 px-4 text-white font-bold text-3xl shadow-xl bg-[#000000] bg-opacity-80 absolute bottom-0'>PAQUETES FORMULA 1</h2>
+        <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709784366/emilio-garcia-AWdCgDDedH0-unsplash_z1fjma.webp" alt="" className='h-[20rem] w-full object-cover object-top'/>
+        <h2 className='text-center w-full py-2 px-4 text-white font-bold text-3xl shadow-xl bg-[#000000] bg-opacity-80 absolute bottom-0'>PAQUETES FÚTBOL</h2>
       </div>
       <div className='py-20 px-10 h-full w-full flex justify-center items-start gap-10'>
         <Filters onFilterChange={handleFilterChange} countries={countries} filters={filters} setFilters={setFilters}/>
@@ -54,7 +54,7 @@ const Formula1 = () => {
             </div>
           ) : (
             filteredPaquetes.map(paquete => (
-              <Link to={`/events/formula1/${paquete.id}`} key={paquete.id} className='border-t-8 border-[#FE904D] flex justify-start items-center gap-2 bg-white rounded-xl shadow-xl h-[15rem] w-[50rem] hover:scale-[1.01] duration-300'>
+              <Link to={`/events/futbol/${paquete.id}`} key={paquete.id} className='border-t-8 border-[#FE904D] flex justify-start items-center gap-2 bg-white rounded-xl shadow-xl h-[15rem] w-[50rem] hover:scale-[1.01] duration-300'>
                 <div className='w-[40rem] h-full'>
                   <img src={paquete.galleryImages[0]} alt="" className='w-full h-full rounded-l-lg object-cover'/>
                 </div>
@@ -87,4 +87,4 @@ const Formula1 = () => {
   );
 };
 
-export default Formula1;
+export default Futbol;
