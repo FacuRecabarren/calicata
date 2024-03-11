@@ -2,13 +2,13 @@
     {
       "id": 1,
       "description": "USA 2024 | SEGUÍ A LA SELECCIÓN",
-      "msgWpp": "USA 2024 | Selección Argentina",
+      "link": "/events/futbol",
       "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709598193/21ec050a40c8062ab6d890ae299a1879_p41vfh.jpg"
     },
     {
       "id": 2,
       "description": "SAO PAULO | FORMULA 1",
-      "msgWpp": "SAO PAULO | FORMULA 1",
+      "link": "/events/formula1",
       "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709218062/bill-stephan-Y1QvYpD7dBU-unsplash_asrssw.jpg"
     }
   ]

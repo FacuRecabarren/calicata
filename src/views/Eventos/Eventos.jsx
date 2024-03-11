@@ -61,9 +61,9 @@ const Eventos = () => {
   return (
     <div>
         <div className='h-[30rem] relative flex flex-col justify-center items-center gap-2'>
-            <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp" alt="" className='w-full h-full object-cover absolute top-0 -z-10'/>
+            <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709917672/Dise%C3%B1o_sin_t%C3%ADtulo_1_loqvfo.webp" alt="" className='w-full h-full object-cover object-center absolute top-0 -z-10'/>
             <h2 id='title' className='text-5xl lg:text-7xl text-[#ffffff] font-extrabold'>{t("eventsUppercase")}</h2>
-            <p className='text-[#ffffff] bg-[#218B7D] rounded-xl p-2 bg-opacity-45 font-lora italic font-bold text-base lg:text-xl'>{t("eventsInsideInfo")}</p>
+            <p className='text-[#ffffff] bg-[#218B7D] rounded-xl p-2 bg-opacity-80 font-lora italic font-bold text-base lg:text-xl'>{t("eventsInsideInfo")}</p>
         </div>
         <section className='py-10 px-20 flex flex-col justify-center items-center gap-10 shadow-xl'>
             <Carousel
@@ -116,13 +116,12 @@ const Eventos = () => {
             {ideas
               .filter((idea) => selectedTheme === null || idea.target === selectedTheme)
               .map((idea) => (
-                    <div key={idea.id} className='group/item relative flex justify-center items-center hover:scale-105 duration-500'>
-                        <img src={idea.image} alt="" className='w-[20rem] h-[30rem] object-cover object-top shadow-lg group/edit group-hover/item:grayscale duration-500'/>
-                        <a href={`/events/${idea.link}`} className='cursor-alias invisible group/edit group-hover/item:visible absolute flex flex-col justify-center items-center gap-2 bg-opacity-60 bg-[#218B7D] p-10 rounded-full'>
-                            <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1708744509/WhatsApp_icon.png_yfozry.webp" alt="" className='w-12 h-12 '/>
-                            <p className='flex justify-center items-center gap-2 font-bold text-white'>{t("consult")}</p>
-                        </a>
-                    </div>
+                <div key={idea.id} className='group/item relative flex justify-center items-center hover:scale-105 duration-500'>
+                    <img src={idea.image} alt="" className='w-[20rem] h-[30rem] object-cover object-top shadow-lg group/edit group-hover/item:grayscale duration-500'/>
+                    <a href={`/events/${idea.link}`} className='cursor-alias invisible group/edit group-hover/item:visible absolute flex flex-col justify-center items-center gap-2 bg-opacity-60 bg-[#218B7D] p-10 rounded-full'>
+                        <p className='flex justify-center items-center gap-2 font-bold text-white'>{t("consult")}</p>
+                    </a>
+                </div>
               ))}
           </section>
         )}

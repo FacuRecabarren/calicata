@@ -1,216 +1,106 @@
-import React, { useEffect, useState } from 'react'
-import { Card, CardContent } from "@/components/ui/card"
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel"
-import { MdFamilyRestroom } from "react-icons/md";
-import { FaUmbrellaBeach, FaTree, FaCity  } from "react-icons/fa6";
-import { LuPartyPopper } from "react-icons/lu";
-import { PiWineFill } from "react-icons/pi";
-import { useTranslation } from 'react-i18next';
-
+import React, { useState } from 'react';
+import paquetes from '../Viajes/viajes.json';
+import { FaRegMoon } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
+import Filters from '@/components/Filters/Filters';
+import { IoBedOutline } from 'react-icons/io5';
+import { FaPersonBiking } from 'react-icons/fa6';
 
 const Viajes = () => {
+  const [filters, setFilters] = useState({
+    country: null,
+    oneLodgings: false,
+    moreThanOneLodgings: false,
+    oneNight: false,
+    moreThanOneNight: false,
+    lessThan1500: false,
+    moreThan1500: false
+  });
 
-    const { t, i18n } = useTranslation()
+  console.log(filters);
 
-    const [selectedTheme, setSelectedTheme] = useState(null);
+  const countries = Array.from(new Set(paquetes.map(paquete => paquete.country)));
 
-    const handleConsultClick = (idea) => {
-    
-        const message = `Hola, ¿cómo están? Me gustaría tener más información sobre el paquete "${idea.description}"`;
-      
-        const encodedMessage = encodeURIComponent(message);
-    
-        const whatsappLink = `https://wa.me/+5492612457513?text=${encodedMessage}`;
-    
-        window.location.href = whatsappLink;
-    };
+  const handleFilterChange = (filterType, value, value2) => {
+    setFilters(prevFilters => ({
+      ...prevFilters,
+      [filterType]: value,
+      // Si el tipo de filtro es 'country', actualiza también el valor del país
+      country: filterType === 'country' ? value2 : prevFilters.country
+    }));
+  };
 
-    useEffect(() => {
-        const selectedLanguage = localStorage.getItem("selectedLanguage");
-        if (selectedLanguage) {
-            i18n.changeLanguage(selectedLanguage);
-        }
-    }, []); // Run only once on component mount
-
-    const temas = [
-        {
-            id: 1,
-            name: <span>{t("family")}</span>,
-            icono: <MdFamilyRestroom/>
-        },
-        {
-            id: 2,
-            name: <span>{t("beach")}</span>,
-            icono: <FaUmbrellaBeach/>
-        },
-        {
-            id: 3,
-            name: <span>{t("nature")}</span>,
-            icono: <FaTree/>
-        },
-        {
-            id: 4,
-            name: <span>{t("cities")}</span>,
-            icono: <FaCity/>
-        },
-    ]
-
-    const ideas = [
-        {
-            id: 1,
-            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171613/WhatsApp_Image_2024-02-28_at_20.02.44_e4zem0.jpg',
-            description: "Turquía: salidas junio a octubre",
-            target: 4
-        },
-        {
-            id: 2,
-            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171613/WhatsApp_Image_2024-02-28_at_20.02.33_kqtlt0.jpg',
-            description: "Turquía: salidas 07 JUN | 01-07-25 JUL | 03-14-21 AGO | 04-14-20-25-26 SEP | 03-08-14 OCT 2024",
-            target: 4
-        },
-        {
-            id: 3,
-            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171614/WhatsApp_Image_2024-02-28_at_17.53.59_rjdivy.jpg',
-            description: "Grecia y Turquía: salida 31 de mayo 2024",
-            target: 4
-        },
-        {
-            id: 4,
-            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171614/WhatsApp_Image_2024-02-28_at_12.50.21_1_oxxukj.jpg',
-            description: "Maceió: salida desde Buenos Aires",
-            target: 2 
-        },
-        {
-            id: 5,
-            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171614/WhatsApp_Image_2024-02-28_at_12.50.22_x6rxtz.jpg',
-            description: "Samaná: salida desde Buenos Aires",
-            target: 2
-        },
-        {
-            id: 6,
-            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171614/WhatsApp_Image_2024-02-28_at_12.50.21_veaofp.jpg',
-            description: "Egipto 2x1: salidas martes y domingos del 1 al 22 MAR y del 9 ABR al 30 SEP",
-            target: 4
-        },
-        {
-            id: 7,
-            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171615/WhatsApp_Image_2024-02-28_at_12.50.20_1_bejc2r.jpg',
-            description: "Punta Cana - Bayahibe: 2 al 13 de junio",
-            target: 2
-        },
-        {
-            id: 8,
-            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171615/WhatsApp_Image_2024-02-28_at_12.50.20_szztrj.jpg',
-            description: "Circuitos Exóticos: Turquía premium",
-            target: 4
-        },
-        {
-            id: 9,
-            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171616/WhatsApp_Image_2024-02-28_at_12.50.19_1_tksliy.jpg',
-            description: "Circuitos en Europa: Europa del este",
-            target: 4
-        },
-        {
-            id: 10,
-            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171617/WhatsApp_Image_2024-02-28_at_17.53.43_clgh2i.jpg',
-            description: "San Andrés: salida 7 de noviembre de 2024",
-            target: 2
-        },
-        {
-            id: 11,
-            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171617/WhatsApp_Image_2024-02-28_at_12.50.19_pifqrg.jpg',
-            description: "Circuitos en Europa: Paris, Alpes, Italia y Barcelona",
-            target: 4
-        },
-        {
-            id: 12,
-            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171617/WhatsApp_Image_2024-02-28_at_12.50.18_qfkosu.jpg',
-            description: "Circuitos en Europa: gran tour de Europa",
-            target: 4
-        },
-    ]
-
-    const handleThemeClick = (theme) => {
-        setSelectedTheme(theme);
-      };
+  const filteredPaquetes = paquetes.filter(paquete => {
+    return (
+      (!filters.country || paquete.country === filters.country) &&
+      (!filters.oneLodgings || paquete.lodgings === 1) &&
+      (!filters.moreThanOneLodgings || paquete.lodgings > 1) &&
+      (!filters.oneNight || paquete.nights === 1) &&
+      (!filters.moreThanOneNight || paquete.nights > 1) &&
+      (!filters.lessThan1500 || paquete.price < 1500) &&
+      (!filters.moreThan1500 || paquete.price >= 1500)
+    );
+  });
 
   return (
-    <div>
-        <div className='h-[30rem] relative flex flex-col justify-center items-center gap-2'>
-            <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709168761/elizeu-dias-xarhNpLSHTk-unsplash_wjrjp0.jpg" alt="" className='w-full h-full object-cover absolute top-0 -z-10'/>
-            <h2 id='title' className='text-5xl lg:text-7xl text-[#ffffff] font-extrabold'>{t("travelUppercase")}</h2>
-            <p className='text-[#ffffff] bg-[#218B7D] rounded-xl p-2 bg-opacity-45 font-lora italic font-bold text-base lg:text-xl'>{t("travelInsideInfo")}</p>
-        </div>
-        <section className='py-10 px-20 flex flex-col justify-center items-center gap-10 shadow-xl'>
-            <Carousel
-            opts={{
-                align: "start",
-            }}
-            className="w-full h-full flex justify-center items-center gap-10"
-            >
-                <CarouselContent className='m-0'>
-                    {temas.map((tema) => (
-                    <CarouselItem key={tema.id} className="basis-1/2 md:basis-1/4 p-0 w-[10rem]">
-                        <Card className='bg-white flex justify-center items-center shadow-none border-none rounded-none'>
-                            <CardContent className="flex flex-col gap-2 items-center justify-center p-0 cursor-pointer hover:opacity-60 duration-300">
-                            <span
-                                key={tema.id}
-                                className={`cursor-pointer ${
-                                selectedTheme === tema.id ? "border-b-2 border-[#218B7D]" : "flex flex-col justify-center items-center gap-2"
-                                } flex flex-col justify-center items-center gap-2`}
-                                onClick={() => handleThemeClick(tema.id)}
-                            >
-                                <p className='text-xl text-white bg-[#218B7D] w-10 h-10 flex justify-center items-center rounded-full'>{tema.icono}</p>
-                                <h2 className='text-[#218B7D] font-bold'>{tema.name}</h2>
-                            </span>
-                            </CardContent>
-                        </Card>
-                    </CarouselItem>
-                    ))}
-                </CarouselContent>
-                <CarouselPrevious className='lg:ml-28 text-[#ffffff] w-10 h-10 bg-[#218B7D] shadow-xl border-[#218B7D] hover:bg-[#218b7d58] duration-300'/>
-                <CarouselNext className='lg:mr-28 text-[#ffffff] w-10 h-10 bg-[#218B7D] shadow-xl border-none border-[#218B7D] hover:bg-[#218b7d58] duration-300'/>
-            </Carousel>
-            {selectedTheme !== null && (
-                <button onClick={() => setSelectedTheme(null)} className='bg-[#218B7D] py-2 px-4 rounded-xl text-white font-bold hover:bg-[#218b7d58] duration-300'>{t("filter")}</button>
-            )}
+    <div className='bg-[#f2f2f2]'>
+      <div className='relative'>
+        <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709917944/Dise%C3%B1o_sin_t%C3%ADtulo_2_waupfa.webp" alt="" className='h-[25rem] w-full object-cover object-top'/>
+        <h2 className='text-center w-full py-2 px-4 text-white font-bold text-3xl shadow-xl bg-[#000000] bg-opacity-80 absolute bottom-0'>PAQUETES DE VIAJES</h2>
+      </div>
+      <div className='py-20 px-10 h-full w-full flex justify-center items-start gap-10'>
+        <Filters onFilterChange={handleFilterChange} countries={countries} filters={filters} setFilters={setFilters}/>
+        <section className='h-full w-[50rem] flex flex-col justify-center items-center gap-10'>
+          {filteredPaquetes.length === 0 ? (
+            <div className='flex flex-col justify-center items-center gap-5'>
+              <p className='bg-white font-semibold opacity-80 p-2 w-full text-center rounded-xl shadow-xl border-t-8 border-[#FE904D]'>No hay paquetes disponibles con los filtros seleccionados</p>
+              <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709871042/404-page-not-found-monochromatic-32679_db7xv6.svg" alt="" className='w-[25rem]'/>
+            </div>
+          ) : (
+            filteredPaquetes.map(paquete => (
+              <Link to={`/travel/${paquete.id}`} key={paquete.id} className='border-t-8 border-[#FE904D] flex justify-start items-center gap-2 bg-white rounded-xl shadow-xl h-[15rem] w-[50rem] hover:scale-[1.01] duration-300'>
+                <div className='w-[40rem] h-full'>
+                  <img src={paquete.galleryImages[0]} alt="" className='w-full h-full rounded-l-lg object-cover'/>
+                </div>
+                <section className='flex justify-between items-center h-full w-full gap-10 p-5'>
+                  <article className='flex flex-col justify-between items-start h-full'>
+                    <div>
+                      <h3 className='text-lg font-bold opacity-90 text-[#218B7D]'>{paquete.title}</h3>
+                      <p className='text-sm'><span className='font-semibold opacity-90'>Visitando:</span> {paquete.country}</p>
+                      <p className='text-sm opacity-90'><span className='font-semibold'>Desde</span> {paquete.initialDate} <span className='font-semibold'>Hasta</span> {paquete.finishDate}</p>
+                    </div>
+                    <div className='flex justify-start items-center gap-2 text-sm'>
+                      <div className='bg-[#FE904D] flex justify-center items-center gap-1 p-1.5 text-white font-medium rounded-md'>
+                        {paquete.nights}<FaRegMoon />
+                      </div>
+                      {paquete.lodgings > 0 && (
+                        <div className='bg-[#FE904D] flex justify-center items-center gap-1 p-1.5 text-white font-medium rounded-md'>
+                          {paquete.lodgings}<IoBedOutline/>
+                        </div>
+                      )}
+                      {paquete.circuits > 0 && (
+                        <div className='bg-[#FE904D] flex justify-center items-center gap-1 p-1.5 text-white font-medium rounded-md'>
+                          {paquete.circuits}<FaPersonBiking/>
+                        </div>
+                      )}
+                    </div>
+                  </article>
+                  <article className='flex flex-col justify-between items-end h-full'>
+                    <div className='flex flex-col justify-center items-end'>
+                      <p className='text-sm font-light'>Desde</p>
+                      <span className='text-lg font-bold opacity-90'>${paquete.price}</span>
+                      <p className='text-xs opacity-90'>por persona</p>
+                    </div>
+                    <button className='bg-[#218B7D] text-white py-2 px-4 rounded-md shadow-md text-sm font-medium uppercase duration-300 hover:bg-[#1A5D53]'>Detalle</button>
+                  </article>
+                </section>
+              </Link>
+            ))
+          )}
         </section>
-        {selectedTheme === null && (
-            <section className='flex justify-center items-center gap-5 flex-wrap py-10 px-10 bg-[#fe914d43]'>
-                {ideas.map(idea => (
-                    <div key={idea.id} className='group/item relative flex justify-center items-center hover:scale-105 duration-500'>
-                        <img src={idea.image} alt="" className='w-[20rem] h-[30rem] object-cover object-top shadow-lg group/edit group-hover/item:grayscale duration-500'/>
-                        <a onClick={() => handleConsultClick(idea)} className='cursor-alias invisible group/edit group-hover/item:visible absolute flex flex-col justify-center items-center gap-2 bg-opacity-60 bg-[#218B7D] p-10 rounded-full'>
-                            <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1708744509/WhatsApp_icon.png_yfozry.webp" alt="" className='w-12 h-12 '/>
-                            <p className='flex justify-center items-center gap-2 font-bold text-white'>{t("consult")}</p>
-                        </a>
-                    </div>
-                ))}
-            </section>
-        )}
-        {selectedTheme !== null && (
-            <section className="flex justify-center items-center gap-5 flex-wrap py-10 px-10 bg-[#fe914d43]">
-            {ideas
-              .filter((idea) => selectedTheme === null || idea.target === selectedTheme)
-              .map((idea) => (
-                    <div key={idea.id} className='group/item relative flex justify-center items-center hover:scale-105 duration-500'>
-                        <img src={idea.image} alt="" className='w-[20rem] h-[30rem] object-cover object-top shadow-lg group/edit group-hover/item:grayscale duration-500'/>
-                        <button onClick={() => handleConsultClick(idea)} className='cursor-alias invisible group/edit group-hover/item:visible absolute flex flex-col justify-center items-center gap-2 bg-opacity-60 bg-[#218B7D] p-10 rounded-full'>
-                            <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1708744509/WhatsApp_icon.png_yfozry.webp" alt="" className='w-12 h-12 '/>
-                            <p className='flex justify-center items-center gap-2 font-bold text-white'>{t("consult")}</p>
-                        </button>
-                    </div>
-              ))}
-          </section>
-        )}
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Viajes
+export default Viajes;

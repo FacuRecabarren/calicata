@@ -12,17 +12,6 @@ export const PromosSlider = ({
   const [loading, setLoading] = useState(false);
   const [loadedImages, setLoadedImages] = useState([]);
 
-  const handleConsultClick = (idea) => {
-    
-    const message = `Hola, ¿cómo están? Me gustaría tener más información sobre el paquete "${promos[currentIndex].msgWpp}"`;
-  
-    const encodedMessage = encodeURIComponent(message);
-
-    const whatsappLink = `https://wa.me/+5492612457513?text=${encodedMessage}`;
-
-    window.location.href = whatsappLink;
-};
-
   const handleNext = () => {
     setCurrentIndex((prevIndex) =>
       prevIndex + 1 === promos.length ? 0 : prevIndex + 1
@@ -111,7 +100,7 @@ export const PromosSlider = ({
             />
             <div className=" text-white z-20 flex flex-col justify-center items-center gap-4 w-full">
               <p className="text-lg font-semibold text-center bg-black bg-opacity-80 py-2 px-4 rounded-xl">{promos[currentIndex].description}</p>
-              <button onClick={handleConsultClick} className="flex justify-center items-center gap-2 bg-[#FCCC71] py-2 px-4 font-bold rounded-xl text-black hover:text-[#FCCC71] hover:bg-transparent border-4 border-[#FCCC71] duration-500">Consultar <FaExternalLinkAlt/></button>
+              <a href={promos[currentIndex].link} className="cursor-pointer flex justify-center items-center gap-2 bg-[#FCCC71] py-2 px-4 font-bold rounded-xl text-black hover:text-[#FCCC71] hover:bg-transparent border-4 border-[#FCCC71] duration-500">Consultar <FaExternalLinkAlt/></a>
             </div>
         </AnimatePresence>
       )}

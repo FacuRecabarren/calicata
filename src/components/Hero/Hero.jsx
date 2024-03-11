@@ -12,10 +12,13 @@ const Hero = () => {
 
   const images = [
     "https://res.cloudinary.com/dfschbyq2/image/upload/v1708984819/natalya-zaritskaya-SIOdjcYotms-unsplash_artxcj.jpg",
+    "https://res.cloudinary.com/dreso9ye9/image/upload/v1709926535/foto-de-la-bodega-1024x683-1_v4pg0y.jpg",
     "https://res.cloudinary.com/dreso9ye9/image/upload/v1709222233/elizeu-dias-RN6ts8IZ4_0-unsplash_zlwv0f.webp",
-    "https://res.cloudinary.com/dreso9ye9/image/upload/v1709350380/engin-yapici-WA1u0scVLZU-unsplash_rtkwmd.webp",
-    "https://res.cloudinary.com/dreso9ye9/image/upload/v1709222231/lucia-macedo-WbU-8xoco9o-unsplash_xqagal.webp",
-    "https://res.cloudinary.com/dreso9ye9/image/upload/v1709222061/boxed-water-is-better-jbcY_yvsDzk-unsplash_ymmvwr.webp"
+    "https://res.cloudinary.com/dreso9ye9/image/upload/v1709926422/MZSWMNLDGI3TQZRXGM2TKYTEME_mmrcuo.jpg",
+    "https://res.cloudinary.com/dreso9ye9/image/upload/v1709915165/premium_photo-1661963952208-2db3512ef3de_vtsp8w.webp",
+    "https://res.cloudinary.com/dreso9ye9/image/upload/v1709682031/Agencia%20viajes/Mendoza-portada_k5wjlo.jpg",
+    "https://res.cloudinary.com/dreso9ye9/image/upload/v1709915041/photo-1576767444993-fa83e24a8a49_umyizo.webp",
+    "https://res.cloudinary.com/dreso9ye9/image/upload/v1709914862/Agencia%20viajes/photo-1433838552652-f9a46b332c40_lyekj8.webp"
   ];
 
   const { t } = useTranslation()
