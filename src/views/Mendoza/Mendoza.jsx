@@ -14,7 +14,7 @@ import { FaHorse, FaWater } from "react-icons/fa";
 import { useTranslation } from 'react-i18next';
 
 
-const Excursiones = () => {
+const Mendoza = () => {
 
     const { t, i18n } = useTranslation()
     const [selectedTheme, setSelectedTheme] = useState(null);
@@ -92,8 +92,10 @@ const Excursiones = () => {
   return (
     <div>
         <div className='h-[30rem] relative flex flex-col justify-center items-center gap-2'>
-            <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709250556/39-facts-about-mendoza-1688522494_te42ax.jpg" alt="" className='w-full h-full object-cover absolute top-0 -z-10'/>
-            <h2 id='title' className='text-5xl lg:text-7xl text-[#ffffff] font-extrabold'>{t("excursionsUppercase")}</h2>
+            <video className='w-full h-full object-cover absolute top-0 -z-10' autoPlay muted loop>
+                <source src='https://res.cloudinary.com/dreso9ye9/video/upload/v1710133486/youtube_Qtfmp2Ro_mU_1920x1080_h264_juy2ie.mp4' type="video/mp4"/>
+            </video>
+            <h2 id='title' className='text-5xl lg:text-7xl text-[#ffffff] font-extrabold'>MENDOZA</h2>
             <p className='text-[#ffffff] bg-[#218B7D] rounded-xl p-2 bg-opacity-45 font-lora italic font-bold text-base lg:text-xl'>{t("excursionsInsideInfo")}</p>
         </div>
         <section className='py-10 px-20 flex flex-col justify-center items-center gap-10 shadow-xl'>
@@ -162,4 +164,4 @@ const Excursiones = () => {
   )
 }
 
-export default Excursiones
+export default Mendoza

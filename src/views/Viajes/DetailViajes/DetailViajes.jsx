@@ -1,14 +1,14 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import paquetes from '../paquetes.json';
-import { FaMapMarkerAlt, FaRegMoon } from 'react-icons/fa';
+import paquetes from '../viajes.json';
+import { FaMapMarkerAlt } from 'react-icons/fa';
+import { FaPersonBiking } from "react-icons/fa6";
 import { IoIosPeople } from "react-icons/io";
 import { LuCalendarClock } from "react-icons/lu";
 import { LayoutGrid } from '@/components/ui/layout-grid';
-import { FaPersonBiking } from 'react-icons/fa6';
-import { IoBedOutline, IoMoonOutline } from 'react-icons/io5';
+import { IoBedOutline, IoMoonOutline } from "react-icons/io5";
 
-const DetailFormula1 = () => {
+const DetailViajes = () => {
     const { id } = useParams(); // Obtener el id del paquete de la URL
     const paqueteDetail = paquetes.find(paquete => paquete.id === parseInt(id)); // Buscar el paquete por id
 
@@ -92,4 +92,4 @@ const DetailFormula1 = () => {
 };
 
 
-export default DetailFormula1;
+export default DetailViajes;

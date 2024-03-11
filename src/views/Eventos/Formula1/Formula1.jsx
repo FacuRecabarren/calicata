@@ -3,6 +3,8 @@ import paquetes from '../Formula1/paquetes.json';
 import { FaRegMoon } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import Filters from '@/components/Filters/Filters';
+import { IoBedOutline } from 'react-icons/io5';
+import { FaPersonBiking } from 'react-icons/fa6';
 
 const Formula1 = () => {
   const [filters, setFilters] = useState({
@@ -19,10 +21,12 @@ const Formula1 = () => {
 
   const countries = Array.from(new Set(paquetes.map(paquete => paquete.country)));
 
-  const handleFilterChange = (filterType, value) => {
+  const handleFilterChange = (filterType, value, value2) => {
     setFilters(prevFilters => ({
       ...prevFilters,
-      [filterType]: value
+      [filterType]: value,
+      // Si el tipo de filtro es 'country', actualiza también el valor del país
+      country: filterType === 'country' ? value2 : prevFilters.country
     }));
   };
 
@@ -41,7 +45,7 @@ const Formula1 = () => {
   return (
     <div className='bg-[#f2f2f2]'>
       <div className='relative'>
-        <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709682433/Agencia%20viajes/wc1792225_n5tb2p.jpg" alt="" className='h-[20rem] w-full object-cover object-center'/>
+        <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709307319/Fo_CC_81rmula_1_Red_Bull-1390432726_stjwz5.webp" alt="" className='h-[25rem] w-full object-cover object-center'/>
         <h2 className='text-center w-full py-2 px-4 text-white font-bold text-3xl shadow-xl bg-[#000000] bg-opacity-80 absolute bottom-0'>PAQUETES FORMULA 1</h2>
       </div>
       <div className='py-20 px-10 h-full w-full flex justify-center items-start gap-10'>
@@ -65,8 +69,20 @@ const Formula1 = () => {
                       <p className='text-sm'><span className='font-semibold opacity-90'>Visitando:</span> {paquete.country}</p>
                       <p className='text-sm opacity-90'><span className='font-semibold'>Desde</span> {paquete.initialDate} <span className='font-semibold'>Hasta</span> {paquete.finishDate}</p>
                     </div>
-                    <div className='flex justify-start items-center gap-1 opacity-90 font-medium'>
-                      <FaRegMoon />{paquete.nights}
+                    <div className='flex justify-start items-center gap-2 text-sm'>
+                      <div className='bg-[#FE904D] flex justify-center items-center gap-1 p-1.5 text-white font-medium rounded-md'>
+                        {paquete.nights}<FaRegMoon />
+                      </div>
+                      {paquete.lodgings > 0 && (
+                        <div className='bg-[#FE904D] flex justify-center items-center gap-1 p-1.5 text-white font-medium rounded-md'>
+                          {paquete.lodgings}<IoBedOutline/>
+                        </div>
+                      )}
+                      {paquete.circuits > 0 && (
+                        <div className='bg-[#FE904D] flex justify-center items-center gap-1 p-1.5 text-white font-medium rounded-md'>
+                          {paquete.circuits}<FaPersonBiking/>
+                        </div>
+                      )}
                     </div>
                   </article>
                   <article className='flex flex-col justify-between items-end h-full'>
