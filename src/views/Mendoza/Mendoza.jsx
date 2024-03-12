@@ -9,9 +9,12 @@ import {
 } from "@/components/ui/carousel"
 import { MdLandscape, MdMuseum } from "react-icons/md";
 import { PiWineFill } from "react-icons/pi";
-import { GiTheaterCurtains } from "react-icons/gi";
+import { MdDirectionsBike } from "react-icons/md";
 import { FaHorse, FaWater } from "react-icons/fa";
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
+import ideas from "./ideas.json"
+import { RiGuideLine } from "react-icons/ri";
 
 
 const Mendoza = () => {
@@ -45,43 +48,28 @@ const Mendoza = () => {
         },
         {
             id: 2,
-            name: <span>{t("theaters")}</span>,
-            icono: <GiTheaterCurtains/>
+            name: <span>Tours</span>,
+            icono: <RiGuideLine/>
         },
         {
             id: 3,
             name: <span>{t("trailRides")}</span>,
             icono: <FaHorse/>
         },
-        {
-            id: 4,
-            name: <span>{t("reservoirs")}</span>,
-            icono: <FaWater/>
-        },
-        {
-            id: 5,
-            name: <span>{t("hills")}</span>,
-            icono: <MdLandscape/>
-        },
+        // {
+        //     id: 4,
+        //     name: <span>{t("reservoirs")}</span>,
+        //     icono: <FaWater/>
+        // },
+        // {
+        //     id: 5,
+        //     name: <span>{t("hills")}</span>,
+        //     icono: <MdLandscape/>
+        // },
         {
             id: 6,
-            name: <span>{t("museums")}</span>,
-            icono: <MdMuseum/>
-        },
-    ]
-
-    const ideas = [
-        {
-            id: 1,
-            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709248914/WhatsApp_Image_2024-02-29_at_11.49.50_1_pqjupj.jpg',
-            description: "Caminos del vino: Maipú - Lujan de Cuyo",
-            target: 1,
-        },
-        {
-            id: 2,
-            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709248894/WhatsApp_Image_2024-02-29_at_11.49.50_wmcvrd.jpg',
-            description: 'Outdoors: "armamos tu visita medida"',
-            target: 3,
+            name: <span>{t("bike")}</span>,
+            icono: <MdDirectionsBike/>
         },
     ]
 
@@ -91,24 +79,39 @@ const Mendoza = () => {
 
   return (
     <div>
-        <div className='h-[30rem] relative flex flex-col justify-center items-center gap-2'>
+        <div className='h-[30rem] relative flex flex-col justify-center items-center gap-2 shadow-xl'>
             <video className='w-full h-full object-cover absolute top-0 -z-10' autoPlay muted loop>
                 <source src='https://res.cloudinary.com/dreso9ye9/video/upload/v1710133486/youtube_Qtfmp2Ro_mU_1920x1080_h264_juy2ie.mp4' type="video/mp4"/>
             </video>
             <h2 id='title' className='text-5xl lg:text-7xl text-[#ffffff] font-extrabold'>MENDOZA</h2>
             <p className='text-[#ffffff] bg-[#218B7D] rounded-xl p-2 bg-opacity-45 font-lora italic font-bold text-base lg:text-xl'>{t("excursionsInsideInfo")}</p>
         </div>
-        <section className='py-10 px-20 flex flex-col justify-center items-center gap-10 shadow-xl'>
+        <section className='w-full py-20 px-20'>
+            <div className='flex justify-center items-center gap-10'>
+                <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710167985/Group_14_ntjim8.svg" alt="" className='w-[25rem]'/>
+                <div className='flex flex-col justify-center items-center gap-5'>
+                    <h2 className='text-4xl text-center font-bold text-[#218B7D]'>¿Por qué viajar con nosotros a Mendoza?</h2>
+                    <p className='font-lora italic text-center opacity-80'>Trabajamos en crear momentos inolvidables, auténticas experiencias de viajes que se recuerden para siempre. Tours personalizados que incluyen lo mejor de cada región, teniendo en cuenta hasta el mínimo detalle.</p>
+                    <Link className='bg-[#218B7D] py-2 px-4 text-xl font-semibold text-white rounded-lg hover:bg-opacity-80 duration-300'>Conocer más</Link>
+                </div>
+                <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710168796/Group_14_2_a6sydn.svg" alt="" className='w-[25rem]'/>
+            </div>
+        </section>
+        <section className='py-10 flex flex-col justify-center items-center gap-20'>
+            <div className='flex flex-col justify-center items-center gap-5'>
+                <h2 className='text-4xl text-center font-bold text-[#218B7D]'>Nuestras propuestas de viajes</h2>
+                <p className='font-lora italic text-center opacity-80 w-[60rem]'>Siguiendo elevados protocolos para el cuidado del viajero y garantizando la devolución de los pagos de señas de viaje por fuerza mayor, simplemente lo invitamos a conocer nuestras experiencias únicas que aquí presentamos.</p>
+            </div>
             <Carousel
             opts={{
                 align: "start",
             }}
-            className="w-full h-full flex justify-center items-center gap-10"
+            className="w-full h-full flex flex-col justify-center items-center gap-10 bg-[#fccb713b] py-10 shadow-xl"
             >
                 <CarouselContent className='m-0'>
                     {temas.map((tema) => (
-                    <CarouselItem key={tema.id} className="basis-1/2 md:basis-1/4 lg:basis-1/5 p-0 w-[10rem] flex justify-center items-center">
-                        <Card className='bg-white flex justify-center items-center shadow-none border-none rounded-none'>
+                    <CarouselItem key={tema.id} className="basis-1/2 md:basis-1/4 p-0 w-[10rem] flex justify-center items-center">
+                        <Card className='bg-transparent flex justify-center items-center shadow-none border-none rounded-none'>
                             <CardContent className="flex flex-col gap-2 items-center justify-center p-0 cursor-pointer hover:opacity-60 duration-300">
                             <span
                                 key={tema.id}
@@ -127,36 +130,36 @@ const Mendoza = () => {
                 </CarouselContent>
                 <CarouselPrevious className='lg:ml-28 text-[#ffffff] w-10 h-10 bg-[#218B7D] shadow-xl border-[#218B7D] hover:bg-[#218b7d58] duration-300'/>
                 <CarouselNext className='lg:mr-28 text-[#ffffff] w-10 h-10 bg-[#218B7D] shadow-xl border-none border-[#218B7D] hover:bg-[#218b7d58] duration-300'/>
+                {selectedTheme !== null && (
+                    <button onClick={() => setSelectedTheme(null)} className='bg-[#218B7D] py-2 px-4 rounded-xl text-white font-bold hover:bg-[#218b7d58] duration-300'>{t("filter")}</button>
+                )}
             </Carousel>
-            {selectedTheme !== null && (
-                <button onClick={() => setSelectedTheme(null)} className='bg-[#218B7D] py-2 px-4 rounded-xl text-white font-bold hover:bg-[#218b7d58] duration-300'>{t("filter")}</button>
-            )}
         </section>
         {selectedTheme === null && (
-            <section className='flex justify-center items-center gap-5 flex-wrap py-10 px-10 bg-[#fe914d43]'>
+            <section className='flex justify-center items-center gap-5 flex-wrap py-10'>
                 {ideas.map(idea => (
-                    <div key={idea.id} className='group/item relative flex justify-center items-center hover:scale-105 duration-500'>
-                        <img src={idea.image} alt="" className='w-[20rem] h-[30rem] object-cover object-top shadow-lg group/edit group-hover/item:grayscale duration-500'/>
-                        <button onClick={() => handleConsultClick(idea)} className='cursor-alias invisible group/edit group-hover/item:visible absolute flex flex-col justify-center items-center gap-2 bg-opacity-60 bg-[#218B7D] p-10 rounded-full'>
-                            <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1708744509/WhatsApp_icon.png_yfozry.webp" alt="" className='w-12 h-12 '/>
-                            <p className='flex justify-center items-center gap-2 font-bold text-white'>{t("consult")}</p>
+                    <Link to={`/mendoza/${idea.id}`} key={idea.id} className='group/item h-[20rem] w-[30rem] flex justify-center items-center hover:scale-[1.02] duration-300 relative rounded-xl shadow-xl'>
+                        <img src={idea.image} alt="" className='absolute h-full w-full -z-10 object-cover rounded-xl filter brightness-[0.45]'/>
+                        <h3 id='title' className='text-white font-bold text-center text-2xl w-full rounded-t-xl'>{idea.description.toUpperCase()}</h3>
+                        <button className='cursor-alias invisible group/edit group-hover/item:visible absolute top-[60%] flex flex-col justify-center items-center gap-2 bg-opacity-60 z-10 bg-[#218B7D] py-2 px-4 rounded-full'>
+                            <p className='flex justify-center items-center gap-2 font-bold text-white'>Más información</p>
                         </button>
-                    </div>
+                    </Link>
                 ))}
             </section>
         )}
         {selectedTheme !== null && (
-            <section className="flex justify-center items-center gap-5 flex-wrap py-10 px-10 bg-[#fe914d43]">
+            <section className="flex justify-center items-center gap-5 flex-wrap py-10 px-10">
             {ideas
               .filter((idea) => selectedTheme === null || idea.target === selectedTheme)
               .map((idea) => (
-                    <div key={idea.id} className='group/item relative flex justify-center items-center hover:scale-105 duration-500'>
-                        <img src={idea.image} alt="" className='w-[20rem] h-[30rem] object-cover object-top shadow-lg group/edit group-hover/item:grayscale duration-500'/>
-                        <button onClick={() => handleConsultClick(idea)} className='cursor-alias invisible group/edit group-hover/item:visible absolute flex flex-col justify-center items-center gap-2 bg-opacity-60 bg-[#218B7D] p-10 rounded-full'>
-                            <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1708744509/WhatsApp_icon.png_yfozry.webp" alt="" className='w-12 h-12 '/>
-                            <p className='flex justify-center items-center gap-2 font-bold text-white'>{t("consult")}</p>
-                        </button>
-                    </div>
+                <Link to={`/mendoza/${idea.id}`} key={idea.id} className='group/item h-[20rem] w-[30rem] flex justify-center items-center hover:scale-[1.02] duration-300 relative rounded-xl shadow-xl'>
+                    <img src={idea.image} alt="" className='absolute h-full w-full -z-10 object-cover rounded-xl filter brightness-[0.45]'/>
+                    <h3 id='title' className='text-white font-bold text-center text-2xl w-full rounded-t-xl'>{idea.description.toUpperCase()}</h3>
+                    <button className='cursor-alias invisible group/edit group-hover/item:visible absolute top-[60%] flex flex-col justify-center items-center gap-2 bg-opacity-60 z-10 bg-[#218B7D] py-2 px-4 rounded-full'>
+                        <p className='flex justify-center items-center gap-2 font-bold text-white'>Más información</p>
+                    </button>
+                </Link>
               ))}
           </section>
         )}
