@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710252444/14-1-01_ihmtoi_tciyew.webp",
+        "galleryImages": ["https://res.cloudinary.com/dreso9ye9/image/upload/v1710252489/infografia-blog1-1024x683_clp2ye_jejswl.webp", "https://res.cloudinary.com/dreso9ye9/image/upload/v1710252484/x_razones_para_beber_mas_vino_rsbiya_h7wdfr.webp", "https://res.cloudinary.com/dreso9ye9/image/upload/v1710252444/14-1-01_ihmtoi_tciyew.webp"],
+        "description": "Tours de vino",
+        "text": "Los tours de vino de Calicata ofrecen el equilibrio ideal entre los destinos más cautivadores de la provincia y las experiencias más destacadas de cada lugar que seleccionamos cuidadosamente. Sumergite en nuestras propuestas de día completo, con todo incluido, para explorar de manera única la tierra del sol y el buen vino, visitando sus fascinantes bodegas y distinguidos restaurantes galardonados.",
+        "target": 1,
+        "paquetes": [
+            {
+                "title": "Achaval Wines",
+                "description": "Visita y degustación en bodega Matervini, almuerzo armonizado en Achaval Ferrer Premium",
+                "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710254493/timthumb_e2sn60.jpg"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710252370/IMG_7624-horizontal-scaled_n7sgcd_kxmjxb.webp",
+        "description": "Tours Grupales",
+        "target": 2
+    },
+    {
+        "id": 4,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710210214/L3OBWU226VETZNPIR6Y4EPTIKI_y7ovpi.webp",
+        "description": "Tours Gourmet",
+        "target": 2
+    },
+    {
+        "id": 5,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710210893/IMG_2246-Wine-and-Ride-scaled_d4qnjv.webp",
+        "description": "Bike y Vino",
+        "target": 6
+    },
+    {
+        "id": 6,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710252527/AdobeStock_290509695-min-1536x1025-1-1024x683_fzbdnl_qrxezu.webp",
+        "description": "Tours Clásicos",
+        "target": 2
+    },
+    {
+        "id": 7,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710252552/Mountain-bike-en-Potrerillos_pgm3qg_c8qaay.webp",
+        "description": "Mountain Bike",
+        "target": 6
+    },
+    {
+        "id": 8,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710210897/los-puquiosjpg_idjc2b.webp",
+        "description": "Ski",
+        "target": 2
+    },
+    {
+        "id": 9,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710252573/IMG_20210406_153108164_HDR-1-scaled-e1626357545247_qztutn_tyexjp.webp",
+        "description": "Cabalgatas",
+        "target": 3
+    }
+]
