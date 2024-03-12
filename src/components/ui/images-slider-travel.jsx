@@ -123,8 +123,8 @@ export const TravelSlider = ({
           />
           <div className="z-10 flex flex-col justify-center items-center gap-4 w-full">
               <p className="text-2xl text-white font-bold text-center w-full bg-[#FE904D] py-2 rounded-t-xl shadow-xl">VIAJÁ CON NOSOTROS</p>
-              <a href="/travel" className="text-xl flex justify-center items-center gap-2 bg-[#FE904D] absolute bottom-0 right-0 py-4 px-8 font-bold rounded-br-xl rounded-tl-xl text-white hover:text-white hover:bg-opacity-50 border-4 border-[#FE904D] duration-500">Ver viajes</a>
-              <a href="/events" className="text-xl flex justify-center items-center gap-2 bg-[#FE904D] absolute bottom-0 left-0 py-4 px-8 font-bold rounded-bl-xl rounded-tr-xl text-white hover:text-white hover:bg-opacity-50 border-4 border-[#FE904D] duration-500">Ver eventos</a>
+              <a href="/travel" className="w-[10rem] lg:w-[15rem] text-xl flex justify-center items-center gap-2 bg-[#FE904D] absolute bottom-0 right-0 py-4 px-8 font-bold rounded-br-xl rounded-tl-xl text-white hover:text-white hover:bg-opacity-50 border-4 border-[#FE904D] duration-500">Viajes</a>
+              <a href="/events" className="w-[10rem] lg:w-[15rem] text-xl flex justify-center items-center gap-2 bg-[#FE904D] absolute bottom-0 left-0 py-4 px-8 font-bold rounded-bl-xl rounded-tr-xl text-white hover:text-white hover:bg-opacity-50 border-4 border-[#FE904D] duration-500">Eventos</a>
           </div>
         </AnimatePresence>
       )}

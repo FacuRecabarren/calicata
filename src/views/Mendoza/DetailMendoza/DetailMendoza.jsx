@@ -32,13 +32,16 @@ const DetailMendoza = () => {
         <div className='flex flex-col justify-center items-start'>
             <div className='relative w-full'>
                 <MendozaDetailSlider images={ideaDetail}/>
-                <h2 id='title' className='text-white text-5xl font-bold absolute text-center w-full z-10 top-[50%]'>{ideaDetail.description.toUpperCase()}</h2>
+                <h2 id='title' className='text-white text-5xl font-bold absolute text-center w-full z-10 top-[50%] px-5 sm:px-0'>{ideaDetail.description.toUpperCase()}</h2>
             </div>
-            <div className='py-10 px-10 w-full flex flex-col justify-center items-center gap-10'>
-                <h3 className='text-center w-[80%]'>{ideaDetail.text}</h3>
-                <div className='w-full h-full'>
+            <div className='py-10 px-10 w-full flex flex-col justify-center items-center gap-16'>
+                <h2 className='relative text-center text-lg font-lora italic font-semibold opacity-80 w-[80%] pb-8 flex flex-col justify-center items-center'>{ideaDetail.text}
+                    <span className="absolute bottom-2 w-[80%] h-[3px] bg-[#218B7D]"></span>
+                    <span className="absolute bottom-0 w-[60%] h-[2px] bg-[#218B7D]"></span> 
+                </h2>
+                <div className='w-full h-full flex justify-center items-center flex-wrap'>
                 {ideaDetail.paquetes.map(paquete =>(
-                    <div key={paquete.title} className='w-[20rem] h-[25rem] flex flex-col justify-between rounded-xl shadow-xl'>
+                    <div onClick={() => handleConsultClick(paquete)} key={paquete.title} className='w-[20rem] h-[25rem] flex flex-col justify-between rounded-xl shadow-xl hover:scale-[1.01] duration-300 cursor-pointer'>
                         <div className='flex flex-col'>
                             <img src={paquete.image} alt="" className='rounded-t-xl'/>
                             <div className='pt-2 px-2'>
@@ -46,7 +49,7 @@ const DetailMendoza = () => {
                                 <p className='text-sm opacity-80'>{paquete.description}</p>
                             </div>
                         </div>
-                        <button onClick={() => handleConsultClick(paquete)} className='flex justify-center items-center bg-[#218B7D] py-2 text-lg font-semibold text-white rounded-b-xl'>Consultar</button>
+                        <button className='flex justify-center items-center bg-[#218B7D] py-2 text-lg font-semibold text-white rounded-b-xl hover:bg-opacity-80 duration-300'>Consultar</button>
                     </div>
                 ))}
                 </div>

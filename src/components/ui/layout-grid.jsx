@@ -30,11 +30,11 @@ export const LayoutGrid = ({ cards }) => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            <motion.div className="relative">
+            <motion.div className="relative lg:px-0 mx-5">
               <motion.img
                 src={selected}
                 alt="selected"
-                className="w-[45rem] h-[30rem]"
+                className="w-[45rem] h-[30rem] object-cover"
                 initial={{ scale: 0 }}
                 animate={{ scale: 1 }}
                 exit={{ scale: 0 }}

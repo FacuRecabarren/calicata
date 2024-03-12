@@ -12,9 +12,9 @@ const Filters = ({ onFilterChange, countries, filters, setFilters }) => {
   };
 
   return (
-    <div className="accent-[#218B7D] w-[25rem] flex flex-col justify-center items-start gap-4 bg-white p-5 shadow-xl rounded-xl border-t-8 border-[#FE904D]">
-      <h2 className='text-xl font-semibold opacity-80'>Filtrar</h2>
-      <article className='flex justify-between items-center w-full border-2 gap-1 border-[#218B7D] rounded-r-xl focus:outline-none focus:border-[#218B7D]'>
+    <div className="accent-[#218B7D] lg:w-[25rem] w-full flex flex-wrap lg:flex lg:flex-col justify-center items-start gap-4 bg-white p-5 shadow-xl rounded-xl border-t-8 border-[#FE904D]">
+      <h2 className='text-xl font-semibold opacity-80 lg:w-max w-full text-center lg:text-start'>Filtrar</h2>
+      <article className='w-[15rem] flex justify-between items-center lg:w-full border-2 gap-1 border-[#218B7D] rounded-r-xl focus:outline-none focus:border-[#218B7D]'>
         <div className='p-2 bg-[#218B7D] text-white'>
             <FiMapPin className='text-xl'/>
         </div>
@@ -28,7 +28,7 @@ const Filters = ({ onFilterChange, countries, filters, setFilters }) => {
           ))}
         </select>
       </article>
-      <article className='flex justify-between items-center w-full border-2 border-[#218B7D] rounded-r-xl'>
+      <article className='w-[15rem] flex justify-between items-center lg:w-full border-2 border-[#218B7D] rounded-r-xl'>
         <div className='flex justify-center items-center gap-2'>
           <div className='p-2 bg-[#218B7D] text-white'>
             <IoMoonOutline  className='text-xl'/>
@@ -37,7 +37,7 @@ const Filters = ({ onFilterChange, countries, filters, setFilters }) => {
         </div>
         <input className='mr-2 cursor-pointer' type="checkbox" id="oneNight" onChange={(e) => handleInputChange(e, 'oneNight')} checked={filters.oneNight} />
       </article>
-      <article className='flex justify-between items-center w-full border-2 border-[#218B7D] rounded-r-xl'>
+      <article className='w-[15rem] flex justify-between items-center lg:w-full border-2 border-[#218B7D] rounded-r-xl'>
         <div className='flex justify-center items-center gap-2'>
           <div className='p-2 bg-[#218B7D] text-white'>
             <IoMoonOutline  className='text-xl'/>
@@ -46,7 +46,7 @@ const Filters = ({ onFilterChange, countries, filters, setFilters }) => {
         </div>
         <input className='mr-2 cursor-pointer' type="checkbox" id="moreThanOneNight" onChange={(e) => handleInputChange(e, 'moreThanOneNight')} checked={filters.moreThanOneNight} />
       </article>
-      <article className='flex justify-between items-center w-full border-2 border-[#218B7D] rounded-r-xl'>
+      <article className='w-[15rem] flex justify-between items-center lg:w-full border-2 border-[#218B7D] rounded-r-xl'>
         <div className='flex justify-center items-center gap-2'>
           <div className='p-2 bg-[#218B7D] text-white'>
             <IoBedOutline className='text-xl'/>
@@ -55,7 +55,7 @@ const Filters = ({ onFilterChange, countries, filters, setFilters }) => {
         </div>
         <input className='mr-2 cursor-pointer' type="checkbox" id="oneLodgings" onChange={(e) => handleInputChange(e, 'oneLodgings')} checked={filters.oneLodgings} />
       </article>
-      <article className='flex justify-between items-center w-full border-2 border-[#218B7D] rounded-r-xl'>
+      <article className='w-[15rem] flex justify-between items-center lg:w-full border-2 border-[#218B7D] rounded-r-xl'>
         <div className='flex justify-center items-center gap-2'>
           <div className='p-2 bg-[#218B7D] text-white'>
             <IoBedOutline className='text-xl'/>
@@ -64,7 +64,7 @@ const Filters = ({ onFilterChange, countries, filters, setFilters }) => {
         </div>
         <input className='mr-2 cursor-pointer' type="checkbox" id="moreThanOneLodgings" onChange={(e) => handleInputChange(e, 'moreThanOneLodgings')} checked={filters.moreThanOneLodgings} />
       </article>
-      <article className='flex justify-between items-center w-full border-2 border-[#218B7D] rounded-r-xl'>
+      <article className='w-[15rem] flex justify-between items-center lg:w-full border-2 border-[#218B7D] rounded-r-xl'>
         <div className='flex justify-center items-center gap-2'>
           <div className='p-2 bg-[#218B7D] text-white'>
             <TbPigMoney className='text-xl'/>
@@ -73,7 +73,7 @@ const Filters = ({ onFilterChange, countries, filters, setFilters }) => {
         </div>
         <input className='mr-2 cursor-pointer' type="checkbox" id="lessThan1500" onChange={(e) => handleInputChange(e, 'lessThan1500')} checked={filters.lessThan1500} />
       </article>
-      <article className='flex justify-between items-center w-full border-2 border-[#218B7D] rounded-r-xl'>
+      <article className='w-[15rem] flex justify-between items-center lg:w-full border-2 border-[#218B7D] rounded-r-xl'>
         <div className='flex justify-center items-center gap-2'>
           <div className='p-2 bg-[#218B7D] text-white'>
             <TbPigMoney className='text-xl'/>

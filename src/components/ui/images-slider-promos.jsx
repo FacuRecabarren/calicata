@@ -86,9 +86,9 @@ export const PromosSlider = ({
   const areImagesLoaded = loadedImages.length > 0;
 
   return (
-    <div className="h-full w-full relative flex flex-col justify-center items-center rounded-l-full">
+    <div className="h-full w-full relative flex flex-col justify-center items-center lg:rounded-l-full">
       {areImagesLoaded && (
-        <AnimatePresence className='w-full rounded-l-full'>
+        <AnimatePresence className='w-full lg:rounded-l-full'>
             <motion.img
                 key={currentIndex}
                 src={loadedImages[currentIndex]}
@@ -96,7 +96,7 @@ export const PromosSlider = ({
                 animate="visible"
                 exit={"downExit"}
                 variants={slideVariants}
-                className="image h-full w-full absolute inset-0 object-cover object-center rounded-l-full"
+                className="image h-full w-full absolute inset-0 object-cover object-center lg:rounded-l-full"
             />
             <div className=" text-white z-20 flex flex-col justify-center items-center gap-4 w-full">
               <p className="text-lg font-semibold text-center bg-black bg-opacity-80 py-2 px-4 rounded-xl">{promos[currentIndex].description}</p>
