@@ -31,9 +31,9 @@ const Hero = () => {
   return (
     <div data-aos='fade' className='h-screen flex flex-col lg:flex lg:flex-row lg:justify-start justify-center items-center relative' id="home">
         <section className='w-full lg:pl-20 flex justify-center lg:justify-start items-center z-10'>
-          <div data-aos='fade-up' className='flex flex-col items-center justify-center lg:items-start gap-8 px-10 lg:px-0 w-[80%]'>
-              <h1 id="title" className='text-4xl sm:text-5xl w-full lg:text-7xl 2xl:text-8xl font-extrabold text-[#FCCC71] m-0 text-center lg:text-start sm:px-10 lg:px-0'>{t("title")}</h1>
-              <p className="text-white font-lora italic text-center lg:text-start">{t("secondTitle")}</p>
+          <div data-aos='fade-up' className='flex flex-col items-center justify-center lg:items-start gap-8 px-2 lg:px-0 w-[80%]'>
+              <h1 id="title" className='text-5xl sm:text-5xl w-full lg:text-7xl 2xl:text-8xl font-extrabold text-[#FCCC71] m-0 text-center lg:text-start sm:px-10 lg:px-0'>{t("title")}</h1>
+              <p className="text-white text-lg font-lora italic text-center lg:text-start">{t("secondTitle")}</p>
               <a href='#servicios' className='flex gap-2 justify-center items-center py-3 px-10 lg:px-6 text-lg sm:text-xl font-bold bg-transparent border-4 border-[#ffffff] text-[#FCCC71] hover:bg-[#FCCC71] hover:text-white hover:scale-105 duration-500 rounded-xl'>{t("packages")}<IoArrowDownOutline className="text-xl"/></a>
           </div>
         </section>
@@ -58,7 +58,7 @@ const Hero = () => {
             </ImagesSlider>
           </div>
         </section>
-        <section className="h-screen w-1/2 flex justify-center items-center border-8 border-[#FCCC71] rounded-l-full">
+        <section className="lg:h-screen lg:w-1/2 w-full h-[20rem] lg:flex justify-center items-center border-8 border-[#FCCC71] lg:rounded-l-full hidden">
           <PromosSlider promos={promos}>
               <motion.div
                 initial={{

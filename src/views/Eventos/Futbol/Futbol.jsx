@@ -48,9 +48,9 @@ const Futbol = () => {
         <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709917193/sporting-news-2022-photo-with-watermark-861578da-07eb-4bce-81b5-39ff4dc5ffa5_ztsaj4.webp" alt="" className='h-[25rem] w-full object-cover object-center'/>
         <h2 className='text-center w-full py-2 px-4 text-white font-bold text-3xl shadow-xl bg-[#000000] bg-opacity-80 absolute bottom-0'>PAQUETES FÚTBOL</h2>
       </div>
-      <div className='py-20 px-10 h-full w-full flex justify-center items-start gap-10'>
+      <div className='py-20 px-10 h-full w-full flex flex-col lg:flex lg:flex-row justify-center items-start gap-10'>
         <Filters onFilterChange={handleFilterChange} countries={countries} filters={filters} setFilters={setFilters}/>
-        <section className='h-full w-[50rem] flex flex-col justify-center items-center gap-10'>
+        <section className='h-full lg:w-[50rem] w-full flex flex-col justify-center items-center gap-10'>
           {filteredPaquetes.length === 0 ? (
             <div className='flex flex-col justify-center items-center gap-5'>
               <p className='bg-white font-semibold opacity-80 p-2 w-full text-center rounded-xl shadow-xl border-t-8 border-[#FE904D]'>No hay paquetes disponibles con los filtros seleccionados</p>
@@ -58,18 +58,18 @@ const Futbol = () => {
             </div>
           ) : (
             filteredPaquetes.map(paquete => (
-              <Link to={`/events/futbol/${paquete.id}`} key={paquete.id} className='border-t-8 border-[#FE904D] flex justify-start items-center gap-2 bg-white rounded-xl shadow-xl h-[15rem] w-[50rem] hover:scale-[1.01] duration-300'>
-                <div className='w-[40rem] h-full'>
-                  <img src={paquete.galleryImages[0]} alt="" className='w-full h-full rounded-l-lg object-cover'/>
+              <Link to={`/events/futbol/${paquete.id}`} key={paquete.id} className='border-t-8 border-[#FE904D] flex flex-col justify-center items-center w-full lg:flex lg:flex-row lg:justify-start lg:items-center gap-2 bg-white rounded-xl shadow-xl lg:h-[15rem] lg:w-[50rem] hover:scale-[1.01] duration-300'>
+                <div className='w-full h-full lg:w-[40rem]'>
+                  <img src={paquete.galleryImages[0]} alt="" className='w-full lg:h-full h-[15rem] rounded-l-lg object-cover'/>
                 </div>
-                <section className='flex justify-between items-center h-full w-full gap-10 p-5'>
-                  <article className='flex flex-col justify-between items-start h-full'>
+                <section className='flex justify-between items-center h-full gap-2 w-full p-5'>
+                  <article className='flex flex-col justify-between items-start h-full lg:gap-0 gap-3'>
                     <div>
-                      <h3 className='text-lg font-bold opacity-90 text-[#218B7D]'>{paquete.title}</h3>
+                      <h3 className='lg:text-lg font-bold opacity-90 text-[#218B7D]'>{paquete.title}</h3>
                       <p className='text-sm'><span className='font-semibold opacity-90'>Visitando:</span> {paquete.country}</p>
                       <p className='text-sm opacity-90'><span className='font-semibold'>Desde</span> {paquete.initialDate} <span className='font-semibold'>Hasta</span> {paquete.finishDate}</p>
                     </div>
-                    <div className='flex justify-start items-center gap-2 text-sm'>
+                    <div className='flex justify-start items-center gap-2 lg:text-sm text-xs'>
                       <div className='bg-[#FE904D] flex justify-center items-center gap-1 p-1.5 text-white font-medium rounded-md'>
                         {paquete.nights}<FaRegMoon />
                       </div>
@@ -85,7 +85,7 @@ const Futbol = () => {
                       )}
                     </div>
                   </article>
-                  <article className='flex flex-col justify-between items-end h-full'>
+                  <article className='flex flex-col justify-between items-end h-full gap-5'>
                     <div className='flex flex-col justify-center items-end'>
                       <p className='text-sm font-light'>Desde</p>
                       <span className='text-lg font-bold opacity-90'>${paquete.price}</span>
