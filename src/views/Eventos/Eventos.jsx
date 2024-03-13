@@ -40,15 +40,15 @@ const Eventos = () => {
     const ideas = [
         {
             id: 1,
-            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171618/WhatsApp_Image_2024-02-28_at_12.49.38_waqeuy.jpg',
-            description: "Formula 1 Sao Paulo",
+            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709307319/Fo_CC_81rmula_1_Red_Bull-1390432726_stjwz5.webp',
+            description: "Formula 1",
             target: 1,
             link: "formula1"
         },
         {
             id: 2,
-            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709171614/WhatsApp_Image_2024-02-28_at_14.27.50_ao9hzy.jpg',
-            description: "Selección Argentina USA 2024",
+            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709917193/sporting-news-2022-photo-with-watermark-861578da-07eb-4bce-81b5-39ff4dc5ffa5_ztsaj4.webp',
+            description: "Fútbol",
             target: 2,
             link: "futbol"
         },
@@ -103,7 +103,8 @@ const Eventos = () => {
             <section className='flex justify-center items-center gap-5 flex-wrap py-10 px-10 bg-[#fe914d43]'>
                 {ideas.map(idea => (
                     <div key={idea.id} className='group/item relative flex justify-center items-center hover:scale-105 duration-500'>
-                        <img src={idea.image} alt="" className='w-[20rem] h-[30rem] object-cover object-top shadow-lg group/edit group-hover/item:grayscale duration-500'/>
+                        <img src={idea.image} alt="" className='w-[20rem] h-[20rem] object-cover object-top shadow-lg group/edit group-hover/item:grayscale duration-500'/>
+                        <h3 className='absolute top-0 bg-[#218B7D] w-full text-center py-2 text-lg font-semibold text-white'>{idea.description}</h3>
                         <a href={`/events/${idea.link}`} className='cursor-alias invisible group/edit group-hover/item:visible absolute flex flex-col justify-center items-center gap-2 bg-opacity-60 bg-[#218B7D] p-10 rounded-full'>
                             <p className='flex justify-center items-center gap-2 font-bold text-white'>{t("consult")}</p>
                         </a>
@@ -118,6 +119,7 @@ const Eventos = () => {
               .map((idea) => (
                 <div key={idea.id} className='group/item relative flex justify-center items-center hover:scale-105 duration-500'>
                     <img src={idea.image} alt="" className='w-[20rem] h-[30rem] object-cover object-top shadow-lg group/edit group-hover/item:grayscale duration-500'/>
+                    <h3 className='absolute top-0 bg-[#218B7D] w-full text-center py-2 text-lg font-semibold text-white'>{idea.description}</h3>
                     <a href={`/events/${idea.link}`} className='cursor-alias invisible group/edit group-hover/item:visible absolute flex flex-col justify-center items-center gap-2 bg-opacity-60 bg-[#218B7D] p-10 rounded-full'>
                         <p className='flex justify-center items-center gap-2 font-bold text-white'>{t("consult")}</p>
                     </a>
