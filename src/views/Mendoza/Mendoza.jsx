@@ -84,22 +84,21 @@ const Mendoza = () => {
                 <source src='https://res.cloudinary.com/dreso9ye9/video/upload/v1710133486/youtube_Qtfmp2Ro_mU_1920x1080_h264_juy2ie.mp4' type="video/mp4"/>
             </video>
             <h2 id='title' className='text-5xl lg:text-7xl text-[#ffffff] font-extrabold'>MENDOZA</h2>
-            <p className='mx-10 text-center lg:mx-0 text-[#ffffff] bg-[#000000] rounded-xl p-4 bg-opacity-80 font-lora italic font-bold text-base lg:text-xl'>{t("excursionsInsideInfo")}</p>
         </div>
         <section className='w-full py-20 px-5 lg:px-20 shadow-xl lg:shadow-none'>
             <div className='flex justify-center items-center gap-10'>
-                <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710167985/Group_14_ntjim8.svg" alt="" className='w-[25rem] hidden lg:flex'/>
+                <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710167985/Group_14_ntjim8.svg" alt="" className='w-[22rem] hidden lg:flex'/>
                 <div className='flex flex-col justify-center items-center gap-5'>
                     <h2 className='text-3xl lg:text-4xl text-center font-bold text-[#218B7D]'>¿Por qué viajar con nosotros a Mendoza?</h2>
-                    <p className='font-lora italic text-center opacity-80'>Trabajamos en crear momentos inolvidables, auténticas experiencias de viajes que se recuerden para siempre. Tours personalizados que incluyen lo mejor de cada región, teniendo en cuenta hasta el mínimo detalle.</p>
+                    <p className='font-lora italic text-center opacity-80'>Nos dedicamos a crear momentos inolvidables y experiencias de viaje auténticas que perduren en la memoria. Ofrecemos tours personalizados que destacan lo mejor de cada región, cuidando meticulosamente hasta el más mínimo detalle.</p>
                 </div>
-                <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710168796/Group_14_2_a6sydn.svg" alt="" className='w-[25rem] hidden lg:flex'/>
+                <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710168796/Group_14_2_a6sydn.svg" alt="" className='w-[22rem] hidden lg:flex'/>
             </div>
         </section>
         <section className='py-20 lg:py-10 flex flex-col justify-center items-center gap-20'>
             <div className='flex flex-col justify-center items-center gap-5'>
                 <h2 className='text-3xl lg:text-4xl px-5 text-center font-bold text-[#218B7D]'>Nuestras propuestas de viajes</h2>
-                <p className='font-lora italic text-center opacity-80 w-full px-5 lg:w-[60rem]'>Siguiendo elevados protocolos para el cuidado del viajero y garantizando la devolución de los pagos de señas de viaje por fuerza mayor, simplemente lo invitamos a conocer nuestras experiencias únicas que aquí presentamos.</p>
+                <p className='font-lora italic text-center opacity-80 w-full px-5 lg:w-[60rem]'>Siguiendo rigurosos protocolos para garantizar el bienestar del viajero y ofreciendo reembolsos por pagos de reservas en caso de circunstancias imprevistas, los invitamos a explorar las experiencias únicas que hemos preparado para ustedes.</p>
             </div>
             <Carousel
             opts={{
