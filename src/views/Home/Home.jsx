@@ -7,6 +7,7 @@ import React, { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Promos from '@/components/Promos/Promos'
 
 const Home = () => {
 
@@ -24,6 +25,7 @@ const Home = () => {
       <Hero/>
       <div className='bg-white'>
         <Services/>
+        <Promos/>
         <Nosotros/>
         <Testimonial/>
         <ContactUs/>

@@ -64,7 +64,7 @@ export const MendozaSlider = ({
     if (autoplay) {
       interval = setInterval(() => {
         handleNext();
-      }, 5000);
+      }, 4000);
     }
 
     return () => {

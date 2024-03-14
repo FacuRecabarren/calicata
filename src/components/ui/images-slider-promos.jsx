@@ -6,6 +6,7 @@ export const PromosSlider = ({
   promos,
   children,
   autoplay = true,
+  direction = "up",
  
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -46,7 +47,7 @@ export const PromosSlider = ({
     if (autoplay) {
       interval = setInterval(() => {
         handleNext();
-      }, 5000);
+      }, 5500);
     }
 
     return () => {
@@ -86,17 +87,17 @@ export const PromosSlider = ({
   const areImagesLoaded = loadedImages.length > 0;
 
   return (
-    <div className="h-full w-full relative flex flex-col justify-center items-center lg:rounded-l-full">
+    <div className="h-full w-full relative flex flex-col justify-center items-center">
       {areImagesLoaded && (
-        <AnimatePresence className='w-full lg:rounded-l-full'>
+        <AnimatePresence className='w-full'>
             <motion.img
                 key={currentIndex}
                 src={loadedImages[currentIndex]}
                 initial="initial"
                 animate="visible"
-                exit={"downExit"}
+                exit={direction === "up" ? "upExit" : "downExit"}
                 variants={slideVariants}
-                className="image h-full w-full absolute inset-0 object-cover object-center lg:rounded-l-full"
+                className="image h-full w-full absolute inset-0 object-cover"
             />
             <div className=" text-white z-20 flex flex-col justify-center items-center gap-4 w-full">
               <p className="text-lg font-semibold text-center bg-black bg-opacity-80 py-2 px-4 rounded-xl">{promos[currentIndex].description}</p>

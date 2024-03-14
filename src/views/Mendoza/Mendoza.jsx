@@ -104,7 +104,7 @@ const Mendoza = () => {
             opts={{
                 align: "start",
             }}
-            className="w-full h-full flex flex-col justify-center items-center gap-10 bg-[#fccb713b] py-10 lg:shadow-xl"
+            className="w-full h-full flex flex-col justify-center items-center gap-10 border-t-4 border-b-4 border-y-[#FCCC71] py-10 lg:shadow-xl"
             >
                 <CarouselContent className='m-0'>
                     {temas.map((tema) => (

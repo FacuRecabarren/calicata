@@ -5,8 +5,7 @@ import { ImagesSlider } from "../ui/images-slider";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
-import { PromosSlider } from "../ui/images-slider-promos";
-import promos from '../../utils/promos.json'
+
 
 const Hero = () => {
 
@@ -58,28 +57,9 @@ const Hero = () => {
             </ImagesSlider>
           </div>
         </section>
-        <section className="lg:h-screen lg:w-1/2 w-full h-[20rem] lg:flex justify-center items-center border-8 border-[#FCCC71] lg:rounded-l-full hidden">
-          <PromosSlider promos={promos}>
-              <motion.div
-                initial={{
-                  opacity: 0,
-                  y: -80,
-                }}
-                animate={{
-                  opacity: 1,
-                  y: 0,
-                }}
-                transition={{
-                  duration: 1,
-                }}
-                className="z-50 flex flex-col justify-center items-center w-full"
-              >
-                {/* Contenido adicional dentro del slider */}
-              </motion.div>
-            </PromosSlider>
-        </section>
     </div>
   )
 }
 
 export default Hero
+        
