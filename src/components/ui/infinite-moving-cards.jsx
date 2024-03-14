@@ -74,7 +74,7 @@ const InfiniteMovingCards = ({
       >
         {items.map((item, idx) => (
           <li
-            className="w-[350px] shadow-md max-w-full bg-black bg-opacity-50 relative rounded-2xl flex-shrink-0 px-4 py-4 md:w-[450px]"
+            className="w-[350px] shadow-md max-w-full bg-black bg-opacity-80 relative rounded-2xl flex-shrink-0 px-4 py-4 md:w-[450px]"
             key={item.name}
           >
             <blockquote>
