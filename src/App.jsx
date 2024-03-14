@@ -11,26 +11,31 @@ import DetailFutbol from "./views/Eventos/Futbol/DetailFutbol/DetailFutbol"
 import DetailViajes from "./views/Viajes/DetailViajes/DetailViajes"
 import Mendoza from "./views/Mendoza/Mendoza"
 import DetailMendoza from "./views/Mendoza/DetailMendoza/DetailMendoza"
+import Layout from "./components/Layout/Layout"
+import Error from "./components/Error/Error"
 
 function App() {
 
 
   return (
       <BrowserRouter>
-      <Navbar/>
+      
       <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/travel' element={<Viajes/>}/>
-        <Route path='/travel/:id' element={<DetailViajes/>} />
-        <Route path='/mendoza' element={<Mendoza/>}/>
-        <Route path='/mendoza/:id' element={<DetailMendoza/>} />
-        <Route path='/events' element={<Eventos/>}/>
-        <Route path='/events/formula1' element={<Formula1/>}/>
-        <Route path='/events/formula1/:id' element={<DetailFormula1/>} />
-        <Route path='/events/futbol' element={<Futbol/>}/>
-        <Route path='/events/futbol/:id' element={<DetailFutbol/>} />
+        <Route element={<Layout/>}>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/travel' element={<Viajes/>}/>
+          <Route path='/travel/:id' element={<DetailViajes/>} />
+          <Route path='/mendoza' element={<Mendoza/>}/>
+          <Route path='/mendoza/:id' element={<DetailMendoza/>} />
+          <Route path='/events' element={<Eventos/>}/>
+          <Route path='/events/formula1' element={<Formula1/>}/>
+          <Route path='/events/formula1/:id' element={<DetailFormula1/>} />
+          <Route path='/events/futbol' element={<Futbol/>}/>
+          <Route path='/events/futbol/:id' element={<DetailFutbol/>} />
+        </Route>
+        <Route path="*" element={<Error/>}/>
       </Routes>
-      <Footer/>
+      
     </BrowserRouter>
   )
 }
