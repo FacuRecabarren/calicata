@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import paquetes from '../Viajes/viajes.json';
+import paquetes from '../Viajes/viajes1.json';
 import { FaRegMoon } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import Filters from '@/components/Filters/Filters';

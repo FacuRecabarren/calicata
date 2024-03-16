@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import paquetes from '../viajes.json';
+import paquetes from '../viajes1.json';
 import { FaMapMarkerAlt } from 'react-icons/fa';
 import { FaPersonBiking } from "react-icons/fa6";
 import { IoIosPeople } from "react-icons/io";
@@ -50,7 +50,7 @@ const DetailViajes = () => {
                                 <div className='bg-[#218B7D] text-xl text-white p-2'>
                                     <IoIosPeople/>
                                 </div>
-                                <p className='opacity-80 font-medium text-sm font-lora italic'>{paqueteDetail.persons} Adultos</p>
+                                <p className='opacity-80 font-medium text-sm font-lora italic'>{paqueteDetail.persons} Personas</p>
                             </div>
                             <div className='flex justify-start items-center gap-2 border border-[#218B7D] rounded-r-xl w-full'>
                                 <div className='bg-[#218B7D] text-xl text-white p-2'>
@@ -72,15 +72,6 @@ const DetailViajes = () => {
                                     <p className='opacity-80 font-medium text-sm font-lora italic'>{paqueteDetail.lodgings}</p>
                                 </div>
                             </div>
-                            <div className='flex justify-start items-center gap-2 border border-[#218B7D] rounded-r-xl w-full'>
-                                <div className='bg-[#218B7D] text-xl text-white p-2'>
-                                    <FaPersonBiking/>
-                                </div>
-                                <div className='flex justify-between items-center w-full pr-3'>
-                                    <p className='opacity-80 font-medium text-sm font-lora italic'>Circuitos</p>
-                                    <p className='opacity-80 font-medium text-sm font-lora italic'>{paqueteDetail.circuits}</p>
-                                </div>
-                            </div>
                         </div>
                     </article>
                 </section>
@@ -94,6 +85,9 @@ const DetailViajes = () => {
                     </div>
                     <div className='w-full relative'>
                         <LayoutGrid cards={paqueteDetail.galleryImages} />
+                    </div>
+                    <div className='py-5'>
+                        <p>{paqueteDetail.description}</p>
                     </div>
                 </section>
             </div>
