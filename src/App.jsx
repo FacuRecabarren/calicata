@@ -13,6 +13,7 @@ import Mendoza from "./views/Mendoza/Mendoza"
 import DetailMendoza from "./views/Mendoza/DetailMendoza/DetailMendoza"
 import Layout from "./components/Layout/Layout"
 import Error from "./components/Error/Error"
+import AsistenciaViajero from "./views/AsistenciaViajero/AsistenciaViajero"
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
           <Route path='/events/formula1/:id' element={<DetailFormula1/>} />
           <Route path='/events/futbol' element={<Futbol/>}/>
           <Route path='/events/futbol/:id' element={<DetailFutbol/>} />
+          <Route path='/asistenciaviajero' element={<AsistenciaViajero/>}/>
         </Route>
         <Route path="*" element={<Error/>}/>
       </Routes>
