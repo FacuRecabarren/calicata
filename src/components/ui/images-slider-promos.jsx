@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaExternalLinkAlt } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 export const PromosSlider = ({
   promos,
@@ -84,6 +85,8 @@ export const PromosSlider = ({
     },
   };
 
+  const { t } = useTranslation()
+
   const areImagesLoaded = loadedImages.length > 0;
 
   return (
@@ -101,7 +104,7 @@ export const PromosSlider = ({
             />
             <div className=" text-white z-20 flex flex-col justify-center items-center gap-4 w-full">
               <p className="text-4xl font-black text-center">{promos[currentIndex].description}</p>
-              <a href={promos[currentIndex].link} className="cursor-pointer flex justify-center items-center gap-2 bg-[#FCCC71] py-2 px-4 font-bold rounded-xl text-black hover:text-[#FCCC71] hover:bg-transparent border-4 border-[#FCCC71] duration-500">Consultar <FaExternalLinkAlt/></a>
+              <a href={promos[currentIndex].link} className="cursor-pointer flex justify-center items-center gap-2 bg-[#FCCC71] py-2 px-4 font-bold rounded-xl text-black hover:text-[#FCCC71] hover:bg-transparent border-4 border-[#FCCC71] duration-500">{t("ask")}<FaExternalLinkAlt/></a>
             </div>
         </AnimatePresence>
       )}

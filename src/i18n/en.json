@@ -14,7 +14,8 @@
 
 
 
-    "travel" : "Trips",
+    "travel" : "TRAVEL WITH US",
+    "travel1": "Travel",
     "travelInfo": "Discover our wide range of travel packages specially designed for you.",
     "travelUppercase": "TRIPS",
     "travelInsideInfo": "Discover the travel ideas we have for you",
@@ -26,7 +27,25 @@
     "argentina":"Argentina",
     "excursions": "Excursions",
     "excursionsInfo": "Discover a variety of exciting excursions in the province of Mendoza.",
-    "excursionsUppercase": "EXCURSIONS",
+    "mendoza": "GET TO KNOW MENDOZA",
+    "whyMendoza":"Why travel with us to Mendoza?",
+    "whyMendozaInfo":"We are dedicated to creating unforgettable moments and authentic travel experiences that will last a lifetime. We offer customized tours that highlight the best of each region, with meticulous attention to detail.",
+    "ourProposals":"Our travel proposals",
+    "ourProposalsInfo":"Following rigorous protocols to ensure traveler well-being and offering refunds for reservation payments in the event of unforeseen circumstances, we invite you to explore the unique experiences we have prepared for you.",
+    "wineTours":"WINE TOURS",
+    "groupTours":"GROUP TOURS",
+    "gourmetTours":"GOURMET TOURS",
+    "bikeWine":"BIKE AND WINE",
+    "classicTours":"CLASSIC TOURS",
+    "horsebackRiding":"HORSE RIDE",
+
+
+
+
+
+
+    "packages1":"See Packages",
+    "travelAssistance":"We offer Travel Assistance in all packages!",
     "excursionsInsideInfo": "Discover the different tours we have for you",
     "wineries":"Wineries",
     "theaters":"Theaters",
@@ -45,6 +64,7 @@
     "ratings": "Ratings from some of our clients",
     "filter": "Remove filter",
     "consult": "More info",
+    "ask":"More info",
 
     "aboutUsInfo":"At Calicata Travel Agency, we pride ourselves on being experienced sellers of travel packages. With a passion for exploration and a dedication to providing unforgettable experiences, we strive to tailor each journey to the unique preferences of our clients. Our team is committed to ensuring seamless travel arrangements, leaving you free to focus on making memories that will last a lifetime.",
 

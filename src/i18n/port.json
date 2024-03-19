@@ -14,7 +14,8 @@
 
 
 
-    "travel" : "Viagens",
+    "travel" : "VIAJE CONOSCO",
+    "travel1": "Viagens",
     "travelInfo": "Descubra nossa ampla variedade de pacotes de viagem especialmente projetados para você.",
     "travelUppercase": "VIAGEM",
     "travelInsideInfo": "Descubra as ideias de viagem que temos para você",
@@ -27,7 +28,26 @@
     "excursions": "Excursões",
     
     "excursionsInfo": "Descubra uma variedade de excursões emocionantes na província de Mendoza.",
-    "excursionsUppercase": "EXCURSÕES",
+    "mendoza": "CONHEÇA MENDOZA",
+    "whyMendoza":"Por que viajar conosco para Mendoza?",
+    "whyMendozaInfo":"Dedicamo-nos a criar momentos inesquecíveis e experiências de viagem autênticas que perduram na memória. Oferecemos passeios personalizados que destacam o melhor de cada região, cuidando minuciosamente até dos mínimos detalhes.",
+    "ourProposals":"Nossas propostas de viagens",
+    "ourProposalsInfo":"Seguindo protocolos rigorosos para garantir o bem-estar do viajante e oferecendo reembolso de pagamentos de reservas em caso de imprevistos, convidamos você a explorar as experiências únicas que preparamos para você.",
+    "wineTours":"PASSEIOS DE VINHO",
+    "groupTours":"PASSEIOS EM GRUPO",
+    "gourmetTours":"PASSEIOS GOURMET",
+    "bikeWine":"BICICLETA E VINHO",
+    "classicTours":"PASSEIOS CLÁSSICOS",
+    "horsebackRiding":"PASSEIO A CAVALO",
+
+
+
+
+
+
+
+    "packages1":"Ver Pacotes",
+    "travelAssistance":"Oferecemos Assistência Viagem em todos os pacotes!",
     "excursionsInsideInfo": "Descubra as diferentes excursões que temos para você",
     "wineries":"Vinícolas",
     "theaters":"Teatros",
@@ -46,6 +66,7 @@
     "ratings": "Avaliações de alguns de nossos clientes",
     "filter": "Remover filtro",
     "consult": "Consultar",
+    "ask":"Consultar",
     
 
     "aboutUsInfo":"Na agência de viagens Calicata, orgulhamo-nos de ser vendedores experientes de pacotes de viagem. Com uma paixão pela exploração e um compromisso de proporcionar experiências inesquecíveis, esforçamo-nos por adaptar cada jornada às preferências únicas dos nossos clientes. Nossa equipe está empenhada em garantir arranjos de viagem sem problemas, deixando-o livre para se concentrar em criar memórias que durarão toda a vida.",

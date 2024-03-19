@@ -78,11 +78,7 @@ const Viajes = () => {
                           {paquete.lodgings}<IoBedOutline/>
                         </div>
                       )}
-                      {paquete.circuits > 0 && (
-                        <div className='bg-[#FE904D] flex justify-center items-center gap-1 p-1.5 text-white font-medium rounded-md'>
-                          {paquete.circuits}<FaPersonBiking/>
-                        </div>
-                      )}
+                      
                     </div>
                   </article>
                   <article className='flex flex-col justify-between items-end h-full gap-5'>

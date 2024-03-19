@@ -89,16 +89,16 @@ const Mendoza = () => {
             <div className='flex justify-center items-center gap-10'>
                 <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710167985/Group_14_ntjim8.svg" alt="" className='w-[22rem] hidden lg:flex'/>
                 <div className='flex flex-col justify-center items-center gap-5'>
-                    <h2 className='text-3xl lg:text-4xl text-center font-bold text-[#218B7D]'>¿Por qué viajar con nosotros a Mendoza?</h2>
-                    <p className='font-lora italic text-center opacity-80'>Nos dedicamos a crear momentos inolvidables y experiencias de viaje auténticas que perduren en la memoria. Ofrecemos tours personalizados que destacan lo mejor de cada región, cuidando meticulosamente hasta el más mínimo detalle.</p>
+                    <h2 className='text-3xl lg:text-4xl text-center font-bold text-[#218B7D]'>{t("whyMendoza")}</h2>
+                    <p className='font-lora italic text-center opacity-80'>{t("whyMendozaInfo")}</p>
                 </div>
                 <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710168796/Group_14_2_a6sydn.svg" alt="" className='w-[22rem] hidden lg:flex'/>
             </div>
         </section>
         <section className='py-20 lg:py-10 flex flex-col justify-center items-center gap-20'>
             <div className='flex flex-col justify-center items-center gap-5'>
-                <h2 className='text-3xl lg:text-4xl px-5 text-center font-bold text-[#218B7D]'>Nuestras propuestas de viajes</h2>
-                <p className='font-lora italic text-center opacity-80 w-full px-5 lg:w-[60rem]'>Siguiendo rigurosos protocolos para garantizar el bienestar del viajero y ofreciendo reembolsos por pagos de reservas en caso de circunstancias imprevistas, los invitamos a explorar las experiencias únicas que hemos preparado para ustedes.</p>
+                <h2 className='text-3xl lg:text-4xl px-5 text-center font-bold text-[#218B7D]'>{t("ourProposals")}</h2>
+                <p className='font-lora italic text-center opacity-80 w-full px-5 lg:w-[60rem]'>{t("ourProposalsInfo")}</p>
             </div>
             <Carousel
             opts={{
@@ -140,7 +140,7 @@ const Mendoza = () => {
                         <img src={idea.image} alt="" className='absolute h-full w-full -z-10 object-cover rounded-xl filter brightness-[0.45]'/>
                         <h3 id='title' className='text-white font-bold text-center text-2xl w-full rounded-t-xl'>{idea.description.toUpperCase()}</h3>
                         <button className='cursor-alias invisible group/edit group-hover/item:visible absolute top-[60%] flex flex-col justify-center items-center gap-2 bg-opacity-60 z-10 bg-[#218B7D] py-2 px-4 rounded-full'>
-                            <p className='flex justify-center items-center gap-2 font-bold text-white'>Más información</p>
+                            <p className='flex justify-center items-center gap-2 font-bold text-white'>{t("ask")}</p>
                         </button>
                     </Link>
                 ))}
@@ -155,7 +155,7 @@ const Mendoza = () => {
                     <img src={idea.image} alt="" className='absolute h-full w-full -z-10 object-cover rounded-xl filter brightness-[0.45]'/>
                     <h3 id='title' className='text-white font-bold text-center text-2xl w-full rounded-t-xl'>{idea.description.toUpperCase()}</h3>
                     <button className='cursor-alias invisible group/edit group-hover/item:visible absolute top-[60%] flex flex-col justify-center items-center gap-2 bg-opacity-60 z-10 bg-[#218B7D] py-2 px-4 rounded-full'>
-                        <p className='flex justify-center items-center gap-2 font-bold text-white'>Más información</p>
+                        <p className='flex justify-center items-center gap-2 font-bold text-white'>{t("ask")}</p>
                     </button>
                 </Link>
               ))}
