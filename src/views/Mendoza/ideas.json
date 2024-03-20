@@ -227,120 +227,205 @@
     {
         "id": 3,
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710210214/L3OBWU226VETZNPIR6Y4EPTIKI_y7ovpi.webp",
-        "galleryImages": ["",""],
+        "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1710949387/d06e1f36bb4c174a14eb6376c7dabd4e_80_thumbnail_vgbbfv.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1710949438/D9A9863_umnsts.jpg"],
         "description": "Tours Gourmet",
-        "text":"",
+        "text":"Calicata está comprometida en realzar su experiencia enoturística destacando la excelencia de los chefs argentinos. Creemos firmemente que la gastronomía proporciona una ventana única para sumergirse en la cultura, las tradiciones y las costumbres locales. Nos dedicamos a ofrecer una experiencia culinaria de primer nivel en Mendoza, además de compartir nuestro conocimiento sobre aspectos relevantes de la cocina criolla.",
         "target": 2,
         "paquetes": [
             {
-                "title": "Achaval Wines",
-                "description": "Visita y degustación en bodega Matervini, almuerzo armonizado en Achaval Ferrer Premium",
-                "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710254493/timthumb_e2sn60.jpg"
+                "title": "Aceites, Quesos & Vinos",
+                "description": "Descubre los productos destacados de Mendoza en un paseo por Maipú, con vinos, aceites de oliva, dulce de leche y quesos artesanales.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710949628/timthumb_32_pzcrwn.jpg"
             },
             {
-                "title": "Atardecer en Huentala Wines",
-                "description": "Visita y menú de 5 pasos maridado con vinos premium al atardecer en bodega Huentala Wines",
-                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710892768/timthumb_rxwvpo.jpg"
+                "title": "Cena Especial",
+                "description": "Disfruta de una cena exclusiva en Mendoza, donde la gastronomía, la ciudad nocturna y el vino se fusionan en una experiencia sublime.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710949722/RDWW44TNNNAHDFUFNZAQPHTC5Y_ztdv75.avif"
+            },
+            {
+                "title": "Clases de Cocina",
+                "description": "Descubre Mendoza a través de su gastronomía en clases de cocina que ofrecen más que solo recetas: experiencias de calidad con vinos y comida.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710949792/clases-de-cocina-624x400_tyehyx.jpg"
+            },
+            {
+                "title": "Experiencia entre Olivos & Viñedos",
+                "description": "En esta innovadora experiencia nos centraremos en una de las estrellas de la gastronomía: el aceite de oliva.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710969062/entre-olivos-y-vinedos-03-antonio-obrador-1200x800_j9gfcb.jpg"
+            },
+            {
+                "title": "Experiencia Mendoza Gourmet",
+                "description": "Disfruta un día dedicado a los detalles culinarios, aromas y vinos en Mendoza. ¡Explora este viaje de sabores único!",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710969190/Degustaci%C3%B3n_de_vinos3_rxqjzi.jpg"
+            },
+            {
+                "title": "Maipú & Luján Gourmet",
+                "description": "Luján de Cuyo y Maipú, cercanas a Mendoza, albergan bodegas con historia y experiencias únicas que cautivan a los visitantes año tras año.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710969379/domaine_dfktkc.jpg"
             }
         ]
     },
     {
         "id": 4,
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710210893/IMG_2246-Wine-and-Ride-scaled_d4qnjv.webp",
-        "galleryImages": ["",""],
+        "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1710970702/lar_InDh07jcwXoF7QW9b2qv29EzIqbzKLgVkxRaP1rC_hppcpg.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1710970764/Bicis-Sommos-2_nsmbpp.jpg"],
         "description": "Bike y Vino",
-        "text":"",
+        "text":"Descubre serenos recorridos que te cautivarán con sus impresionantes paisajes rurales a lo largo del trayecto, entre viñedos y huertos frutales. Ya seas un ciclista experimentado o estés considerando planificar tu primer viaje en bicicleta, nuestros tours por Mendoza se ajustarán perfectamente a tus preferencias. Explora también nuestras opciones de mountain bike para una experiencia aún más emocionante.",
         "target": 6,
         "paquetes": [
             {
-                "title": "Achaval Wines",
+                "title": "Luján de Cuyo",
                 "description": "Visita y degustación en bodega Matervini, almuerzo armonizado en Achaval Ferrer Premium",
-                "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710254493/timthumb_e2sn60.jpg"
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710971037/caption_ohavsb.jpg"
             },
             {
-                "title": "Atardecer en Huentala Wines",
+                "title": "Valle de Uco",
                 "description": "Visita y menú de 5 pasos maridado con vinos premium al atardecer en bodega Huentala Wines",
-                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710892768/timthumb_rxwvpo.jpg"
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710970916/12-13_nzbcwn.jpg"
+            },
+            {
+                "title": "E-bike & Vino",
+                "description": "Visita y menú de 5 pasos maridado con vinos premium al atardecer en bodega Huentala Wines",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710970983/timthumb_33_fudy1x.jpg"
             }
         ]
     },
     {
         "id": 5,
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710252527/AdobeStock_290509695-min-1536x1025-1-1024x683_fzbdnl_qrxezu.webp",
-        "galleryImages": ["",""],
+        "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1710972093/portones-1280x720_wqafzm.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1710972158/cerro-aconcagua-1-1024x512_lpacgv.jpg"],
         "description": "Tours Clásicos",
-        "text":"",
+        "text":"¡Únete y disfruta de los tradicionales recorridos turísticos mientras descubres rincones únicos en Mendoza, el paraíso del vino por excelencia! Sumérgete en viñedos boutique y contempla los espectaculares paisajes andinos. Degusta vinos Premium procedentes de diversas subregiones vitivinícolas. Contamos con opciones de tours de medio día y día completo disponibles durante todas las estaciones del año. ¡No te lo pierdas!",
         "target": 2,
         "paquetes": [
             {
-                "title": "Achaval Wines",
-                "description": "Visita y degustación en bodega Matervini, almuerzo armonizado en Achaval Ferrer Premium",
-                "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710254493/timthumb_e2sn60.jpg"
+                "title": "Alta Montaña Tradicional",
+                "description": "Explorar el camino hacia Chile es una experiencia impresionante, rodeado por el río Mendoza y sus paisajes únicos. Respira aire puro y, si tienes suerte, podrás avistar animales autóctonos.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710971287/aconcagua_jxpuel.jpg"
             },
             {
-                "title": "Atardecer en Huentala Wines",
-                "description": "Visita y menú de 5 pasos maridado con vinos premium al atardecer en bodega Huentala Wines",
-                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710892768/timthumb_rxwvpo.jpg"
+                "title": "City Tour + Bodega",
+                "description": "Descubre la historia de Mendoza y visita la emblemática bodega Trapiche, símbolo de la región. Explora las antiguas vías del tren y las maquinarias vinícolas utilizadas en épocas pasadas.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710971332/timthumb_34_yo9mlp.jpg"
+            },
+            {
+                "title": "City Tour al Atardecer",
+                "description": "Descubre la historia de Mendoza y disfruta de una cena exclusiva en el restaurante de la bodega Los Toneles.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710971649/1591568897901IMG_4880-scaled_bn6gge.webp"
+            },
+            {
+                "title": "City Tour CLásico",
+                "description": "San Rafael, a los pies de las montañas de Mendoza, es la puerta al Pacífico. Clima agradable y una ciudad amada por sus habitantes.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710971736/Portones-Parque-San-Martin_rhcjig.jpg"
+            },
+            {
+                "title": "City Tour con Picnic",
+                "description": "Descubre los secretos de Mendoza desde su fundación. Disfruta de un picnic en el hermoso parque rodeado de jardines de rosas.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710971797/Ciudad-de-Mendoza-en-oton%CC%83o-1_vcbdfl.jpg"
+            },
+            {
+                "title": "City Tour en Monopatín",
+                "description": "Explora Mendoza en monopatín para descubrir sus secretos y detalles de forma única y novedosa.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710971963/64a692f51ac76_570_371_axqxve.jpg"
+            },
+            {
+                "title": "E-Bike City Tour",
+                "description": "Explora Mendoza en e-bikes, una ciudad con clima agradable y vistas espectaculares, al pie de las montañas y puerta de entrada al Océano Pacífico.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710972018/timthumb_35_scwvuz.jpg"
             }
         ]
     },
     {
         "id": 6,
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710252552/Mountain-bike-en-Potrerillos_pgm3qg_c8qaay.webp",
-        "galleryImages": ["",""],
+        "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1710973524/Content_Team_250319_00175_EA_Hero_lg_d4bhh6.avif","https://res.cloudinary.com/dfschbyq2/image/upload/v1710973551/Dynamic-Motivation-Image-Martin-Ollman-3_xutwmw.webp"],
         "description": "Mountain Bike",
-        "text":"",
+        "text":"Los entusiastas del mountain bike explorarán las carreteras y senderos más impresionantes de la región. Nuestros experimentados guías conocen cada rincón del singular sistema de caminos off-road de Mendoza. Únete a nosotros para vivir una experiencia inigualable sobre dos ruedas, incluyendo la emocionante novedad de cruzar el paso internacional Cristo Redentor a 4000 metros sobre el nivel del mar. ¡Te esperamos para una aventura que no olvidarás!",
         "target": 6,
         "paquetes": [
             {
-                "title": "Achaval Wines",
-                "description": "Visita y degustación en bodega Matervini, almuerzo armonizado en Achaval Ferrer Premium",
-                "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710254493/timthumb_e2sn60.jpg"
+                "title": "Cruce de Los Andes",
+                "description": "Descubra un sendero único a lo largo del río Cuevas, en el corazón de los Andes cerca del Cerro Aconcagua, donde podrá encontrar huellas de animales y disfrutar de un paisaje impresionante.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710972828/Cruce-andes-en-bicicleta-1_xbyz3r.jpg"
             },
             {
-                "title": "Atardecer en Huentala Wines",
-                "description": "Visita y menú de 5 pasos maridado con vinos premium al atardecer en bodega Huentala Wines",
-                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710892768/timthumb_rxwvpo.jpg"
+                "title": "Quebrada de Matienzo",
+                "description": "Descubra un emocionante circuito en bicicleta cerca del Cerro Aconcagua, explorando la Quebrada de Matienzo y su rica biodiversidad. Ideal para ciclistas técnicos.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710972946/1580758847966942531_flyc2f.jpg"
+            },
+            {
+                "title": "Senderos de Chacras",
+                "description": "Explore los senderos de Chacras de Coria en la Precordillera con nuestras bicicletas de montaña. Ideal para disfrutar de la naturaleza en los Andes.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710973125/f1280x720-47610_179285_5050_uevdxk.jpg"
+            },
+            {
+                "title": "Villavicencio",
+                "description": "Un tour en bicicleta por la reserva natural de Mendoza. Perfecto para los amantes del ciclismo y la naturaleza.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710973245/reserva-natural-villavicencio-2_pzarrw.jpg"
+            },
+            {
+                "title": "Pedaleando entre Viñedos",
+                "description": "Disfruta de un paseo en bicicleta entre los pintorescos viñedos de Mendoza y visita dos destacadas bodegas como Norton y Susana Balbo en Luján de Cuyo.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710973323/641daa2cd353e464bf0955c5_pedales_de_lava_una_super_ruta_en_mountain_bike_por_lanzarote_pqcy2l.jpg"
             }
         ]
     },
     {
         "id": 7,
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710210897/los-puquiosjpg_idjc2b.webp",
-        "galleryImages": ["",""],
+        "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1710974162/85382_4505_pjkal0.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1710974213/nieve-puquiosjpg_wsjxnx.webp"],
         "description": "Ski",
-        "text":"",
+        "text":"En Argentina y Chile, encontrarás una amplia gama de tours de esquí para todos los niveles. Desde 1998, hemos llevado a esquiadores y snowboarders a Las Leñas, el centro de esquí más grande de Argentina. La temporada en América del Sur generalmente va de junio a septiembre, con mediados de julio a agosto siendo el período óptimo para disfrutar de la mejor nieve. Consulta nuestros tours personalizados, programas exclusivos de freeride y heli-ski para familias o grupos.",
         "target": 2,
         "paquetes": [
             {
-                "title": "Achaval Wines",
-                "description": "Visita y degustación en bodega Matervini, almuerzo armonizado en Achaval Ferrer Premium",
-                "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710254493/timthumb_e2sn60.jpg"
+                "title": "Día de Nieve",
+                "description": "Salidas diarias para disfrutar de la nieve en Penitentes o Los Puquios, de junio a septiembre. Esquí y diversión garantizados.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710974105/penitentes-2_zzdwdi.jpg"
             },
             {
-                "title": "Atardecer en Huentala Wines",
-                "description": "Visita y menú de 5 pasos maridado con vinos premium al atardecer en bodega Huentala Wines",
-                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710892768/timthumb_rxwvpo.jpg"
+                "title": "Día en Las Leñas",
+                "description": "Las Leñas, en el valle homónimo al sur de Mendoza, es uno de los principales centros de esquí de Argentina, destacado en América del Sur por su infraestructura.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710974020/nature-mountain-outdoors-ice_dc8kkm.jpg"
+            },
+            {
+                "title": "Raquetas de Nieve",
+                "description": "Los Andes en invierno: un paisaje majestuoso con montañas nevadas que inspiran paz y admiración.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710973935/timthumb_36_qnzjyu.jpg"
             }
         ]
     },
     {
         "id": 8,
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710252573/IMG_20210406_153108164_HDR-1-scaled-e1626357545247_qztutn_tyexjp.webp",
-        "galleryImages": ["",""],
+        "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1710974959/cabalgata-4_bzmjni.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1710974987/cabalgata-cordillera-mendocina-1_t9uuvs.jpg"],
         "description": "Cabalgatas",
-        "text":"",
+        "text":"Los impresionantes paisajes ofrecen a los visitantes numerosas oportunidades para experimentar el lugar de manera única. Embárcate en un tranquilo paseo a caballo entre viñedos o montañas, acompañado por un experimentado gaucho, una figura emblemática de la cultura campestre argentina. Te invitamos a disfrutar de una experiencia inolvidable en la hermosa y romántica Mendoza. ¡Te esperamos!",
         "target": 3,
         "paquetes": [
             {
-                "title": "Achaval Wines",
-                "description": "Visita y degustación en bodega Matervini, almuerzo armonizado en Achaval Ferrer Premium",
-                "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710254493/timthumb_e2sn60.jpg"
+                "title": "En Los Andes",
+                "description": "El Valle de Uco, en el corazón de Mendoza, ofrece una amplia gama de actividades turísticas, desde la ruta del vino hasta la aventura y el turismo cultural.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710974562/Cabalgata-sanmartiniana-en-los-Andes_j2hznm.jpg"
             },
             {
-                "title": "Atardecer en Huentala Wines",
-                "description": "Visita y menú de 5 pasos maridado con vinos premium al atardecer en bodega Huentala Wines",
-                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710892768/timthumb_rxwvpo.jpg"
+                "title": "Cabalgata Enemiga",
+                "description": "Maipú, cuna de los primeros vinos argentinos, es reconocida por su legado histórico y sus vinos de alta calidad.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710974720/cabalgata-por-los-vinedos_npakr7.jpg"
+            },
+            {
+                "title": "Quebrada del Cóndor",
+                "description": "Vallecitos, entre Potrerillos y Tupungato, a 40 min de Mendoza, ofrece paisajes impresionantes, destacándose como uno de los más bellos de la región.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710974771/Portada-1_zdkmbe.png"
+            },
+            {
+                "title": "Eco Aventura",
+                "description": "Disfrute de una experiencia única en Mendoza, explorando sus paisajes montañosos mientras cabalga o pedalea, combinando aventura y naturaleza en un mismo viaje.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710974838/cabalgata-entre-vinedos_lyyjzm.jpg"
+            },
+            {
+                "title": "Vino & Aventura",
+                "description": "Pedalea y cabalga entre viñedos en las rutas rurales de Mendoza. Disfruta de degustaciones de vino y un almuerzo delicioso.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710974904/0_aazXAxa6rqvaa60x_zrtckv.jpg"
             }
         ]
     }
