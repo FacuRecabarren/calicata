@@ -11,49 +11,337 @@
                 "title": "Achaval Wines",
                 "description": "Visita y degustación en bodega Matervini, almuerzo armonizado en Achaval Ferrer Premium",
                 "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710254493/timthumb_e2sn60.jpg"
+            },
+            {
+                "title": "Atardecer en Huentala Wines",
+                "description": "Visita y menú de 5 pasos maridado con vinos premium al atardecer en bodega Huentala Wines",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710892768/timthumb_rxwvpo.jpg"
+            },
+            {
+                "title": "Catena & Zuccardi",
+                "description": "Dos de las bodegas más grandes de Argentina y quizás la más popular entre ellas, además de ser las favoritas entre los viajeros que visitan Mendoza.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710892851/timthumb_1_mnmvkn.jpg"
+            },
+            {
+                "title": "Clásicos del Valle",
+                "description": "Valle de Uco: paisajes impresionantes y bodegas de prestigio como Pulenta Estate y La Azul. Finaliza con un almuerzo gourmet en Andeluna.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710892874/timthumb_2_oiwwut.jpg"
+            },
+            {
+                "title": "Degustando Estrellas",
+                "description": "Cruzat ofrece el método Champenoise y degustación de espumosos. Chandon brinda experiencia francesa con almuerzo armonizado.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710892900/timthumb_3_zpp6oe.jpg"
+            },
+            {
+                "title": "Enólogo por un día",
+                "description": "Una experiencia interactiva y entretenida: serás enólogo, creando tu obra maestra con variedades de uvas.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710892920/timthumb_4_h7auws.jpg"
+            },
+            {
+                "title": "Espumantes de Lujo",
+                "description": "El vino espumante, símbolo de celebraciones, puede disfrutarse diariamente y combinar con diversos platos.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710892951/timthumb_5_pks6ok.jpg"
+            },
+            {
+                "title": "Experiencia Clos de los 7",
+                "description": "El Valle de Uco ofrece más que viñedos: paisajes impresionantes y actividades diversas a solo 100 km de Mendoza. ¡Una aventura que vale la pena!",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710892975/timthumb_6_hfub15.jpg"
+            },
+            {
+                "title": "Experiencia Gimenez Riili",
+                "description": "Gimenez Riili, fundada en 1945, encarna la excelencia en vinos con tradición familiar. Dirigida por dos generaciones, ofrece un día lleno de actividades memorables.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893001/timthumb_7_dyismq.jpg"
+            },
+            {
+                "title": "Experiencia The Vines",
+                "description": "Visita a bodegas como Sólo Contigo y Corazón del Sol en Valle de Uco, degustación de vinos galardonados y almuerzo en el restaurante 7 Fuegos del chef Francis Mallmann.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893024/timthumb_8_lrko4f.jpg"
+            },
+            {
+                "title": "Luján de Cuyo - Familias Argentinas",
+                "description": "Luján de Cuyo, cerca de Mendoza, atrae turistas como base para explorar el mundo del vino argentino en bodegas familiares acogedoras.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893062/timthumb_9_nm2jdh.jpg"
+            },
+            {
+                "title": "Luján de Cuyo - Exclusivo",
+                "description": "Luján de Cuyo, la tierra del Malbec, alberga la mayor cantidad de bodegas en Mendoza. Descubre el mundo del vino en esta región vitivinícola de renombre.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893087/timthumb_10_kiaazi.jpg"
+            },
+            {
+                "title": "Luján de Cuyo Malbec",
+                "description": "Día especial para explorar bodegas únicas, desde las reconocidas hasta las boutique, ofreciendo experiencias únicas que revelan la esencia del vino argentino.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893113/timthumb_11_r0zykg.jpg"
+            },
+            {
+                "title": "Luján de Cuyo Premium",
+                "description": "Visita a la tierra del Malbec, a 19 km de Mendoza. Tres bodegas destacadas muestran la esencia del terroir mendocino y sus vinos reconocidos globalmente.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893137/timthumb_12_zppxch.jpg"
+            },
+            {
+                "title": "Maipú & Luján: legado familiar",
+                "description": "Recorrido exclusivo en una zona turística de Mendoza. Los propietarios de las bodegas, apasionados por el vino, brindan atención personalizada, destacando la unión familiar en cada emprendimiento.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893166/timthumb_13_sytaca.jpg"
+            },
+            {
+                "title": "Maipú Clásico",
+                "description": "Maipú, cuna del vino argentino. Deguste vinos premiados y descubra la región famosa por su alta calidad.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893195/timthumb_ljuyyy.png"
+            },
+            {
+                "title": "Mundo Zuccardi",
+                "description": "Familia comprometida con calidad, innovación, sostenibilidad y comunidad. Sumérjase en las historias y vinos de una familia tradicional de Mendoza.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893219/timthumb_14_smwfv6.jpg"
+            },
+            {
+                "title": "Probando los Sentidos",
+                "description": "Visita a bodega Belasco, destacando su sala de aromas. Pulenta Estate ofrece degustación sensorial. En Finca La Anita, legendarios vinos de Agrelo.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893266/timthumb_15_wbom0g.jpg"
+            },
+            {
+                "title": "San Rafael Vitivinícola",
+                "description": "San Rafael, importante en la industria del vino, ofrece belleza natural y turismo. Visitaremos dos bodegas destacadas y aprenderemos sobre las diferencias en el terroir.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893296/timthumb_16_i9rldu.jpg"
+            },
+            {
+                "title": "Speakeasy",
+                "description": "Encuentro entre amigos para descubrir el mundo del vino y la gastronomía local de forma descontracturada. ¡Una experiencia para probar y disfrutar juntos!",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893358/timthumb_17_kricnr.jpg"
+            },
+            {
+                "title": "Tango & Vino",
+                "description": "Visita, degustación de vinos y picada con show de tango en bodega CARO",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893385/timthumb_18_dup15h.jpg"
+            },
+            {
+                "title": "Tour Orgánico",
+                "description": "Descubra el mundo del vino orgánico en Mendoza con paisajes impresionantes y excelente comida. Conviértase en un entusiasta del vino con historias para contar.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893410/timthumb_19_of2rep.jpg"
+            },
+            {
+                "title": "Valle de Uco Boutique",
+                "description": "Valle de Uco, corazón productivo de Mendoza. Disfrute la belleza de la Cordillera y descubra la principal área enológica. Las bodegas seleccionadas completarán esta experiencia boutique.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893462/timthumb_20_g4ajih.jpg"
+            },
+            {
+                "title": "Valle de Uco Exclusivo",
+                "description": "Valle de Uco Sur: Tunuyán, San Carlos, La Consulta y Eugenio Bustos. Acceso principal por Ruta 40. Experiencia enriquecedora llena de detalles y aprendizajes.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893489/timthumb_21_sjsoi7.jpg"
+            },
+            {
+                "title": "Valle de Uco Premium",
+                "description": "El Valle de Uco, con su amplitud térmica y suelo diverso, es ideal para cultivar viñedos, mejorando las características de la uva. Sus paisajes son de los más bellos de la provincia.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893520/timthumb_22_uzpvai.jpg"
+            },
+            {
+                "title": "Vinos & Destilados",
+                "description": "Maipú, primera región vitivinícola de Argentina, ofrece experiencias únicas más allá del vino. Visitaremos una destilería de alta gama y el moderno restaurante en la histórica bodega Trapiche.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893549/timthumb_23_xfdsyx.jpg"
+            },
+            {
+                "title": "Yoga entre Viñedos",
+                "description": "El yoga promueve la unión del cuerpo, mente y espíritu mediante posturas y respiración, induciendo meditación y serenidad. En entornos naturales de Mendoza, como viñedos y montañas, se potencia esta práctica.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893576/timthumb_24_eqqb8f.jpg"
+            },
+            {
+                "title": "Tour de Vino de Medio Día",
+                "description": "Visitar bodegas en Mendoza es esencial para los viajeros. Muchos optan por regresar a los orígenes y disfrutar del campo en tiempos de vida acelerados.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893606/timthumb_25_svczsr.jpg"
+            },
+            {
+                "title": "Maipú Premium",
+                "description": "Visita Trivento, inspirada en los tres vientos de Mendoza. AMP Cava ofrece degustación personalizada. Casa El Enemigo, un templo de simplicidad, seguido de almuerzo con vinos.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893640/timthumb_26_drycdf.jpg"
+            },
+            {
+                "title": "Legado Catena Zapata",
+                "description": "Este paseo está pensado para conocer el legado de la Bodega Catena Zapata y de todo lo que se ha generado a partir del éxito de esta familia.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893672/timthumb_27_bqha9x.jpg"
+            },
+            {
+                "title": "Experiencia The Vines",
+                "description": "Conoce las bodegas boutique de lujo dentro de The Vines en Valle de Uco, finalizando con un almuerzo increíble en Siete fuegos Restaurante, del reconocido chef Francis Mallmann.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893695/timthumb_28_wdo3sk.jpg"
+            },
+            {
+                "title": "Atardecer en Bodega",
+                "description": "Visita, picnic o picada, degustación premium al atardecer en bodega.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893725/timthumb_29_lobh04.jpg"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710252370/IMG_7624-horizontal-scaled_n7sgcd_kxmjxb.webp",
+        "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1710905183/IMG_7624-horizontal-scaled_v5sqq1.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1710905266/WhatsApp-Image-2021-10-25-at-17.48.37-768x575_n0vt69.jpg"],
+        "description": "Tours Grupales",
+        "text":"Descubre la provincia de Mendoza con nuestros tours grupales. Disfruta de paseos en bicicleta entre viñedos, emocionantes aventuras en 4x4, experiencias en alta montaña, visitas a bodegas y mucho más. ¡Explora lo mejor de Mendoza con nosotros!",
+        "target": 2,
+        "paquetes": [
+            {
+                "title": "Bike & Vinos",
+                "description": "Descubre Luján de Cuyo en bicicleta, explorando viñedos y bodegas. Disfruta de actividades únicas mientras te ejercitas.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710905622/8d_kxp2ns.jpg"
+            },
+            {
+                "title": "Cabalgata & Vinos",
+                "description": "Verde de los viñedos, cielo azul intenso y caballos serenos crean un paisaje cautivador. Paseo lleno de aventuras y emociones resalta la grandeza de nuestra región.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710905407/bf_mox2eh.jpg"
+            },
+            {
+                "title": "Experiencia Alta Montaña",
+                "description": "Un circuito especial que cautiva los sentidos con paisajes montañosos, aire puro y relevancia histórica para Mendoza. ¡Un paseo completo en todos los aspectos!",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710905828/Equipamiento-y-consejos-para-un-paseo-en-las-montanas_l8tfm8.jpg"
+            },
+            {
+                "title": "Experiencia Luján",
+                "description": "Descubre el místico Malbec y otros grandes vinos de Luján de Cuyo, la tierra del Malbec, en bodegas de renombre internacional.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710905974/timthumb_30_m57967.jpg"
+            },
+            {
+                "title": "Experiencia Maipú",
+                "description": "Visitamos bodega CARO, fusión de Catena y Rothschild, luego L'Orange de Ernesto Catena, y finalizamos en El Enemigo, con almuerzo maridado.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710906121/cava-bodega-caro1_nl1h5w.jpg"
+            },
+            {
+                "title": "Andes Truck",
+                "description": "Exploraremos la Reserva Natural de Villavicencio en un truck, visitando puntos como Balcón y Manto de Cobre. Observación de flora y fauna. Opcional: almuerzo. Por la tarde, visita guiada al icónico hotel antes de regresar.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710906076/timthumb_31_ciwccg.jpg"
+            },
+            {
+                "title": "Sabores de Maipú",
+                "description": "Maipú, al este de la ciudad, es la cuna de los primeros vinos argentinos, con grandes historias y momentos para completar este paseo perfecto.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710906247/foto_obl8qp.jpg"
+            },
+            {
+                "title": "Valle de Uco Mágico",
+                "description": "El Valle de Uco, con sus montañas y paisajes impresionantes, ofrece vinos de altitud con aromas y sabores únicos.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710906345/57622419_2144651948943837_3481131646936154112_n_hgcagm.jpg"
+            },
+            {
+                "title": "Vinos & Olivas",
+                "description": "Explora las óptimas bodegas de Mendoza y descubre su destacada producción de aceite de oliva en Luján de Cuyo y Maipú.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710906411/1_K50iJCKdBT07nsajdE_aSQ_mi9ilj.jpg"
             }
         ]
     },
     {
         "id": 3,
-        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710252370/IMG_7624-horizontal-scaled_n7sgcd_kxmjxb.webp",
-        "description": "Tours Grupales",
-        "target": 2
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710210214/L3OBWU226VETZNPIR6Y4EPTIKI_y7ovpi.webp",
+        "galleryImages": ["",""],
+        "description": "Tours Gourmet",
+        "text":"",
+        "target": 2,
+        "paquetes": [
+            {
+                "title": "Achaval Wines",
+                "description": "Visita y degustación en bodega Matervini, almuerzo armonizado en Achaval Ferrer Premium",
+                "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710254493/timthumb_e2sn60.jpg"
+            },
+            {
+                "title": "Atardecer en Huentala Wines",
+                "description": "Visita y menú de 5 pasos maridado con vinos premium al atardecer en bodega Huentala Wines",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710892768/timthumb_rxwvpo.jpg"
+            }
+        ]
     },
     {
         "id": 4,
-        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710210214/L3OBWU226VETZNPIR6Y4EPTIKI_y7ovpi.webp",
-        "description": "Tours Gourmet",
-        "target": 2
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710210893/IMG_2246-Wine-and-Ride-scaled_d4qnjv.webp",
+        "galleryImages": ["",""],
+        "description": "Bike y Vino",
+        "text":"",
+        "target": 6,
+        "paquetes": [
+            {
+                "title": "Achaval Wines",
+                "description": "Visita y degustación en bodega Matervini, almuerzo armonizado en Achaval Ferrer Premium",
+                "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710254493/timthumb_e2sn60.jpg"
+            },
+            {
+                "title": "Atardecer en Huentala Wines",
+                "description": "Visita y menú de 5 pasos maridado con vinos premium al atardecer en bodega Huentala Wines",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710892768/timthumb_rxwvpo.jpg"
+            }
+        ]
     },
     {
         "id": 5,
-        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710210893/IMG_2246-Wine-and-Ride-scaled_d4qnjv.webp",
-        "description": "Bike y Vino",
-        "target": 6
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710252527/AdobeStock_290509695-min-1536x1025-1-1024x683_fzbdnl_qrxezu.webp",
+        "galleryImages": ["",""],
+        "description": "Tours Clásicos",
+        "text":"",
+        "target": 2,
+        "paquetes": [
+            {
+                "title": "Achaval Wines",
+                "description": "Visita y degustación en bodega Matervini, almuerzo armonizado en Achaval Ferrer Premium",
+                "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710254493/timthumb_e2sn60.jpg"
+            },
+            {
+                "title": "Atardecer en Huentala Wines",
+                "description": "Visita y menú de 5 pasos maridado con vinos premium al atardecer en bodega Huentala Wines",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710892768/timthumb_rxwvpo.jpg"
+            }
+        ]
     },
     {
         "id": 6,
-        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710252527/AdobeStock_290509695-min-1536x1025-1-1024x683_fzbdnl_qrxezu.webp",
-        "description": "Tours Clásicos",
-        "target": 2
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710252552/Mountain-bike-en-Potrerillos_pgm3qg_c8qaay.webp",
+        "galleryImages": ["",""],
+        "description": "Mountain Bike",
+        "text":"",
+        "target": 6,
+        "paquetes": [
+            {
+                "title": "Achaval Wines",
+                "description": "Visita y degustación en bodega Matervini, almuerzo armonizado en Achaval Ferrer Premium",
+                "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710254493/timthumb_e2sn60.jpg"
+            },
+            {
+                "title": "Atardecer en Huentala Wines",
+                "description": "Visita y menú de 5 pasos maridado con vinos premium al atardecer en bodega Huentala Wines",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710892768/timthumb_rxwvpo.jpg"
+            }
+        ]
     },
     {
         "id": 7,
-        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710252552/Mountain-bike-en-Potrerillos_pgm3qg_c8qaay.webp",
-        "description": "Mountain Bike",
-        "target": 6
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710210897/los-puquiosjpg_idjc2b.webp",
+        "galleryImages": ["",""],
+        "description": "Ski",
+        "text":"",
+        "target": 2,
+        "paquetes": [
+            {
+                "title": "Achaval Wines",
+                "description": "Visita y degustación en bodega Matervini, almuerzo armonizado en Achaval Ferrer Premium",
+                "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710254493/timthumb_e2sn60.jpg"
+            },
+            {
+                "title": "Atardecer en Huentala Wines",
+                "description": "Visita y menú de 5 pasos maridado con vinos premium al atardecer en bodega Huentala Wines",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710892768/timthumb_rxwvpo.jpg"
+            }
+        ]
     },
     {
         "id": 8,
-        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710210897/los-puquiosjpg_idjc2b.webp",
-        "description": "Ski",
-        "target": 2
-    },
-    {
-        "id": 9,
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710252573/IMG_20210406_153108164_HDR-1-scaled-e1626357545247_qztutn_tyexjp.webp",
+        "galleryImages": ["",""],
         "description": "Cabalgatas",
-        "target": 3
+        "text":"",
+        "target": 3,
+        "paquetes": [
+            {
+                "title": "Achaval Wines",
+                "description": "Visita y degustación en bodega Matervini, almuerzo armonizado en Achaval Ferrer Premium",
+                "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710254493/timthumb_e2sn60.jpg"
+            },
+            {
+                "title": "Atardecer en Huentala Wines",
+                "description": "Visita y menú de 5 pasos maridado con vinos premium al atardecer en bodega Huentala Wines",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710892768/timthumb_rxwvpo.jpg"
+            }
+        ]
     }
 ]

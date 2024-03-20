@@ -39,12 +39,12 @@ const DetailMendoza = () => {
                     <span className="absolute bottom-2 w-[80%] h-[3px] bg-[#218B7D]"></span>
                     <span className="absolute bottom-0 w-[60%] h-[2px] bg-[#218B7D]"></span> 
                 </h2>
-                <div className='w-full h-full flex justify-center items-center flex-wrap'>
+                <div className='w-full h-full flex justify-evenly flex-wrap'>
                 {ideaDetail.paquetes.map(paquete =>(
-                    <div onClick={() => handleConsultClick(paquete)} key={paquete.title} className='w-[20rem] h-[25rem] flex flex-col justify-between rounded-xl shadow-xl hover:scale-[1.01] duration-300 cursor-pointer'>
-                        <div className='flex flex-col'>
-                            <img src={paquete.image} alt="" className='rounded-t-xl'/>
-                            <div className='pt-2 px-2'>
+                    <div onClick={() => handleConsultClick(paquete)} key={paquete.title} className='flex flex-col justify-between rounded-xl shadow-xl hover:scale-[1.01] duration-300 cursor-pointer my-5'>
+                        <div className='flex flex-col w-[26rem] h-[25rem]'>
+                            <img src={paquete.image} alt="" className='rounded-t-xl h-[17rem]'/>
+                            <div className='pt-5 h-32 px-2 bg-gray-100'>
                                 <h2 className='text-xl text-[#218B7D] font-semibold'>{paquete.title}</h2>
                                 <p className='text-sm opacity-80'>{paquete.description}</p>
                             </div>
