@@ -14,6 +14,7 @@ import { FaHorse, FaWater } from "react-icons/fa";
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import ideas from "./ideas.json"
+import ideasEn from "./ideas-en.json"
 import { RiGuideLine } from "react-icons/ri";
 
 
@@ -135,30 +136,53 @@ const Mendoza = () => {
         </section>
         {selectedTheme === null && (
             <section className='flex justify-center items-center gap-5 flex-wrap lg:py-10 py-0 px-5 lg:px-0 pb-10'>
-                {ideas.map(idea => (
-                    <Link to={`/mendoza/${idea.id}`} key={idea.id} className='group/item h-[20rem] w-[30rem] flex justify-center items-center hover:scale-[1.02] duration-300 relative rounded-xl shadow-xl'>
+                {i18n.language === 'es' && ideas.map(idea => (
+                    <Link to={`/mendoza/${idea.id}`} key={idea.id} className='group/item h-[20rem] w-[30rem] flex justify-center items-center lg:hover:scale-[1.02] duration-300 relative rounded-xl shadow-xl'>
                         <img src={idea.image} alt="" className='absolute h-full w-full -z-10 object-cover rounded-xl filter brightness-[0.45]'/>
                         <h3 id='title' className='text-white font-bold text-center text-2xl w-full rounded-t-xl'>{idea.description.toUpperCase()}</h3>
-                        <button className='cursor-alias invisible group/edit group-hover/item:visible absolute top-[60%] flex flex-col justify-center items-center gap-2 bg-opacity-60 z-10 bg-[#218B7D] py-2 px-4 rounded-full'>
-                            <p className='flex justify-center items-center gap-2 font-bold text-white'>{t("ask")}</p>
+                        <button className='cursor-alias invisible group/edit lg:group-hover/item:visible absolute top-[60%] flex flex-col justify-center items-center gap-2 bg-opacity-60 z-10 bg-[#218B7D] py-2 px-4 rounded-full'>
+                        <p className='flex justify-center items-center gap-2 font-bold text-white'>{t("ask")}</p>
                         </button>
                     </Link>
                 ))}
+                {i18n.language === 'en' && ideasEn.map(idea => (
+                    <Link to={`/mendoza/${idea.id}`} key={idea.id} className='group/item h-[20rem] w-[30rem] flex justify-center items-center lg:hover:scale-[1.02] duration-300 relative rounded-xl shadow-xl'>
+                        <img src={idea.image} alt="" className='absolute h-full w-full -z-10 object-cover rounded-xl filter brightness-[0.45]'/>
+                        <h3 id='title' className='text-white font-bold text-center text-2xl w-full rounded-t-xl'>{idea.description.toUpperCase()}</h3>
+                        <button className='cursor-alias invisible group/edit lg:group-hover/item:visible absolute top-[60%] flex flex-col justify-center items-center gap-2 bg-opacity-60 z-10 bg-[#218B7D] py-2 px-4 rounded-full'>
+                        <p className='flex justify-center items-center gap-2 font-bold text-white'>{t("ask")}</p>
+                        </button>
+                    </Link>
+                ))}
+                
             </section>
         )}
         {selectedTheme !== null && (
             <section className="flex justify-center items-center gap-5 flex-wrap lg:py-10 py-0 px-5 lg:px-0 pb-10">
-            {ideas
+                {i18n.language === 'es' && ideas
               .filter((idea) => selectedTheme === null || idea.target === selectedTheme)
               .map((idea) => (
-                <Link to={`/mendoza/${idea.id}`} key={idea.id} className='group/item h-[20rem] w-[30rem] flex justify-center items-center hover:scale-[1.02] duration-300 relative rounded-xl shadow-xl'>
+                <Link to={`/mendoza/${idea.id}`} key={idea.id} className='group/item h-[20rem] w-[30rem] flex justify-center items-center lg:hover:scale-[1.02] duration-300 relative rounded-xl shadow-xl'>
                     <img src={idea.image} alt="" className='absolute h-full w-full -z-10 object-cover rounded-xl filter brightness-[0.45]'/>
                     <h3 id='title' className='text-white font-bold text-center text-2xl w-full rounded-t-xl'>{idea.description.toUpperCase()}</h3>
-                    <button className='cursor-alias invisible group/edit group-hover/item:visible absolute top-[60%] flex flex-col justify-center items-center gap-2 bg-opacity-60 z-10 bg-[#218B7D] py-2 px-4 rounded-full'>
+                    <button className='cursor-alias invisible group/edit lg:group-hover/item:visible absolute top-[60%] flex flex-col justify-center items-center gap-2 bg-opacity-60 z-10 bg-[#218B7D] py-2 px-4 rounded-full'>
                         <p className='flex justify-center items-center gap-2 font-bold text-white'>{t("ask")}</p>
                     </button>
                 </Link>
               ))}
+            
+            {i18n.language === 'en' && ideasEn
+              .filter((idea) => selectedTheme === null || idea.target === selectedTheme)
+              .map((idea) => (
+                <Link to={`/mendoza/${idea.id}`} key={idea.id} className='group/item h-[20rem] w-[30rem] flex justify-center items-center lg:hover:scale-[1.02] duration-300 relative rounded-xl shadow-xl'>
+                    <img src={idea.image} alt="" className='absolute h-full w-full -z-10 object-cover rounded-xl filter brightness-[0.45]'/>
+                    <h3 id='title' className='text-white font-bold text-center text-2xl w-full rounded-t-xl'>{idea.description.toUpperCase()}</h3>
+                    <button className='cursor-alias invisible group/edit lg:group-hover/item:visible absolute top-[60%] flex flex-col justify-center items-center gap-2 bg-opacity-60 z-10 bg-[#218B7D] py-2 px-4 rounded-full'>
+                        <p className='flex justify-center items-center gap-2 font-bold text-white'>{t("ask")}</p>
+                    </button>
+                </Link>
+              ))}
+
           </section>
         )}
     </div>

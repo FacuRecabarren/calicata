@@ -7,8 +7,16 @@ import { IoIosPeople } from "react-icons/io";
 import { LuCalendarClock } from "react-icons/lu";
 import { LayoutGrid } from '@/components/ui/layout-grid';
 import { IoBedOutline, IoMoonOutline } from "react-icons/io5";
+import { useEffect } from 'react';
 
 const DetailViajes = () => {
+
+    useEffect(() => {
+        // Scroll hacia arriba cuando se monta el componente
+        window.scrollTo(0, 0);
+      }, []);
+
+
     const { id } = useParams(); // Obtener el id del paquete de la URL
     const paqueteDetail = paquetes.find(paquete => paquete.id === parseInt(id)); // Buscar el paquete por id
 
