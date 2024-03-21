@@ -1,4 +1,3 @@
-import React from 'react';
 import { useParams } from 'react-router-dom';
 import paquetes from '../viajes1.json';
 import { FaMapMarkerAlt } from 'react-icons/fa';
@@ -7,9 +6,25 @@ import { IoIosPeople } from "react-icons/io";
 import { LuCalendarClock } from "react-icons/lu";
 import { LayoutGrid } from '@/components/ui/layout-grid';
 import { IoBedOutline, IoMoonOutline } from "react-icons/io5";
-import { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const DetailViajes = () => {
+
+    const { t, i18n } = useTranslation();
+  const [language, setLanguage] = useState(i18n.language);
+
+  useEffect(() => {
+    const handleLanguageChange = () => {
+      setLanguage(i18n.language);
+    };
+
+    i18n.on('languageChanged', handleLanguageChange);
+
+    return () => {
+      i18n.off('languageChanged', handleLanguageChange);
+    };
+  }, [i18n]);
 
     useEffect(() => {
         // Scroll hacia arriba cuando se monta el componente

@@ -1,0 +1,447 @@
+[
+    {
+        "id": 1,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710252444/14-1-01_ihmtoi_tciyew.webp",
+        "galleryImages": [
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1710252489/infografia-blog1-1024x683_clp2ye_jejswl.webp", "https://res.cloudinary.com/dreso9ye9/image/upload/v1710252484/x_razones_para_beber_mas_vino_rsbiya_h7wdfr.webp", "https://res.cloudinary.com/dreso9ye9/image/upload/v1710252444/14-1-01_ihmtoi_tciyew.webp"
+        ],
+        "description": "Passeios de Vinhos",
+        "text": "Os Passeios de Vinhos da Calicata oferecem o equilíbrio perfeito entre os destinos mais cativantes da província e as experiências mais marcantes de cada lugar cuidadosamente selecionado. Mergulhe em nossas propostas de dia inteiro all-inclusive para explorar de forma única a terra do sol e do bom vinho, visitando suas fascinantes vinícolas e distinguidos restaurantes premiados.",
+        "target": 1,
+        "paquetes": [
+            {
+                "title": "Vinícolas Achaval",
+                "description": "Visita e degustação na vinícola Matervini, almoço harmonizado na Achaval Ferrer Premium",
+                "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710254493/timthumb_e2sn60.jpg"
+            },
+            {
+                "title": "Pôr do sol na Vinícola Huentala",
+                "description": "Visita e menu de 5 pratos harmonizado com vinhos premium ao pôr do sol na vinícola Huentala Wines.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710892768/timthumb_rxwvpo.jpg"
+            },
+            {
+                "title": "Catena & Zuccardi",
+                "description": "Duas das maiores vinícolas da Argentina e talvez as mais populares entre elas, bem como favoritas entre os viajantes que visitam Mendoza.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710892851/timthumb_1_mnmvkn.jpg"
+            },
+            {
+                "title": "Clássicos do Vale",
+                "description": "Vale do Uco: paisagens deslumbrantes e vinícolas de prestígio como Pulenta Estate e La Azul. Termine com um almoço gourmet na Andeluna.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710892874/timthumb_2_oiwwut.jpg"
+            },
+            {
+                "title": "Degustando Estrelas",
+                "description": "Cruzat oferece o método Champenoise e degustação de vinhos espumantes. Chandon oferece uma experiência francesa com almoço harmonizado.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710892900/timthumb_3_zpp6oe.jpg"
+            },
+            {
+                "title": "Enólogo por um dia",
+                "description": "Uma experiência interativa e divertida: você será um enólogo, criando sua obra-prima com variedades de uvas.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710892920/timthumb_4_h7auws.jpg"
+            },
+            {
+                "title": "Vinhos Espumantes de Luxo",
+                "description": "Vinho espumante, símbolo de celebrações, pode ser apreciado diariamente e combinado com diversos pratos.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710892951/timthumb_5_pks6ok.jpg"
+            },
+            {
+                "title": "Experiência Clos de los 7",
+                "description": "O Vale do Uco oferece mais do que vinícolas: paisagens deslumbrantes e diversas atividades a apenas 100 km de Mendoza. Uma aventura que vale a pena viver!",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710892975/timthumb_6_hfub15.jpg"
+            },
+            {
+                "title": "Experiência Gimenez Riili",
+                "description": "Gimenez Riili, fundada em 1945, incorpora excelência em vinhos com tradição familiar. Liderada por duas gerações, oferece um dia cheio de atividades memoráveis.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893001/timthumb_7_dyismq.jpg"
+            },
+            {
+                "title": "Experiência The Vines",
+                "description": "Visite vinícolas como Sólo Contigo e Corazón del Sol no Vale do Uco, degustando vinhos premiados e almoçando no restaurante 7 Fuegos do chef Francis Mallmann.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893024/timthumb_8_lrko4f.jpg"
+            },
+            {
+                "title": "Luján de Cuyo - Famílias Argentinas",
+                "description": "Luján de Cuyo, perto de Mendoza, atrai turistas como base para explorar o mundo do vinho argentino em aconchegantes vinícolas familiares.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893062/timthumb_9_nm2jdh.jpg"
+            },
+            {
+                "title": "Luján de Cuyo - Exclusivo",
+                "description": "Luján de Cuyo, a terra do Malbec, abriga o maior número de vinícolas em Mendoza. Descubra o mundo do vinho nesta renomada região vinícola.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893087/timthumb_10_kiaazi.jpg"
+            },
+            {
+                "title": "Luján de Cuyo Malbec",
+                "description": "Dia especial para explorar vinícolas únicas, desde as reconhecidas até as boutique, oferecendo experiências únicas que revelam a essência do vinho argentino.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893113/timthumb_11_r0zykg.jpg"
+            },
+            {
+                "title": "Luján de Cuyo Premium",
+                "description": "Visita à terra do Malbec, a 19 km de Mendoza. Três vinícolas destacadas mostram a essência do terroir mendocino e seus vinhos reconhecidos globalmente.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893137/timthumb_12_zppxch.jpg"
+            },
+            {
+                "title": "Maipú & Luján: legado familiar",
+                "description": "Tour exclusivo em uma área turística de Mendoza. Os proprietários das vinícolas, apaixonados pelo vinho, oferecem atendimento personalizado, destacando a união familiar em cada empreendimento.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893166/timthumb_13_sytaca.jpg"
+            },
+            {
+                "title": "Maipú Clássico",
+                "description": "Maipú, berço do vinho argentino. Deguste vinhos premiados e descubra a região famosa por sua alta qualidade.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893195/timthumb_ljuyyy.png"
+            },
+            {
+                "title": "Mundo Zuccardi",
+                "description": "Família comprometida com qualidade, inovação, sustentabilidade e comunidade. Mergulhe nas histórias e vinhos de uma família tradicional de Mendoza.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893219/timthumb_14_smwfv6.jpg"
+            },
+            {
+                "title": "Provando os Sentidos",
+                "description": "Visita à bodega Belasco, destacando sua sala de aromas. Pulenta Estate oferece degustação sensorial. Na Finca La Anita, vinhos lendários de Agrelo.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893266/timthumb_15_wbom0g.jpg"
+            },
+            {
+                "title": "San Rafael Vitivinícola",
+                "description": "San Rafael, importante na indústria do vinho, oferece beleza natural e turismo. Visitaremos duas vinícolas destacadas e aprenderemos sobre as diferenças no terroir.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893296/timthumb_16_i9rldu.jpg"
+            },
+            {
+                "title": "Speakeasy",
+                "description": "Encontro entre amigos para descobrir o mundo do vinho e da gastronomia local de forma descontraída. Uma experiência para experimentar e desfrutar juntos!",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893358/timthumb_17_kricnr.jpg"
+            },
+            {
+                "title": "Tango & Vinho",
+                "description": "Visita, degustação de vinhos e petiscos com show de tango na bodega CARO",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893385/timthumb_18_dup15h.jpg"
+            },
+            {
+                "title": "Tour Orgânico",
+                "description": "Descubra o mundo do vinho orgânico em Mendoza com paisagens impressionantes e excelente comida. Torne-se um entusiasta do vinho com histórias para contar.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893410/timthumb_19_of2rep.jpg"
+            },
+            {
+                "title": "Vale de Uco Boutique",
+                "description": "Vale de Uco, coração produtivo de Mendoza. Aprecie a beleza da Cordilheira e descubra a principal área enológica. As vinícolas selecionadas completarão esta experiência boutique.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893462/timthumb_20_g4ajih.jpg"
+            },
+            {
+                "title": "Vale de Uco Exclusivo",
+                "description": "Vale de Uco Sul: Tunuyán, San Carlos, La Consulta e Eugenio Bustos. Acesso principal pela Rota 40. Experiência enriquecedora cheia de detalhes e aprendizados.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893489/timthumb_21_sjsoi7.jpg"
+            },
+            {
+                "title": "Vale de Uco Premium",
+                "description": "O Vale de Uco, com sua amplitude térmica e solo diverso, é ideal para cultivar vinhas, melhorando as características da uva. Suas paisagens são algumas das mais belas da província.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893520/timthumb_22_uzpvai.jpg"
+            },
+            {
+                "title": "Vinhos & Destilados",
+                "description": "Maipú, primeira região vitivinícola da Argentina, oferece experiências únicas além do vinho. Visitaremos uma destilaria de alta qualidade e o restaurante moderno na histórica bodega Trapiche.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893549/timthumb_23_xfdsyx.jpg"
+            },
+            {
+                "title": "Yoga entre Vinhedos",
+                "description": "O yoga promove a união do corpo, mente e espírito através de posturas e respiração, induzindo meditação e serenidade. Em ambientes naturais de Mendoza, como vinhedos e montanhas, essa prática é potencializada.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893576/timthumb_24_eqqb8f.jpg"
+            },
+            {
+                "title": "Tour de Vinho de Meio Dia",
+                "description": "Visitar vinícolas em Mendoza é essencial para os viajantes. Muitos optam por voltar às origens e desfrutar do campo em tempos de vida acelerada.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893606/timthumb_25_svczsr.jpg"
+            },
+            {
+                "title": "Maipú Premium",
+                "description": "Visite Trivento, inspirada nos três ventos de Mendoza. A AMP Cava oferece degustação personalizada. Casa El Enemigo, um templo de simplicidade, seguido de almoço com vinhos.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893640/timthumb_26_drycdf.jpg"
+            },
+            {
+                "title": "Legado Catena Zapata",
+                "description": "Este passeio é pensado para conhecer o legado da Bodega Catena Zapata e tudo o que foi gerado a partir do sucesso desta família.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893672/timthumb_27_bqha9x.jpg"
+            },
+            {
+                "title": "Experiência The Vines",
+                "description": "Conheça as vinícolas boutique de luxo dentro de The Vines no Vale de Uco, finalizando com um almoço incrível no restaurante Siete Fuegos, do renomado chef Francis Mallmann.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893695/timthumb_28_wdo3sk.jpg"
+            },
+            {
+                "title": "Entardecer na Vinícola",
+                "description": "Visita, piquenique ou petiscos, degustação premium ao entardecer na vinícola.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893725/timthumb_29_lobh04.jpg"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710252370/IMG_7624-horizontal-scaled_n7sgcd_kxmjxb.webp",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1710905183/IMG_7624-horizontal-scaled_v5sqq1.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1710905266/WhatsApp-Image-2021-10-25-at-17.48.37-768x575_n0vt69.jpg"
+        ],
+        "description": "Passeios em Grupo",
+        "text": "Descubra a província de Mendoza com nossos passeios em grupo. Desfrute de passeios de bicicleta entre vinhas, emocionantes aventuras em 4x4, experiências em alta montanha, visitas a vinícolas e muito mais. Explore o melhor de Mendoza conosco!",
+        "target": 2,
+        "paquetes": [
+            {
+                "title": "Passeio de Bicicleta & Vinhos",
+                "description": "Descubra Luján de Cuyo de bicicleta, explorando vinhedos e vinícolas. Desfrute de atividades únicas enquanto se exercita.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710905622/8d_kxp2ns.jpg"
+            },
+            {
+                "title": "Cavalgada & Vinhos",
+                "description": "O verde dos vinhedos, o intenso céu azul e os cavalos serenos criam uma paisagem cativante. Um passeio cheio de aventuras e emoções destaca a grandeza de nossa região.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710905407/bf_mox2eh.jpg"
+            },
+            {
+                "title": "Experiência na Alta Montanha",
+                "description": "Um circuito especial que cativa os sentidos com paisagens montanhosas, ar puro e relevância histórica para Mendoza. Um passeio completo em todos os aspectos!",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710905828/Equipamiento-y-consejos-para-un-paseo-en-las-montanas_l8tfm8.jpg"
+            },
+            {
+                "title": "Experiência em Luján",
+                "description": "Descubra o místico Malbec e outros grandes vinhos de Luján de Cuyo, a terra do Malbec, em vinícolas de renome internacional.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710905974/timthumb_30_m57967.jpg"
+            },
+            {
+                "title": "Experiência em Maipú",
+                "description": "Visitamos a vinícola CARO, fusão de Catena e Rothschild, depois L'Orange de Ernesto Catena, e terminamos no El Enemigo, com almoço harmonizado.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710906121/cava-bodega-caro1_nl1h5w.jpg"
+            },
+            {
+                "title": "Andes Truck",
+                "description": "Exploraremos a Reserva Natural de Villavicencio em um caminhão, visitando pontos como Balcão e Manto de Cobre. Observação de flora e fauna. Opcional: almoço. À tarde, visita guiada ao icônico hotel antes de retornar.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710906076/timthumb_31_ciwccg.jpg"
+            },
+            {
+                "title": "Sabores de Maipú",
+                "description": "Maipú, a leste da cidade, é o berço dos primeiros vinhos argentinos, com grandes histórias e momentos para completar este passeio perfeito.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710906247/foto_obl8qp.jpg"
+            },
+            {
+                "title": "Valle de Uco Mágico",
+                "description": "O Vale do Uco, com suas montanhas e paisagens impressionantes, oferece vinhos de altitude com aromas e sabores únicos.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710906345/57622419_2144651948943837_3481131646936154112_n_hgcagm.jpg"
+            },
+            {
+                "title": "Vinhos & Azeitonas",
+                "description": "Explore as excelentes vinícolas de Mendoza e descubra sua destacada produção de azeite de oliva em Luján de Cuyo e Maipú.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710906411/1_K50iJCKdBT07nsajdE_aSQ_mi9ilj.jpg"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710210214/L3OBWU226VETZNPIR6Y4EPTIKI_y7ovpi.webp",
+        "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1710949387/d06e1f36bb4c174a14eb6376c7dabd4e_80_thumbnail_vgbbfv.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1710949438/D9A9863_umnsts.jpg"],
+        "description": "Tours Gourmet",
+        "text":"Calicata está comprometida en realzar su experiencia enoturística destacando la excelencia de los chefs argentinos. Creemos firmemente que la gastronomía proporciona una ventana única para sumergirse en la cultura, las tradiciones y las costumbres locales. Nos dedicamos a ofrecer una experiencia culinaria de primer nivel en Mendoza, además de compartir nuestro conocimiento sobre aspectos relevantes de la cocina criolla.",
+        "target": 2,
+        "paquetes": [
+            {
+                "title": "Azeites, Queijos & Vinhos",
+                "description": "Descubra os produtos em destaque de Mendoza em um passeio por Maipú, com vinhos, azeites de oliva, doce de leite e queijos artesanais.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710949628/timthumb_32_pzcrwn.jpg"
+            },
+            {
+                "title": "Jantar Especial",
+                "description": "Desfrute de um jantar exclusivo em Mendoza, onde a gastronomia, a vida noturna da cidade e o vinho se fundem em uma experiência sublime.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710949722/RDWW44TNNNAHDFUFNZAQPHTC5Y_ztdv75.avif"
+            },
+            {
+                "title": "Aulas de Culinária",
+                "description": "Descubra Mendoza através de sua gastronomia em aulas de culinária que oferecem mais do que apenas receitas: experiências de qualidade com vinhos e comida.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710949792/clases-de-cocina-624x400_tyehyx.jpg"
+            },
+            {
+                "title": "Experiência entre Oliveiras & Vinhedos",
+                "description": "Nesta experiência inovadora, vamos nos concentrar em uma das estrelas da gastronomia: o azeite de oliva.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710969062/entre-olivos-y-vinedos-03-antonio-obrador-1200x800_j9gfcb.jpg"
+            },
+            {
+                "title": "Experiência Mendoza Gourmet",
+                "description": "Desfrute de um dia dedicado aos detalhes culinários, aromas e vinhos em Mendoza. Explore esta jornada de sabores única!",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710969190/Degustaci%C3%B3n_de_vinos3_rxqjzi.jpg"
+            },
+            {
+                "title": "Maipú & Luján Gourmet",
+                "description": "Luján de Cuyo e Maipú, próximas a Mendoza, abrigam vinícolas com história e experiências únicas que cativam os visitantes ano após ano.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710969379/domaine_dfktkc.jpg"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710210893/IMG_2246-Wine-and-Ride-scaled_d4qnjv.webp",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1710970702/lar_InDh07jcwXoF7QW9b2qv29EzIqbzKLgVkxRaP1rC_hppcpg.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1710970764/Bicis-Sommos-2_nsmbpp.jpg"
+        ],
+        "description": "Bicicleta e Vinho",
+        "text":"Descubra passeios serenos que o cativarão com suas paisagens rurais impressionantes ao longo do caminho, entre vinhas e pomares. Se você é um ciclista experiente ou está considerando planejar sua primeira viagem de bicicleta, nossos passeios por Mendoza se ajustarão perfeitamente às suas preferências. Explore também nossas opções de mountain bike para uma experiência ainda mais emocionante.",
+        "target": 6,
+        "paquetes": [
+            {
+                "title": "Luján de Cuyo",
+                "description": "Visita e degustação na vinícola Matervini, almoço harmonizado na Achaval Ferrer Premium",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710971037/caption_ohavsb.jpg"
+            },
+            {
+                "title": "Vale do Uco",
+                "description": "Visita e menu de 5 pratos harmonizado com vinhos premium ao entardecer na vinícola Huentala Wines",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710970916/12-13_nzbcwn.jpg"
+            },
+            {
+                "title": "E-bike & Vinho",
+                "description": "Visita e menu de 5 pratos harmonizado com vinhos premium ao entardecer na vinícola Huentala Wines",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710970983/timthumb_33_fudy1x.jpg"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710252527/AdobeStock_290509695-min-1536x1025-1-1024x683_fzbdnl_qrxezu.webp",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1710972093/portones-1280x720_wqafzm.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1710972158/cerro-aconcagua-1-1024x512_lpacgv.jpg"
+        ],
+        "description": "Passeios Clássicos",
+        "text":"Junte-se a nós e desfrute dos passeios turísticos tradicionais enquanto descobre cantos únicos em Mendoza, o paraíso do vinho por excelência! Mergulhe em vinícolas boutique e contemple as espetaculares paisagens andinas. Deguste vinhos Premium provenientes de diversas sub-regiões vinícolas. Oferecemos opções de passeios de meio dia e dia inteiro disponíveis durante todas as estações do ano. Não perca esta oportunidade!",
+        "target": 2,
+        "paquetes": [
+            {
+                "title": "Alta Montanha Tradicional",
+                "description": "Explorar o caminho até o Chile é uma experiência impressionante, cercado pelo rio Mendoza e suas paisagens únicas. Respire ar puro e, se tiver sorte, poderá avistar animais autóctones.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710971287/aconcagua_jxpuel.jpg"
+            },
+            {
+                "title": "City Tour + Vinícola",
+                "description": "Descubra a história de Mendoza e visite a emblemática vinícola Trapiche, símbolo da região. Explore as antigas vias férreas e as maquinarias vinícolas utilizadas em tempos passados.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710971332/timthumb_34_yo9mlp.jpg"
+            },
+            {
+                "title": "City Tour ao Pôr do Sol",
+                "description": "Descubra a história de Mendoza e desfrute de um jantar exclusivo no restaurante da vinícola Los Toneles.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710971649/1591568897901IMG_4880-scaled_bn6gge.webp"
+            },
+            {
+                "title": "City Tour Clássico",
+                "description": "San Rafael, aos pés das montanhas de Mendoza, é a porta para o Pacífico. Clima agradável e uma cidade amada por seus habitantes.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710971736/Portones-Parque-San-Martin_rhcjig.jpg"
+            },
+            {
+                "title": "City Tour com Piquenique",
+                "description": "Descubra os segredos de Mendoza desde a sua fundação. Desfrute de um piquenique no belo parque rodeado por jardins de rosas.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710971797/Ciudad-de-Mendoza-en-oton%CC%83o-1_vcbdfl.jpg"
+            },
+            {
+                "title": "City Tour de Skate",
+                "description": "Explore Mendoza de skate para descobrir seus segredos e detalhes de maneira única e inovadora.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710971963/64a692f51ac76_570_371_axqxve.jpg"
+            },
+            {
+                "title": "City Tour de E-Bike",
+                "description": "Explore Mendoza de e-bikes, uma cidade com clima agradável e vistas espetaculares, aos pés das montanhas e porta de entrada para o Oceano Pacífico.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710972018/timthumb_35_scwvuz.jpg"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710252552/Mountain-bike-en-Potrerillos_pgm3qg_c8qaay.webp",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1710973524/Content_Team_250319_00175_EA_Hero_lg_d4bhh6.avif","https://res.cloudinary.com/dfschbyq2/image/upload/v1710973551/Dynamic-Motivation-Image-Martin-Ollman-3_xutwmw.webp"
+        ],
+        "description": "Mountain Bike",
+        "text":"Os entusiastas do mountain bike irão explorar as estradas e trilhas mais impressionantes da região. Nossos experientes guias conhecem cada canto do singular sistema de trilhas off-road de Mendoza. Junte-se a nós para viver uma experiência incomparável sobre duas rodas, incluindo a emocionante novidade de cruzar o Passo Internacional Cristo Redentor a 4000 metros acima do nível do mar. Esperamos por você para uma aventura que não será esquecida!",
+        "target": 6,
+        "paquetes": [
+            {
+                "title": "Travessia dos Andes",
+                "description": "Descubra uma trilha única ao longo do rio Cuevas, no coração dos Andes, perto do Cerro Aconcágua, onde você pode encontrar pegadas de animais e desfrutar de uma paisagem impressionante.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710972828/Cruce-andes-en-bicicleta-1_xbyz3r.jpg"
+            },
+            {
+                "title": "Quebrada de Matienzo",
+                "description": "Descubra um emocionante circuito de bicicleta perto do Cerro Aconcágua, explorando a Quebrada de Matienzo e sua rica biodiversidade. Ideal para ciclistas técnicos.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710972946/1580758847966942531_flyc2f.jpg"
+            },
+            {
+                "title": "Trilhas de Chacras",
+                "description": "Explore as trilhas de Chacras de Coria na Pré-Cordilheira com nossas bicicletas de montanha. Ideal para desfrutar da natureza nos Andes.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710973125/f1280x720-47610_179285_5050_uevdxk.jpg"
+            },
+            {
+                "title": "Villavicencio",
+                "description": "Um passeio de bicicleta pela reserva natural de Mendoza. Perfeito para os amantes de ciclismo e natureza.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710973245/reserva-natural-villavicencio-2_pzarrw.jpg"
+            },
+            {
+                "title": "Pedalando entre Vinhedos",
+                "description": "Desfrute de um passeio de bicicleta entre as pitorescas vinhas de Mendoza e visite duas vinícolas destacadas como Norton e Susana Balbo em Luján de Cuyo.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710973323/641daa2cd353e464bf0955c5_pedales_de_lava_una_super_ruta_en_mountain_bike_por_lanzarote_pqcy2l.jpg"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710210897/los-puquiosjpg_idjc2b.webp",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1710974162/85382_4505_pjkal0.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1710974213/nieve-puquiosjpg_wsjxnx.webp"
+        ],
+        "description": "Ski",
+        "text":"Na Argentina e no Chile, você encontrará uma ampla variedade de passeios de esqui para todos os níveis. Desde 1998, temos levado esquiadores e snowboarders para Las Leñas, o maior resort de esqui da Argentina. A temporada na América do Sul geralmente vai de junho a setembro, com meados de julho a agosto sendo o período ideal para desfrutar da melhor neve. Consulte nossos passeios personalizados, programas exclusivos de freeride e heli-ski para famílias ou grupos.",
+        "target": 2,
+        "paquetes": [
+            {
+                "title": "Dia de Neve",
+                "description": "Saídas diárias para desfrutar da neve em Penitentes ou Los Puquios, de junho a setembro. Esqui e diversão garantidos.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710974105/penitentes-2_zzdwdi.jpg"
+            },
+            {
+                "title": "Dia em Las Leñas",
+                "description": "Las Leñas, no vale homônimo ao sul de Mendoza, é um dos principais centros de esqui da Argentina, destacado na América do Sul por sua infraestrutura.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710974020/nature-mountain-outdoors-ice_dc8kkm.jpg"
+            },
+            {
+                "title": "Raquetes de Neve",
+                "description": "Os Andes no inverno: uma paisagem majestosa com montanhas nevadas que inspiram paz e admiração.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710973935/timthumb_36_qnzjyu.jpg"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710252573/IMG_20210406_153108164_HDR-1-scaled-e1626357545247_qztutn_tyexjp.webp",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1710974959/cabalgata-4_bzmjni.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1710974987/cabalgata-cordillera-mendocina-1_t9uuvs.jpg"
+        ],
+        "description": "Passeios a Cavalo",
+        "text":"As impressionantes paisagens oferecem aos visitantes inúmeras oportunidades para experimentar o local de maneira única. Embarque em um tranquilo passeio a cavalo entre vinhas ou montanhas, acompanhado por um experiente gaúcho, uma figura emblemática da cultura campestre argentina. Convidamos você a desfrutar de uma experiência inesquecível na bela e romântica Mendoza. Esperamos por você!",
+        "target": 3,
+        "paquetes": [
+            {
+                "title": "Nos Andes",
+                "description": "O Vale do Uco, no coração de Mendoza, oferece uma ampla gama de atividades turísticas, desde a rota do vinho até a aventura e o turismo cultural.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710974562/Cabalgata-sanmartiniana-en-los-Andes_j2hznm.jpg"
+            },
+            {
+                "title": "Passeio Inimigo",
+                "description": "Maipú, berço dos primeiros vinhos argentinos, é reconhecida por seu legado histórico e seus vinhos de alta qualidade.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710974720/cabalgata-por-los-vinedos_npakr7.jpg"
+            },
+            {
+                "title": "Quebrada do Condor",
+                "description": "Vallecitos, entre Potrerillos e Tupungato, a 40 minutos de Mendoza, oferece paisagens impressionantes, destacando-se como uma das mais belas da região.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710974771/Portada-1_zdkmbe.png"
+            },
+            {
+                "title": "Eco Aventura",
+                "description": "Desfrute de uma experiência única em Mendoza, explorando suas paisagens montanhosas enquanto cavalga ou pedala, combinando aventura e natureza em uma única viagem.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710974838/cabalgata-entre-vinedos_lyyjzm.jpg"
+            },
+            {
+                "title": "Vinho & Aventura",
+                "description": "Pedale e cavalgue entre vinhas nas rotas rurais de Mendoza. Desfrute de degustações de vinho e um delicioso almoço.",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710974904/0_aazXAxa6rqvaa60x_zrtckv.jpg"
+            }
+        ]
+    }
+]
