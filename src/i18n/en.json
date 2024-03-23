@@ -57,7 +57,42 @@
     "eventsInfo": "Explore and find the event that perfectly fits your preferences and needs.",
     "eventsUppercase": "EVENTS",
     "eventsInsideInfo": "Discover all the types of events we have",
+    
+    
+    
+    
     "futbol": "Soccer",
+    "futbolPackages": "SOCCER PACKAGES",
+    "filtrar": "Filter",
+    "filtroAll": "All",
+    "oneNight":"One night",
+    "moreThanOne":"More than one night",
+    "oneAccommodation":"One accommodation",
+    "moreThanOneAcc": "More than one accommodation",
+    "lessThan":"Less than ",
+    "moreThan":"More than ",
+    "errorFilter":"There are no packages available with the selected filters",
+    "visiting":"Visiting",
+    "from":"From",
+    "fromPrice":"From",
+    "to":"To",
+    "perPerson":"per person",
+    "detail":"DETAIL",
+    "totalPrice":"Total price from",
+    "consultar":"More info",
+    "resumen":"Trip summary",
+    "adults":"Adults",
+    "nights":"Nights",
+    "includes":"The trip includes",
+    "accommodations":"Accommodations",
+    "circuits":"Circuits",
+    "includedServices":"Included services",
+    "itinerary":"Itinerary",
+
+
+
+
+
     "whoAreWe" : "About us",
     "travelAgent": "Travel Agent",
     "operation": "Operations Specialist",

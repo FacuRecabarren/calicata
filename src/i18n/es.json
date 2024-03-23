@@ -55,7 +55,41 @@
     "eventsInfo": "Explorá y encontrá el evento que se ajuste perfectamente a tus preferencias y necesidades",
     "eventsUppercase": "EVENTOS",
     "eventsInsideInfo": "Descubrí todos los tipos de eventos que tenemos",
+    
+    
+    
     "futbol": "Fútbol",
+    "futbolPackages": "PAQUETES FÚTBOL",
+    "filtrar": "Filtrar",
+    "filtroAll": "Todos",
+    "oneNight":"Una noche",
+    "moreThanOne":"Más de una noche",
+    "oneAccommodation":"Un alojamiento",
+    "moreThanOneAcc": "Más de un alojamiento",
+    "lessThan":"Menos de ",
+    "moreThan":"Más de ",
+    "errorFilter":"No hay paquetes disponibles con los filtros seleccionados",
+    "visiting":"Visitando",
+    "from":"Desde",
+    "fromPrice":"Desde",
+    "to":"Hasta",
+    "perPerson":"por persona",
+    "detail":"DETALLE",
+    "totalPrice":"Precio total desde",
+    "consultar":"¡Consultar",
+    "resumen":"Resumen del viaje",
+    "adults":"Adultos",
+    "nights":"Noches",
+    "includes":"El viaje incluye",
+    "accommodations":"Alojamientos",
+    "circuits":"Circuitos",
+    "includedServices":"Servicios incluídos",
+    "itinerary":"Itinerario",
+
+
+
+
+
     "whoAreWe" : "¿Quiénes somos?",
     "travelAgent": "Agente de Viajes",
     "operation": "Especialista en Operaciones",

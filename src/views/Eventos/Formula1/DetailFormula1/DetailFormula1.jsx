@@ -72,15 +72,6 @@ const DetailFormula1 = () => {
                                     <p className='opacity-80 font-medium text-sm font-lora italic'>{paqueteDetail.lodgings}</p>
                                 </div>
                             </div>
-                            <div className='flex justify-start items-center gap-2 border border-[#218B7D] rounded-r-xl w-full'>
-                                <div className='bg-[#218B7D] text-xl text-white p-2'>
-                                    <FaPersonBiking/>
-                                </div>
-                                <div className='flex justify-between items-center w-full pr-3'>
-                                    <p className='opacity-80 font-medium text-sm font-lora italic'>Circuitos</p>
-                                    <p className='opacity-80 font-medium text-sm font-lora italic'>{paqueteDetail.circuits}</p>
-                                </div>
-                            </div>
                         </div>
                     </article>
                 </section>
