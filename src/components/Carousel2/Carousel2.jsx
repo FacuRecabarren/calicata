@@ -1,5 +1,4 @@
 import  InfiniteMovingCards  from "../ui/infinite-moving-cards";
-import { RiStarSLine } from "react-icons/ri";
 
 const Carousel2 = () => {
 

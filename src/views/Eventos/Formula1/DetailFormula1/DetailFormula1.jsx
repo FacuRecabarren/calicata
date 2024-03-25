@@ -1,14 +1,13 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import paquetes from '../paquetes.json';
-import { FaMapMarkerAlt, FaRegMoon } from 'react-icons/fa';
+import { FaMapMarkerAlt } from 'react-icons/fa';
 import { IoIosPeople } from "react-icons/io";
 import { LuCalendarClock } from "react-icons/lu";
 import { LayoutGrid } from '@/components/ui/layout-grid';
-import { FaPersonBiking } from 'react-icons/fa6';
 import { IoBedOutline, IoMoonOutline } from 'react-icons/io5';
 import { useTranslation } from 'react-i18next';
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const DetailFormula1 = () => {
     const { t, i18n } = useTranslation();
@@ -66,10 +65,11 @@ const DetailFormula1 = () => {
     return (
         <div className='flex flex-col justify-center items-start'>
             <div className='relative w-full'>
-                <img src={paqueteDetail.coverImage} alt="" className='object-cover h-[25rem] w-full -z-10 brightness-75'/>
+                <img src={paqueteDetail.coverImage} alt="" className='object-cover h-[25rem] w-full -z-10 brightness-50'/>
                 <div className='absolute z-10 top-[50%] sm:left-5 flex flex-col sm:justify-start sm:items-start justify-center items-center gap-2 sm:px-0 px-5'>
                     <p className='flex justify-start items-center gap-1 font-semibold text-white text-base font-lora italic'><FaMapMarkerAlt/>{paqueteDetail.country}</p>
                     <h2 className='text-white text-4xl sm:text-5xl text-center sm:text-start font-bold'>{paqueteDetail.title}</h2>
+                    <p className='hidden lg:block absolute -bottom-24 text-[#FCCC71] text-xl cursor-default uppercase'><Link to="/events/formula1" className='z-50 text-white hover:text-[#bcbec7] duration-300 hover:underline'>{t("formula1Packages")}</Link> / {paqueteDetail.title}</p>
                 </div>
             </div>
             <div className='py-10 px-10 w-full sm:flex sm:flex-row flex flex-col justify-between items-start gap-10 sm:gap-16'>

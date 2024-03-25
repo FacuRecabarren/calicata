@@ -65,7 +65,8 @@ const Viajes = () => {
     <div className='bg-[#f2f2f2]'>
       <div className='relative'>
         <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709917944/Dise%C3%B1o_sin_t%C3%ADtulo_2_waupfa.webp" alt="" className='h-[25rem] w-full object-cover object-top '/>
-        <h2 className='text-center w-full py-2 px-4 text-white font-bold text-3xl shadow-xl bg-[#000000] bg-opacity-80 absolute bottom-0'>{t('viajeTitulo')}</h2>
+        <h2 className='text-center w-full py-2 px-4 text-white font-bold text-2xl sm:text-3xl shadow-xl bg-[#000000] bg-opacity-80 absolute bottom-0'>{t('viajeTitulo')}</h2>
+        <p className='hidden lg:block absolute bottom-3 left-10 text-[#FCCC71] text-xl cursor-default uppercase'><Link to="/" className='z-50 text-white hover:text-[#bcbec7] duration-300 hover:underline'>{t("home")}</Link> / {t("viajeTitulo")}</p>
       </div>
       <div className='py-20 px-10 h-full w-full flex flex-col lg:flex lg:flex-row justify-center items-start gap-10'>
         <Filters onFilterChange={handleFilterChange} countries={countries} filters={filters} setFilters={setFilters}/>

@@ -1,7 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Home from "./views/Home/Home"
-import Navbar from "./components/Navbar/Navbar"
-import Footer from "./components/Footer/Footer"
 import Viajes from "./views/Viajes/Viajes"
 import Eventos from "./views/Eventos/Eventos"
 import Formula1 from "./views/Eventos/Formula1/Formula1"
@@ -13,6 +11,7 @@ import Mendoza from "./views/Mendoza/Mendoza"
 import DetailMendoza from "./views/Mendoza/DetailMendoza/DetailMendoza"
 import Layout from "./components/Layout/Layout"
 import Error from "./components/Error/Error"
+import WhatsappButton from "./components/WhatsappButton/WhatsappButton"
 
 function App() {
 
@@ -35,7 +34,7 @@ function App() {
         </Route>
         <Route path="*" element={<Error/>}/>
       </Routes>
-      
+      <WhatsappButton/>
     </BrowserRouter>
   )
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebookF, FaInstagram  } from "react-icons/fa6";
+import { FaInstagram  } from "react-icons/fa6";
 import { BiLogoGmail } from "react-icons/bi";
 import { useTranslation } from 'react-i18next';
 
@@ -29,7 +29,7 @@ const Footer = () => {
       <hr />
       <section className='py-5 flex flex-col justify-center items-center gap-3'>
         <p className='text-xs font-medium opacity-60'>© 2024 Calicata. {t("rights")}</p>
-        <p className='font-bold text-[#218B7D]'>{t("madeBy")}</p>
+        <a href='https://www.elizca.com' target='_blank' className='font-bold text-[#218B7D]'>{t("madeBy")}</a>
       </section>
     </div>
   )

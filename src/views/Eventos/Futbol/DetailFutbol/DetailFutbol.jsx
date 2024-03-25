@@ -8,6 +8,7 @@ import { LayoutGrid } from '@/components/ui/layout-grid';
 import { IoBedOutline, IoMoonOutline } from "react-icons/io5";
 import { useTranslation } from 'react-i18next';
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const DetailFutbol = () => {
 
@@ -65,6 +66,7 @@ const DetailFutbol = () => {
                 <div className='absolute z-10 top-[50%] sm:left-5 flex flex-col sm:justify-start sm:items-start justify-center items-center gap-2 sm:px-0 px-5'>
                     <p className='flex justify-start items-center gap-1 font-semibold text-white text-base font-lora italic'><FaMapMarkerAlt/>{paqueteDetail.country}</p>
                     <h2 className='text-white text-4xl sm:text-5xl text-center sm:text-start font-bold'>{paqueteDetail.title}</h2>
+                    <p className='hidden lg:block absolute -bottom-24 text-[#FCCC71] text-xl cursor-default uppercase'><Link to="/events/futbol" className='z-50 text-white hover:text-[#bcbec7] duration-300 hover:underline'>{t("futbolPackages")}</Link> / {paqueteDetail.title}</p>
                 </div>
             </div>
             <div className='py-10 px-10 w-full sm:flex sm:flex-row flex flex-col justify-between items-start gap-10 sm:gap-16'>

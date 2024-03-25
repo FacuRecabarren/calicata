@@ -7,7 +7,6 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
-import { MdLandscape, MdMuseum } from "react-icons/md";
 import { PiWineFill } from "react-icons/pi";
 import { MdDirectionsBike } from "react-icons/md";
 import { FaHorse, FaWater } from "react-icons/fa";
@@ -58,16 +57,6 @@ const Mendoza = () => {
             name: <span>{t("trailRides")}</span>,
             icono: <FaHorse/>
         },
-        // {
-        //     id: 4,
-        //     name: <span>{t("reservoirs")}</span>,
-        //     icono: <FaWater/>
-        // },
-        // {
-        //     id: 5,
-        //     name: <span>{t("hills")}</span>,
-        //     icono: <MdLandscape/>
-        // },
         {
             id: 6,
             name: <span>{t("bike")}</span>,
@@ -85,6 +74,7 @@ const Mendoza = () => {
             <video className='w-full h-full object-cover absolute top-0 -z-10' autoPlay muted loop>
                 <source src='https://res.cloudinary.com/dreso9ye9/video/upload/v1710133486/youtube_Qtfmp2Ro_mU_1920x1080_h264_juy2ie.mp4' type="video/mp4"/>
             </video>
+            <p className='hidden lg:block absolute bottom-5 left-10 text-[#FCCC71] text-xl cursor-default uppercase'><Link to="/" className='z-50 text-white hover:text-[#bcbec7] duration-300 hover:underline'>{t("home")}</Link> / MENDOZA</p>
             <h2 id='title' className='text-5xl lg:text-7xl text-[#ffffff] font-extrabold'>MENDOZA</h2>
         </div>
         <section className='w-full py-20 px-5 lg:px-20 shadow-xl lg:shadow-none'>

@@ -5,7 +5,6 @@ import Services from '@/components/Services/Services'
 import Testimonial from '@/components/Testimonial/Testimonial'
 import React, { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
-import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Promos from '@/components/Promos/Promos'
 

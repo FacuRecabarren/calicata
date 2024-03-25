@@ -1,8 +1,5 @@
 import emailjs from '@emailjs/browser';
 import { useState, useRef } from 'react';
-// import Aos from 'aos';
-// import 'aos/dist/aos.css';
-// import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import Swal from 'sweetalert2';
 
