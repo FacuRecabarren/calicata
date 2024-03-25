@@ -49,7 +49,14 @@ const DetailMendoza = () => {
 
     const handleConsultClick = (idea) => {
     
-        const message = `Hola, ¿cómo están? Me gustaría tener más información sobre el paquete "${idea.title}"`;
+        let message;
+         if(i18n.language === 'en'){
+            message = `Hello, how are you? I would like to have more information about the package "${paquete.title}"`;
+        }else if(i18n.language === 'port'){
+            message = `Olá, como você está? Gostaria de ter mais informações sobre o pacote "${paquete.title}"`;
+        } else if(i18n.language === 'es'){
+            message = `Hola, ¿cómo están? Me gustaría tener más información sobre el paquete "${paquete.title}"`;
+        }
       
         const encodedMessage = encodeURIComponent(message);
     

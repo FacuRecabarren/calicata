@@ -1,5 +1,4 @@
 import { useParams } from 'react-router-dom';
-import paquetes from '../viajes1.json';
 import { FaMapMarkerAlt } from 'react-icons/fa';
 import { IoIosPeople } from "react-icons/io";
 import { LuCalendarClock } from "react-icons/lu";
@@ -38,15 +37,21 @@ const DetailViajes = () => {
     }
 
     const handleConsultClick = (paquete) => {
-    
-        const message = `Hola, ¿cómo están? Me gustaría tener más información sobre el paquete "${paquete.title}"`;
-      
+        let message;
+         if(i18n.language === 'en'){
+            message = `Hello, how are you? I would like to have more information about the package "${paquete.title}"`;
+        }else if(i18n.language === 'port'){
+            message = `Olá, como você está? Gostaria de ter mais informações sobre o pacote "${paquete.title}"`;
+        } else if(i18n.language === 'es'){
+            message = `Hola, ¿cómo están? Me gustaría tener más información sobre el paquete "${paquete.title}"`;
+        }
+            
         const encodedMessage = encodeURIComponent(message);
-    
+        
         const whatsappLink = `https://wa.me/+5492612457513?text=${encodedMessage}`;
-    
+        
         window.location.href = whatsappLink;
-    };
+    }
 
     return (
         <div className='flex flex-col justify-center items-start'>
