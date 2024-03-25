@@ -1,12 +1,33 @@
-import React, { useState } from 'react';
-import paquetes from '../Viajes/viajes1.json';
+import { useEffect, useState } from 'react';
 import { FaRegMoon } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import Filters from '@/components/Filters/Filters';
 import { IoBedOutline } from 'react-icons/io5';
-import { FaPersonBiking } from 'react-icons/fa6';
+import { useTranslation } from 'react-i18next';
 
 const Viajes = () => {
+
+  const { t, i18n } = useTranslation();
+
+  const [paquetesData, setPaquetesData] = useState([]);
+
+  useEffect(() => {
+    const loadPaquetesData = async () => {
+      let paquetes;
+      if (i18n.language === 'es') {
+        paquetes = await import('../Viajes/viajes1.json');
+      } else if(i18n.language === 'en'){
+        paquetes = await import('../Viajes/viajesEn.json');
+      }else{
+        paquetes = await import('../Viajes/viajesPort.json')
+      }
+      setPaquetesData(paquetes.default);
+    };
+
+    loadPaquetesData();
+  }, [i18n.language]);
+
+
   const [filters, setFilters] = useState({
     country: null,
     oneLodgings: false,
@@ -17,9 +38,7 @@ const Viajes = () => {
     moreThan1500: false
   });
 
-  console.log(filters);
-
-  const countries = Array.from(new Set(paquetes.map(paquete => paquete.country)));
+  const countries = Array.from(new Set(paquetesData.map(paquete => paquete.country)));
 
   const handleFilterChange = (filterType, value, value2) => {
     setFilters(prevFilters => ({
@@ -30,7 +49,7 @@ const Viajes = () => {
     }));
   };
 
-  const filteredPaquetes = paquetes.filter(paquete => {
+  const filteredPaquetes = paquetesData.filter(paquete => {
     return (
       (!filters.country || paquete.country === filters.country) &&
       (!filters.oneLodgings || paquete.lodgings === 1) &&
@@ -53,7 +72,7 @@ const Viajes = () => {
         <section className='h-full lg:w-[50rem] w-full flex flex-col justify-center items-center gap-10'>
           {filteredPaquetes.length === 0 ? (
             <div className='flex flex-col justify-center items-center gap-5'>
-              <p className='bg-white font-semibold opacity-80 p-2 w-full text-center rounded-xl shadow-xl border-t-8 border-[#FE904D]'>No hay paquetes disponibles con los filtros seleccionados</p>
+              <p className='bg-white font-semibold opacity-80 p-2 w-full text-center rounded-xl shadow-xl border-t-8 border-[#FE904D]'>{t("errorFilter")}</p>
               <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709871042/404-page-not-found-monochromatic-32679_db7xv6.svg" alt="" className='w-[25rem]'/>
             </div>
           ) : (
@@ -66,8 +85,8 @@ const Viajes = () => {
                   <article className='flex flex-col justify-between items-start h-full lg:gap-0 gap-3'>
                     <div>
                       <h3 className='lg:text-lg font-bold opacity-90 text-[#218B7D]'>{paquete.title}</h3>
-                      <p className='text-sm'><span className='font-semibold opacity-90'>Visitando:</span> {paquete.country}</p>
-                      <p className='text-sm opacity-90'><span className='font-semibold'>Desde</span> {paquete.initialDate} <span className='font-semibold'>Hasta</span> {paquete.finishDate}</p>
+                      <p className='text-sm'><span className='font-semibold opacity-90'>{t("visiting")}:</span> {paquete.country}</p>
+                      <p className='text-sm opacity-90'><span className='font-semibold'>{t("from")}</span> {paquete.initialDate} <span className='font-semibold'>{t("to")}</span> {paquete.finishDate}</p>
                     </div>
                     <div className='flex justify-start items-center gap-2 lg:text-sm text-xs'>
                       <div className='bg-[#FE904D] flex justify-center items-center gap-1 p-1.5 text-white font-medium rounded-md'>
@@ -83,11 +102,11 @@ const Viajes = () => {
                   </article>
                   <article className='flex flex-col justify-between items-end h-full gap-5'>
                     <div className='flex flex-col justify-center items-end'>
-                      <p className='text-sm font-light'>Desde</p>
+                      <p className='text-sm font-light'>{t("fromPrice")}</p>
                       <span className='text-lg font-bold opacity-90'>${paquete.price}</span>
-                      <p className='text-xs opacity-90'>por persona</p>
+                      <p className='text-xs opacity-90'>{t("perPerson")}</p>
                     </div>
-                    <button className='bg-[#218B7D] text-white py-2 px-4 rounded-md shadow-md text-sm font-medium uppercase duration-300 hover:bg-[#1A5D53]'>Detalle</button>
+                    <button className='bg-[#218B7D] text-white py-2 px-4 rounded-md shadow-md text-sm font-medium uppercase duration-300 hover:bg-[#1A5D53]'>{t("detail")}</button>
                   </article>
                 </section>
               </Link>
