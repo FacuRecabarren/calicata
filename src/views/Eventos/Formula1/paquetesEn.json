@@ -1,0 +1,178 @@
+[
+    {
+        "id": 1,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711334951/wallpaperflare.com_wallpaper_1_wekbi9.jpg",
+        "title": "Miami F1 Grand Prix",
+        "country": "Miami FL",
+        "initialDate": "May 2024",
+        "finishDate": "May 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711335102/re-edit-of-my-shot-of-max-from-the-miami-gp-4k-wallpaper-v0-37sde5yvmnya1_fritof.webp",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711334951/wallpaperflare.com_wallpaper_1_wekbi9.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711335019/stunning-miami-view-wallpaper-preview_at82ny.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711335060/f04baf6b4ca2c49aff329b382847a263_wc1bil.png"
+        ],
+        "description": "Experience the thrill at full throttle in the Miami F1 Grand Prix with our exclusive 4-night package! Immerse yourself in the world of elite motorsport while staying at a luxurious 4-star hotel, offering unparalleled comfort and style. With guaranteed access to the action at North Beach throughout the weekend, you'll live the adrenaline of every curve and acceleration. From the roar of the engines to the excitement of the competition, this is your chance to experience the glamour and thrill of motorsport firsthand. Catch the speed and excitement at the Miami F1 Grand Prix with us!",
+        "price": 2390,
+        "totalPrice": 4780,
+        "persons": "2",
+        "nights": 4,
+        "circuits": 1,
+        "lodgings": 1
+    },
+    {
+        "id": 2,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
+        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710114775/Houses_Italy_Florefsdfnce_534911_1920x1080_mo9qtp.webp",
+        "title": "Imola F1 Grand Prix",
+        "country": "Florence",
+        "initialDate": "May 2024",
+        "finishDate": "May 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711335470/F1-Imola-Charles-Leclerc-920x518_gtqgbv.webp",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711335438/360_F_497519039_EhmmpTT8ASyrRcIBXz6RvCmzPbim0aSg_v9aurv.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711335491/pista-imola_tlbwqq.webp",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711335509/https___tr2storage.blob.core.windows.net_imagenes_eM8vo0gzo0XM-eR9MsOdfkVjpeg_jisirf.webp"
+        ],
+        "description": "Get ready for an unforgettable racing experience at the Imola F1 Grand Prix with our exclusive 3-night package! Enjoy the thrill of elite motorsport while staying at a 4-star hotel with bed and breakfast included, ensuring comfort and luxury during your stay from May 17th to 20th. With a General Admission ticket for all three days, you'll have full access to the circuit on Fridays, Saturdays, and Sundays, allowing you to experience every moment of the action from prime locations. Additionally, our Hotel/Circuit/Hotel shuttle service will ensure you focus solely on enjoying the event, without worrying about logistical details. Embark on a journey full of speed and excitement at the Imola F1 Grand Prix with us!",
+        "price": 1293,
+        "totalPrice": 2585,
+        "persons": "2",
+        "nights": 3,
+        "circuits": 1,
+        "lodgings": 1
+    },
+    {
+        "id": 3,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
+        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710115041/montecadasdrlo-monaco_yem700.webp",
+        "title": "Monaco F1 Grand Prix",
+        "country": "Nice",
+        "initialDate": "May 2024",
+        "finishDate": "May 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711335860/desktop-wallpaper-monaco-2022-f1-f1_k4zcou.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711335967/fairmont-hairpin-the-worlds-most-famous-bend-monte-carlo-free-photo-2210x1473_xylmvc.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711335992/4d1c5e9abc1f932eba88f5db888f5ad8_zufan0.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711336018/wallpapersden.com_monaco-at-night_3840x2160_xeoi5e.jpg"
+        ],
+        "description": "Experience the glamour and excitement of the Monaco F1 Grand Prix with our exclusive 3-night package! From May 24th to 27th, immerse yourself in the unique atmosphere of this legendary race while staying at a cozy 3-star hotel with bed and breakfast included. With our Sector Rocher category ticket for all three days, you'll have privileged access to one of the most thrilling areas of the circuit, allowing you to enjoy the races from a unique and vibrant perspective. From Friday's practice sessions to the excitement of Sunday's race, every moment will be an unforgettable experience. Don't miss the chance to be part of history at the Monaco F1 Grand Prix with us!",
+        "price": 1075,
+        "totalPrice": 2150,
+        "persons": "2",
+        "nights": 3,
+        "circuits": 1,
+        "lodgings": 1
+    },
+    {
+        "id": 4,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
+        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710115273/Spain-Barcelona-roads-tower-architecturedasd-city_1920x1080_wwczlt.webp",
+        "title": "Spain F1 Grand Prix",
+        "country": "Barcelona",
+        "initialDate": "June 2024",
+        "finishDate": "June 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711336647/8wlzbk85wmj81_vkmapf.webp",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711336678/20005-spanish-gp-thursday_lveknj.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711336861/1000_F_357423443_jOt78ENF8YYRLGj8S48DsfH5Ox5Ns3ZS_glnioz.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711336813/DgxKN7wVAAYJVE3_jglicq.jpg"
+        ],
+        "description": "Get ready for a unique experience at the Spain F1 Grand Prix with our irresistible 3-night package! Delight in the charming Barcelona while staying at the elegant 4-star Hotel Catalonia Gracia, where each day starts with a delicious breakfast that prepares you for the circuit excitement. With our 'PELOUSE' ticket, you'll have privileged access to the circuit on Fridays, Saturdays, and Sundays, allowing you to enjoy the action from an exceptional location. Additionally, you have the option to check availability in other sectors to maximize your experience! Immerse yourself in the vibrant atmosphere and thrilling speed of the Spain F1 Grand Prix. Book now and secure your spot in this exciting race!",
+        "price": 1075,
+        "totalPrice": 2150,
+        "persons": "2",
+        "nights": 3,
+        "circuits": 1,
+        "lodgings": 1
+    },
+    {
+        "id": 5,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
+        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710115681/Budapest-city-Hungary-bridgedasd-cityscape-river-1883845-wallhere.com_utc3ce.webp",
+        "title": "Hungary F1 Grand Prix",
+        "country": "Budapest",
+        "initialDate": "July 2024",
+        "finishDate": "July 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711337009/directo-f1-libres-entrenamientos-gp-hungria-2021-1627647935_3_720x440_rsxp1q.webp",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711337336/f.elconfidencial.com_original_961_449_01e_96144901e878833cfa4fb9be6b1e4681_mb4biv.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711337373/chain-bridge-budapest-hungary-europe-wallpaper-preview_peklw2.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711337768/1237666_1_z26mrw.jpg"
+        ],
+        "description": "Get ready to experience an unforgettable time at the Hungary F1 Grand Prix with our exclusive 3-night package! Enjoy the majestic Budapest while staying at the prestigious 4-star Hotel Novotel Danube, where each day starts with a delicious breakfast preparing you for the circuit excitement. With our guaranteed circuit transfer service on Saturdays and Sundays, you'll arrive at the event worry-free and ready to enjoy the race's thrill. Additionally, with our 'RED BULL GRANDSTAND' ticket, you'll have a privileged view of the track, immersing yourself in the action with style and comfort. Don't forget you can also check availability in other sectors to further personalize your experience! Secure your spot in this thrilling race and live the Hungary F1 Grand Prix like never before. Book now and join us for an unforgettable adventure in the speed and glamour of Formula 1!",
+        "price": 2064,
+        "totalPrice": 4127,
+        "persons": "2",
+        "nights": 3,
+        "circuits": 1,
+        "lodgings": 1
+    },
+    {
+        "id": 6,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711338074/wp3823892_ofpl4l.jpg",
+        "title": "Monza F1 Grand Prix",
+        "country": "Milan",
+        "initialDate": "August 2024",
+        "finishDate": "September 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711338134/220043-italian-gp-saturday-gallery_dz7lgp.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711338172/sundayitaly3-945260_icna5i.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711338269/7e48b61ffc7796dec47991460ff7e5ba_ueu7re.png",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711337957/wp3823939_ng7sgo.webp"
+        ],
+        "description": "Get ready to experience the passion of Formula 1 at the legendary Monza F1 Grand Prix with our exclusive 4-night package! From August 30th to September 1st, immerse yourself in the vibrant atmosphere of this iconic race while staying at a cozy 3-star hotel with bed and breakfast included. With our 'CENTRALE GRANDSTAND' ticket, you'll have a privileged view of the track action on Fridays, Saturdays, and Sundays, ensuring an unforgettable experience at every moment of the race. Additionally, our circuit transfer service on Fridays, Saturdays, and Sundays guarantees you arrive there comfortably and worry-free. Don't miss the chance to live the excitement of the Monza F1 Grand Prix with us! Book now and secure your spot at this thrilling event full of speed and adrenaline.",
+        "price": 3247,
+        "totalPrice": 6494,
+        "persons": "2",
+        "nights": 4,
+        "circuits": 1,
+        "lodgings": 1
+    },
+    {
+        "id": 7,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
+        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710116836/mexico-city-wallpaper-9568-10062dasdshd-wallpapers_ieqoab.webp",
+        "title": "Mexico F1 Grand Prix",
+        "country": "Mexico City",
+        "initialDate": "October 2024",
+        "finishDate": "October 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711338725/imago-1282302-1-180246-1024x576_o02hjg.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711338710/GettyImages-495275510_20_2_t1r3og.webp",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711338660/138975_vp692v.webp",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711338592/istockphoto-1064307584-170667a_ejrbrs.webp"
+        ],
+        "description": "Get ready for an exciting experience at the Mexico F1 Grand Prix with our complete 5-day package, from October 24th to 28th, 2024! From your arrival, we'll pamper you with our airport-hotel-airport transfer service, ensuring your comfort from the very beginning. Enjoy first-class accommodation during your stay, with breakfast included so you can start each day with energy. With our ticket for Sector Tribune 15 at the Foro Sol, you'll have a privileged view of the track during all three days of action. Additionally, our regular shuttle service will take you from the hotel to the racetrack and back, ensuring you don't miss a single moment of excitement on the track on Fridays, Saturdays, and Sundays. Don't miss this opportunity to experience the passion of Formula 1 in Mexico! Book now and join us for an unforgettable weekend full of speed and excitement.",
+        "price": 3163,
+        "totalPrice": 6325,
+        "persons": "2",
+        "nights": 4,
+        "circuits": 1,
+        "lodgings": 1
+    },
+    {
+        "id": 8,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
+        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709690723/raphael-nogueira-0phxdasdsaYpfFHpg-unsplash_nzshqd.jpg",
+        "title": "Sao Paulo F1 Grand Prix",
+        "country": "Sao Paulo",
+        "initialDate": "October 2024",
+        "finishDate": "October 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711339104/como-ver-gp-brasil-2019_0_ujvyxz.webp",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711339947/NFW4BZ6EQN2TKX5KWTB4TIZ23U_lkpjl0.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711340032/360_F_388638071_eGYb1eOSBW06YnluAOwYMoweOlkBkHzF_wcauin.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711340082/2a0c9319-6599-4c14-98e5-e74d13eab669_qirhbk.webp"
+        ],
+        "description": "Get ready for an exciting experience at the Sao Paulo F1 Grand Prix with our exclusive 4-night package! From October 24th to 28th, you'll stay at a cozy 3-star hotel in Sao Paulo, where each morning awaits you with a delicious breakfast to energize your day. With our tickets to the 'SECTOR G' of the circuit, you'll have a privileged view of the track action on Fridays, Saturdays, and Sundays, ensuring you don't miss a single moment of excitement. Additionally, our circuit transfers will take you back and forth on Fridays, Saturdays, and Sundays, guaranteeing you arrive comfortably and on time to enjoy all the action on the track. Don't miss the opportunity to experience the passion of Formula 1 in Sao Paulo! Book now and join us for an unforgettable weekend full of speed and excitement.",
+        "price": 1390,
+        "totalPrice": 2780,
+        "persons": "2",
+        "nights": 4,
+        "circuits": 1,
+        "lodgings": 1
+    }    
+]

@@ -138,11 +138,6 @@
                 "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893549/timthumb_23_xfdsyx.jpg"
             },
             {
-                "title": "Yoga entre Viñedos",
-                "description": "El yoga promueve la unión del cuerpo, mente y espíritu mediante posturas y respiración, induciendo meditación y serenidad. En entornos naturales de Mendoza, como viñedos y montañas, se potencia esta práctica.",
-                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893576/timthumb_24_eqqb8f.jpg"
-            },
-            {
                 "title": "Tour de Vino de Medio Día",
                 "description": "Visitar bodegas en Mendoza es esencial para los viajeros. Muchos optan por regresar a los orígenes y disfrutar del campo en tiempos de vida acelerados.",
                 "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710893606/timthumb_25_svczsr.jpg"
@@ -201,11 +196,6 @@
                 "title": "Experiencia Maipú",
                 "description": "Visitamos bodega CARO, fusión de Catena y Rothschild, luego L'Orange de Ernesto Catena, y finalizamos en El Enemigo, con almuerzo maridado.",
                 "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710906121/cava-bodega-caro1_nl1h5w.jpg"
-            },
-            {
-                "title": "Andes Truck",
-                "description": "Exploraremos la Reserva Natural de Villavicencio en un truck, visitando puntos como Balcón y Manto de Cobre. Observación de flora y fauna. Opcional: almuerzo. Por la tarde, visita guiada al icónico hotel antes de regresar.",
-                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710906076/timthumb_31_ciwccg.jpg"
             },
             {
                 "title": "Sabores de Maipú",
@@ -274,18 +264,18 @@
         "paquetes": [
             {
                 "title": "Luján de Cuyo",
-                "description": "Visita y degustación en bodega Matervini, almuerzo armonizado en Achaval Ferrer Premium",
+                "description": "Tour guiado entre viñedos y bodegas...con degustación de vinos y picnic",
                 "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710971037/caption_ohavsb.jpg"
-            },
-            {
-                "title": "Valle de Uco",
-                "description": "Visita y menú de 5 pasos maridado con vinos premium al atardecer en bodega Huentala Wines",
-                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710970916/12-13_nzbcwn.jpg"
             },
             {
                 "title": "E-bike & Vino",
                 "description": "Visita y menú de 5 pasos maridado con vinos premium al atardecer en bodega Huentala Wines",
                 "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710970983/timthumb_33_fudy1x.jpg"
+            },
+            {
+                "title": "Maipú Bike",
+                "description": "Tour guiado entre viñedos y bodegas...con degustación de vinos y picnic",
+                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711342407/Diseno-sin-titulo-1_tszaac.png"
             }
         ]
     },
@@ -308,29 +298,9 @@
                 "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710971332/timthumb_34_yo9mlp.jpg"
             },
             {
-                "title": "City Tour al Atardecer",
-                "description": "Descubre la historia de Mendoza y disfruta de una cena exclusiva en el restaurante de la bodega Los Toneles.",
-                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710971649/1591568897901IMG_4880-scaled_bn6gge.webp"
-            },
-            {
-                "title": "City Tour CLásico",
-                "description": "San Rafael, a los pies de las montañas de Mendoza, es la puerta al Pacífico. Clima agradable y una ciudad amada por sus habitantes.",
+                "title": "City Tour Clásico",
+                "description": "Recorre la ciudad de Mendoza, visitando los lugares históricos de la bella provincia",
                 "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710971736/Portones-Parque-San-Martin_rhcjig.jpg"
-            },
-            {
-                "title": "City Tour con Picnic",
-                "description": "Descubre los secretos de Mendoza desde su fundación. Disfruta de un picnic en el hermoso parque rodeado de jardines de rosas.",
-                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710971797/Ciudad-de-Mendoza-en-oton%CC%83o-1_vcbdfl.jpg"
-            },
-            {
-                "title": "City Tour en Monopatín",
-                "description": "Explora Mendoza en monopatín para descubrir sus secretos y detalles de forma única y novedosa.",
-                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710971963/64a692f51ac76_570_371_axqxve.jpg"
-            },
-            {
-                "title": "E-Bike City Tour",
-                "description": "Explora Mendoza en e-bikes, una ciudad con clima agradable y vistas espectaculares, al pie de las montañas y puerta de entrada al Océano Pacífico.",
-                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710972018/timthumb_35_scwvuz.jpg"
             }
         ]
     },
@@ -371,31 +341,6 @@
     },
     {
         "id": 7,
-        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710210897/los-puquiosjpg_idjc2b.webp",
-        "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1710974162/85382_4505_pjkal0.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1710974213/nieve-puquiosjpg_wsjxnx.webp"],
-        "description": "Ski",
-        "text":"En Argentina y Chile, encontrarás una amplia gama de tours de esquí para todos los niveles. Desde 1998, hemos llevado a esquiadores y snowboarders a Las Leñas, el centro de esquí más grande de Argentina. La temporada en América del Sur generalmente va de junio a septiembre, con mediados de julio a agosto siendo el período óptimo para disfrutar de la mejor nieve. Consulta nuestros tours personalizados, programas exclusivos de freeride y heli-ski para familias o grupos.",
-        "target": 2,
-        "paquetes": [
-            {
-                "title": "Día de Nieve",
-                "description": "Salidas diarias para disfrutar de la nieve en Penitentes o Los Puquios, de junio a septiembre. Esquí y diversión garantizados.",
-                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710974105/penitentes-2_zzdwdi.jpg"
-            },
-            {
-                "title": "Día en Las Leñas",
-                "description": "Las Leñas, en el valle homónimo al sur de Mendoza, es uno de los principales centros de esquí de Argentina, destacado en América del Sur por su infraestructura.",
-                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710974020/nature-mountain-outdoors-ice_dc8kkm.jpg"
-            },
-            {
-                "title": "Raquetas de Nieve",
-                "description": "Los Andes en invierno: un paisaje majestuoso con montañas nevadas que inspiran paz y admiración.",
-                "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710973935/timthumb_36_qnzjyu.jpg"
-            }
-        ]
-    },
-    {
-        "id": 8,
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710252573/IMG_20210406_153108164_HDR-1-scaled-e1626357545247_qztutn_tyexjp.webp",
         "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1710974959/cabalgata-4_bzmjni.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1710974987/cabalgata-cordillera-mendocina-1_t9uuvs.jpg"],
         "description": "Cabalgatas",

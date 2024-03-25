@@ -1,12 +1,34 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import paquetes from '../Formula1/paquetes.json';
 import { FaRegMoon } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import Filters from '@/components/Filters/Filters';
 import { IoBedOutline } from 'react-icons/io5';
 import { FaPersonBiking } from 'react-icons/fa6';
+import { useTranslation } from 'react-i18next';
 
 const Formula1 = () => {
+
+  const { t, i18n } = useTranslation();
+
+  const [paquetesData, setPaquetesData] = useState([]);
+
+  useEffect(() => {
+    const loadPaquetesData = async () => {
+      let paquetes;
+      if (i18n.language === 'es') {
+        paquetes = await import('../Formula1/paquetes.json');
+      } else if(i18n.language === 'en'){
+        paquetes = await import('../Formula1/paquetesEn.json');
+      }else{
+        paquetes = await import('../Formula1/paquetesPort.json')
+      }
+      setPaquetesData(paquetes.default);
+    };
+
+    loadPaquetesData();
+  }, [i18n.language]);
+
   const [filters, setFilters] = useState({
     country: null,
     oneLodgings: false,
@@ -30,7 +52,7 @@ const Formula1 = () => {
     }));
   };
 
-  const filteredPaquetes = paquetes.filter(paquete => {
+  const filteredPaquetes = paquetesData.filter(paquete => {
     return (
       (!filters.country || paquete.country === filters.country) &&
       (!filters.oneLodgings || paquete.lodgings === 1) &&
@@ -46,14 +68,14 @@ const Formula1 = () => {
     <div className='bg-[#f2f2f2]'>
       <div className='relative'>
         <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709307319/Fo_CC_81rmula_1_Red_Bull-1390432726_stjwz5.webp" alt="" className='h-[25rem] w-full object-cover object-center'/>
-        <h2 className='text-center w-full py-2 px-4 text-white font-bold text-3xl shadow-xl bg-[#000000] bg-opacity-80 absolute bottom-0'>PAQUETES FORMULA 1</h2>
+        <h2 className='text-center w-full py-2 px-4 text-white font-bold text-3xl shadow-xl bg-[#000000] bg-opacity-80 absolute bottom-0'>{t("formula1Packages")}</h2>
       </div>
       <div className='py-20 px-10 h-full w-full flex flex-col lg:flex lg:flex-row justify-center items-start gap-10'>
         <Filters onFilterChange={handleFilterChange} countries={countries} filters={filters} setFilters={setFilters}/>
         <section className='h-full lg:w-[50rem] w-full flex flex-col justify-center items-center gap-10'>
           {filteredPaquetes.length === 0 ? (
             <div className='flex flex-col justify-center items-center gap-5'>
-              <p className='bg-white font-semibold opacity-80 p-2 w-full text-center rounded-xl shadow-xl border-t-8 border-[#FE904D]'>No hay paquetes disponibles con los filtros seleccionados</p>
+              <p className='bg-white font-semibold opacity-80 p-2 w-full text-center rounded-xl shadow-xl border-t-8 border-[#FE904D]'>{t("errorFilter")}</p>
               <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709871042/404-page-not-found-monochromatic-32679_db7xv6.svg" alt="" className='w-[25rem]'/>
             </div>
           ) : (
@@ -66,8 +88,8 @@ const Formula1 = () => {
                   <article className='flex flex-col justify-between items-start h-full lg:gap-0 gap-3'>
                     <div>
                       <h3 className='lg:text-lg font-bold opacity-90 text-[#218B7D]'>{paquete.title}</h3>
-                      <p className='text-sm'><span className='font-semibold opacity-90'>Visitando:</span> {paquete.country}</p>
-                      <p className='text-sm opacity-90'><span className='font-semibold'>Desde</span> {paquete.initialDate} <span className='font-semibold'>Hasta</span> {paquete.finishDate}</p>
+                      <p className='text-sm'><span className='font-semibold opacity-90'>{t("visiting")}:</span> {paquete.country}</p>
+                      <p className='text-sm opacity-90'><span className='font-semibold'>{t("from")}</span> {paquete.initialDate} <span className='font-semibold'>{t("to")}</span> {paquete.finishDate}</p>
                     </div>
                     <div className='flex justify-start items-center gap-2 lg:text-sm text-xs'>
                       <div className='bg-[#FE904D] flex justify-center items-center gap-1 p-1.5 text-white font-medium rounded-md'>
@@ -87,11 +109,11 @@ const Formula1 = () => {
                   </article>
                   <article className='flex flex-col justify-between items-end h-full gap-5'>
                     <div className='flex flex-col justify-center items-end'>
-                      <p className='text-sm font-light'>Desde</p>
-                      <span className='text-lg font-bold opacity-90'>${paquete.price}</span>
-                      <p className='text-xs opacity-90'>por persona</p>
+                      <p className='text-sm font-light'>{t("fromPrice")}</p>
+                      <span className='text-lg font-bold opacity-90'>US${paquete.price}</span>
+                      <p className='text-xs opacity-90'>{t("perPerson")}</p>
                     </div>
-                    <button className='bg-[#218B7D] text-white py-2 px-4 rounded-md shadow-md text-sm font-medium uppercase duration-300 hover:bg-[#1A5D53]'>Detalle</button>
+                    <button className='bg-[#218B7D] text-white py-2 px-4 rounded-md shadow-md text-sm font-medium uppercase duration-300 hover:bg-[#1A5D53]'>{t("detail")}</button>
                   </article>
                 </section>
               </Link>

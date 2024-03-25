@@ -37,22 +37,58 @@ const Eventos = () => {
         },
     ]
 
-    const ideas = [
-        {
-            id: 1,
-            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709307319/Fo_CC_81rmula_1_Red_Bull-1390432726_stjwz5.webp',
-            description: "Formula 1",
-            target: 1,
-            link: "formula1"
-        },
-        {
-            id: 2,
-            image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709917193/sporting-news-2022-photo-with-watermark-861578da-07eb-4bce-81b5-39ff4dc5ffa5_ztsaj4.webp',
-            description: "Fútbol",
-            target: 2,
-            link: "futbol"
-        },
-    ]
+    const ideasByLanguage = {
+        'en': [
+            {
+                id: 1,
+                image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709307319/Fo_CC_81rmula_1_Red_Bull-1390432726_stjwz5.webp',
+                description: "Formula 1",
+                target: 1,
+                link: "formula1"
+            },
+            {
+                id: 2,
+                image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709917193/sporting-news-2022-photo-with-watermark-861578da-07eb-4bce-81b5-39ff4dc5ffa5_ztsaj4.webp',
+                description: "Soccer",
+                target: 2,
+                link: "futbol"
+            },
+        ],
+        'es': [
+            {
+                id: 1,
+                image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709307319/Fo_CC_81rmula_1_Red_Bull-1390432726_stjwz5.webp',
+                description: "Fórmula 1",
+                target: 1,
+                link: "formula1"
+            },
+            {
+                id: 2,
+                image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709917193/sporting-news-2022-photo-with-watermark-861578da-07eb-4bce-81b5-39ff4dc5ffa5_ztsaj4.webp',
+                description: "Fútbol",
+                target: 2,
+                link: "futbol"
+            },
+        ],
+        'port': [
+            {
+                id: 1,
+                image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709307319/Fo_CC_81rmula_1_Red_Bull-1390432726_stjwz5.webp',
+                description: "Formula 1",
+                target: 1,
+                link: "formula1"
+            },
+            {
+                id: 2,
+                image: 'https://res.cloudinary.com/dreso9ye9/image/upload/v1709917193/sporting-news-2022-photo-with-watermark-861578da-07eb-4bce-81b5-39ff4dc5ffa5_ztsaj4.webp',
+                description: "Futebol",
+                target: 2,
+                link: "futbol"
+            },
+        ],
+    };
+
+    const ideas = ideasByLanguage[i18n.language] || ideasByLanguage['en'];
 
     const handleThemeClick = (theme) => {
         setSelectedTheme(theme);
