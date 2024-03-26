@@ -83,11 +83,11 @@ const DetailMendoza = () => {
                     <span className="absolute bottom-0 w-[60%] h-[2px] bg-[#218B7D]"></span> 
                 </h2>
                 <div className='w-full h-full flex justify-evenly flex-wrap'>
-                    {i18n.language === 'es' && ideaDetail.paquetes.map(paquete =>(
-                        <div onClick={() => handleConsultClick(paquete)} key={paquete.title} className='flex flex-col justify-between rounded-xl shadow-xl hover:scale-[1.01] duration-300 cursor-default my-5'>
-                            <div className='flex flex-col w-[21rem] sm:w-[26rem] h-[25rem]'>
+                    {i18n.language === 'es' && ideaDetail.paquetes.map((paquete, index) =>(
+                        <div onClick={() => handleConsultClick(paquete)} key={index} className='flex flex-col justify-between rounded-xl shadow-xl hover:scale-[1.01] duration-300 cursor-default my-5 space-y-5 bg-gray-100'>
+                            <div className='flex flex-col w-[21rem] sm:w-[26rem] sm:h-[25rem] '>
                                 <img src={paquete.image} alt="" className='rounded-t-xl h-[17rem]'/>
-                                <div className='pt-5 h-32 px-2 bg-gray-100'>
+                                <div className='pt-5 sm:h-32 px-2'>
                                     <h2 className='text-xl text-[#218B7D] font-semibold'>{paquete.title}</h2>
                                     <p className='text-sm opacity-80'>{paquete.description}</p>
                                 </div>
@@ -95,11 +95,11 @@ const DetailMendoza = () => {
                             <button className='flex justify-center items-center bg-[#218B7D] py-2 text-lg font-semibold text-white rounded-b-xl hover:bg-opacity-80 duration-300'>Consultar</button>
                         </div>
                     ))}
-                    {i18n.language === 'port' && ideaPortDetail.paquetes.map(paquete =>(
-                        <div onClick={() => handleConsultClick(paquete)} key={paquete.title} className='flex flex-col justify-between rounded-xl shadow-xl hover:scale-[1.01] duration-300 cursor-default my-5'>
-                            <div className='flex flex-col w-[26rem] h-[25rem]'>
+                    {i18n.language === 'port' && ideaPortDetail.paquetes.map((paquete, index) =>(
+                        <div onClick={() => handleConsultClick(paquete)} key={index} className='flex flex-col justify-between rounded-xl shadow-xl hover:scale-[1.01] duration-300 cursor-default my-5  space-y-5 bg-gray-100'>
+                            <div className='flex flex-col w-[21rem] sm:w-[26rem] sm:h-[25rem]'>
                                 <img src={paquete.image} alt="" className='rounded-t-xl h-[17rem]'/>
-                                <div className='pt-5 h-32 px-2 bg-gray-100'>
+                                <div className='pt-5 h-32 px-2 '>
                                     <h2 className='text-xl text-[#218B7D] font-semibold'>{paquete.title}</h2>
                                     <p className='text-sm opacity-80'>{paquete.description}</p>
                                 </div>
@@ -107,11 +107,11 @@ const DetailMendoza = () => {
                             <button className='flex justify-center items-center bg-[#218B7D] py-2 text-lg font-semibold text-white rounded-b-xl hover:bg-opacity-80 duration-300'>Consultar</button>
                         </div>
                     ))}
-                    {i18n.language === 'en' && ideaEnDetail.paquetes.map(paquete =>(
-                        <div onClick={() => handleConsultClick(paquete)} key={paquete.title} className='flex flex-col justify-between rounded-xl shadow-xl hover:scale-[1.01] duration-300 cursor-default my-5'>
-                            <div className='flex flex-col w-[26rem] h-[25rem]'>
+                    {i18n.language === 'en' && ideaEnDetail.paquetes.map((paquete, index) =>(
+                        <div onClick={() => handleConsultClick(paquete)} key={index} className='flex flex-col justify-between rounded-xl shadow-xl hover:scale-[1.01] duration-300 cursor-default my-5  space-y-5 bg-gray-100'>
+                            <div className='flex flex-col w-[21rem] sm:w-[26rem] sm:h-[25rem]'>
                                 <img src={paquete.image} alt="" className='rounded-t-xl h-[17rem]'/>
-                                <div className='pt-5 h-32 px-2 bg-gray-100'>
+                                <div className='pt-5 h-32 px-2 '>
                                     <h2 className='text-xl text-[#218B7D] font-semibold'>{paquete.title}</h2>
                                     <p className='text-sm opacity-80'>{paquete.description}</p>
                                 </div>

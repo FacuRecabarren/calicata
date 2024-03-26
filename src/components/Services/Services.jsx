@@ -38,7 +38,7 @@ const Services = () => {
         </div>
       </div>
       <div className='flex justify-center'>
-        <h2 className=' text-lg font-semibold text-black opacity-80 p-3  bg-opacity-60 hover:animate-bouncing cursor-default italic'>{t("travelAssistance")}</h2>
+        <h2 className='text-center text-lg font-semibold text-black opacity-80 p-3  bg-opacity-60 hover:animate-bouncing cursor-default italic'>{t("travelAssistance")}</h2>
       </div>
     </div>
   )

@@ -1,13 +1,8 @@
-const phoneNumber = '+542612404253'; // Acá tienen que agregar su número de teléfono
-
-
 const WhatsappButton = () => {
 
   const handleConsultClick = () => {
-  
-    const encodedMessage = encodeURIComponent(message);
 
-    const whatsappLink = `https://wa.me/+5492612457513?text=${encodedMessage}`;
+    const whatsappLink = `https://wa.me/+5492612457513`;
 
     window.location.href = whatsappLink;
 };
