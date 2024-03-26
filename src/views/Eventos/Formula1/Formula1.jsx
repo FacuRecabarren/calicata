@@ -14,6 +14,7 @@ const Formula1 = () => {
   const [paquetesData, setPaquetesData] = useState([]);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     const loadPaquetesData = async () => {
       let paquetes;
       if (i18n.language === 'es') {
