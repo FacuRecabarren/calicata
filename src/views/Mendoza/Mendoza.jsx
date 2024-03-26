@@ -35,6 +35,7 @@ const Mendoza = () => {
     };
 
     useEffect(() => {
+        window.scrollTo(0, 0);
         const selectedLanguage = localStorage.getItem("selectedLanguage");
         if (selectedLanguage) {
             i18n.changeLanguage(selectedLanguage);
