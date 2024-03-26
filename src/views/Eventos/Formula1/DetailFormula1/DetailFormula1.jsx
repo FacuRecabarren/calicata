@@ -15,12 +15,9 @@ const DetailFormula1 = () => {
 
     const [paquetesData, setPaquetesData] = useState([]);
 
-    useEffect(() => {
-        // Scroll hacia arriba cuando se monta el componente
-        window.scrollTo(0, 0);
-      }, []);
 
     useEffect(() => {
+        window.scrollTo(0, 0);
         const loadPaquetesData = async () => {
           let paquetes;
           if (i18n.language === 'es') {

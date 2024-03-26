@@ -12,6 +12,7 @@ const DetailMendoza = () => {
     const [language, setLanguage] = useState(i18n.language);
 
     useEffect(() => {
+        window.scrollTo(0, 0);
         const handleLanguageChange = () => {
           setLanguage(i18n.language);
         };
