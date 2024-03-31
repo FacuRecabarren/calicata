@@ -1,17 +1,20 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Home from "./views/Home/Home"
-import Viajes from "./views/Viajes/Viajes"
+import Viajes from "./views/Travel/Viajes/Viajes"
 import Eventos from "./views/Eventos/Eventos"
 import Formula1 from "./views/Eventos/Formula1/Formula1"
 import DetailFormula1 from "./views/Eventos/Formula1/DetailFormula1/DetailFormula1"
 import Futbol from "./views/Eventos/Futbol/Futbol"
 import DetailFutbol from "./views/Eventos/Futbol/DetailFutbol/DetailFutbol"
-import DetailViajes from "./views/Viajes/DetailViajes/DetailViajes"
+import DetailViajes from "./views/Travel/Viajes/DetailViajes/DetailViajes"
 import Mendoza from "./views/Mendoza/Mendoza"
 import DetailMendoza from "./views/Mendoza/DetailMendoza/DetailMendoza"
 import Layout from "./components/Layout/Layout"
 import Error from "./components/Error/Error"
 import WhatsappButton from "./components/WhatsappButton/WhatsappButton"
+import Travel from "./views/Travel/Travel"
+import ViajesArgentina from "./views/Travel/ViajesArgentina/ViajesArgentina"
+import ViajesArgentinaDetail from "./views/Travel/ViajesArgentina/DetailViajesArgentina/ViajesArgentinaDetail"
 
 function App() {
 
@@ -22,8 +25,11 @@ function App() {
       <Routes>
         <Route element={<Layout/>}>
           <Route path='/' element={<Home/>}/>
-          <Route path='/travel' element={<Viajes/>}/>
-          <Route path='/travel/:id' element={<DetailViajes/>} />
+          <Route path='/travel' element={<Travel/>}/>
+          <Route path='/travel/world' element={<Viajes/>}/>
+          <Route path='/travel/world/:id' element={<DetailViajes/>} />
+          <Route path='/travel/argentina' element={<ViajesArgentina/>} />
+          <Route path='/travel/argentina/:id' element={<ViajesArgentinaDetail/>} />
           <Route path='/mendoza' element={<Mendoza/>}/>
           <Route path='/mendoza/:id' element={<DetailMendoza/>} />
           <Route path='/events' element={<Eventos/>}/>

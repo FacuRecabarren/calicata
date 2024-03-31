@@ -3,9 +3,10 @@ import { FaRegMoon } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import Filters from '@/components/Filters/Filters';
 import { IoBedOutline } from 'react-icons/io5';
+import { WiDaySunny } from "react-icons/wi";
 import { useTranslation } from 'react-i18next';
 
-const Viajes = () => {
+const ViajesArgentina = () => {
 
   const { t, i18n } = useTranslation();
 
@@ -15,11 +16,11 @@ const Viajes = () => {
     const loadPaquetesData = async () => {
       let paquetes;
       if (i18n.language === 'es') {
-        paquetes = await import('../Viajes/viajes1.json');
+        paquetes = await import('../ViajesArgentina/viajesEs.json');
       } else if(i18n.language === 'en'){
-        paquetes = await import('../Viajes/viajesEn.json');
+        paquetes = await import('../ViajesArgentina/viajesEn.json');
       }else{
-        paquetes = await import('../Viajes/viajesPort.json')
+        paquetes = await import('../ViajesArgentina/viajesPort.json')
       }
       setPaquetesData(paquetes.default);
     };
@@ -64,9 +65,9 @@ const Viajes = () => {
   return (
     <div className='bg-[#f2f2f2]'>
       <div className='relative'>
-        <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709917944/Dise%C3%B1o_sin_t%C3%ADtulo_2_waupfa.webp" alt="" className='h-[25rem] w-full object-cover object-top '/>
-        <h2 className='text-center w-full py-2 px-4 text-white font-bold text-2xl sm:text-3xl shadow-xl bg-[#000000] bg-opacity-80 absolute bottom-0'>{t('viajeTitulo')}</h2>
-        <p className='hidden lg:block absolute bottom-3 left-10 text-[#FCCC71] text-xl cursor-default uppercase'><Link to="/" className='z-50 text-white hover:text-[#bcbec7] duration-300 hover:underline'>{t("home")}</Link> / {t("viajeTitulo")}</p>
+        <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1711854151/south-america-patagonia-andes-mountains-lake_1535930205_ysx7yr.jpg" alt="" className='h-[25rem] w-full object-cover object-center '/>
+        <h2 className='text-center w-full py-2 px-4 text-white font-bold text-2xl sm:text-3xl shadow-xl bg-[#000000] bg-opacity-80 absolute bottom-0'>ARGENTINA</h2>
+        <p className='hidden lg:block absolute bottom-3 left-10 text-[#FCCC71] text-xl cursor-default uppercase'><Link to="/" className='z-50 text-white hover:text-[#bcbec7] duration-300 hover:underline'>{t("home")}</Link> / <Link to="/travel" className='z-50 text-white hover:text-[#bcbec7] duration-300 hover:underline'>{t("travel")}</Link> / Argentina</p>
       </div>
       <div className='py-20 px-10 h-full w-full flex flex-col lg:flex lg:flex-row justify-center items-start gap-10'>
         <Filters onFilterChange={handleFilterChange} countries={countries} filters={filters} setFilters={setFilters}/>
@@ -78,7 +79,7 @@ const Viajes = () => {
             </div>
           ) : (
             filteredPaquetes.map(paquete => (
-              <Link to={`/travel/${paquete.id}`} key={paquete.id} className='border-t-8 border-[#FE904D] flex flex-col justify-center items-center w-full lg:flex lg:flex-row lg:justify-start lg:items-center gap-2 bg-white rounded-xl shadow-xl lg:h-[15rem] lg:w-[50rem] hover:scale-[1.01] duration-300'>
+              <Link to={`/travel/argentina/${paquete.id}`} key={paquete.id} className='border-t-8 border-[#FE904D] flex flex-col justify-center items-center w-full lg:flex lg:flex-row lg:justify-start lg:items-center gap-2 bg-white rounded-xl shadow-xl lg:h-[15rem] lg:w-[50rem] hover:scale-[1.01] duration-300'>
                 <div className='w-full h-full lg:w-[40rem]'>
                   <img src={paquete.galleryImages[0]} alt="" className='w-full lg:h-full h-[15rem] rounded-l-lg object-cover'/>
                 </div>
@@ -87,9 +88,12 @@ const Viajes = () => {
                     <div>
                       <h3 className='lg:text-lg font-bold opacity-90 text-[#218B7D]'>{paquete.title}</h3>
                       <p className='text-sm'><span className='font-semibold opacity-90'>{t("visiting")}:</span> {paquete.country}</p>
-                      <p className='text-sm opacity-90'><span className='font-semibold'>{t("from")}</span> {paquete.initialDate} <span className='font-semibold'>{t("to")}</span> {paquete.finishDate}</p>
+                      <p className='text-sm opacity-90'><span className='font-semibold'>Salida:</span> {paquete.initialDate}</p>
                     </div>
                     <div className='flex justify-start items-center gap-2 lg:text-sm text-xs'>
+                        <div className='bg-[#FE904D] flex justify-center items-center gap-1 p-1.5 text-white font-medium rounded-md'>
+                          {paquete.days}<WiDaySunny  className='size-5'/>
+                        </div>
                       <div className='bg-[#FE904D] flex justify-center items-center gap-1 p-1.5 text-white font-medium rounded-md'>
                         {paquete.nights}<FaRegMoon />
                       </div>
@@ -119,4 +123,4 @@ const Viajes = () => {
   );
 };
 
-export default Viajes;
+export default ViajesArgentina;
