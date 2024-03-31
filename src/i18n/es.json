@@ -58,7 +58,6 @@
     "eventsInsideInfo": "Descubrí todos los tipos de eventos que tenemos",
     
     
-    
     "futbol": "Fútbol",
     "futbolPackages": "PAQUETES FÚTBOL",
     "formula1Packages":"PAQUETES FÓRMULA 1",
@@ -82,10 +81,11 @@
     "resumen":"Resumen del viaje",
     "adults":"Adultos",
     "nights":"Noches",
+    "days":"Días",
     "includes":"El viaje incluye",
     "accommodations":"Alojamientos",
     "circuits":"Circuitos",
-    "includedServices":"Servicios incluídos",
+    "includedServices":"Servicios incluidos",
     "itinerary":"Itinerario",
     "download":"Descargar itinerario",
 

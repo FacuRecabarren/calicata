@@ -99,15 +99,15 @@ const ViajesArgentinaDetail = () => {
                             </div>
                             <div className='flex justify-start items-center gap-2 border border-[#218B7D] rounded-r-xl w-full'>
                                 <div className='bg-[#218B7D] text-xl text-white p-2'>
-                                    <IoMoonOutline/>
+                                    <WiDaySunny className='size-5'/>
                                 </div>
-                                <p className='opacity-80 font-medium text-sm font-lora italic'>{paqueteDetail.nights} {t("nights")}</p>
+                                <p className='opacity-80 font-medium text-sm font-lora italic'>{paqueteDetail.days} {t("days")}</p>
                             </div>
                             <div className='flex justify-start items-center gap-2 border border-[#218B7D] rounded-r-xl w-full'>
                                 <div className='bg-[#218B7D] text-xl text-white p-2'>
-                                    <WiDaySunny />
+                                    <IoMoonOutline/>
                                 </div>
-                                <p className='opacity-80 font-medium text-sm font-lora italic'>{paqueteDetail.days} {t("nights")}</p>
+                                <p className='opacity-80 font-medium text-sm font-lora italic'>{paqueteDetail.nights} {t("nights")}</p>
                             </div>
                         </div>
                     </article>
@@ -144,7 +144,7 @@ const ViajesArgentinaDetail = () => {
                                     <FaUserDoctor />
                                 </div>
                                 <div className='flex justify-between items-center w-full pr-3'>
-                                    <p className='opacity-80 font-medium text-sm font-lora italic'>Asistencia al Viajero</p>
+                                    <p className='opacity-80 font-medium text-sm font-lora italic'>{paqueteDetail.assistance}</p>
                                 </div>
                             </div>
                         </div>

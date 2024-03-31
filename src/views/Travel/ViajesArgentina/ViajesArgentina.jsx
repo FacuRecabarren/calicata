@@ -107,7 +107,6 @@ const ViajesArgentina = () => {
                   </article>
                   <article className='flex flex-col justify-between items-end h-full gap-5'>
                     <div className='flex flex-col justify-center items-end'>
-                      <p className='text-sm font-light'>{t("fromPrice")}</p>
                       <span className='text-lg font-bold opacity-90'>${paquete.price}</span>
                       <p className='text-xs opacity-90'>{t("perPerson")}</p>
                     </div>

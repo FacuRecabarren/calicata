@@ -98,9 +98,8 @@ const Travel = () => {
   return (
     <div>
         <div className='h-[30rem] relative flex flex-col justify-center items-center gap-2'>
-            <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709917672/Dise%C3%B1o_sin_t%C3%ADtulo_1_loqvfo.webp" alt="" className='w-full h-full object-cover object-center absolute top-0 -z-10'/>
-            <h2 id='title' className='text-5xl lg:text-7xl text-[#ffffff] font-extrabold'>ARGENTINA</h2>
-            <p className='text-[#ffffff] bg-[#000000] rounded-xl p-2 bg-opacity-80 font-lora italic font-bold text-base lg:text-xl'>{t("eventsInsideInfo")}</p>
+            <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1711922004/Viajar-felicidad_nfqehc.webp" alt="" className='w-full h-full object-cover object-center absolute top-0 -z-10 brightness-75'/>
+            <h2 id='title' className='text-5xl lg:text-7xl text-[#ffffff] font-extrabold'>{t("travelUppercase")}</h2>
             <p className='hidden lg:block absolute bottom-5 left-10 text-[#FCCC71] text-xl cursor-default uppercase'><Link to="/" className='z-50 text-white hover:text-[#bcbec7] duration-300 hover:underline'>{t("home")}</Link> / {t("events")}</p>
         </div>
         <section className='py-10 px-20 flex flex-col justify-center items-center gap-10 shadow-xl'>
