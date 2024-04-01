@@ -11,6 +11,8 @@ import { MdOutlineSportsSoccer } from "react-icons/md";
 import { GiRaceCar } from "react-icons/gi";
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
+import { GiMountains } from "react-icons/gi";
+import { BiWorld } from "react-icons/bi";
 
 const Travel = () => {
 
@@ -29,12 +31,12 @@ const Travel = () => {
         {
             id: 1,
             name: "Argentina",
-            icono: <GiRaceCar />
+            icono: <GiMountains />
         },
         {
             id: 2,
-            name: <span>Resto do mundo</span>,
-            icono: <MdOutlineSportsSoccer />
+            name: <span>{t("restOfTheWorld")}</span>,
+            icono: <BiWorld />
         },
     ]
 
