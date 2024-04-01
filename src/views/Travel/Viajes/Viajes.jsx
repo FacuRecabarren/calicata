@@ -66,7 +66,7 @@ const Viajes = () => {
       <div className='relative'>
         <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709917944/Dise%C3%B1o_sin_t%C3%ADtulo_2_waupfa.webp" alt="" className='h-[25rem] w-full object-cover object-top '/>
         <h2 className='text-center w-full py-2 px-4 text-white font-bold text-2xl sm:text-3xl shadow-xl bg-[#000000] bg-opacity-80 absolute bottom-0'>{t('viajeTitulo')}</h2>
-        <p className='hidden lg:block absolute bottom-3 left-10 text-[#FCCC71] text-xl cursor-default uppercase'><Link to="/" className='z-50 text-white hover:text-[#bcbec7] duration-300 hover:underline'>{t("home")}</Link> / <Link to="/travel" className='z-50 text-white hover:text-[#bcbec7] duration-300 hover:underline'>{t("travel")}</Link> / {t("viajeTitulo")}</p>
+        <p className='hidden lg:block absolute bottom-3 left-10 text-[#FCCC71] text-xl cursor-default uppercase'><Link to="/" className='z-50 text-white hover:text-[#bcbec7] duration-300 hover:underline'>{t("home")}</Link> / <Link to="/travel" className='z-50 text-white hover:text-[#bcbec7] duration-300 hover:underline'>{t("travelUppercase")}</Link> / {t("viajeTitulo")}</p>
       </div>
       <div className='py-20 px-10 h-full w-full flex flex-col lg:flex lg:flex-row justify-center items-start gap-10'>
         <Filters onFilterChange={handleFilterChange} countries={countries} filters={filters} setFilters={setFilters}/>
@@ -104,7 +104,7 @@ const Viajes = () => {
                   <article className='flex flex-col justify-between items-end h-full gap-5'>
                     <div className='flex flex-col justify-center items-end'>
                       <p className='text-sm font-light'>{t("fromPrice")}</p>
-                      <span className='text-lg font-bold opacity-90'>${paquete.price}</span>
+                      <span className='text-lg font-bold opacity-90'>${paquete.price / 2}</span>
                       <p className='text-xs opacity-90'>{t("perPerson")}</p>
                     </div>
                     <button className='bg-[#218B7D] text-white py-2 px-4 rounded-md shadow-md text-sm font-medium uppercase duration-300 hover:bg-[#1A5D53]'>{t("detail")}</button>

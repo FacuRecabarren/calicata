@@ -5,6 +5,7 @@ import Filters from '@/components/Filters/Filters';
 import { IoBedOutline } from 'react-icons/io5';
 import { WiDaySunny } from "react-icons/wi";
 import { useTranslation } from 'react-i18next';
+import FilterArgentina from '@/components/Filters/FilterArgentina';
 
 const ViajesArgentina = () => {
 
@@ -70,7 +71,7 @@ const ViajesArgentina = () => {
         <p className='hidden lg:block absolute bottom-3 left-10 text-[#FCCC71] text-xl cursor-default uppercase'><Link to="/" className='z-50 text-white hover:text-[#bcbec7] duration-300 hover:underline'>{t("home")}</Link> / <Link to="/travel" className='z-50 text-white hover:text-[#bcbec7] duration-300 hover:underline'>{t("travel")}</Link> / Argentina</p>
       </div>
       <div className='py-20 px-10 h-full w-full flex flex-col lg:flex lg:flex-row justify-center items-start gap-10'>
-        <Filters onFilterChange={handleFilterChange} countries={countries} filters={filters} setFilters={setFilters}/>
+        <FilterArgentina onFilterChange={handleFilterChange} countries={countries} filters={filters} setFilters={setFilters}/>
         <section className='h-full lg:w-[50rem] w-full flex flex-col justify-center items-center gap-10'>
           {filteredPaquetes.length === 0 ? (
             <div className='flex flex-col justify-center items-center gap-5'>
@@ -107,7 +108,7 @@ const ViajesArgentina = () => {
                   </article>
                   <article className='flex flex-col justify-between items-end h-full gap-5'>
                     <div className='flex flex-col justify-center items-end'>
-                      <span className='text-lg font-bold opacity-90'>${paquete.price}</span>
+                      <span className='text-lg font-bold opacity-90'>AR${paquete.price}</span>
                       <p className='text-xs opacity-90'>{t("perPerson")}</p>
                     </div>
                     <button className='bg-[#218B7D] text-white py-2 px-4 rounded-md shadow-md text-sm font-medium uppercase duration-300 hover:bg-[#1A5D53]'>{t("detail")}</button>

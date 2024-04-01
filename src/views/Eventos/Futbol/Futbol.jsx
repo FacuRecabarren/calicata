@@ -111,7 +111,7 @@ const Futbol = () => {
                   <article className='flex flex-col justify-between items-end h-full gap-5'>
                     <div className='flex flex-col justify-center items-end'>
                       <p className='text-sm font-light'>{t("fromPrice")}</p>
-                      <span className='text-lg font-bold opacity-90'>${paquete.price}</span>
+                      <span className='text-lg font-bold opacity-90'>${paquete.price / 2}</span>
                       <p className='text-xs opacity-90'>{t("perPerson")}</p>
                     </div>
                     <button className='bg-[#218B7D] text-white py-2 px-4 rounded-md shadow-md text-sm font-medium uppercase duration-300 hover:bg-[#1A5D53]'>{t("detail")}</button>
