@@ -74,7 +74,7 @@ const DetailEventos2 = () => {
                 <section className='w-full sm:w-[40%] flex flex-col justify-center items-start gap-4'>
                     <article className='flex flex-col gap-2 w-full'>
                         <p className='font-semibold opacity-80 text-sm'>{t("totalPrice")}</p>
-                        <p className='text-5xl font-bold text-[#218B7D]'>US${paqueteDetail.price}</p>
+                        <p className='text-5xl font-bold text-[#218B7D]'>US${paqueteDetail.totalPrice}</p>
                         <button onClick={() => handleConsultClick(paqueteDetail)} className='bg-[#FE904D] text-white font-bold py-3 mt-2 rounded-xl shadow-xl hover:bg-opacity-80 duration-300'>{t("consultar")}!</button>
                     </article>
                     <article className='flex flex-col gap-2 w-full'>
