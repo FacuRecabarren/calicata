@@ -12,8 +12,8 @@
     "packages": "Travel ideas",
 
 
-
-
+    "tennis": "Tennis",
+    "sports": "Sports",
     "travel" : "TRAVEL WITH US",
     "travel1": "Travel",
     "travelInfo": "Discover our wide range of travel packages specially designed for you.",
@@ -65,6 +65,7 @@
     
     "futbol": "Soccer",
     "futbolPackages": "SOCCER PACKAGES",
+    "tennisPackages": "TENNIS PACKAGES",
     "formula1Packages":"FORMULA 1 PACKAGES",
     "filtrar": "Filter",
     "filtroAll": "All",

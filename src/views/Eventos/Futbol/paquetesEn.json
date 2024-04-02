@@ -9,9 +9,10 @@
         "finishDate": "June 2024",
         "galleryImages": ["https://res.cloudinary.com/dreso9ye9/image/upload/v1709778364/https___tr2storage.blob.core.windows.net_activities_Dh1ey8ey2sfX6YVA7e-acYMa5qyeIjpeg_ypte4w.webp","https://res.cloudinary.com/dreso9ye9/image/upload/v1709774398/photo-1673324669026-e2409b9faf8d_oavloi.webp","https://res.cloudinary.com/dreso9ye9/image/upload/v1709774465/photo-1526490025555-53f98769ce26_ni88wt.webp","https://res.cloudinary.com/dreso9ye9/image/upload/v1709774631/Mercedes-Benz-Stadium-seating-plan_o1ovic.webp"],
         "description": "Argentina vs CC5 - Mercedes Benz Stadium - Atlanta. Get ready to experience a unique and unforgettable time! Enjoy 2 nights of accommodation in a luxurious hotel with breakfast included, where every detail is designed for your comfort and pleasure. Wake up every morning with renewed energy to explore everything this city has to offer. But that's not all, because an exciting sports event awaits you. With your ticket in category 3, you'll have privileged access to the match on June 20, where you can experience the passion and excitement live. From your seat, you'll witness spectacular plays and unforgettable moments that will keep you on the edge of your seat. Whether you're a sports lover or just looking for an exciting getaway, this offer is perfect for you. Book now and secure your spot in this unforgettable adventure!",
-        "price": 3728,
+        "price": 1431,
+        "totalPrice": 2861,
         "persons": "2",
-        "nights": 3,
+        "nights": 2,
         "circuits": 1,
         "lodgings": 1
     },
@@ -30,9 +31,10 @@
             "https://res.cloudinary.com/dreso9ye9/image/upload/v1709776736/photo-1522083165195-3424ed129620_lv1xvf.avif"
         ],
         "description": "Argentina vs Chile - June 25th - METLIFE - New York. Get ready for a weekend full of excitement and comfort! Enjoy 2 nights' accommodation in a charming hotel with breakfast included, where every moment becomes a unique experience. Wake up in a cozy atmosphere and recharge your energy for a day full of adventures. But that's not all, because an exhilarating sports event awaits you. With your ticket in category 3, you'll have exclusive access to the thrilling match on June 25th. From your privileged seat, you'll witness masterful plays and epic moments that will be etched into your memory forever. Whether you're a sports fanatic or just seeking an exciting getaway, this offer is ideal for you. Don't miss out on this unique opportunity and book now to secure your spot in this amazing experience!",
-        "price": 4241,
+        "price": 1546,
+        "totalPrice":3091,
         "persons": "2",
-        "nights": 3,
+        "nights": 2,
         "circuits": 1
     },
     {
@@ -50,9 +52,10 @@
             "https://res.cloudinary.com/dreso9ye9/image/upload/v1709777039/https___tr2storage.blob.core.windows.net_imagenes_JzV9iszVbivw-7qvVLRqSHmWgDjd_gg1l6h.webp"
         ],
         "description": "Argentina vs Peru - June 29th - HARD ROCK STADIUM - Miami. Get ready for an unforgettable getaway filled with excitement and comfort! Immerse yourself in luxury during 2 nights' accommodation in a first-class hotel, where every detail is carefully designed for your maximum enjoyment. Wake up each morning to a delicious breakfast that will give you the necessary energy to explore everything this city has to offer. But that's not all, because a unique sports experience awaits you. With your ticket in category 3, you'll have privileged access to the match on June 29th, where excitement will be at its peak. From your privileged location, you'll witness spectacular plays and exciting moments that will leave you breathless. Whether you're a sports enthusiast or just looking for an exciting getaway, this offer is perfect for you. Don't miss out on this opportunity and book now to secure your spot in this unforgettable adventure!",
-        "price": 4586,
+        "price": 1546,
+        "totalPrice":3091,
         "persons": "2",
-        "nights": 3,
+        "nights": 2,
         "circuits": 1,
         "lodgings": 1
     },
@@ -71,7 +74,8 @@
             "https://res.cloudinary.com/dreso9ye9/image/upload/v1709777379/https___tr2storage.blob.core.windows.net_imagenes_knCe4j2NWuUe-KItvC7ltWJjpeg_ge1omt.webp"
         ],
         "description": "Get ready for an exciting journey through the most vibrant cities in the United States, filled with football and fun! First, immerse yourself in the atmosphere of Atlanta from June 19th to 22nd with a 3-night stay. You'll find comfort and convenience to explore the city before witnessing the epic showdown between Argentina and CC5 on June 20th. Your Category 3 ticket will take you to enjoy the match with a privileged view. Then, from June 22nd to 27th, the bustling city of New York awaits you with a 5-night stay. You'll have all the time you need to discover the charms of the Big Apple before attending the exciting clash between Argentina and Chile on June 25th. Your Category 3 ticket guarantees you an exceptional view. Finally, from June 27th to July 1st, let yourself be seduced by the sunny atmosphere of Miami with a 4-night stay. You'll enjoy all the necessary comforts before heading to the stadium to witness the showdown between Argentina and Peru on June 29th. Once again, your Category 3 ticket ensures you a privileged view. And that's not all! To make your experience even more enjoyable, we've organized transfers from the hotel to the stadium and back, ensuring your comfort and safety at every stage of this exciting football journey. Get ready to live unforgettable moments while supporting your favorite team in this thrilling tournament. Book now and secure your spot in this incredible adventure!",
-        "price": 12655,
+        "price": 6328,
+        "totalPrice":12655,
         "persons": "2",
         "nights": 12,
         "circuits": 1,
@@ -92,7 +96,8 @@
             "https://res.cloudinary.com/dreso9ye9/image/upload/v1709777449/https___tr2storage.blob.core.windows.net_imagenes_9IroRwzL1pF5-6ckz499zvQjpeg_bo3odo.webp"
         ],
         "description": "Get ready for an unforgettable football experience with every detail carefully planned! We'll ensure that every moment of your trip is perfect. With our included transfers from the airport to the hotel and back, you can relax from the very beginning and focus on enjoying to the fullest. During your 3-night stay, you'll enjoy first-class accommodation with breakfast included, so that every day starts with energy and vitality. Our hotel will provide you with comfort and luxury, ensuring an unforgettable stay. And the best is yet to come: your Category 3 ticket will give you privileged access to the exciting match you've been waiting for. As if that weren't enough, we've arranged direct transfers from the hotel to the stadium, so you can arrive on time and worry-free. With us, your only focus will be to enjoy this unique experience to the fullest. Don't miss this opportunity to live unforgettable moments! Book now and get ready to enjoy a football trip you'll remember forever.",
-        "price": 3370,
+        "price": 1685,
+        "totalPrice":3370,
         "persons": "2",
         "nights": 3,
         "circuits": 1,
@@ -113,7 +118,8 @@
             "https://res.cloudinary.com/dreso9ye9/image/upload/v1709777797/https___tr2storage.blob.core.windows.net_imagenes_Ejm3zZbrL0mN-q80y6tLnvdUsg1a_ezyk0e.webp"
         ],
         "description": "Get ready to experience football in a unique and worry-free way! From the moment you set foot in the city, we'll ensure that your trip is flawless. With our included transfers from the airport to your hotel and back, you'll have the peace of mind knowing that everything is under control. During your 3-night stay, you'll enjoy first-class accommodation with breakfast included. Our hotel will provide you with comfort and all the amenities you need for a perfect stay. And most exciting of all, your ticket ensures access to the match you've been eagerly awaiting. With our stadium transfer, you'll arrive in time to immerse yourself in the unique atmosphere of football and enjoy the game to the fullest. Don't miss this opportunity to live an unforgettable football experience! Book now and let us take care of all the details so you can just focus on enjoying.",
-        "price": 3563,
+        "price": 1782,
+        "totalPrice":3563,
         "persons": "2",
         "nights": 3,
         "circuits": 1,
@@ -134,7 +140,8 @@
             "https://res.cloudinary.com/dreso9ye9/image/upload/v1709777999/https___tr2storage.blob.core.windows.net_imagenes_northamerica_missouri_kansascity_pict4_dbnjpa.webp"
         ],
         "description": "Get ready for a worry-free trip and an unforgettable football experience! From the moment you arrive at the airport, we'll be there to greet you and take you directly to your hotel. During your 3-night stay, you'll enjoy first-class accommodation with breakfast included, so you can start each day with energy. On match day, we'll take you to the stadium so you can enjoy the exciting game in Category 3. Immerse yourself in the excitement of the game knowing that your transfers are fully covered, from the hotel to the stadium and back. Don't worry about anything else but enjoying the football and your stay. Book now and get ready for an unforgettable experience!",
-        "price": 3838,
+        "price": 1919,
+        "totalPrice":3838,
         "persons": "2",
         "nights": 3,
         "circuits": 1,
@@ -155,7 +162,8 @@
             "https://res.cloudinary.com/dreso9ye9/image/upload/v1709778109/https___tr2storage.blob.core.windows.net_imagenes_northamerica_texas_dallas_pict2_fa5spa.webp"
         ],
         "description": "Get ready for the exciting quarter-finals and experience the passion of live football! Where would you rather be? In the vibrant NRG Stadium in Houston on July 4th or in the impressive AT&T Stadium in Dallas on July 5th? You decide, and we'll make it happen. With our package, you'll enjoy 2 nights of accommodation with breakfast included, so you can start each day with energy. Do you want to arrive on July 2nd or July 3rd? You decide, and we'll adapt to your needs! Plus, your Category 3 ticket guarantees you an unparalleled football experience. Immerse yourself in the excitement of the game knowing you're in good hands. Want to extend your stay and explore more of Dallas or Houston? No problem! Inquire about additional nights and customize your trip according to your wishes. Book now and get ready to experience thrilling moments in the tournament quarter-finals!",
-        "price": 5161,
+        "price": 1618,
+        "totalPrice":3235,
         "persons": "2",
         "nights": 2,
         "circuits": 1,
@@ -176,31 +184,56 @@
             "https://res.cloudinary.com/dreso9ye9/image/upload/v1709777449/https___tr2storage.blob.core.windows.net_imagenes_9IroRwzL1pF5-6ckz499zvQjpeg_bo3odo.webp"
         ],
         "description": "The time has come to experience the excitement of the semifinals in New York! On July 9th, the MetLife Stadium will witness an epic showdown that you can't miss. Are you ready to be part of history? With our package, we guarantee you 2 nights of accommodation with breakfast included, so you can recharge before the big day. And best of all, your Category 3 ticket ensures you a privileged spot to enjoy the live match. Want to extend your stay in the Big Apple and explore all it has to offer? No problem! Inquire about additional nights and tailor your experience. Book now and get ready to experience a unique footballing experience in the vibrant city of New York!",
-        "price": 6311,
+        "price": 1862,
+        "totalPrice":3724,
         "persons": "2",
-        "nights": 3,
+        "nights": 2,
         "circuits": 1,
         "lodgings": 1
     },
     {
         "id": 10,
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
-        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709775307/shawn-henley-3CQdasdQlwWpn70-unsplash_bci7vq.webp",
-        "title": "Copa América 2024 - FINAL",
-        "country": "Miami FL, United States of America",
-        "initialDate": "June 2024",
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1712009381/iStock_000074120341_Double_DL_PPT_0_upscayl_4x_ultramix_balanced_x5shbh.png",
+        "title": "UEFA EURO - FINAL 2024",
+        "country": "Berlin",
+        "initialDate": "July 2024",
         "finishDate": "July 2024",
         "galleryImages": [
-            "https://res.cloudinary.com/dreso9ye9/image/upload/v1709776807/https___tr2storage.blob.core.windows.net_activities_zLyYOtkzovbEok7T7k-BfY5JfLk5mjpeg_pkgv7d.webp",
-            "https://res.cloudinary.com/dreso9ye9/image/upload/v1709776667/https___tr2storage.blob.core.windows.net_activities_q6aSrALdWOpSQYojkI-lRP1HsyVPobeHjB_xndu9s.webp",
-            "https://res.cloudinary.com/dreso9ye9/image/upload/v1709777039/https___tr2storage.blob.core.windows.net_imagenes_JzV9iszVbivw-7qvVLRqSHmWgDjd_gg1l6h.webp",
-            "https://res.cloudinary.com/dreso9ye9/image/upload/v1709777842/shawn-henley-3CQQlwWpn70-unsplash_sbq00f.jpg"
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712008945/1_GettyImages-1797555180_sb5jin.webp",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712009273/berlin_1x_lniwhx.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712009479/berlin-overview_lotcna.avif",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712009196/Berlin_Brandenburg_gate_getty_ebq16j.webp"
         ],
-        "description": "It's official! The grand final of the 2024 Copa America will take place at the spectacular Hard Rock Café Stadium in Miami. This iconic venue will witness an epic showdown that will be etched in football history. With our exclusive package, we offer you 2 nights of accommodation in a first-class hotel with breakfast included, so you can start each day with energy and enthusiasm. Your Category 3 ticket guarantees you a place to witness the most important match of the tournament live and from a privileged location inside the Hard Rock Café Stadium. Want to extend your stay to enjoy more of Miami and its surroundings? No problem! Inquire about additional nights and tailor your trip for an unforgettable experience. Book now and get ready to be part of the excitement and history at the 2024 Copa America grand final at the Hard Rock Café Stadium in Miami!",
-        "price": 7404,
+        "description": "Experience the excitement of the UEFA EURO 2024 final in style and comfort with our exclusive package! Enjoy 3 nights in a luxurious 4-star hotel with breakfast included, ensuring a comfortable and rejuvenating stay while immersing yourself in the atmosphere of the most thrilling sporting event of the year. Additionally, you'll have the opportunity to witness the final from category 3 seats, providing you with a spectacular view of the game and ensuring an unforgettable experience. Don't miss the chance to be part of the action as the top football teams compete for glory in this historic event. Book now and get ready to experience thrilling moments at the UEFA EURO 2024!",
+        "price": 3642,
+        "totalPrice": 7284,
         "persons": "2",
         "nights": 3,
         "circuits": 1,
         "lodgings": 1
-    }    
+    },
+    {
+        "id": 11,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1712010024/2023121419463291986_upscayl_4x_ultramix_balanced_b7ueot.png",
+        "title": "UEFA Champions League Final 2024",
+        "country": "London",
+        "initialDate": "May 2024",
+        "finishDate": "June 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712009927/gun__1381310671_uefa_champions_league_upscayl_4x_ultramix_balanced_e5uloq.png",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712010088/GettyImages-1233170343_unn1jh.avif",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712010137/blog.rentcars.com-que-ver-en-londres-en-un-dia_eqkm9n.webp",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712010142/81597b4bcfa4cc66d012addd82a41e4c7f280bc2r1-1280-880v2_hq_o1chrw.jpg"
+        ],
+        "description": "Get ready to experience the thrill of the UEFA Champions League Final with our exclusive travel package! Enjoy 3 nights of accommodation in a cozy 3-star hotel with breakfast included, ensuring a comfortable and convenient stay during your visit. Additionally, this package grants you a guaranteed entry to the tournament final, allowing you to enjoy the match live and witness the passion and excitement in the stadium. For your convenience, we also include transfers from the stadium to your hotel, ensuring you can easily return after the thrilling encounter. Don't miss this unique opportunity to be part of one of the most important sporting events of the year. Book now and get ready to experience unforgettable moments at the UEFA Champions League Final!",
+        "price": 7543,
+        "totalPrice": 15085,
+        "persons": "2",
+        "nights": 3,
+        "circuits": 1,
+        "lodgings": 1
+    }
+    
 ]
