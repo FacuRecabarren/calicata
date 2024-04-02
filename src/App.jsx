@@ -15,6 +15,10 @@ import WhatsappButton from "./components/WhatsappButton/WhatsappButton"
 import Travel from "./views/Travel/Travel"
 import ViajesArgentina from "./views/Travel/ViajesArgentina/ViajesArgentina"
 import ViajesArgentinaDetail from "./views/Travel/ViajesArgentina/DetailViajesArgentina/ViajesArgentinaDetail"
+import Tenis from "./views/Eventos/Tenis/Tenis"
+import DetailTenis from "./views/Eventos/Tenis/DetailTenis/DetailTenis"
+import Eventos2 from "./views/Eventos2/Eventos2"
+import DetailEventos2 from "./views/Eventos2/DetailEventos2/DetailEventos2"
 
 function App() {
 
@@ -30,13 +34,17 @@ function App() {
           <Route path='/travel/world/:id' element={<DetailViajes/>} />
           <Route path='/travel/argentina' element={<ViajesArgentina/>} />
           <Route path='/travel/argentina/:id' element={<ViajesArgentinaDetail/>} />
+          <Route path='/recitals' element={<Eventos2/>} />
+          <Route path='/recitals/:id' element={<DetailEventos2/>} />
           <Route path='/mendoza' element={<Mendoza/>}/>
           <Route path='/mendoza/:id' element={<DetailMendoza/>} />
-          <Route path='/events' element={<Eventos/>}/>
-          <Route path='/events/formula1' element={<Formula1/>}/>
-          <Route path='/events/formula1/:id' element={<DetailFormula1/>} />
-          <Route path='/events/futbol' element={<Futbol/>}/>
-          <Route path='/events/futbol/:id' element={<DetailFutbol/>} />
+          <Route path='/sports' element={<Eventos/>}/>
+          <Route path='/sports/formula1' element={<Formula1/>}/>
+          <Route path='/sports/formula1/:id' element={<DetailFormula1/>} />
+          <Route path='/sports/futbol' element={<Futbol/>}/>
+          <Route path='/sports/futbol/:id' element={<DetailFutbol/>} />
+          <Route path='/sports/tennis' element={<Tenis/>}/>
+          <Route path='/sports/tennis/:id' element={<DetailTenis/>} />
         </Route>
         <Route path="*" element={<Error/>}/>
       </Routes>

@@ -1,0 +1,170 @@
+[
+    {
+        "id": 1,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1712011194/eh64yk2uwaa7k2d_re_vkbcfa.webp",
+        "title": "Megadeth",
+        "country": "Buenos Aires",
+        "initialDate": "abril de 2024",
+        "finishDate": "abril de 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712011147/megadeth-2022-web-jpg_p0p9ef.webp",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711846168/night-lights-road-tower-wallpaper-preview_qvifcn.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712011001/Buenos_Aires_szxhmg.png",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712011079/buenos-aires-la-boca-caminito-x74agkhkhjjiihd5_ogpu89.jpg"
+        ],
+        "description": "Prepare-se para o concerto do Megadeth em 16 de abril no Movistar Arena de Buenos Aires com nosso pacote exclusivo! Desfrute de uma noite de acomodação em um confortável hotel 3 estrelas no centro da cidade, onde você pode descansar e recarregar as energias antes e depois do espetáculo. Além disso, oferecemos um traslado para o evento em um serviço regular com coordenação permanente, garantindo que você chegue ao concerto de forma segura e sem preocupações. Com seu ingresso para Platea Alta, você terá uma excelente vista do palco para aproveitar ao máximo o show do Megadeth. Não perca a oportunidade de viver uma experiência inesquecível com uma das bandas de heavy metal mais lendárias do mundo. Reserve agora e prepare-se para rockear a noite toda no Movistar Arena!",
+        "price": 286,
+        "totalPrice": 571,
+        "persons": "2",
+        "nights": 1,
+        "circuits": 1,
+        "lodgings": 1
+    },
+    {
+        "id": 2,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1712011723/obelisco_atardecer_9_de_julio_1500x610_mbumzd.jpg",
+        "title": "Jonas Brothers",
+        "country": "Buenos Aires",
+        "initialDate": "abril de 2024",
+        "finishDate": "abril de 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712011388/jonas-brothers-summer-tour-1-050223-e107e427f3854e7fa4409a5fa151f6e9_penb0t.png",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712011757/https___tr2storage.blob.core.windows.net_activities_d5Kfl2jomsCgGIzevO-RGLLC15w5puhU4t_m18olb.webp",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712011830/resize_1440x900_q_70_auto_nklb5v.webp",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712011867/TAL-lead-image-BUENOSAIRES1123-2bf4e4bbceb54d29bbe7de401e68fdc6_zr3wpi.jpg"
+        ],
+        "description": "Prepare-se para o emocionante concerto dos Jonas Brothers em 27 de abril no Movistar Arena de Buenos Aires com nosso pacote exclusivo! Desfrute de uma noite de hospedagem com café da manhã em um confortável hotel 3 estrelas localizado no coração da cidade, garantindo uma estadia confortável e conveniente. Além disso, oferecemos um transporte de ida e volta para o evento em um serviço regular com coordenação permanente, para que você possa aproveitar o concerto sem preocupações de transporte. Com seu ingresso para Campo Delantero de Pie, você terá a oportunidade de vivenciar a emoção do concerto de uma posição privilegiada, perto do palco e cercado pela energia dos fãs. Não perca a chance de ver os Jonas Brothers ao vivo e criar memórias inesquecíveis no Movistar Arena. Reserve agora e prepare-se para uma noite cheia de música e diversão!",
+        "price": 341,
+        "totalPrice": 682,
+        "persons": "2",
+        "nights": 1,
+        "circuits": 1,
+        "lodgings": 1
+    },
+    {
+        "id": 3,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1712012328/Bairro_dos_jardins_em_s%C3%A3o_paulo__1___cropped_na6grb.jpg",
+        "title": "KAROL G",
+        "country": "São Paulo",
+        "initialDate": "maio de 2024",
+        "finishDate": "maio de 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712012378/Karol_G_Allure_Beauty_Interview1_ehs2k6.webp",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712012280/-1x-1_lx8bkn.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712012541/2a0c9319-6599-4c14-98e5-e74d13eab669_1_xhfa55.webp",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712012609/paulista_btc5je.jpg"
+        ],
+        "description": "Prepare-se para o emocionante concerto de Karol G em 10 de maio no Centro Esportivo Tietê de São Paulo com nosso pacote exclusivo! Desfrute de 2 noites de hospedagem com café da manhã em um confortável hotel, garantindo uma estadia confortável e conveniente durante sua visita a São Paulo. Além disso, oferecemos traslados de ida e volta do aeroporto para o hotel e do hotel para o evento, garantindo que você chegue ao concerto e retorne sem preocupações. Com seu ingresso na área PISTA, você terá a oportunidade de vivenciar a emoção do concerto de uma posição privilegiada, perto do palco e cercado pela energia dos fãs. Não perca a oportunidade de ver Karol G ao vivo e desfrutar de uma noite cheia de música e diversão no Centro Esportivo Tietê. Reserve agora e prepare-se para uma experiência inesquecível!",
+        "price": 613,
+        "totalPrice": 1225,
+        "persons": "2",
+        "nights": 2,
+        "circuits": 1,
+        "lodgings": 1
+    },
+    {
+        "id": 4,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1712012328/Bairro_dos_jardins_em_s%C3%A3o_paulo__1___cropped_na6grb.jpg",
+        "title": "Andrea Bocelli",
+        "country": "São Paulo",
+        "initialDate": "maio de 2024",
+        "finishDate": "maio de 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712012859/gettyimages-1323138548_mvbmdn.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712012896/1e9e957a6aadaea8c0f73adf2977bc2bY29udGVudHNlYXJjaGFwaSwxNjkyOTI0NDI5-2.69072274_fe4a3r.avif",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712012541/2a0c9319-6599-4c14-98e5-e74d13eab669_1_xhfa55.webp",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712012991/Cidade_de_S%C3%A3o_Paulo_adn7b8.jpg"
+        ],
+        "description": "Prepare-se para uma experiência inesquecível no concerto de Andrea Bocelli em 25 de maio no Allianz Parque de São Paulo com nosso pacote exclusivo! Desfrute de 3 noites de hospedagem com café da manhã em um confortável hotel, garantindo uma estadia confortável e conveniente durante sua visita a São Paulo. Além disso, oferecemos traslados regulares de ida e volta do Aeroporto de Guarulhos para o hotel, bem como traslados para o Allianz Parque no dia do concerto. Com seu ingresso no setor Ouro, você terá uma cadeira inferior coberta que oferecerá uma excelente vista do palco para aproveitar o concerto de Andrea Bocelli em todo o seu esplendor. Não perca a oportunidade de testemunhar esta lenda da música ao vivo e criar memórias inesquecíveis no Allianz Parque. Reserve agora e prepare-se para uma noite mágica cheia de música e emoção!",
+        "price": 1395,
+        "totalPrice": 2790,
+        "persons": "2",
+        "nights": 3,
+        "circuits": 1,
+        "lodgings": 1
+    },
+    {
+        "id": 5,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1712011723/obelisco_atardecer_9_de_julio_1500x610_mbumzd.jpg",
+        "title": "Louis Tomlinson",
+        "country": "Buenos Aires",
+        "initialDate": "maio de 2024",
+        "finishDate": "maio de 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712013374/louis-tomlinson-1688181_nvwaya.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712013425/Estadio-Velez-600x294_bo9bgo.png",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712013467/buenos-aires-v2020-header_zp0oug.webp",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712011830/resize_1440x900_q_70_auto_nklb5v.webp"
+        ],
+        "description": "Prepare-se para o emocionante concerto de Louis Tomlinson em 18 de maio no Estádio Vélez de Buenos Aires com nosso pacote exclusivo! Desfrute de uma noite de hospedagem com café da manhã em um confortável hotel no centro da cidade, garantindo uma estadia confortável e conveniente. Além disso, oferecemos um transporte de ida e volta para o evento em um serviço regular com coordenação permanente, para que você possa aproveitar o concerto sem preocupações de transporte. Com seu ingresso de Platea Alta não numerada, você terá a liberdade de escolher seu próprio lugar e aproveitar o espetáculo de uma localização privilegiada. Não perca a oportunidade de ver Louis Tomlinson ao vivo e criar memórias inesquecíveis no Estádio Vélez. Reserve agora e prepare-se para uma noite cheia de música e diversão!",
+        "price": 330,
+        "totalPrice": 660,
+        "persons": "2",
+        "nights": 1,
+        "circuits": 1,
+        "lodgings": 1
+    },
+    {
+        "id": 6,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1712011723/obelisco_atardecer_9_de_julio_1500x610_mbumzd.jpg",
+        "title": "Eric Clapton",
+        "country": "Buenos Aires",
+        "initialDate": "setembro de 2024",
+        "finishDate": "setembro de 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712013654/1-eric-clapton-compie-75-anni-canzoni-storia-testi-chitarre_fvojrr.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712011079/buenos-aires-la-boca-caminito-x74agkhkhjjiihd5_ogpu89.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712013467/buenos-aires-v2020-header_zp0oug.webp",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712011867/TAL-lead-image-BUENOSAIRES1123-2bf4e4bbceb54d29bbe7de401e68fdc6_zr3wpi.jpg"
+        ],
+        "description": "Prepare-se para o lendário concerto de Eric Clapton em 20 de setembro no Estádio Vélez de Buenos Aires com nosso pacote exclusivo! Desfrute de uma noite de hospedagem com café da manhã em um confortável hotel 3 estrelas no centro da cidade, garantindo uma estadia confortável e conveniente. Além disso, oferecemos um transporte de ida e volta para o evento em um serviço regular com coordenação permanente, para que você possa aproveitar o concerto sem preocupações de transporte. Com seu ingresso de Platea Alta, você terá uma excelente vista do palco e poderá apreciar a música de Eric Clapton em toda a sua grandeza. Não perca a oportunidade de testemunhar uma lenda viva do rock ao vivo e criar memórias inesquecíveis no Estádio Vélez. Reserve agora e prepare-se para uma noite mágica cheia de música e emoção!",
+        "price": 419,
+        "totalPrice": 837,
+        "persons": "2",
+        "nights": 1,
+        "circuits": 1,
+        "lodgings": 1
+    },
+    {
+        "id": 7,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1712014152/98_dcw3uy.webp",
+        "title": "Rock in Rio",
+        "country": "Rio de Janeiro",
+        "initialDate": "setembro de 2024",
+        "finishDate": "setembro de 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712014050/fazer-a-diferenca-2023-11-24T091014.281.png_ziwlln.webp",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712014212/1690450951636_kcxqs9.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712014253/e413c950-c31d-11e8-9739-0242ac110006_rn0ve7.avif",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712014308/Selar%C3%B3n-Escadaria-Rio-de-Janeiro-Brasilien-iStock_93083297_XLARGE-EDITORIAL-ONLY-rmnunes-2_odosd7.jpg"
+        ],
+        "description": "Prepare-se para viver a emoção do festival Rock in Rio no Parque Olímpico Barra do Rio de Janeiro com nosso pacote exclusivo! Desfrute de 3 noites de hospedagem com café da manhã em um confortável hotel para recarregar as energias antes e depois do festival. Além disso, fornecemos ingressos para o evento para que você possa aproveitar seus artistas favoritos ao vivo. Para sua comodidade, incluímos traslados privados de ida e volta do aeroporto para o hotel e do hotel para o Parque Olímpico Barra. Também oferecemos traslados privados para o evento, garantindo que você chegue e retorne com conforto e segurança. Não perca a oportunidade de viver uma experiência inesquecível em um dos maiores festivais de música do mundo. Reserve agora e prepare-se para balançar no Rock in Rio!",
+        "price": 1322,
+        "totalPrice": 2643,
+        "persons": "2",
+        "nights": 3,
+        "circuits": 1,
+        "lodgings": 1
+    },
+    {
+        "id": 8,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1712014462/tomorrowland-around-the-world-3_h1fmhw.webp",
+        "title": "Tomorrowland São Paulo",
+        "country": "Campinas",
+        "initialDate": "outubro de 2024",
+        "finishDate": "outubro de 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712014516/Tomorrowland-2022_stnj3f.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712014561/tomorrowland-boom-belgien-tomorrowland-2013-649851_r4ifzb.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712014613/fce632fb-e113-4af1-88ab-1d909fe0a8a0_jtldcm.webp",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1712014623/OGFTRQZ6N4OPLQAPAJZ53G4NTA_s1mnr6.avif"
+        ],
+        "description": "Prepare-se para mergulhar na magia do Tomorrowland no Parque Maeda em Itu, São Paulo, de 11 a 13 de outubro, com nosso emocionante pacote! Desfrute do máximo conforto com traslados do aeroporto para o hotel e vice-versa. Oferecemos 4 noites de hospedagem em um hotel pré-selecionado de 3 estrelas, para que você possa descansar e recarregar as energias entre os dias do festival. Além disso, você terá traslados diários do hotel para o evento e vice-versa, garantindo que você chegue e retorne com total conforto e segurança. Com seu ingresso Full Madness para os 3 dias do evento no setor Pista, você terá acesso completo a toda a experiência Tomorrowland, desde shows de classe mundial até atividades emocionantes e palcos. Não perca a oportunidade de viver uma experiência única no Tomorrowland. Reserve agora e prepare-se para três dias de música, diversão e magia inesquecíveis!",
+        "price": 1794,
+        "totalPrice": 3588,
+        "persons": "2",
+        "nights": 4,
+        "circuits": 1,
+        "lodgings": 1
+    }
+]
