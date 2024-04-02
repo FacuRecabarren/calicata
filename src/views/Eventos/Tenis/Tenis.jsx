@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { FaRegMoon } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import Filters from '@/components/Filters/Filters';
@@ -17,11 +17,11 @@ const Tenis = () => {
     const loadPaquetesData = async () => {
       let paquetes;
       if (i18n.language === 'es') {
-        paquetes = await import('../Futbol/paquetes.json');
+        paquetes = await import('../Tenis/paquetes.json');
       } else if(i18n.language === 'en'){
-        paquetes = await import('../Futbol/paquetesEn.json');
+        paquetes = await import('../Tenis/paquetesEn.json');
       }else{
-        paquetes = await import('../Futbol/paquetesPort.json')
+        paquetes = await import('../Tenis/paquetesPort.json')
       }
       setPaquetesData(paquetes.default);
     };
