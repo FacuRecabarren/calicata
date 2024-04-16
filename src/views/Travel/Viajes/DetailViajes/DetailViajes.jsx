@@ -80,28 +80,32 @@ const DetailViajes = () => {
                                 </div>
                                 <p className='opacity-80 font-medium text-sm font-lora italic'>{paqueteDetail.persons} {t("adults")}</p>
                             </div>
-                            <div className='flex justify-start items-center gap-2 border border-[#218B7D] rounded-r-xl w-full'>
-                                <div className='bg-[#218B7D] text-xl text-white p-2'>
-                                    <IoMoonOutline/>
+                            {paqueteDetail.nights > 0 && (
+                                <div className='flex justify-start items-center gap-2 border border-[#218B7D] rounded-r-xl w-full'>
+                                    <div className='bg-[#218B7D] text-xl text-white p-2'>
+                                        <IoMoonOutline/>
+                                    </div>
+                                    <p className='opacity-80 font-medium text-sm font-lora italic'>{paqueteDetail.nights} {t("nights")}</p>
                                 </div>
-                                <p className='opacity-80 font-medium text-sm font-lora italic'>{paqueteDetail.nights} {t("nights")}</p>
-                            </div>
+                            )}
                         </div>
                     </article>
-                    <article className='flex flex-col gap-2 w-full'>
-                        <p className='font-semibold opacity-80 text-sm'>{t("includes")}</p>
-                        <div className='flex flex-col gap-2'>
-                            <div className='flex justify-start items-center gap-2 border border-[#218B7D] rounded-r-xl w-full'>
-                                <div className='bg-[#218B7D] text-xl text-white p-2'>
-                                    <IoBedOutline/>
+                    {paqueteDetail.lodgings > 0 && (
+                        <article className='flex flex-col gap-2 w-full'>
+                            <p className='font-semibold opacity-80 text-sm'>{t("includes")}</p>
+                                <div className='flex flex-col gap-2'>
+                                    <div className='flex justify-start items-center gap-2 border border-[#218B7D] rounded-r-xl w-full'>
+                                        <div className='bg-[#218B7D] text-xl text-white p-2'>
+                                            <IoBedOutline/>
+                                        </div>
+                                        <div className='flex justify-between items-center w-full pr-3'>
+                                            <p className='opacity-80 font-medium text-sm font-lora italic'>{t("accommodations")}</p>
+                                            <p className='opacity-80 font-medium text-sm font-lora italic'>{paqueteDetail.lodgings}</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div className='flex justify-between items-center w-full pr-3'>
-                                    <p className='opacity-80 font-medium text-sm font-lora italic'>{t("accommodations")}</p>
-                                    <p className='opacity-80 font-medium text-sm font-lora italic'>{paqueteDetail.lodgings}</p>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
+                        </article>
+                    )}
                 </section>
                 <section className='flex flex-col justify-center items-start gap-3 w-full'>
                     <p className='font-semibold opacity-80 text-xl'>{t("includedServices")}</p>

@@ -90,9 +90,11 @@ const Viajes = () => {
                       <p className='text-sm opacity-90'><span className='font-semibold'>{t("from")}</span> {paquete.initialDate} <span className='font-semibold'>{t("to")}</span> {paquete.finishDate}</p>
                     </div>
                     <div className='flex justify-start items-center gap-2 lg:text-sm text-xs'>
-                      <div className='bg-[#FE904D] flex justify-center items-center gap-1 p-1.5 text-white font-medium rounded-md'>
-                        {paquete.nights}<FaRegMoon />
-                      </div>
+                      {paquete.nights > 0 && (
+                        <div className='bg-[#FE904D] flex justify-center items-center gap-1 p-1.5 text-white font-medium rounded-md'>
+                          {paquete.nights}<FaRegMoon />
+                        </div>
+                       )}
                       {paquete.lodgings > 0 && (
                         <div className='bg-[#FE904D] flex justify-center items-center gap-1 p-1.5 text-white font-medium rounded-md'>
                           {paquete.lodgings}<IoBedOutline/>
