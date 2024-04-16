@@ -19,6 +19,24 @@
     },
     {
         "id": 2,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711849222/termas-de-rio-hondo-2_r3dy7r.jpg",
+        "title": "Termas de Rio Hondo",
+        "country": "Santiago del Estero",
+        "initialDate": "16 mayo 2024",
+        "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1711849222/termas-de-rio-hondo-2_r3dy7r.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1711849465/termas-de-rio-hondo-que-hacer-los-pinos_mgbyhm.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1711849530/hotel-canciller_dgifxv.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1711849615/excursion-termas-rio-hondo-589x392_uplxdx.avif"],
+        "description": "Disfruta de una escapada relajante a las Termas de Río Hondo con nuestro paquete turístico de 8 días y 7 noches, con salida el 16 de mayo desde Mendoza y San Juan. Sumérgete en las aguas termales rejuvenecedoras y disfruta de una experiencia revitalizante en el Hotel Canciller, donde te recibirán con comodidades excepcionales y atención de primera clase. Este paquete incluye acceso a piscinas climatizadas para que puedas relajarte y revitalizarte en un entorno tranquilo y sereno. Además, disfrutarás de pensiones completas, asegurando que cada comida sea una deliciosa experiencia gastronómica. Con la asistencia al viajero incluida, tendrás la tranquilidad de saber que estás cubierto en caso de cualquier eventualidad durante tu viaje. Únete a nosotros en esta escapada rejuvenecedora y deja que las Termas de Río Hondo te brinden un bienestar incomparable.",
+        "itinerary":"/ITINERARIO-TRH.pdf",
+        "from":"San Martín, Mendoza, San Juan",
+        "price": "293.000",
+        "persons": "1",
+        "days":8,
+        "nights": 7,
+        "pension":"Pensión completa",
+        "lodgings": "Hotel Canciller",
+        "assistance":"Asistencia al viajero"
+    },
+    {
+        "id": 3,
         "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711852392/HD-wallpaper-cataratas-del-iguazu-raibow-iguazu-cataratas-cascadas_pngcku.jpg",
         "title": "Cataratas y Termas de Entre Ríos",
         "country": "Entre Ríos",
@@ -36,7 +54,7 @@
         "assistance":"Asistencia médica"
     },
     {
-        "id": 3,
+        "id": 4,
         "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711853643/merlosanluis03_qa10mj.jpg",
         "title": "Villa de Merlo",
         "country": "San Luis",
@@ -54,7 +72,7 @@
         "assistance":"Asistencia médica"
     },
     {
-        "id": 4,
+        "id": 5,
         "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711853643/merlosanluis03_qa10mj.jpg",
         "title": "Villa de Merlo",
         "country": "San Luis",
@@ -72,7 +90,7 @@
         "assistance":"Asistencia médica"
     },
     {
-        "id": 5,
+        "id": 6,
         "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711853643/merlosanluis03_qa10mj.jpg",
         "title": "Villa de Merlo",
         "country": "San Luis",
@@ -90,7 +108,7 @@
         "assistance":"Asistencia médica"
     },
     {
-        "id": 6,
+        "id": 7,
         "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711917648/13255981_1160766460652218_7902786626546111008_n_q8r2ru.jpg",
         "title": "Villa Carlos Paz",
         "country": "Córdoba",
@@ -108,7 +126,7 @@
         "assistance":"Asistencia médica"
     },
     {
-        "id": 7,
+        "id": 8,
         "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711919105/Bariloche-no-Inverno-1_qzfauy.webp",
         "title": "Bariloche",
         "country": "Río Negro",
@@ -126,7 +144,7 @@
         "assistance":"Asistencia médica"
     },
     {
-        "id": 8,
+        "id": 9,
         "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711919105/Bariloche-no-Inverno-1_qzfauy.webp",
         "title": "Bariloche",
         "country": "Río Negro",
@@ -144,7 +162,7 @@
         "assistance":"Asistencia médica"
     },
     {
-        "id": 9,
+        "id": 10,
         "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711919105/Bariloche-no-Inverno-1_qzfauy.webp",
         "title": "Bariloche",
         "country": "Río Negro",
@@ -162,7 +180,7 @@
         "assistance":"Asistencia médica"
     },
     {
-        "id": 10,
+        "id": 11,
         "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711921589/97_ch8n8v.jpg",
         "title": "Noroeste Arg.",
         "country": "Noroeste Argentino",

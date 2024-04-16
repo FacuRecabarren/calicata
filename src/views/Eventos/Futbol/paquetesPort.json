@@ -234,6 +234,39 @@
         "nights": 3,
         "circuits": 1,
         "lodgings": 1
+    },
+    {
+        "id": 12,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
+        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1713224713/Agencia%20viajes/imagenes-de-river-plate-para-fondos-de-pantalla-wallpaper-de-river-estadio-monumental-vespucio-liberti_vqcjpq.jpg",
+        "title": "River vs Libertad",
+        "country": "Estadio River Plate",
+        "initialDate": "maio 2024",
+        "finishDate": "maio 2024",
+        "galleryImages": ["https://res.cloudinary.com/dreso9ye9/image/upload/v1713224713/Agencia%20viajes/imagenes-de-river-plate-para-fondos-de-pantalla-wallpaper-de-river-estadio-monumental-vespucio-liberti_vqcjpq.jpg","https://res.cloudinary.com/dreso9ye9/image/upload/v1713224749/Agencia%20viajes/obelisco-de-buenos-aires-argentina-buenos-aires-city-wallpaper-preview_dvzisk.jpg","https://res.cloudinary.com/dreso9ye9/image/upload/v1713224726/Agencia%20viajes/monumental_862x485_ospnnf.jpg","https://res.cloudinary.com/dreso9ye9/image/upload/v1713224763/Agencia%20viajes/25f5e7837dd974db02fdf2a532db957e_crauov.jpg"],
+        "description": "Café da manhã incluído. Entrada para as barracas laterais inferiores. Uma noite de hospedagem em hotel",
+        "price": 349,
+        "totalPrice":349,
+        "persons": "1",
+        "nights": 1,
+        "circuits": 1,
+        "lodgings": 1
+    },
+    {
+        "id": 13,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
+        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1713224713/Agencia%20viajes/imagenes-de-river-plate-para-fondos-de-pantalla-wallpaper-de-river-estadio-monumental-vespucio-liberti_vqcjpq.jpg",
+        "title": "River vs Libertad",
+        "country": "Estadio River Plate",
+        "initialDate": "maio 2024",
+        "finishDate": "maio 2024",
+        "galleryImages": ["https://res.cloudinary.com/dreso9ye9/image/upload/v1713224713/Agencia%20viajes/imagenes-de-river-plate-para-fondos-de-pantalla-wallpaper-de-river-estadio-monumental-vespucio-liberti_vqcjpq.jpg","https://res.cloudinary.com/dreso9ye9/image/upload/v1713224749/Agencia%20viajes/obelisco-de-buenos-aires-argentina-buenos-aires-city-wallpaper-preview_dvzisk.jpg","https://res.cloudinary.com/dreso9ye9/image/upload/v1713224726/Agencia%20viajes/monumental_862x485_ospnnf.jpg","https://res.cloudinary.com/dreso9ye9/image/upload/v1713224763/Agencia%20viajes/25f5e7837dd974db02fdf2a532db957e_crauov.jpg"],
+        "description": "Café da manhã incluído. Meia entrada para o Centenário. Uma noite de hospedagem em hotel",
+        "price": 299,
+        "totalPrice": 299,
+        "persons": "1",
+        "nights": 1,
+        "circuits": 1,
+        "lodgings": 1
     }
-    
 ]

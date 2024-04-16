@@ -19,6 +19,24 @@
     },
     {
         "id": 2,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711849222/termas-de-rio-hondo-2_r3dy7r.jpg",
+        "title": "Termas de Rio Hondo",
+        "country": "Santiago del Estero",
+        "initialDate": "May 16, 2024",
+        "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1711849222/termas-de-rio-hondo-2_r3dy7r.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1711849465/termas-de-rio-hondo-que-hacer-los-pinos_mgbyhm.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1711849530/hotel-canciller_dgifxv.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1711849615/excursion-termas-rio-hondo-589x392_uplxdx.avif"],
+        "description": "Enjoy a relaxing getaway to the Termas de Río Hondo with our 8-day, 7-night tour package, departing on May 16th from Mendoza and San Juan. Immerse yourself in rejuvenating thermal waters and experience revitalization at the Hotel Canciller, where you'll be welcomed with exceptional amenities and first-class service. This package includes access to heated pools so you can relax and recharge in a peaceful and serene environment. Additionally, you'll enjoy full board, ensuring each meal is a delightful culinary experience. With included traveler's assistance, you'll have peace of mind knowing you're covered in case of any eventuality during your trip. Join us on this rejuvenating getaway and let the Termas de Río Hondo provide you with unparalleled wellness.",
+        "itinerary":"/ITINERARIO-TRH.pdf",
+        "from":"San Martín, Mendoza, San Juan",
+        "price": "293.000",
+        "persons": "1",
+        "days":8,
+        "nights": 7,
+        "pension":"Full Board",
+        "lodgings": "Hotel Canciller",
+        "assistance":"Traveler's Assistance"
+    },
+    {
+        "id": 3,
         "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711852392/HD-wallpaper-cataratas-del-iguazu-raibow-iguazu-cataratas-cascadas_pngcku.jpg",
         "title": "Cataratas y Termas de Entre Ríos",
         "country": "Entre Ríos",
@@ -36,7 +54,7 @@
         "assistance": "Medical assistance"
     },
     {
-        "id": 3,
+        "id": 4,
         "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711853643/merlosanluis03_qa10mj.jpg",
         "title": "Villa de Merlo",
         "country": "San Luis",
@@ -54,7 +72,7 @@
         "assistance": "Medical assistance"
     },    
     {
-        "id": 4,
+        "id": 5,
         "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711853643/merlosanluis03_qa10mj.jpg",
         "title": "Villa de Merlo",
         "country": "San Luis",
@@ -72,7 +90,7 @@
         "assistance": "Medical assistance"
     },    
     {
-        "id": 5,
+        "id": 6,
         "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711853643/merlosanluis03_qa10mj.jpg",
         "title": "Villa de Merlo",
         "country": "San Luis",
@@ -90,7 +108,7 @@
         "assistance": "Medical assistance"
     },    
     {
-        "id": 6,
+        "id": 7,
         "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711917648/13255981_1160766460652218_7902786626546111008_n_q8r2ru.jpg",
         "title": "Villa Carlos Paz",
         "country": "Córdoba",
@@ -108,7 +126,7 @@
         "assistance": "Medical assistance"
     }, 
     {
-        "id": 7,
+        "id": 8,
         "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711919105/Bariloche-no-Inverno-1_qzfauy.webp",
         "title": "Bariloche",
         "country": "Río Negro",
@@ -126,7 +144,7 @@
         "assistance": "Medical assistance"
     },
     {
-        "id": 8,
+        "id": 9,
         "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711919105/Bariloche-no-Inverno-1_qzfauy.webp",
         "title": "Bariloche",
         "country": "Río Negro",
@@ -144,7 +162,7 @@
         "assistance": "Medical assistance"
     },    
     {
-        "id": 9,
+        "id": 10,
         "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711919105/Bariloche-no-Inverno-1_qzfauy.webp",
         "title": "Bariloche",
         "country": "Río Negro",
@@ -160,6 +178,23 @@
         "pension": "Full board",
         "lodgings": "Hotel Club House",
         "assistance": "Medical assistance"
-    }
-      
+    },
+    {
+        "id": 11,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711921589/97_ch8n8v.jpg",
+        "title": "Northwest Argentina",
+        "country": "Northwest Argentina",
+        "initialDate": "April 19, 2024",
+        "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1711921566/vista-de-humahuaca_mmaqsr.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1711921644/HAJ09280_jdscso.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1711921685/rJS3s3FNl_1256x620_e7ngd2.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1711921733/72_ijixgd.jpg"],
+        "description": "Discover the fascinating beauty of Northwest Argentina with our 7-day, 5-night tour package, departing on April 19th from La Paz, Las Catitas, Mendoza, and San Juan. Immerse yourself in the culture and nature of this region while staying at the Hotel Nuevo Premier, where you'll enjoy exceptional amenities. This package includes mixed bus transportation for your convenience and offers you the opportunity to explore the region with half board, ensuring that each meal is a delightful culinary experience. With included medical assistance, you'll have peace of mind knowing you're covered in case of any eventuality during your trip. Additionally, you'll enjoy an exciting itinerary that includes the stunning Quebrada de Humahuaca, as well as visits to Tilcara, Purmamarca, San Salvador de Jujuy, Cafayate, Salta, and San Miguel de Tucumán. Join us on this thrilling adventure and discover the treasures of Northwest Argentina.",
+        "itinerary":"/ITINERARIO-NOA.pdf",
+        "from":"La Paz, Las Catitas, Mendoza, and San Juan",
+        "price": "262.500",
+        "persons": "1",
+        "days":7,
+        "nights": 5,
+        "pension":"Half Board",
+        "lodgings": "Hotel Nuevo Premier",
+        "assistance":"Medical Assistance"
+    }  
 ]

@@ -19,6 +19,29 @@
     },
     {
         "id": 2,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711849222/termas-de-rio-hondo-2_r3dy7r.jpg",
+        "title": "Termas de Rio Hondo",
+        "country": "Santiago del Estero",
+        "initialDate": "16 de maio de 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711849222/termas-de-rio-hondo-2_r3dy7r.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711849465/termas-de-rio-hondo-que-hacer-los-pinos_mgbyhm.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711849530/hotel-canciller_dgifxv.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711849615/excursion-termas-rio-hondo-589x392_uplxdx.avif"
+        ],
+        "description": "Desfrute de uma escapadela relaxante para as Termas de Río Hondo com o nosso pacote turístico de 8 dias e 7 noites, com saída em 16 de maio de Mendoza e San Juan. Mergulhe nas águas termais revitalizantes e desfrute de uma experiência revigorante no Hotel Canciller, onde será recebido com comodidades excepcionais e atendimento de primeira classe. Este pacote inclui acesso a piscinas aquecidas para que você possa relaxar e se revitalizar em um ambiente tranquilo e sereno. Além disso, você desfrutará de pensão completa, garantindo que cada refeição seja uma experiência gastronômica deliciosa. Com a assistência ao viajante incluída, você terá a tranquilidade de saber que está coberto em caso de qualquer eventualidade durante sua viagem. Junte-se a nós nesta escapadela rejuvenescedora e deixe que as Termas de Río Hondo lhe proporcionem um bem-estar incomparável.",
+        "itinerary": "/ITINERARIO-TRH.pdf",
+        "from": "San Martín, Mendoza, San Juan",
+        "price": "293.000",
+        "persons": "1",
+        "days": 8,
+        "nights": 7,
+        "pension": "Pensão completa",
+        "lodgings": "Hotel Canciller",
+        "assistance": "Assistência ao viajante"
+    },
+    {
+        "id": 3,
         "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711852392/HD-wallpaper-cataratas-del-iguazu-raibow-iguazu-cataratas-cascadas_pngcku.jpg",
         "title": "Cataratas y Termas de Entre Ríos",
         "country": "Entre Ríos",
@@ -36,7 +59,7 @@
         "assistance": "Assistência médica"
     },
     {
-        "id": 3,
+        "id": 4,
         "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711853643/merlosanluis03_qa10mj.jpg",
         "title": "Villa de Merlo",
         "country": "San Luis",
@@ -54,7 +77,7 @@
         "assistance": "Assistência médica"
     },
     {
-        "id": 4,
+        "id": 5,
         "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711853643/merlosanluis03_qa10mj.jpg",
         "title": "Villa de Merlo",
         "country": "San Luis",
@@ -72,7 +95,7 @@
         "assistance": "Assistência médica"
     },
     {
-        "id": 5,
+        "id": 6,
         "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711853643/merlosanluis03_qa10mj.jpg",
         "title": "Villa de Merlo",
         "country": "San Luis",
@@ -90,7 +113,7 @@
         "assistance": "Assistência médica"
     },
     {
-        "id": 6,
+        "id": 7,
         "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711917648/13255981_1160766460652218_7902786626546111008_n_q8r2ru.jpg",
         "title": "Villa Carlos Paz",
         "country": "Córdoba",
@@ -108,7 +131,7 @@
         "assistance": "Assistência médica"
     },
     {
-        "id": 7,
+        "id": 8,
         "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711919105/Bariloche-no-Inverno-1_qzfauy.webp",
         "title": "Bariloche",
         "country": "Río Negro",
@@ -126,7 +149,7 @@
         "assistance": "Assistência médica"
     },    
     {
-        "id": 8,
+        "id": 9,
         "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711919105/Bariloche-no-Inverno-1_qzfauy.webp",
         "title": "Bariloche",
         "country": "Río Negro",
@@ -144,7 +167,7 @@
         "assistance": "Assistência médica"
     },    
     {
-        "id": 9,
+        "id": 10,
         "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711919105/Bariloche-no-Inverno-1_qzfauy.webp",
         "title": "Bariloche",
         "country": "Rio Negro",
@@ -160,6 +183,28 @@
         "pension": "Pensão completa",
         "lodgings": "Hotel Club House",
         "assistance": "Assistência médica"
-    }
-          
+    },
+    {
+        "id": 11,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711921589/97_ch8n8v.jpg",
+        "title": "Noroeste Arg.",
+        "country": "Noroeste Argentino",
+        "initialDate": "19 de abril de 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711921566/vista-de-humahuaca_mmaqsr.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711921644/HAJ09280_jdscso.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711921685/rJS3s3FNl_1256x620_e7ngd2.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711921733/72_ijixgd.jpg"
+        ],
+        "description": "Descubra a fascinante beleza do Noroeste Argentino com nosso pacote turístico de 7 dias e 5 noites, partindo em 19 de abril de La Paz, Las Catitas, Mendoza e San Juan. Mergulhe na cultura e na natureza desta região enquanto se hospeda no Hotel Nuevo Premier, onde você desfrutará de comodidades excepcionais. Este pacote inclui transporte em ônibus misto para sua comodidade e oferece a oportunidade de explorar a região com meia pensão, garantindo que cada refeição seja uma deliciosa experiência gastronômica. Com assistência médica incluída, você terá a tranquilidade de saber que está coberto em caso de qualquer eventualidade durante sua viagem. Além disso, você desfrutará de um emocionante passeio que inclui a impressionante Quebrada de Humahuaca, bem como visitas a Tilcara, Purmamarca, San Salvador de Jujuy, Cafayate, Salta e San Miguel de Tucumán. Junte-se a nós nesta emocionante aventura e descubra os tesouros do Noroeste Argentino.",
+        "itinerary": "/ITINERARIO-NOA.pdf",
+        "from": "La Paz, Las Catitas, Mendoza e San Juan",
+        "price": "262.500",
+        "persons": "1",
+        "days": 7,
+        "nights": 5,
+        "pension": "Meia Pensão",
+        "lodgings": "Hotel Nuevo Premier",
+        "assistance": "Assistência médica"
+    }   
 ]
