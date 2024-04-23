@@ -157,5 +157,21 @@
         "nights": 5,
         "circuits": 1,
         "lodgings": 1
+    },
+    {
+        "id": 10,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1712014152/98_dcw3uy.webp",
+        "title": "Rock in Rio",
+        "country": "Rio de Janeiro",
+        "initialDate": "September 2024",
+        "finishDate": "September 2024",
+        "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1712014050/fazer-a-diferenca-2023-11-24T091014.281.png_ziwlln.webp","https://res.cloudinary.com/dfschbyq2/image/upload/v1712014212/1690450951636_kcxqs9.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1712014253/e413c950-c31d-11e8-9739-0242ac110006_rn0ve7.avif","https://res.cloudinary.com/dfschbyq2/image/upload/v1712014308/Selar%C3%B3n-Escadaria-Rio-de-Janeiro-Brasilien-iStock_93083297_XLARGE-EDITORIAL-ONLY-rmnunes-2_odosd7.jpg"],
+        "description": "Get ready to experience the unforgettable Rock in Rio in September 2024 with our exciting package! Enjoy 4 days and 3 nights of accommodation in a 4-star hotel with breakfast included, so you can recharge before and after the festival. Additionally, you'll have a general admission ticket to the event for one day, where you can enjoy incredible performances from your favorite artists. For your convenience, we also include arrival and departure transfers, ensuring you arrive at the festival and return to the hotel worry-free. Plus, you'll receive a Rock in Rio kit including a bag, sunglasses, and a rain poncho so you're prepared for any situation. Don't miss the chance to experience the excitement of Rock in Rio at the Olympic Park Barra in Rio de Janeiro. Book now and get ready for unforgettable moments filled with music and fun!",
+        "price": 1650,
+        "totalPrice": 3300,
+        "persons": "2",
+        "nights": 3,
+        "circuits": 1,
+        "lodgings": 1
     }
 ]
