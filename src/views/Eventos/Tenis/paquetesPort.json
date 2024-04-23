@@ -66,5 +66,22 @@
         "nights": 4,
         "circuits": 1,
         "lodgings": 3
+    },
+    {
+        "id": 5,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1713892342/i4kwdvrd5aexe70axbuv_1_xynez3.webp",
+        "title": "Final Masculina do US Open",
+        "country": "Nova York",
+        "initialDate": "8 de setembro de 2024",
+        "finishDate": "",
+        "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1713892404/us-open_1_muszvp.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1713892449/arthur-ashe-outside_1_qisdi8.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1713892499/840583160.jpg_1_a5nzrx.jpg", "https://res.cloudinary.com/dfschbyq2/image/upload/v1713892602/2ZYN3MUJTGGPALXCDXL5MEE52M_1_our0b9.jpg"],
+        "description": "Prepare-se para testemunhar a emoção da Final Masculina do US Open com nosso pacote emocionante! Desfrute de uma experiência inesquecível com a partida programada para 8 de setembro de 2024. Nosso pacote inclui um ingresso na categoria UPPER TIER, garantindo uma excelente vista do jogo e permitindo que você seja testemunha da intensidade e emoção da final masculina do US Open. Lembre-se de que a taxa está sujeita a disponibilidade no momento da confirmação da reserva, então certifique-se de reservar o quanto antes para garantir seu lugar neste emocionante evento esportivo. Não perca a oportunidade de fazer parte da ação na Final Masculina do US Open de 2024!",
+        "price":1235,
+        "totalPrice": 2470,
+        "persons": "2",
+        "nights": "-",
+        "circuits": 1,
+        "lodgings": 1
     }
+    
 ]

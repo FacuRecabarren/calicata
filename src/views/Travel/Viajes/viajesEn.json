@@ -358,5 +358,35 @@
         "nights": 9,
         "circuits": 0,
         "lodgings": 1
+    },
+    {
+        "id": 25,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1713887348/i758qq3m_1200x0__1_1_hqpeu8.jpg",
+        "title": "Cruise through Uruguay",
+        "country": "Uruguay",
+        "initialDate": "December 2024",
+        "finishDate": "December 2024",
+        "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1713887042/costa-favolosa-0yqw25yd59c8nakpnxn3gh3hx8_1_hhylpg.webp","https://res.cloudinary.com/dfschbyq2/image/upload/v1713887111/1_HF4lrcrK6DphopNWV1XxIg_1_ndqfui.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1713887194/64776-Montevideo_1_tcwbo4.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1713887250/r188RH07x_1200x0_1_sc2fum.jpg"],
+        "description": "Embark on a unique adventure with the Costa Favolosa Cruise through Uruguay! Enjoy a 3 or 4-night mini cruise with departures available on December 6, 10, 13, and 17. With the purchase of your cruise, we give you the drinks so you can fully enjoy your experience! Explore the wonders of Uruguay from the comfort and luxury of the Costa Favolosa. With rates subject to availability at the time of confirming the reservation, secure your spot on this exciting journey. Additionally, please note that additional taxes, approximately 123 USD, will apply to ensure a worry-free experience. Don't miss the opportunity to discover the beauty of Uruguay as you sail along its coasts. Book now and get ready for an unforgettable experience aboard the Costa Favolosa Cruise!",
+        "price": 460,
+        "persons": "2",
+        "nights": 4,
+        "circuits": 0,
+        "lodgings": 1
+    },
+    {
+        "id": 26,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1712014101/-CantoiStock-975466162-RFC_ex0hjf.avif",
+        "title": "Cruise through Brazil",
+        "country": "Brazil",
+        "initialDate": "January / February / March 2025",
+        "finishDate": "January / February / March 2025",
+        "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1713887042/costa-favolosa-0yqw25yd59c8nakpnxn3gh3hx8_1_hhylpg.webp","https://res.cloudinary.com/dfschbyq2/image/upload/v1712867384/rio-de-janeiro-panorama_YuJas-Shutterstock_1.jpg.image.1296.974.high_cad92y.webp","https://res.cloudinary.com/dfschbyq2/image/upload/v1712867443/rio-de-janeiro-RIOTG0721-c59c5e2f3a354e798587d5ef925b23e3_b0qohi.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1713889232/brasil-2-e1574647469126_1_kytdab.jpg"],
+        "description": "Embark on an exciting adventure with the Costa Favolosa Cruise through Brazil! Enjoy a mini cruise with departures available on January 5 and 13, as well as on January 21 and 29, February 6 and 22, and March 2, 10, and 18. With the purchase of your cruise, we give you the drinks so you can fully enjoy your experience! Explore the wonders of Brazil from the comfort and luxury of the Costa Favolosa. With rates subject to availability at the time of confirming the reservation, secure your spot on this exciting journey. Additionally, please note that additional taxes, approximately 306 USD, will apply to ensure a worry-free experience. Don't miss the opportunity to discover the beauty of Brazil as you sail along its spectacular coasts. Book now and get ready to live unforgettable moments aboard the Costa Favolosa Cruise!",
+        "price": 1384,
+        "persons": "2",
+        "nights": 4,
+        "circuits": 0,
+        "lodgings": 1
     }     
 ]

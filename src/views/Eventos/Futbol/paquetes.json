@@ -218,5 +218,21 @@
         "nights": 1,
         "circuits": 1,
         "lodgings": 1
+    },
+    {
+        "id": 14,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1713891554/FhEsibWA0_1256x620__1_1_o8y9rx.jpg",
+        "title": "Copa América 2024",
+        "country": "Estados Unidos",
+        "initialDate": "mayo 2024",
+        "finishDate": "mayo 2024",
+        "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1713891256/114433-tras-la-gira-cancelada-en-china-confirmaron-los-amistosos-de-la-seleccion-argentina_1_rmjdua.png","https://res.cloudinary.com/dfschbyq2/image/upload/v1713891361/8JlDLs49a_2000x1500__1_1_riopwb.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1713891462/HD-wallpaper-argentina-campeon-copa-america-messi_1_tlweou.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1713891513/sMJX18mRL_1580x750__1_1_ksjayb.jpg"],
+        "description": "Partido Argentina vs Canadá: Fecha: 25 de junio de 2024 / Categoría: Shortside / Precio de la entrada: 1310 USD - Partido Argentina vs Chile: Fecha: 29 de junio de 2024 / Categoría: Shortside / Precio de la entrada: 1589 USD - Partido Argentina vs Perú: Fecha: 2 de julio de 2024 / Categoría: Shortside / Precio de la entrada: 1745 USD - Recuerda que estos precios están sujetos a disponibilidad al momento de realizar la reserva. ¡Espero que disfrutes de la Copa América 2024!",
+        "price": 1310,
+        "totalPrice": 1310,
+        "persons": "1",
+        "nights": 3,
+        "circuits": 0,
+        "lodgings": 1
     }
 ]

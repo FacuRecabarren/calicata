@@ -87,7 +87,7 @@ const Viajes = () => {
                     <div>
                       <h3 className='lg:text-lg font-bold opacity-90 text-[#218B7D]'>{paquete.title}</h3>
                       <p className='text-sm'><span className='font-semibold opacity-90'>{t("visiting")}:</span> {paquete.country}</p>
-                      <p className='text-sm opacity-90'><span className='font-semibold'>{t("from")}</span> {paquete.initialDate} <span className='font-semibold'>{t("to")}</span> {paquete.finishDate}</p>
+                      <p className='text-sm opacity-90'><span className='font-semibold'>{t("from")}</span> {paquete.initialDate} <br /> <span className='font-semibold'>{t("to")}</span> {paquete.finishDate}</p>
                     </div>
                     <div className='flex justify-start items-center gap-2 lg:text-sm text-xs'>
                       {paquete.nights > 0 && (

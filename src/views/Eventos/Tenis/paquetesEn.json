@@ -66,5 +66,21 @@
         "nights": 4,
         "circuits": 1,
         "lodgings": 3
+    },
+    {
+        "id": 5,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1713892342/i4kwdvrd5aexe70axbuv_1_xynez3.webp",
+        "title": "US Open Men's Final",
+        "country": "New York",
+        "initialDate": "September 8, 2024",
+        "finishDate": "",
+        "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1713892404/us-open_1_muszvp.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1713892449/arthur-ashe-outside_1_qisdi8.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1713892499/840583160.jpg_1_a5nzrx.jpg", "https://res.cloudinary.com/dfschbyq2/image/upload/v1713892602/2ZYN3MUJTGGPALXCDXL5MEE52M_1_our0b9.jpg"],
+        "description": "Get ready to witness the excitement of the US Open Men's Final with our thrilling package! Enjoy an unforgettable experience with the scheduled departure on September 8, 2024. Our package includes a ticket in the UPPER TIER category, ensuring you an excellent view of the match and allowing you to witness the intensity and excitement of the US Open Men's Final. Please note that the rate is subject to availability at the time of booking confirmation, so be sure to book as soon as possible to secure your spot at this thrilling sporting event. Don't miss the opportunity to be part of the action at the 2024 US Open Men's Final!",
+        "price":1235,
+        "totalPrice": 2470,
+        "persons": "2",
+        "nights": "-",
+        "circuits": 1,
+        "lodgings": 1
     }    
 ]
