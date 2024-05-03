@@ -10,6 +10,28 @@ export const PromosSlider = ({
   direction = "up",
  
 }) => {
+
+  console.log(promos);
+
+  const { i18n } = useTranslation();
+
+  const handleConsultClick = () => {
+    
+    let message;
+     if(i18n.language === 'en'){
+        message = `Hello, how are you? I would like to have more information about the package "${promos[currentIndex].description}"`;
+    }else if(i18n.language === 'port'){
+        message = `Olá, como você está? Gostaria de ter mais informações sobre o pacote "${promos[currentIndex].description}"`;
+    } else if(i18n.language === 'es'){
+        message = `Hola, ¿cómo están? Me gustaría tener más información sobre el paquete "${promos[currentIndex].description}"`;
+    }
+  
+    const encodedMessage = encodeURIComponent(message);
+
+    const whatsappLink = `https://wa.me/+5492612457513?text=${encodedMessage}`;
+
+    window.location.href = whatsappLink;
+};
   const [currentIndex, setCurrentIndex] = useState(0);
   const [loading, setLoading] = useState(false);
   const [loadedImages, setLoadedImages] = useState([]);
@@ -104,7 +126,7 @@ export const PromosSlider = ({
             />
             <div className=" text-white z-20 flex flex-col justify-center items-center gap-4 w-full">
               <p className="text-4xl font-black text-center">{promos[currentIndex].description}</p>
-              <a href={promos[currentIndex].link} className="cursor-pointer flex justify-center items-center gap-2 bg-[#FCCC71] py-2 px-4 font-bold rounded-xl text-black hover:text-[#FCCC71] hover:bg-transparent border-4 border-[#FCCC71] duration-500">{t("ask")}<FaExternalLinkAlt/></a>
+              <button onClick={handleConsultClick} className="cursor-pointer flex justify-center items-center gap-2 bg-[#FE904D] py-2 px-4 font-bold rounded-xl text-WHITE hover:text-white hover:bg-transparent border-4 border-[#FE904D] duration-500 ">{t("ask")}<FaExternalLinkAlt/></button>
             </div>
         </AnimatePresence>
       )}

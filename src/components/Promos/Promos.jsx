@@ -10,8 +10,6 @@ import { useEffect } from 'react';
 
 const Promos = () => {
 
-  
-
     useEffect(()=>{
         Aos.init({duration: 3000});
         Aos.refresh();
