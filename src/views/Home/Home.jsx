@@ -3,7 +3,7 @@ import Hero from '@/components/Hero/Hero'
 import Nosotros from '@/components/Nosotros/Nosotros'
 import Services from '@/components/Services/Services'
 import Testimonial from '@/components/Testimonial/Testimonial'
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import 'aos/dist/aos.css';
 import Promos from '@/components/Promos/Promos'

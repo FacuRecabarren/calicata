@@ -10,14 +10,14 @@ import { useEffect } from "react";
 const Hero = () => {
 
   const images = [
-    "https://res.cloudinary.com/dfschbyq2/image/upload/v1708984819/natalya-zaritskaya-SIOdjcYotms-unsplash_artxcj.jpg",
-    "https://res.cloudinary.com/dreso9ye9/image/upload/v1709926535/foto-de-la-bodega-1024x683-1_v4pg0y.jpg",
-    "https://res.cloudinary.com/dreso9ye9/image/upload/v1709222233/elizeu-dias-RN6ts8IZ4_0-unsplash_zlwv0f.webp",
+    "https://res.cloudinary.com/dreso9ye9/image/upload/v1715703232/Agencia%20viajes/natalya-zaritskaya-SIOdjcYotms-unsplash_artxcj_ehxhwd.webp",
+    "https://res.cloudinary.com/dreso9ye9/image/upload/v1715703308/Agencia%20viajes/foto-de-la-bodega-1024x683-1_v4pg0y_oiwntq.webp",
+    "https://res.cloudinary.com/dreso9ye9/image/upload/v1715703352/Agencia%20viajes/elizeu-dias-RN6ts8IZ4_0-unsplash_zlwv0f_gfxprp.webp",
     "https://res.cloudinary.com/dreso9ye9/image/upload/v1709926422/MZSWMNLDGI3TQZRXGM2TKYTEME_mmrcuo.jpg",
-    "https://res.cloudinary.com/dreso9ye9/image/upload/v1709915165/premium_photo-1661963952208-2db3512ef3de_vtsp8w.webp",
+    "https://res.cloudinary.com/dreso9ye9/image/upload/v1715703408/Agencia%20viajes/premium_photo-1661963952208-2db3512ef3de_vtsp8w_snvnfe.webp",
     "https://res.cloudinary.com/dreso9ye9/image/upload/v1709682031/Agencia%20viajes/Mendoza-portada_k5wjlo.jpg",
-    "https://res.cloudinary.com/dreso9ye9/image/upload/v1709915041/photo-1576767444993-fa83e24a8a49_umyizo.webp",
-    "https://res.cloudinary.com/dreso9ye9/image/upload/v1709914862/Agencia%20viajes/photo-1433838552652-f9a46b332c40_lyekj8.webp"
+    "https://res.cloudinary.com/dreso9ye9/image/upload/v1715703463/Agencia%20viajes/photo-1576767444993-fa83e24a8a49_umyizo_b7mdzi.webp",
+    "https://res.cloudinary.com/dreso9ye9/image/upload/v1715703498/Agencia%20viajes/photo-1433838552652-f9a46b332c40_lyekj8_e9xmso.webp"
   ];
 
   const { t } = useTranslation()

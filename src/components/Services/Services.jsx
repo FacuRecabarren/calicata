@@ -2,9 +2,6 @@ import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import { MendozaSlider } from '../ui/images-slider-mendoza';
-import { TravelSlider } from '../ui/images-slider-travel';
-import { motion } from "framer-motion";
 import { Link } from 'react-router-dom';
 
 const Services = () => {
@@ -38,7 +35,7 @@ const Services = () => {
             </div>
           </div>
           <div data-aos='fade-up' className='w-full h-full bg-white rounded-xl shadow-xl'>
-            <div className="transform hover:scale-[1.02] duration-300 rounded-xl h-[25rem] z-10 flex flex-col justify-center items-center gap-4 w-full bg-[url('https://res.cloudinary.com/dreso9ye9/image/upload/v1712014269/shai-pal-mC0IVwJ1YdU-unsplash_afzhbz.jpg')] bg-cover bg-center">
+            <div className="transform hover:scale-[1.02] duration-300 rounded-xl h-[25rem] z-10 flex flex-col justify-center items-center gap-4 w-full bg-[url('https://res.cloudinary.com/dreso9ye9/image/upload/v1715703789/Agencia%20viajes/shai-pal-mC0IVwJ1YdU-unsplash_afzhbz_d03b1o.webp')] bg-cover bg-center">
               <div className="z-10 flex flex-col justify-between items-center gap-4 w-full h-full">
                 <p className="text-xl sm:text-2xl text-white font-bold text-center w-full bg-[#FE904D] py-2 rounded-t-xl shadow-xl">{t('sports')}</p>
                 <Link to="/sports" className="text-md sm:text-xl flex justify-center items-center gap-2 bg-[#FE904D] absolute bottom-0 py-4 px-8 font-bold rounded-t-xl text-white hover:text-white hover:bg-opacity-50 border-4 border-[#FE904D] duration-500">{t("packages1")}</Link>
