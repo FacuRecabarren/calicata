@@ -1,4 +1,3 @@
-import React from 'react';
 import { PromosSlider } from "../ui/images-slider-promos";
 import promos from '../../utils/promos.json'
 import { motion } from "framer-motion";

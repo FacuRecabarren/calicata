@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
@@ -122,6 +122,7 @@ export const PromosSlider = ({
                 animate="visible"
                 exit={direction === "up" ? "upExit" : "downExit"}
                 variants={slideVariants}
+                loading="lazy"
                 className="image h-full w-full absolute inset-0 object-cover brightness-[0.4]"
             />
             <div className=" text-white z-20 flex flex-col justify-center items-center gap-4 w-full">
