@@ -1,49 +1,5 @@
 [
     {
-        "id": 1,
-        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
-        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711334951/wallpaperflare.com_wallpaper_1_wekbi9.jpg",
-        "title": "Miami F1 Grand Prix",
-        "country": "Miami FL",
-        "initialDate": "May 2024",
-        "finishDate": "May 2024",
-        "galleryImages": [
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711335102/re-edit-of-my-shot-of-max-from-the-miami-gp-4k-wallpaper-v0-37sde5yvmnya1_fritof.webp",
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711334951/wallpaperflare.com_wallpaper_1_wekbi9.jpg",
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711335019/stunning-miami-view-wallpaper-preview_at82ny.jpg",
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711335060/f04baf6b4ca2c49aff329b382847a263_wc1bil.png"
-        ],
-        "description": "Experience the thrill at full throttle in the Miami F1 Grand Prix with our exclusive 4-night package! Immerse yourself in the world of elite motorsport while staying at a luxurious 4-star hotel, offering unparalleled comfort and style. With guaranteed access to the action at North Beach throughout the weekend, you'll live the adrenaline of every curve and acceleration. From the roar of the engines to the excitement of the competition, this is your chance to experience the glamour and thrill of motorsport firsthand. Catch the speed and excitement at the Miami F1 Grand Prix with us!",
-        "price": 2390,
-        "totalPrice": 4780,
-        "persons": "2",
-        "nights": 4,
-        "circuits": 1,
-        "lodgings": 1
-    },
-    {
-        "id": 2,
-        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
-        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710114775/Houses_Italy_Florefsdfnce_534911_1920x1080_mo9qtp.webp",
-        "title": "Imola F1 Grand Prix",
-        "country": "Florence",
-        "initialDate": "May 2024",
-        "finishDate": "May 2024",
-        "galleryImages": [
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711335470/F1-Imola-Charles-Leclerc-920x518_gtqgbv.webp",
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711335438/360_F_497519039_EhmmpTT8ASyrRcIBXz6RvCmzPbim0aSg_v9aurv.jpg",
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711335491/pista-imola_tlbwqq.webp",
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711335509/https___tr2storage.blob.core.windows.net_imagenes_eM8vo0gzo0XM-eR9MsOdfkVjpeg_jisirf.webp"
-        ],
-        "description": "Get ready for an unforgettable racing experience at the Imola F1 Grand Prix with our exclusive 3-night package! Enjoy the thrill of elite motorsport while staying at a 4-star hotel with bed and breakfast included, ensuring comfort and luxury during your stay from May 17th to 20th. With a General Admission ticket for all three days, you'll have full access to the circuit on Fridays, Saturdays, and Sundays, allowing you to experience every moment of the action from prime locations. Additionally, our Hotel/Circuit/Hotel shuttle service will ensure you focus solely on enjoying the event, without worrying about logistical details. Embark on a journey full of speed and excitement at the Imola F1 Grand Prix with us!",
-        "price": 1293,
-        "totalPrice": 2585,
-        "persons": "2",
-        "nights": 3,
-        "circuits": 1,
-        "lodgings": 1
-    },
-    {
         "id": 3,
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
         "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710115041/montecadasdrlo-monaco_yem700.webp",
@@ -168,8 +124,8 @@
             "https://res.cloudinary.com/dfschbyq2/image/upload/v1711340082/2a0c9319-6599-4c14-98e5-e74d13eab669_qirhbk.webp"
         ],
         "description": "Get ready for an exciting experience at the Sao Paulo F1 Grand Prix with our exclusive 4-night package! From October 24th to 28th, you'll stay at a cozy 3-star hotel in Sao Paulo, where each morning awaits you with a delicious breakfast to energize your day. With our tickets to the 'SECTOR G' of the circuit, you'll have a privileged view of the track action on Fridays, Saturdays, and Sundays, ensuring you don't miss a single moment of excitement. Additionally, our circuit transfers will take you back and forth on Fridays, Saturdays, and Sundays, guaranteeing you arrive comfortably and on time to enjoy all the action on the track. Don't miss the opportunity to experience the passion of Formula 1 in Sao Paulo! Book now and join us for an unforgettable weekend full of speed and excitement.",
-        "price": 1390,
-        "totalPrice": 2780,
+        "price": 1590,
+        "totalPrice": 3180,
         "persons": "2",
         "nights": 4,
         "circuits": 1,
