@@ -1,4 +1,3 @@
-import React from 'react';
 import { useParams } from 'react-router-dom';
 import { FaMapMarkerAlt } from 'react-icons/fa';
 import { FaPersonBiking } from "react-icons/fa6";
@@ -63,18 +62,18 @@ const DetailFutbol = () => {
     return (
         <div className='flex flex-col justify-center items-start'>
             <div className='relative w-full'>
-                <img src={paqueteDetail.coverImage} alt="" className='object-cover h-[25rem] w-full -z-10'/>
+                <img src={paqueteDetail.coverImage} alt="Imagen principal" className='object-cover h-[25rem] w-full -z-10' loading='lazy'/>
                 <div className='absolute z-10 top-[50%] sm:left-5 flex flex-col sm:justify-start sm:items-start justify-center items-center gap-2 sm:px-0 px-5'>
                     <p className='flex justify-start items-center gap-1 font-semibold text-white text-base font-lora italic'><FaMapMarkerAlt/>{paqueteDetail.country}</p>
-                    <h2 className='text-white text-4xl sm:text-5xl text-center sm:text-start font-bold'>{paqueteDetail.title}</h2>
+                    <h1 className='text-white text-4xl sm:text-5xl text-center sm:text-start font-bold'>{paqueteDetail.title}</h1>
                     <p className='hidden lg:block absolute -bottom-24 text-[#FCCC71] text-xl cursor-default uppercase'><Link to="/sports/futbol" className='z-50 text-white hover:text-[#bcbec7] duration-300 hover:underline'>{t("futbolPackages")}</Link> / {paqueteDetail.title}</p>
                 </div>
             </div>
             <div className='py-10 px-10 w-full sm:flex sm:flex-row flex flex-col justify-between items-start gap-10 sm:gap-16'>
                 <section className='w-full sm:w-[40%] flex flex-col justify-center items-start gap-4'>
                     <article className='flex flex-col gap-2 w-full'>
-                        <p className='font-semibold opacity-80 text-sm'>{t("totalPrice")}</p>
-                        <p className='text-5xl font-bold text-[#218B7D]'>US${paqueteDetail.totalPrice}</p>
+                        {/* <p className='font-semibold opacity-80 text-sm'>{t("totalPrice")}</p>
+                        <p className='text-5xl font-bold text-[#218B7D]'>US${paqueteDetail.totalPrice}</p> */}
                         <button onClick={() => handleConsultClick(paqueteDetail)} className='bg-[#FE904D] text-white font-bold py-3 mt-2 rounded-xl shadow-xl hover:bg-opacity-80 duration-300'>{t("consultar")}!</button>
                     </article>
                     <article className='flex flex-col gap-2 w-full'>

@@ -68,7 +68,7 @@ const Eventos2 = () => {
     <div className='bg-[#f2f2f2]'>
       <div className='relative'>
         <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1712013682/zachary-smith-zorgErvL_Fs-unsplash_cxffsb.jpg" alt="" className='h-[25rem] w-full object-cover object-center'/>
-        <h2 className='text-center w-full py-2 px-4 text-white font-bold text-2xl sm:text-3xl shadow-xl uppercase bg-[#000000] bg-opacity-80 absolute bottom-0'>{t("events")}</h2>
+        <h1 className='text-center w-full py-2 px-4 text-white font-bold text-2xl sm:text-3xl shadow-xl uppercase bg-[#000000] bg-opacity-80 absolute bottom-0'>{t("events")}</h1>
         <p className='hidden lg:block absolute bottom-3 left-10 text-[#FCCC71] text-xl cursor-default uppercase'><Link to="/" className='z-50 text-white hover:text-[#bcbec7] duration-300 hover:underline'>{t("home")}</Link> / {t("events")}</p>
       </div>
       <div className='py-20 px-10 h-full w-full flex flex-col lg:flex lg:flex-row justify-center items-start gap-10'>
@@ -83,7 +83,7 @@ const Eventos2 = () => {
             filteredPaquetes.map(paquete => (
               <Link to={`/recitals/${paquete.id}`} key={paquete.id} className='border-t-8 border-[#FE904D] flex flex-col justify-center items-center w-full lg:flex lg:flex-row lg:justify-start lg:items-center gap-2 bg-white rounded-xl shadow-xl lg:h-[15rem] lg:w-[50rem] hover:scale-[1.01] duration-300'>
                 <div className='w-full h-full lg:w-[40rem]'>
-                  <img src={paquete.galleryImages[0]} alt="" className='w-full lg:h-full h-[15rem] rounded-l-lg object-cover'/>
+                  <img loading='lazy' src={paquete.galleryImages[0]} alt="" className='w-full lg:h-full h-[15rem] rounded-l-lg object-cover'/>
                 </div>
                 <section className='flex justify-between items-center h-full gap-2 w-full p-5'>
                   <article className='flex flex-col justify-between items-start h-full lg:gap-0 gap-3'>
@@ -109,11 +109,11 @@ const Eventos2 = () => {
                     </div>
                   </article>
                   <article className='flex flex-col justify-between items-end h-full gap-5'>
-                    <div className='flex flex-col justify-center items-end'>
+                    {/* <div className='flex flex-col justify-center items-end'>
                       <p className='text-sm font-light'>{t("fromPrice")}</p>
                       <span className='text-lg font-bold opacity-90'>${paquete.price}</span>
                       <p className='text-xs opacity-90'>{t("perPerson")}</p>
-                    </div>
+                    </div> */}
                     <button className='bg-[#218B7D] text-white py-2 px-4 rounded-md shadow-md text-sm font-medium uppercase duration-300 hover:bg-[#1A5D53]'>{t("detail")}</button>
                   </article>
                 </section>

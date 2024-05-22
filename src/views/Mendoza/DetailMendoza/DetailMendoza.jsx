@@ -70,7 +70,7 @@ const DetailMendoza = () => {
         <div className='flex flex-col justify-center items-start'>
             <div className='relative w-full'>
                 <MendozaDetailSlider images={ideaDetail}/>
-                <h2 id='title' className='text-white text-5xl font-bold absolute text-center w-full z-10 top-[50%] px-5 sm:px-0'>{ideaDetail.description.toUpperCase()}</h2>
+                <h1 id='title' className='text-white text-5xl font-bold absolute text-center w-full z-10 top-[50%] px-5 sm:px-0'>{ideaDetail.description.toUpperCase()}</h1>
                 <p className='hidden lg:block absolute bottom-5 left-10 text-[#FCCC71] text-xl cursor-default uppercase'><Link to="/mendoza" className='z-50 text-white hover:text-[#bcbec7] duration-300 hover:underline'>MENDOZA</Link> / {i18n.language === 'es' && ideaDetail.description}
                     {i18n.language === 'en' && ideaEnDetail.description}
                     {i18n.language === 'port' && ideaPortDetail.description}</p>
