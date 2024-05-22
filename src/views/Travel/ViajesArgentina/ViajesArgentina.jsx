@@ -65,8 +65,8 @@ const ViajesArgentina = () => {
   return (
     <div className='bg-[#f2f2f2]'>
       <div className='relative'>
-        <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1711854151/south-america-patagonia-andes-mountains-lake_1535930205_ysx7yr.jpg" alt="" className='h-[25rem] w-full object-cover object-center '/>
-        <h2 className='text-center w-full py-2 px-4 text-white font-bold text-2xl sm:text-3xl shadow-xl bg-[#000000] bg-opacity-80 absolute bottom-0'>ARGENTINA</h2>
+        <img loading='lazy' src="https://res.cloudinary.com/dfschbyq2/image/upload/v1711854151/south-america-patagonia-andes-mountains-lake_1535930205_ysx7yr.jpg" alt="" className='h-[25rem] w-full object-cover object-center '/>
+        <h1 className='text-center w-full py-2 px-4 text-white font-bold text-2xl sm:text-3xl shadow-xl bg-[#000000] bg-opacity-80 absolute bottom-0'>ARGENTINA</h1>
         <p className='hidden lg:block absolute bottom-3 left-10 text-[#FCCC71] text-xl cursor-default uppercase'><Link to="/" className='z-50 text-white hover:text-[#bcbec7] duration-300 hover:underline'>{t("home")}</Link> / <Link to="/travel" className='z-50 text-white hover:text-[#bcbec7] duration-300 hover:underline'>{t("travel")}</Link> / Argentina</p>
       </div>
       <div className='py-20 px-10 h-full w-full flex flex-col lg:flex lg:flex-row justify-center items-start gap-10'>
@@ -75,7 +75,7 @@ const ViajesArgentina = () => {
           {filteredPaquetes.length === 0 ? (
             <div className='flex flex-col justify-center items-center gap-5'>
               <p className='bg-white font-semibold opacity-80 p-2 w-full text-center rounded-xl shadow-xl border-t-8 border-[#FE904D]'>{t("errorFilter")}</p>
-              <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709871042/404-page-not-found-monochromatic-32679_db7xv6.svg" alt="" className='w-[25rem]'/>
+              <img loading='lazy' src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709871042/404-page-not-found-monochromatic-32679_db7xv6.svg" alt="" className='w-[25rem]'/>
             </div>
           ) : (
             filteredPaquetes.map(paquete => (
@@ -88,7 +88,7 @@ const ViajesArgentina = () => {
                     <div>
                       <h3 className='lg:text-lg font-bold opacity-90 text-[#218B7D]'>{paquete.title}</h3>
                       <p className='text-sm'><span className='font-semibold opacity-90'>{t("visiting")}:</span> {paquete.country}</p>
-                      <p className='text-sm opacity-90'><span className='font-semibold'>Salida:</span> {paquete.initialDate}</p>
+                      <p className='text-sm opacity-90'><span className='font-semibold'>{t('from')}</span> {paquete.from}</p>
                     </div>
                     <div className='flex justify-start items-center gap-2 lg:text-sm text-xs'>
                         <div className='bg-[#FE904D] flex justify-center items-center gap-1 p-1.5 text-white font-medium rounded-md'>
@@ -106,10 +106,10 @@ const ViajesArgentina = () => {
                     </div>
                   </article>
                   <article className='flex flex-col justify-between items-end h-full gap-5'>
-                    <div className='flex flex-col justify-center items-end'>
+                    {/* <div className='flex flex-col justify-center items-end'>
                       <span className='text-lg font-bold opacity-90'>AR${paquete.price}</span>
                       <p className='text-xs opacity-90'>{t("perPerson")}</p>
-                    </div>
+                    </div> */}
                     <button className='bg-[#218B7D] text-white py-2 px-4 rounded-md shadow-md text-sm font-medium uppercase duration-300 hover:bg-[#1A5D53]'>{t("detail")}</button>
                   </article>
                 </section>

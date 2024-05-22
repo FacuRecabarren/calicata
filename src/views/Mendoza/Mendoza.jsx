@@ -73,19 +73,19 @@ const Mendoza = () => {
     <div>
         <div className='h-[30rem] relative flex flex-col justify-center items-center gap-2 shadow-xl'>
             <video className='w-full h-full object-cover absolute top-0 -z-10' autoPlay muted loop>
-                <source src='https://res.cloudinary.com/dreso9ye9/video/upload/v1710133486/youtube_Qtfmp2Ro_mU_1920x1080_h264_juy2ie.mp4' type="video/mp4"/>
+                <source loading='lazy' src='https://res.cloudinary.com/dreso9ye9/video/upload/v1710133486/youtube_Qtfmp2Ro_mU_1920x1080_h264_juy2ie.mp4' type="video/mp4"/>
             </video>
             <p className='hidden lg:block absolute bottom-5 left-10 text-[#FCCC71] text-xl cursor-default uppercase'><Link to="/" className='z-50 text-white hover:text-[#bcbec7] duration-300 hover:underline'>{t("home")}</Link> / MENDOZA</p>
-            <h2 id='title' className='text-5xl lg:text-7xl text-[#ffffff] font-extrabold'>MENDOZA</h2>
+            <h1 id='title' className='text-5xl lg:text-7xl text-[#ffffff] font-extrabold'>MENDOZA</h1>
         </div>
         <section className='w-full py-20 px-5 lg:px-20 shadow-xl lg:shadow-none'>
             <div className='flex justify-center items-center gap-10'>
-                <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710167985/Group_14_ntjim8.svg" alt="" className='w-[22rem] hidden lg:flex'/>
+                <img loading='lazy' src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710167985/Group_14_ntjim8.svg" alt="" className='w-[22rem] hidden lg:flex'/>
                 <div className='flex flex-col justify-center items-center gap-5'>
                     <h2 className='text-3xl lg:text-4xl text-center font-bold text-[#218B7D]'>{t("whyMendoza")}</h2>
                     <p className='font-lora italic text-center opacity-80'>{t("whyMendozaInfo")}</p>
                 </div>
-                <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710168796/Group_14_2_a6sydn.svg" alt="" className='w-[22rem] hidden lg:flex'/>
+                <img loading='lazy' src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710168796/Group_14_2_a6sydn.svg" alt="" className='w-[22rem] hidden lg:flex'/>
             </div>
         </section>
         <section className='py-20 lg:py-10 flex flex-col justify-center items-center gap-20'>
@@ -130,7 +130,7 @@ const Mendoza = () => {
             <section className='flex justify-center items-center gap-5 flex-wrap lg:py-10 py-0 px-5 lg:px-0 pb-10'>
                 {i18n.language === 'es' && ideas.map(idea => (
                     <Link to={`/mendoza/${idea.id}`} key={idea.id} className='group/item h-[20rem] w-[30rem] flex justify-center items-center lg:hover:scale-[1.02] duration-300 relative rounded-xl shadow-xl'>
-                        <img src={idea.image} alt="" className='absolute h-full w-full -z-10 object-cover rounded-xl filter brightness-[0.45]'/>
+                        <img loading='lazy' src={idea.image} alt="" className='absolute h-full w-full -z-10 object-cover rounded-xl filter brightness-[0.45]'/>
                         <h3 id='title' className='text-white font-bold text-center text-2xl w-full rounded-t-xl'>{idea.description.toUpperCase()}</h3>
                         <button className='cursor-alias invisible group/edit lg:group-hover/item:visible absolute top-[60%] flex flex-col justify-center items-center gap-2 bg-opacity-60 z-10 bg-[#218B7D] py-2 px-4 rounded-full'>
                         <p className='flex justify-center items-center gap-2 font-bold text-white'>{t("ask")}</p>
@@ -139,7 +139,7 @@ const Mendoza = () => {
                 ))}
                 {i18n.language === 'en' && ideasEn.map(idea => (
                     <Link to={`/mendoza/${idea.id}`} key={idea.id} className='group/item h-[20rem] w-[30rem] flex justify-center items-center lg:hover:scale-[1.02] duration-300 relative rounded-xl shadow-xl'>
-                        <img src={idea.image} alt="" className='absolute h-full w-full -z-10 object-cover rounded-xl filter brightness-[0.45]'/>
+                        <img loading='lazy' src={idea.image} alt="" className='absolute h-full w-full -z-10 object-cover rounded-xl filter brightness-[0.45]'/>
                         <h3 id='title' className='text-white font-bold text-center text-2xl w-full rounded-t-xl'>{idea.description.toUpperCase()}</h3>
                         <button className='cursor-alias invisible group/edit lg:group-hover/item:visible absolute top-[60%] flex flex-col justify-center items-center gap-2 bg-opacity-60 z-10 bg-[#218B7D] py-2 px-4 rounded-full'>
                         <p className='flex justify-center items-center gap-2 font-bold text-white'>{t("ask")}</p>
@@ -149,7 +149,7 @@ const Mendoza = () => {
 
                 {i18n.language === 'port' && ideasPort.map(idea => (
                     <Link to={`/mendoza/${idea.id}`} key={idea.id} className='group/item h-[20rem] w-[30rem] flex justify-center items-center lg:hover:scale-[1.02] duration-300 relative rounded-xl shadow-xl'>
-                        <img src={idea.image} alt="" className='absolute h-full w-full -z-10 object-cover rounded-xl filter brightness-[0.45]'/>
+                        <img loading='lazy' src={idea.image} alt="" className='absolute h-full w-full -z-10 object-cover rounded-xl filter brightness-[0.45]'/>
                         <h3 id='title' className='text-white font-bold text-center text-2xl w-full rounded-t-xl'>{idea.description.toUpperCase()}</h3>
                         <button className='cursor-alias invisible group/edit lg:group-hover/item:visible absolute top-[60%] flex flex-col justify-center items-center gap-2 bg-opacity-60 z-10 bg-[#218B7D] py-2 px-4 rounded-full'>
                         <p className='flex justify-center items-center gap-2 font-bold text-white'>{t("ask")}</p>
@@ -165,7 +165,7 @@ const Mendoza = () => {
               .filter((idea) => selectedTheme === null || idea.target === selectedTheme)
               .map((idea) => (
                 <Link to={`/mendoza/${idea.id}`} key={idea.id} className='group/item h-[20rem] w-[30rem] flex justify-center items-center lg:hover:scale-[1.02] duration-300 relative rounded-xl shadow-xl'>
-                    <img src={idea.image} alt="" className='absolute h-full w-full -z-10 object-cover rounded-xl filter brightness-[0.45]'/>
+                    <img loading='lazy' src={idea.image} alt="" className='absolute h-full w-full -z-10 object-cover rounded-xl filter brightness-[0.45]'/>
                     <h3 id='title' className='text-white font-bold text-center text-2xl w-full rounded-t-xl'>{idea.description.toUpperCase()}</h3>
                     <button className='cursor-alias invisible group/edit lg:group-hover/item:visible absolute top-[60%] flex flex-col justify-center items-center gap-2 bg-opacity-60 z-10 bg-[#218B7D] py-2 px-4 rounded-full'>
                         <p className='flex justify-center items-center gap-2 font-bold text-white'>{t("ask")}</p>
@@ -177,7 +177,7 @@ const Mendoza = () => {
               .filter((idea) => selectedTheme === null || idea.target === selectedTheme)
               .map((idea) => (
                 <Link to={`/mendoza/${idea.id}`} key={idea.id} className='group/item h-[20rem] w-[30rem] flex justify-center items-center lg:hover:scale-[1.02] duration-300 relative rounded-xl shadow-xl'>
-                    <img src={idea.image} alt="" className='absolute h-full w-full -z-10 object-cover rounded-xl filter brightness-[0.45]'/>
+                    <img loading='lazy' src={idea.image} alt="" className='absolute h-full w-full -z-10 object-cover rounded-xl filter brightness-[0.45]'/>
                     <h3 id='title' className='text-white font-bold text-center text-2xl w-full rounded-t-xl'>{idea.description.toUpperCase()}</h3>
                     <button className='cursor-alias invisible group/edit lg:group-hover/item:visible absolute top-[60%] flex flex-col justify-center items-center gap-2 bg-opacity-60 z-10 bg-[#218B7D] py-2 px-4 rounded-full'>
                         <p className='flex justify-center items-center gap-2 font-bold text-white'>{t("ask")}</p>
@@ -189,7 +189,7 @@ const Mendoza = () => {
               .filter((idea) => selectedTheme === null || idea.target === selectedTheme)
               .map((idea) => (
                 <Link to={`/mendoza/${idea.id}`} key={idea.id} className='group/item h-[20rem] w-[30rem] flex justify-center items-center lg:hover:scale-[1.02] duration-300 relative rounded-xl shadow-xl'>
-                    <img src={idea.image} alt="" className='absolute h-full w-full -z-10 object-cover rounded-xl filter brightness-[0.45]'/>
+                    <img loading='lazy' src={idea.image} alt="" className='absolute h-full w-full -z-10 object-cover rounded-xl filter brightness-[0.45]'/>
                     <h3 id='title' className='text-white font-bold text-center text-2xl w-full rounded-t-xl'>{idea.description.toUpperCase()}</h3>
                     <button className='cursor-alias invisible group/edit lg:group-hover/item:visible absolute top-[60%] flex flex-col justify-center items-center gap-2 bg-opacity-60 z-10 bg-[#218B7D] py-2 px-4 rounded-full'>
                         <p className='flex justify-center items-center gap-2 font-bold text-white'>{t("ask")}</p>
