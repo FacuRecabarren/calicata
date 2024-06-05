@@ -68,7 +68,7 @@ const Tenis = () => {
     <div className='bg-[#f2f2f2]'>
       <div className='relative'>
         <img loading='lazy' src="https://res.cloudinary.com/dreso9ye9/image/upload/v1712013033/darko-nesic-VZEnVM6c1lY-unsplash_dfozbj.jpg" alt="Imagen principal" className='h-[25rem] w-full object-cover object-center'/>
-        <h1 className='text-center w-full py-2 px-4 text-white font-bold text-2xl sm:text-3xl shadow-xl bg-[#000000] bg-opacity-80 absolute bottom-0'>{t("tennisPackages")}</h1>
+        <h1 className='m-0 text-center w-full py-2 px-4 text-white font-bold text-2xl sm:text-3xl shadow-xl bg-[#000000] bg-opacity-80 absolute bottom-0'>{t("tennisPackages")}</h1>
         <p className='hidden lg:block absolute bottom-3 left-10 text-[#FCCC71] text-xl cursor-default uppercase'><Link to="/sports" className='z-50 text-white hover:text-[#bcbec7] duration-300 hover:underline'>{t("sports")}</Link> / {t("tennisPackages")}</p>
       </div>
       <div className='py-20 px-10 h-full w-full flex flex-col lg:flex lg:flex-row justify-center items-start gap-10'>
