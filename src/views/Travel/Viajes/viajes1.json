@@ -432,5 +432,119 @@
         "nights": 7,
         "circuits": 0,
         "lodgings": 1
-    }           
+    },
+    {
+        "id": 36,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1717877425/Punta-Cana-Scuba-Diving-Dressel-Divers-e1693493993944_1_b0gwhi.jpg",
+        "title": "Especial Verano Punta Cana",
+        "country": "Punta Cana",
+        "initialDate": "12 de febrero",
+        "finishDate": "19 de febrero",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717876972/83239c0a-50e5-44c5-bbb2-bea8292543e4_uuxxw2.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717877244/248218723_1_wmpk5r.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717877102/1_punta_cana_feature_8e69aed5-e55d-401f-b88f-916c64002fe8_1_pxk9gz.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717877241/occidental-caribe_1_ekqn5o.jpg"
+        ],
+        "description": "¡Prepárate para un verano inolvidable en Punta Cana con nuestro paquete especial! Salida el 12 de febrero desde Mendoza con vuelos que incluyen equipaje de mano. Disfruta de 7 noches en el lujoso Occidental Caribe Resort, donde podrás relajarte y disfrutar de todas las comodidades con un régimen de todo incluido. Además, te ofrecemos traslados de llegada y salida para que tu viaje sea completamente libre de preocupaciones. No pierdas la oportunidad de disfrutar de las paradisíacas playas de Punta Cana este verano. ¡Reserva ahora y prepárate para unas vacaciones de ensueño!",
+        "persons": "2",
+        "nights": 7,
+        "circuits": 0,
+        "lodgings": 1
+    }, 
+    {
+        "id": 37,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1717881343/cover_1018954237_d.jpg.image.1296.974.high_usujdg.jpg",
+        "title": "Buzios",
+        "country": "Brasil",
+        "initialDate": "1 de noviembre 2024",
+        "finishDate": "8 de noviembre 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717881343/cover_1018954237_d.jpg.image.1296.974.high_usujdg.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717881431/2c53a638-city-41847-17b1a7d5f2c_1_idirku.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717881539/buzios-peninsula_1_wcdqfi.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717881603/vila-d-este_1_peqpfs.jpg"
+        ],
+        "description": "¡Disfruta de unas vacaciones inolvidables en Buzios con salida el 1 de noviembre! El paquete incluye aéreos desde Mendoza con Aerolíneas Argentinas, 7 noches de alojamiento en la encantadora Posadas Buzios Colina, y traslados de llegada y salida (IN/OUT). Relájate y disfruta de las hermosas playas y la vibrante cultura de Buzios sin preocuparte por nada. ¡Reserva ahora y prepárate para vivir una experiencia increíble en este paraíso brasileño!",
+        "persons": "2",
+        "nights": 7,
+        "circuits": 0,
+        "lodgings": 1
+    },
+    {
+        "id": 38,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1717882244/adz-cover_1_ytzrcs.jpg",
+        "title": "San Andrés",
+        "country": "Colombia",
+        "initialDate": "3 de septiembre 2024",
+        "finishDate": "10 de septiembre 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717881976/BNF76KAQN5F5VLGKKWGDWDJZZQ_j2phv0.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717882018/ecc404e8-9a99-46b0-a56a-ead992b5166e_noutwb.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717882052/5cc13b62-c0dc-4143-b3e0-a895752c280e_dcguuw.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717882198/pool--v17238890_1_oakz0e.jpg"
+        ],
+        "description": "¡Prepárate para unas vacaciones de ensueño en San Andrés con salida el 3 de septiembre! Disfruta de aéreos desde Mendoza con Copa Airlines y 7 noches de alojamiento en el Hotel Calypso Beach, ubicado frente al mar. El paquete incluye media pensión para que puedas disfrutar de deliciosas comidas durante tu estancia. No te pierdas la oportunidad de relajarte en las hermosas playas de San Andrés y disfrutar de todas las comodidades que ofrece este maravilloso destino. ¡Reserva ahora y vive una experiencia inolvidable!",
+        "persons": "2",
+        "nights": 7,
+        "circuits": 0,
+        "lodgings": 1
+    },  
+    {
+        "id": 39,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1717882244/adz-cover_1_ytzrcs.jpg",
+        "title": "San Andrés",
+        "country": "Colombia",
+        "initialDate": "8 de noviembre 2024",
+        "finishDate": "15 de noviembre 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717882018/ecc404e8-9a99-46b0-a56a-ead992b5166e_noutwb.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717882602/487470359_1_dd5iyw.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717882052/5cc13b62-c0dc-4143-b3e0-a895752c280e_dcguuw.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717881976/BNF76KAQN5F5VLGKKWGDWDJZZQ_j2phv0.jpg"
+        ],
+        "description": "¡Prepárate para una emocionante aventura en San Andrés, Colombia! Disfruta de aéreos desde Mendoza con Copa Airlines y 7 noches de alojamiento en el Hotel Las Américas, donde te esperan comodidades y una cálida hospitalidad. Además, cada mañana podrás empezar el día con energía gracias al desayuno incluido. Sumérgete en las cristalinas aguas del Caribe, explora la belleza natural de la isla y descubre su rica cultura. ¡Reserva ahora y prepárate para vivir momentos inolvidables en San Andrés!",
+        "persons": "2",
+        "nights": 7,
+        "circuits": 0,
+        "lodgings": 1
+    },
+    {
+        "id": 40,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1717883061/1de5a031-2196-4c2f-aecd-bed7ff099de6_t0je31.jpg",
+        "title": "Aruba",
+        "country": "Aruba",
+        "initialDate": "22 de octubre 2024",
+        "finishDate": "30 de octubre 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717882924/cabanas-aerial_1_e5xwp1.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717882958/105455652_ef2opi.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717883002/8c08d86e-city-46628-165f8736ba3_1_rwebvs.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717883030/aruba_1_sxrtbp.jpg"
+        ],
+        "description": "¡Prepárate para una escapada inolvidable a Aruba con nuestra oferta especial! Salida el 22 de octubre desde Mendoza con vuelos convenientes de Copa Airlines. Disfruta de 8 noches de alojamiento en la encantadora Posada The Coconut Inn, donde te espera una cálida hospitalidad y un delicioso desayuno todas las mañanas. Además, te ofrecemos traslados de llegada y salida para que tu viaje sea completamente libre de preocupaciones. Sumérgete en las aguas cristalinas del Caribe, relájate en las playas de arena blanca y explora los encantos de esta hermosa isla. ¡Reserva ahora y prepárate para vivir una experiencia inolvidable en Aruba!",
+        "persons": "2",
+        "nights": 8,
+        "circuits": 0,
+        "lodgings": 1
+    },   
+    {
+        "id": 41,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1717883061/1de5a031-2196-4c2f-aecd-bed7ff099de6_t0je31.jpg",
+        "title": "Aruba",
+        "country": "Aruba",
+        "initialDate": "22 de octubre 2024",
+        "finishDate": "30 de octubre 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717882958/105455652_ef2opi.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717882924/cabanas-aerial_1_e5xwp1.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717883002/8c08d86e-city-46628-165f8736ba3_1_rwebvs.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717883030/aruba_1_sxrtbp.jpg"
+        ],
+        "description": "¡Prepárate para una emocionante aventura en Aruba con nuestra oferta especial! Salida el 22 de octubre desde Mendoza con cómodos vuelos de Copa Airlines. Disfruta de 8 noches de alojamiento en la encantadora Posada Sandra Tours, donde te espera una experiencia acogedora y auténtica. Además, te ofrecemos traslados de llegada y salida para que tu viaje sea completamente libre de preocupaciones. Sumérgete en las aguas cristalinas, explora la vibrante cultura local y relájate en las playas de arena blanca de esta hermosa isla caribeña. ¡Reserva ahora y prepárate para vivir momentos inolvidables en Aruba!",
+        "persons": "2",
+        "nights": 8,
+        "circuits": 0,
+        "lodgings": 1
+    } 
 ]
