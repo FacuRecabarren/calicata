@@ -352,5 +352,85 @@
         "nights": 8,
         "circuits": 0,
         "lodgings": 1
-    }      
+    },
+    {
+        "id": 32,
+        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1718390144/Agencia%20viajes/vg-sun-by-vila-gale_llwgwc.jpg",
+        "title": "VACACIONES DE INVIERNO",
+        "country": "Cumbuco - Brasil",
+        "initialDate": "13 de julio 2024",
+        "finishDate": "julio 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1718390144/Agencia%20viajes/vg-sun-by-vila-gale_llwgwc.jpg",
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1718390150/Agencia%20viajes/vila-gale-cumbuco-1.jpg_raewyu.webp",
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1718390152/Agencia%20viajes/378x200_ix6od1.webp",
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1718390154/Agencia%20viajes/wdx8yi4fuoslwz712w3t_zs6jua.jpg"
+        ],
+        "description": "Aéreos desde Buenos Aires. 7 noches en Hotel Vila Gale Resort Cumbuco 5*. All inclusive. Traslados in/ou. Asistencia al viajero",
+        "price": 1384,
+        "persons": "2",
+        "nights": 7,
+        "circuits": 0,
+        "lodgings": 1
+    },
+    {
+        "id": 33,
+        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1718390429/Agencia%20viajes/be6fefd0-16c5-4af6-81e1-b2fc1b8c6105_dgmbvl.webp",
+        "title": "VACACIONES DE INVIERNO",
+        "country": "Maragogi - Brasil",
+        "initialDate": "13 de julio 2024",
+        "finishDate": "julio 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1718390429/Agencia%20viajes/be6fefd0-16c5-4af6-81e1-b2fc1b8c6105_dgmbvl.webp",
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1718390430/Agencia%20viajes/maragogi_ubmg1a.jpg",
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1718390433/Agencia%20viajes/images_ysrngk.jpg",
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1718390436/Agencia%20viajes/images_jei1uj.jpg"
+        ],
+        "description": "Aéreos desde Buenos Aires. 7 noches en Maragogi Exclusive Hotel 4*. Media pensión. Traslados in/ou. Asistencia al viajero",
+        "price": 1384,
+        "persons": "2",
+        "nights": 7,
+        "circuits": 0,
+        "lodgings": 1
+    },
+    {
+        "id": 34,
+        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1718390568/Agencia%20viajes/porto-de-galinhas-praia-da-vila-16x9-3.jpg_zg1uy7.webp",
+        "title": "VACACIONES DE INVIERNO",
+        "country": "Porto de Galinhas - Brasil",
+        "initialDate": "13 de julio 2024",
+        "finishDate": "julio 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1718390568/Agencia%20viajes/porto-de-galinhas-praia-da-vila-16x9-3.jpg_zg1uy7.webp",
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1718390571/Agencia%20viajes/images_psrlcx.jpg",
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1718390576/Agencia%20viajes/images_zijqsl.jpg",
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1718390578/Agencia%20viajes/images_r2d4mc.jpg"
+        ],
+        "description": "Aéreos desde Buenos Aires. 7 noches en Pusada Tabapitanga 4*. Desayuno. Traslados in/ou. Asistencia al viajero",
+        "price": 1384,
+        "persons": "2",
+        "nights": 7,
+        "circuits": 0,
+        "lodgings": 1
+    },
+    {
+        "id": 35,
+        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1718390714/Agencia%20viajes/77767-Fortaleza-And-Vicinity_exqelp.avif",
+        "title": "VACACIONES DE INVIERNO",
+        "country": "Fortaleza - Brasil",
+        "initialDate": "13 de julio 2024",
+        "finishDate": "julio 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1718390714/Agencia%20viajes/77767-Fortaleza-And-Vicinity_exqelp.avif",
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1718390720/Agencia%20viajes/images_ppqmmf.jpg",
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1718390725/Agencia%20viajes/istockphoto-1420724670-170667a_lyxqpt.webp",
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1718390736/Agencia%20viajes/images_juvc77.jpg"
+        ],
+        "description": "Aéreos desde Buenos Aires. 7 noches en Seara Praia 4*. Desayuno. Traslados in/ou. Asistencia al viajero",
+        "price": 1384,
+        "persons": "2",
+        "nights": 7,
+        "circuits": 0,
+        "lodgings": 1
+    }           
 ]
