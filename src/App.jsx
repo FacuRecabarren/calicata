@@ -19,6 +19,7 @@ import Tenis from "./views/Eventos/Tenis/Tenis"
 import DetailTenis from "./views/Eventos/Tenis/DetailTenis/DetailTenis"
 import Eventos2 from "./views/Eventos2/Eventos2"
 import DetailEventos2 from "./views/Eventos2/DetailEventos2/DetailEventos2"
+import TravelAr from "./views/Travel/ViajesArgentina/ViajesAr"
 
 function App() {
 
@@ -29,15 +30,16 @@ function App() {
       <Routes>
         <Route element={<Layout/>}>
           <Route path='/' element={<Home/>}/>
-          <Route path='/travel' element={<Travel/>}/>
+          <Route path='/travel2024' element={<Travel/>}/>
           <Route path='/travel/world' element={<Viajes/>}/>
           <Route path='/travel/world/:id' element={<DetailViajes/>} />
-          <Route path='/travel/argentina' element={<ViajesArgentina/>} />
-          <Route path='/travel/argentina/:id' element={<ViajesArgentinaDetail/>} />
+          <Route path='/argentina/travelargentina' element={<ViajesArgentina/>} />
+          <Route path='/argentina/travelargentina/:id' element={<ViajesArgentinaDetail/>} />
           <Route path='/recitals' element={<Eventos2/>} />
           <Route path='/recitals/:id' element={<DetailEventos2/>} />
-          <Route path='/mendoza' element={<Mendoza/>}/>
-          <Route path='/mendoza/:id' element={<DetailMendoza/>} />
+          <Route path='/argentina' element={<TravelAr/>} />
+          <Route path='/argentina/mendoza' element={<Mendoza/>}/>
+          <Route path='/argentina/mendoza/:id' element={<DetailMendoza/>} />
           <Route path='/sports' element={<Eventos/>}/>
           <Route path='/sports/formula1' element={<Formula1/>}/>
           <Route path='/sports/formula1/:id' element={<DetailFormula1/>} />
