@@ -20,6 +20,8 @@ import DetailTenis from "./views/Eventos/Tenis/DetailTenis/DetailTenis"
 import Eventos2 from "./views/Eventos2/Eventos2"
 import DetailEventos2 from "./views/Eventos2/DetailEventos2/DetailEventos2"
 import TravelAr from "./views/Travel/ViajesArgentina/ViajesAr"
+import Summer from "./views/Summer2024/Summer"
+import SummerDetail from "./views/Summer2024/SummerDetail"
 
 function App() {
 
@@ -30,7 +32,8 @@ function App() {
       <Routes>
         <Route element={<Layout/>}>
           <Route path='/' element={<Home/>}/>
-          <Route path='/travel2024' element={<Travel/>}/>
+          <Route path='/summer' element={<Summer/>}/>
+          <Route path='/summer/:id' element={<SummerDetail/>}/>
           <Route path='/travel/world' element={<Viajes/>}/>
           <Route path='/travel/world/:id' element={<DetailViajes/>} />
           <Route path='/argentina/travelargentina' element={<ViajesArgentina/>} />

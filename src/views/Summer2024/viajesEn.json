@@ -1,0 +1,159 @@
+[
+    {
+        "id": 7,
+        "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710448542/san-andres-is-a-colombian-coral-island-in-the-caribbean-sea-desktop-hd-wallpaper-2560_1440-wallpaper-preview_dughmo.jpg",
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710448542/san-andres-is-a-colombian-coral-island-in-the-caribbean-sea-desktop-hd-wallpaper-2560_1440-wallpaper-preview_dughmo.jpg",
+        "title": "San Andrés",
+        "country": "Hotel Ataraxy Boutique",
+        "initialDate": "November 7, 2024",
+        "finishDate": "November 14, 2024",
+        "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1710448136/ecc404e8-9a99-46b0-a56a-ead992b5166e_fpfpjs.webp","https://res.cloudinary.com/dfschbyq2/image/upload/v1710448090/BNF76KAQN5F5VLGKKWGDWDJZZQ_eighyt.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1710448209/ataraxy-hotel-boutique_k9bmag.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1710448259/ataraxy-hotel-boutique_1_hqcbry.jpg"],
+        "description": "Discover the unique beauty of San Andrés with our exciting 7-night tour package. Departing on November 7, 2024 from Mendoza with Copa Airlines, you will embark on an unforgettable experience in this Caribbean paradise. During your stay, you will be hosted at the exclusive Ataraxy Boutique Hotel, where each day will begin with a delicious included breakfast to prepare you for your adventures on the island. In addition, we offer traveler assistance to guarantee your peace of mind throughout the trip. Dive into the crystal clear waters, explore the vibrant coral reefs and relax on the white sand beaches while you delight in the stunning views and warm hospitality of San Andrés. Get ready to live an unforgettable experience in this paradise destination in the Caribbean!",
+        "price": 2600,
+        "persons": "2",
+        "nights": 7,
+        "circuits": 0,
+        "lodgings": 1
+    },
+    {
+        "id": 13,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
+        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1713226863/Agencia%20viajes/Golden-Temple-Amritsar_fl30wg.jpg",
+        "title": "Golden Temple and Maldives",
+        "country": "Golden Temple and Maldives",
+        "initialDate": "December 27, 2024",
+        "finishDate": "January 19, 2025",
+        "galleryImages": ["https://res.cloudinary.com/dreso9ye9/image/upload/v1713226863/Agencia%20viajes/Golden-Temple-Amritsar_fl30wg.jpg","https://res.cloudinary.com/dreso9ye9/image/upload/v1713226879/Agencia%20viajes/Harmandir_Sahib_2015_copy_nbgh1h.jpg","https://res.cloudinary.com/dreso9ye9/image/upload/v1713226892/Agencia%20viajes/Aerial-3_SOMaldivesjpg-1200x1400-1_oxijqj.webp","https://res.cloudinary.com/dreso9ye9/image/upload/v1713226894/Agencia%20viajes/caption_krjovc.jpg"],
+        "description": "Airfare flying with Emirates BUE/DEL/MLE/BUE in economy class. Visiting Delhi, Amritsar, Agra, Jaipur, Udaipur, Varanasi, Mumbai, and Maldives. Accommodation in superior 4-star hotels with breakfasts, 2 lunches, and All Inclusive in Maldives. Transfers with Spanish-speaking guide and internal air tickets.",
+        "price": 16820,
+        "persons": "2",
+        "nights": 22
+    },
+    {
+        "id": 25,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1713887348/i758qq3m_1200x0__1_1_hqpeu8.jpg",
+        "title": "Cruise through Uruguay",
+        "country": "Uruguay",
+        "initialDate": "December 2024",
+        "finishDate": "December 2024",
+        "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1713887042/costa-favolosa-0yqw25yd59c8nakpnxn3gh3hx8_1_hhylpg.webp","https://res.cloudinary.com/dfschbyq2/image/upload/v1713887111/1_HF4lrcrK6DphopNWV1XxIg_1_ndqfui.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1713887194/64776-Montevideo_1_tcwbo4.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1713887250/r188RH07x_1200x0_1_sc2fum.jpg"],
+        "description": "Embark on a unique adventure with the Costa Favolosa Cruise through Uruguay! Enjoy a 3 or 4-night mini cruise with departures available on December 6, 10, 13, and 17. With the purchase of your cruise, we give you the drinks so you can fully enjoy your experience! Explore the wonders of Uruguay from the comfort and luxury of the Costa Favolosa. With rates subject to availability at the time of confirming the reservation, secure your spot on this exciting journey. Additionally, please note that additional taxes, approximately 123 USD, will apply to ensure a worry-free experience. Don't miss the opportunity to discover the beauty of Uruguay as you sail along its coasts. Book now and get ready for an unforgettable experience aboard the Costa Favolosa Cruise!",
+        "price": 460,
+        "persons": "2",
+        "nights": 4,
+        "circuits": 0,
+        "lodgings": 1
+    },
+    {
+        "id": 26,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1712014101/-CantoiStock-975466162-RFC_ex0hjf.avif",
+        "title": "Cruise through Brazil",
+        "country": "Brazil",
+        "initialDate": "January / February / March 2025",
+        "finishDate": "January / February / March 2025",
+        "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1713887042/costa-favolosa-0yqw25yd59c8nakpnxn3gh3hx8_1_hhylpg.webp","https://res.cloudinary.com/dfschbyq2/image/upload/v1712867384/rio-de-janeiro-panorama_YuJas-Shutterstock_1.jpg.image.1296.974.high_cad92y.webp","https://res.cloudinary.com/dfschbyq2/image/upload/v1712867443/rio-de-janeiro-RIOTG0721-c59c5e2f3a354e798587d5ef925b23e3_b0qohi.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1713889232/brasil-2-e1574647469126_1_kytdab.jpg"],
+        "description": "Embark on an exciting adventure with the Costa Favolosa Cruise through Brazil! Enjoy a mini cruise with departures available on January 5 and 13, as well as on January 21 and 29, February 6 and 22, and March 2, 10, and 18. With the purchase of your cruise, we give you the drinks so you can fully enjoy your experience! Explore the wonders of Brazil from the comfort and luxury of the Costa Favolosa. With rates subject to availability at the time of confirming the reservation, secure your spot on this exciting journey. Additionally, please note that additional taxes, approximately 306 USD, will apply to ensure a worry-free experience. Don't miss the opportunity to discover the beauty of Brazil as you sail along its spectacular coasts. Book now and get ready to live unforgettable moments aboard the Costa Favolosa Cruise!",
+        "price": 1384,
+        "persons": "2",
+        "nights": 4,
+        "circuits": 0,
+        "lodgings": 1
+    },
+    {
+        "id": 28,
+        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1717550270/Agencia%20viajes/2c53a638-city-41847-17b1a7d5f2c_krvnm9.jpg",
+        "title": "Buzios presale",
+        "country": "Buzios",
+        "initialDate": "January 4, 2025",
+        "finishDate": "enero 2025",
+        "galleryImages": [
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1717550273/Agencia%20viajes/excursion-buzios-589x392_t2d0r0.avif",
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1717550282/Agencia%20viajes/DSC_7702_stitch-001_lizaae.webp",
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1717550284/Agencia%20viajes/450519687_vdoens.jpg",
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1717550270/Agencia%20viajes/2c53a638-city-41847-17b1a7d5f2c_krvnm9.jpg"
+        ],
+        "description": "Air from Mendoza with Carryon. Transfers in/out. Hotel subject to availability. Breakfast",
+        "price": 1384,
+        "persons": "2",
+        "nights": 8,
+        "circuits": 0,
+        "lodgings": 1
+    },
+    {
+        "id": 31,
+        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709775098/michael-discenza-5omwdasdAMDxmkU-unsplash_1_ojonhf.webp",
+        "title": "Turquía",
+        "country": "Estambul, Anakara, Lago Salado, Capadocia, Pamukkale, Éfeso, Kusadasi/Izmir and Bursa",
+        "initialDate": "April 2024",
+        "finishDate": "March 2025",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1710450090/4k-sultan-ahmed-mosque-istanbul-turkey-wallpaper-preview_rbbep7.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1710449456/4b75b-portada_capadocia_l4mlzz.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1710450205/925436_lnk4ao.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1710450284/pamukkale-turkey-wallpaper-preview_vieanx.jpg"
+        ],
+        "description": "Transfers in/out. Tourist bus tour with English speaking guides. 4 nights accommodation in Istanbul with breakfast. 4 nights accommodation during the Anatolia tour with half board. Activities at destination according to itinerary. Entrance fees to museums. 4 meals during the tour in Turkey.",
+        "price": 1384,
+        "persons": "2",
+        "nights": 8,
+        "circuits": 0,
+        "lodgings": 1
+    },
+    {
+        "id": 36,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1717877425/Punta-Cana-Scuba-Diving-Dressel-Divers-e1693493993944_1_b0gwhi.jpg",
+        "title": "Punta Cana Summer Special",
+        "country": "Punta Cana",
+        "initialDate": "February 12",
+        "finishDate": "February 19",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717876972/83239c0a-50e5-44c5-bbb2-bea8292543e4_uuxxw2.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717877244/248218723_1_wmpk5r.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717877102/1_punta_cana_feature_8e69aed5-e55d-401f-b88f-916c64002fe8_1_pxk9gz.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717877241/occidental-caribe_1_ekqn5o.jpg"
+        ],
+        "description": "Get ready for an unforgettable summer in Punta Cana with our special package! Departure on February 12 from Mendoza with flights including carry-on luggage. Enjoy 7 nights at the luxurious Occidental Caribe Resort, where you can relax and enjoy all the amenities with an all-inclusive plan. Additionally, we offer arrival and departure transfers to ensure your trip is completely worry-free. Don't miss the chance to enjoy the paradisiacal beaches of Punta Cana this summer. Book now and get ready for a dream vacation!",
+        "persons": "2",
+        "nights": 7,
+        "circuits": 0,
+        "lodgings": 1
+    },
+    {
+        "id": 40,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1717883061/1de5a031-2196-4c2f-aecd-bed7ff099de6_t0je31.jpg",
+        "title": "Aruba",
+        "country": "Aruba",
+        "initialDate": "October 22, 2024",
+        "finishDate": "October 30, 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717882924/cabanas-aerial_1_e5xwp1.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717882924/cabanas-aerial_1_e5xwp1.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717883002/8c08d86e-city-46628-165f8736ba3_1_rwebvs.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717883030/aruba_1_sxrtbp.jpg"
+        ],
+        "description": "Get ready for an unforgettable getaway to Aruba with our special offer! Departure on October 22 from Mendoza with convenient flights from Copa Airlines. Enjoy 8 nights of accommodation at the charming Posada The Coconut Inn, where warm hospitality and a delicious breakfast await you every morning. Additionally, we offer arrival and departure transfers to ensure your trip is completely worry-free. Immerse yourself in the crystal-clear waters of the Caribbean, relax on the white sandy beaches, and explore the charms of this beautiful island. Book now and get ready for an unforgettable experience in Aruba!",
+        "persons": "2",
+        "nights": 8,
+        "circuits": 0,
+        "lodgings": 1
+    },
+    {
+        "id": 41,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1717883061/1de5a031-2196-4c2f-aecd-bed7ff099de6_t0je31.jpg",
+        "title": "Aruba",
+        "country": "Aruba",
+        "initialDate": "October 22, 2024",
+        "finishDate": "October 30, 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717882958/105455652_ef2opi.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717882924/cabanas-aerial_1_e5xwp1.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717883002/8c08d86e-city-46628-165f8736ba3_1_rwebvs.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1717883030/aruba_1_sxrtbp.jpg"
+        ],
+        "description": "Get ready for an exciting adventure in Aruba with our special offer! Departure on October 22 from Mendoza with convenient flights from Copa Airlines. Enjoy 8 nights of accommodation at the charming Posada Sandra Tours, where a cozy and authentic experience awaits you. Additionally, we offer arrival and departure transfers to ensure your trip is completely worry-free. Immerse yourself in the crystal-clear waters, explore the vibrant local culture, and relax on the white sandy beaches of this beautiful Caribbean island. Book now and prepare to create unforgettable memories in Aruba!",
+        "persons": "2",
+        "nights": 8,
+        "circuits": 0,
+        "lodgings": 1
+    }
+]

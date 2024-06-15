@@ -21,7 +21,7 @@ const Services = () => {
           <div className="transform hover:scale-[1.02] duration-300 rounded-xl h-[30rem] z-10 flex flex-col justify-center items-center gap-4 w-full bg-[url('https://res.cloudinary.com/dfschbyq2/image/upload/v1718400887/pedro-monteiro-HfIex7qwTlI-unsplash_2_lojunb.jpg')] bg-cover bg-center">
             <div className='w-full h-full flex flex-col items-center justify-between'>
               <p className="text-xl sm:text-2xl text-white font-bold text-center w-full bg-[#218B7D] py-2 rounded-t-xl shadow-xl">{t("summer")}</p>
-              <a href="/travel2024" className="text-md sm:text-xl flex justify-center items-center gap-2 bg-[#218B7D] absolute bottom-0 py-4 px-8 font-bold rounded-t-xl text-white hover:text-white hover:bg-opacity-50 border-4 border-[#218B7D] duration-500">{t("packages1")}</a>
+              <a href="/summer" className="text-md sm:text-xl flex justify-center items-center gap-2 bg-[#218B7D] absolute bottom-0 py-4 px-8 font-bold rounded-t-xl text-white hover:text-white hover:bg-opacity-50 border-4 border-[#218B7D] duration-500">{t("packages1")}</a>
             </div>
           </div>
           <div className="transform hover:scale-[1.02] duration-300 rounded-xl h-[30rem] z-10 flex flex-col justify-center items-center gap-4 w-full bg-[url('https://res.cloudinary.com/dreso9ye9/image/upload/v1709915165/premium_photo-1661963952208-2db3512ef3de_vtsp8w.webp')] bg-cover bg-center">

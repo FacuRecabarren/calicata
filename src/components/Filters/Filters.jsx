@@ -69,24 +69,6 @@ const Filters = ({ onFilterChange, countries, filters, setFilters }) => {
         </div>
         <input className='mr-2 cursor-pointer' type="checkbox" id="moreThanOneLodgings" onChange={(e) => handleInputChange(e, 'moreThanOneLodgings')} checked={filters.moreThanOneLodgings} />
       </article>
-      <article className='w-[15rem] flex justify-between items-center lg:w-full border-2 border-[#218B7D] rounded-r-xl'>
-        <div className='flex justify-center items-center gap-2'>
-          <div className='p-2 bg-[#218B7D] text-white'>
-            <TbPigMoney className='text-xl'/>
-          </div>
-          <label htmlFor="lessThan1500" className='opacity-80 font-medium text-sm font-lora italic'>{t("lessThan")} $1500</label>
-        </div>
-        <input className='mr-2 cursor-pointer' type="checkbox" id="lessThan1500" onChange={(e) => handleInputChange(e, 'lessThan1500')} checked={filters.lessThan1500} />
-      </article>
-      <article className='w-[15rem] flex justify-between items-center lg:w-full border-2 border-[#218B7D] rounded-r-xl'>
-        <div className='flex justify-center items-center gap-2'>
-          <div className='p-2 bg-[#218B7D] text-white'>
-            <TbPigMoney className='text-xl'/>
-          </div>
-          <label htmlFor="moreThan1500" className='opacity-80 font-medium text-sm font-lora italic'>{t("moreThan")} $1500</label>
-        </div>
-        <input className='mr-2 cursor-pointer' type="checkbox" id="moreThan1500" onChange={(e) => handleInputChange(e, 'moreThan1500')} checked={filters.moreThan1500} />
-      </article>
     </div>
   );
 };
