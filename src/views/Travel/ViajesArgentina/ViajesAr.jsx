@@ -7,12 +7,10 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
-import { MdOutlineSportsSoccer } from "react-icons/md";
-import { GiRaceCar } from "react-icons/gi";
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { GiMountains } from "react-icons/gi";
-import { BiWorld } from "react-icons/bi";
+
 
 const TravelAr = () => {
 

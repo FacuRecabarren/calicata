@@ -2,14 +2,16 @@ import { useEffect, useState } from 'react';
 import { FaRegMoon } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import Filters from '@/components/Filters/Filters';
+import Pagination from '@/components/Pagination/Pagination';
 import { IoBedOutline } from 'react-icons/io5';
 import { useTranslation } from 'react-i18next';
 
 const Summer = () => {
 
     const { t, i18n } = useTranslation();
-  
     const [paquetesData, setPaquetesData] = useState([]);
+    const [currentPage, setCurrentPage] = useState(1);
+    const [destinationsPerPage] = useState(10);
   
     useEffect(() => {
       const loadPaquetesData = async () => {
@@ -60,6 +62,13 @@ const Summer = () => {
         (!filters.moreThan1500 || paquete.price >= 1500)
       );
     });
+
+  const indexOfLastDestination = currentPage * destinationsPerPage;
+  const indexOfFirstDestination = indexOfLastDestination - destinationsPerPage;
+  const currentDestinations = filteredPaquetes.slice(indexOfFirstDestination, indexOfLastDestination);
+
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+
 
     return (
       <div className='bg-[#f2f2f2]'>
@@ -115,6 +124,12 @@ const Summer = () => {
                 </Link>
               ))
             )}
+            <Pagination
+            destinationsPerPage={destinationsPerPage}
+            totalDestinations={filteredPaquetes.length}
+            paginate={paginate}
+            currentPage={currentPage}
+          />
           </section>
         </div>
       </div>

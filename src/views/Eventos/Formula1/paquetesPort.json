@@ -1,27 +1,5 @@
 [
       {
-        "id": 3,
-        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
-        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710115041/montecadasdrlo-monaco_yem700.webp",
-        "title": "Grande Prêmio F1 Mônaco",
-        "country": "Niza",
-        "initialDate": "maio de 2024",
-        "finishDate": "maio de 2024",
-        "galleryImages": [
-          "https://res.cloudinary.com/dfschbyq2/image/upload/v1711335860/desktop-wallpaper-monaco-2022-f1-f1_k4zcou.jpg",
-          "https://res.cloudinary.com/dfschbyq2/image/upload/v1711335967/fairmont-hairpin-the-worlds-most-famous-bend-monte-carlo-free-photo-2210x1473_xylmvc.jpg",
-          "https://res.cloudinary.com/dfschbyq2/image/upload/v1711335992/4d1c5e9abc1f932eba88f5db888f5ad8_zufan0.jpg",
-          "https://res.cloudinary.com/dfschbyq2/image/upload/v1711336018/wallpapersden.com_monaco-at-night_3840x2160_xeoi5e.jpg"
-        ],
-        "description": "Viva o glamour e a emoção do Grande Prêmio F1 em Mônaco com nosso exclusivo pacote de 3 noites! De 24 a 27 de maio, mergulhe na atmosfera única desta corrida lendária enquanto se hospeda em um hotel aconchegante de 3 estrelas com acomodação e café da manhã incluídos. Com nosso ingresso de Categoria Setor Rocher para os três dias, você terá acesso privilegiado a uma das áreas mais emocionantes do circuito, permitindo que você desfrute das corridas de uma perspectiva única e vibrante. Desde as sextas-feiras de treinos até a emoção da corrida no domingo, cada momento será uma experiência inesquecível. Não perca a oportunidade de fazer parte da história no Grande Prêmio F1 Mônaco conosco!",
-        "price": 1075,
-        "totalPrice": 2150,
-        "persons": "2",
-        "nights": 3,
-        "circuits": 1,
-        "lodgings": 1
-      },
-      {
         "id": 4,
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
         "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710115273/Spain-Barcelona-roads-tower-architecturedasd-city_1920x1080_wwczlt.webp",

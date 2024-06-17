@@ -5,12 +5,15 @@ import { IoBedOutline } from 'react-icons/io5';
 import { WiDaySunny } from "react-icons/wi";
 import { useTranslation } from 'react-i18next';
 import FilterArgentina from '@/components/Filters/FilterArgentina';
+import Pagination from '@/components/Pagination/Pagination';
+
 
 const ViajesArgentina = () => {
 
   const { t, i18n } = useTranslation();
-
   const [paquetesData, setPaquetesData] = useState([]);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [destinationsPerPage] = useState(10);
 
   useEffect(() => {
     const loadPaquetesData = async () => {
@@ -62,6 +65,12 @@ const ViajesArgentina = () => {
     );
   });
 
+  const indexOfLastDestination = currentPage * destinationsPerPage;
+  const indexOfFirstDestination = indexOfLastDestination - destinationsPerPage;
+  const currentDestinations = filteredPaquetes.slice(indexOfFirstDestination, indexOfLastDestination);
+
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+
   return (
     <div className='bg-[#f2f2f2]'>
       <div className='relative'>
@@ -72,13 +81,13 @@ const ViajesArgentina = () => {
       <div className='py-20 px-10 h-full w-full flex flex-col lg:flex lg:flex-row justify-center items-start gap-10'>
         <FilterArgentina onFilterChange={handleFilterChange} countries={countries} filters={filters} setFilters={setFilters}/>
         <section className='h-full lg:w-[50rem] w-full flex flex-col justify-center items-center gap-10'>
-          {filteredPaquetes.length === 0 ? (
+          {currentDestinations.length === 0 ? (
             <div className='flex flex-col justify-center items-center gap-5'>
               <p className='bg-white font-semibold opacity-80 p-2 w-full text-center rounded-xl shadow-xl border-t-8 border-[#FE904D]'>{t("errorFilter")}</p>
               <img loading='lazy' src="https://res.cloudinary.com/dreso9ye9/image/upload/v1709871042/404-page-not-found-monochromatic-32679_db7xv6.svg" alt="" className='w-[25rem]'/>
             </div>
           ) : (
-            filteredPaquetes.map(paquete => (
+            currentDestinations.map(paquete => (
               <Link to={`/travel/argentina/${paquete.id}`} key={paquete.id} className='border-t-8 border-[#FE904D] flex flex-col justify-center items-center w-full lg:flex lg:flex-row lg:justify-start lg:items-center gap-2 bg-white rounded-xl shadow-xl lg:h-[15rem] lg:w-[50rem] hover:scale-[1.01] duration-300'>
                 <div className='w-full h-full lg:w-[40rem]'>
                   <img src={paquete.galleryImages[0]} alt="" className='w-full lg:h-full h-[15rem] rounded-l-lg object-cover'/>
@@ -116,6 +125,12 @@ const ViajesArgentina = () => {
               </Link>
             ))
           )}
+          <Pagination
+            destinationsPerPage={destinationsPerPage}
+            totalDestinations={filteredPaquetes.length}
+            paginate={paginate}
+            currentPage={currentPage}
+          />
         </section>
       </div>
     </div>

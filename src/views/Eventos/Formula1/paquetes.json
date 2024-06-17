@@ -1,22 +1,5 @@
 [
     {
-        "id": 3,
-        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
-        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710115041/montecadasdrlo-monaco_yem700.webp",
-        "title": "Gran Premio F1 Mónaco",
-        "country": "Niza",
-        "initialDate": "mayo 2024",
-        "finishDate": "mayo 2024",
-        "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1711335860/desktop-wallpaper-monaco-2022-f1-f1_k4zcou.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1711335967/fairmont-hairpin-the-worlds-most-famous-bend-monte-carlo-free-photo-2210x1473_xylmvc.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1711335992/4d1c5e9abc1f932eba88f5db888f5ad8_zufan0.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1711336018/wallpapersden.com_monaco-at-night_3840x2160_xeoi5e.jpg"],
-        "description": "¡Vive el glamour y la emoción del Gran Premio F1 en Mónaco con nuestro exclusivo paquete de 3 noches! Del 24 al 27 de mayo, sumérgete en la atmósfera única de esta carrera legendaria mientras te hospedas en un acogedor hotel de 3 estrellas con alojamiento y desayuno incluidos. Con nuestra entrada de Categoría Sector Rocher para los tres días, tendrás acceso privilegiado a una de las zonas más emocionantes del circuito, permitiéndote disfrutar de las carreras desde una perspectiva única y vibrante. Desde los viernes de entrenamientos hasta la emoción de la carrera del domingo, cada momento será una experiencia inolvidable. ¡No te pierdas la oportunidad de ser parte de la historia en el Gran Premio F1 Mónaco con nosotros!",
-        "price": 1075,
-        "totalPrice": 2150,
-        "persons": "2",
-        "nights": 3,
-        "circuits": 1,
-        "lodgings": 1
-    },
-    {
         "id": 4,
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
         "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710115273/Spain-Barcelona-roads-tower-architecturedasd-city_1920x1080_wwczlt.webp",

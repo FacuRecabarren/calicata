@@ -4,7 +4,7 @@
         "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710448542/san-andres-is-a-colombian-coral-island-in-the-caribbean-sea-desktop-hd-wallpaper-2560_1440-wallpaper-preview_dughmo.jpg",
         "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710448542/san-andres-is-a-colombian-coral-island-in-the-caribbean-sea-desktop-hd-wallpaper-2560_1440-wallpaper-preview_dughmo.jpg",
         "title": "San Andrés",
-        "country": "Hotel Ataraxy Boutique",
+        "country": "Colombia",
         "initialDate": "7 de novembro de 2024",
         "finishDate": "14 de novembro de 2024",
         "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1710448136/ecc404e8-9a99-46b0-a56a-ead992b5166e_fpfpjs.webp","https://res.cloudinary.com/dfschbyq2/image/upload/v1710448090/BNF76KAQN5F5VLGKKWGDWDJZZQ_eighyt.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1710448209/ataraxy-hotel-boutique_k9bmag.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1710448259/ataraxy-hotel-boutique_1_hqcbry.jpg"],
@@ -73,26 +73,6 @@
             "https://res.cloudinary.com/dreso9ye9/image/upload/v1717550270/Agencia%20viajes/2c53a638-city-41847-17b1a7d5f2c_krvnm9.jpg"
         ],
         "description": "Passagem aérea de Mendoza com bagagem de mão. Traslados de ida e volta. Hotel sujeito a disponibilidade. Café da manhã",
-        "price": 1384,
-        "persons": "2",
-        "nights": 8,
-        "circuits": 0,
-        "lodgings": 1
-    },
-    {
-        "id": 31,
-        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709775098/michael-discenza-5omwdasdAMDxmkU-unsplash_1_ojonhf.webp",
-        "title": "Turquía",
-        "country": "Estambul, Anakara, Lago Salado, Capadocia, Pamukkale, Éfeso, Kusadasi/Izmir e Bursa",
-        "initialDate": "abril 2024",
-        "finishDate": "Março 2025",
-        "galleryImages": [
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1710450090/4k-sultan-ahmed-mosque-istanbul-turkey-wallpaper-preview_rbbep7.jpg",
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1710449456/4b75b-portada_capadocia_l4mlzz.jpg",
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1710450205/925436_lnk4ao.jpg",
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1710450284/pamukkale-turkey-wallpaper-preview_vieanx.jpg"
-        ],
-        "description": "Traslados de ida e volta. Passeio de ônibus turístico com guias que falam inglês. 4 noites de hospedagem em Istambul com café da manhã. 4 noites de hospedagem durante a excursão à Anatólia com meia pensão. Atividades no destino de acordo com o itinerário. Taxas de entrada em museus. 4 refeições durante a excursão pela Turquia.",
         "price": 1384,
         "persons": "2",
         "nights": 8,
