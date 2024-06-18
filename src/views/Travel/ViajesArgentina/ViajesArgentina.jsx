@@ -76,7 +76,7 @@ const ViajesArgentina = () => {
       <div className='relative'>
         <img loading='lazy' src="https://res.cloudinary.com/dfschbyq2/image/upload/v1711854151/south-america-patagonia-andes-mountains-lake_1535930205_ysx7yr.jpg" alt="" className='h-[25rem] w-full object-cover object-center '/>
         <h1 className='m-0 text-center w-full py-2 px-4 text-white font-bold text-2xl sm:text-3xl shadow-xl bg-[#000000] bg-opacity-80 absolute bottom-0'>ARGENTINA</h1>
-        <p className='hidden lg:block absolute bottom-3 left-10 text-[#FCCC71] text-xl cursor-default uppercase'><Link to="/" className='z-50 text-white hover:text-[#bcbec7] duration-300 hover:underline'>{t("home")}</Link> / <Link to="/travel" className='z-50 text-white hover:text-[#bcbec7] duration-300 hover:underline'>{t("travel")}</Link> / Argentina</p>
+        <p className='hidden lg:block absolute bottom-3 left-10 text-[#FCCC71] text-xl cursor-default uppercase'><Link to="/" className='z-50 text-white hover:text-[#bcbec7] duration-300 hover:underline'>{t("home")}</Link> / Argentina</p>
       </div>
       <div className='py-20 px-10 h-full w-full flex flex-col lg:flex lg:flex-row justify-center items-start gap-10'>
         <FilterArgentina onFilterChange={handleFilterChange} countries={countries} filters={filters} setFilters={setFilters}/>
@@ -88,7 +88,7 @@ const ViajesArgentina = () => {
             </div>
           ) : (
             currentDestinations.map(paquete => (
-              <Link to={`/travel/argentina/${paquete.id}`} key={paquete.id} className='border-t-8 border-[#FE904D] flex flex-col justify-center items-center w-full lg:flex lg:flex-row lg:justify-start lg:items-center gap-2 bg-white rounded-xl shadow-xl lg:h-[15rem] lg:w-[50rem] hover:scale-[1.01] duration-300'>
+              <Link to={`/argentina/travelargentina/${paquete.id}`} key={paquete.id} className='border-t-8 border-[#FE904D] flex flex-col justify-center items-center w-full lg:flex lg:flex-row lg:justify-start lg:items-center gap-2 bg-white rounded-xl shadow-xl lg:h-[15rem] lg:w-[50rem] hover:scale-[1.01] duration-300'>
                 <div className='w-full h-full lg:w-[40rem]'>
                   <img src={paquete.galleryImages[0]} alt="" className='w-full lg:h-full h-[15rem] rounded-l-lg object-cover'/>
                 </div>
