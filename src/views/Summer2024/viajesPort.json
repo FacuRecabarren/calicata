@@ -1,5 +1,37 @@
 [
     {
+        "id": 9,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1721252294/Agencia%20viajes/38219_zzilre.webp",
+        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1721252294/Agencia%20viajes/38219_zzilre.webp",
+        "title": "Países escandinavos e aurora boreal",
+        "country": "Copenhague, Oslo, Tromsö e Estocolmo",
+        "initialDate": "Julho 2024",
+        "finishDate": "Julho 2024",
+        "galleryImages": ["https://res.cloudinary.com/dreso9ye9/image/upload/v1721252294/Agencia%20viajes/38219_zzilre.webp","https://res.cloudinary.com/dreso9ye9/image/upload/v1721252303/Agencia%20viajes/download_hmhlma.jpg","https://res.cloudinary.com/dreso9ye9/image/upload/v1721252313/Agencia%20viajes/ovyhe2btevu0wky5vnyg_qjeysz.webp","https://res.cloudinary.com/dreso9ye9/image/upload/v1721252316/Agencia%20viajes/que-son-las-auroras-boreales-y-por-que-se-forman_m6ox4s.jpg"],
+        "description": "10 noites de hospedagem com café da manhã. Passeio de ônibus com guia. Traslados de ida e volta. Mini cruzeiro com pernoite a bordo de Copenhague a Oslo. Passagem aérea Oslo-Tromsö-Estocolmo. Trem rápido de Oslo para Estocolmo.",
+        "price": 4169,
+        "persons": "2",
+        "nights": 10,
+        "circuits": 0,
+        "lodgings": 1
+    },
+    {
+        "id": 8,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1721252006/Agencia%20viajes/NE_Natal0157-1-scaled_napfta.jpg",
+        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1721252006/Agencia%20viajes/NE_Natal0157-1-scaled_napfta.jpg",
+        "title": "Natal",
+        "country": "Brasil",
+        "initialDate": "febrero 2025",
+        "finishDate": "febrero 2025",
+        "galleryImages": ["https://res.cloudinary.com/dreso9ye9/image/upload/v1721252006/Agencia%20viajes/NE_Natal0157-1-scaled_napfta.jpg","https://res.cloudinary.com/dreso9ye9/image/upload/v1721252011/Agencia%20viajes/images_l77mzl.jpg","https://res.cloudinary.com/dreso9ye9/image/upload/v1721252012/Agencia%20viajes/images_wcrepy.jpg","https://res.cloudinary.com/dreso9ye9/image/upload/v1721252014/Agencia%20viajes/download_e7fbrc.jpg"],
+        "description": "De Mendoza com bagagem de mão. 9 noites no Aquaria Hotel. Café da manhã",
+        "price": 800,
+        "persons": "2",
+        "nights": 9,
+        "circuits": 0,
+        "lodgings": 1
+    },
+    {
         "id": 7,
         "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710448542/san-andres-is-a-colombian-coral-island-in-the-caribbean-sea-desktop-hd-wallpaper-2560_1440-wallpaper-preview_dughmo.jpg",
         "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710448542/san-andres-is-a-colombian-coral-island-in-the-caribbean-sea-desktop-hd-wallpaper-2560_1440-wallpaper-preview_dughmo.jpg",
