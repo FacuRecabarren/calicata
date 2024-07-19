@@ -1,28 +1,6 @@
 [
       {
-        "id": 4,
-        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
-        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710115273/Spain-Barcelona-roads-tower-architecturedasd-city_1920x1080_wwczlt.webp",
-        "title": "Grande Prêmio F1 Espanha",
-        "country": "Barcelona",
-        "initialDate": "junho de 2024",
-        "finishDate": "junho de 2024",
-        "galleryImages": [
-          "https://res.cloudinary.com/dfschbyq2/image/upload/v1711336647/8wlzbk85wmj81_vkmapf.webp",
-          "https://res.cloudinary.com/dfschbyq2/image/upload/v1711336678/20005-spanish-gp-thursday_lveknj.jpg",
-          "https://res.cloudinary.com/dfschbyq2/image/upload/v1711336861/1000_F_357423443_jOt78ENF8YYRLGj8S48DsfH5Ox5Ns3ZS_glnioz.jpg",
-          "https://res.cloudinary.com/dfschbyq2/image/upload/v1711336813/DgxKN7wVAAYJVE3_jglicq.jpg"
-        ],
-        "description": "Prepare-se para uma experiência única no Grande Prêmio F1 Espanha com nosso irresistível pacote de 3 noites! Delicie-se com a encantadora Barcelona enquanto se hospeda no elegante Hotel Catalonia Gracia de 4 estrelas, onde cada dia começa com um delicioso café da manhã que prepara você para a emoção do circuito. Com nosso ingresso 'PELOUSE', você terá acesso privilegiado ao circuito às sextas, sábados e domingos, permitindo que você desfrute da ação de uma localização excepcional. Além disso, você tem a opção de verificar a disponibilidade em outros setores para maximizar sua experiência! Mergulhe na atmosfera vibrante e na velocidade emocionante do Grande Prêmio F1 Espanha. Reserve agora e garanta seu lugar nesta corrida cheia de emoção!",
-        "price": 1075,
-        "totalPrice": 2150,
-        "persons": "2",
-        "nights": 3,
-        "circuits": 1,
-        "lodgings": 1
-      },
-      {
-        "id": 5,
+        "id": 1,
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
         "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710115681/Budapest-city-Hungary-bridgedasd-cityscape-river-1883845-wallhere.com_utc3ce.webp",
         "title": "Grande Prêmio F1 Hungria",
@@ -44,7 +22,7 @@
         "lodgings": 1
       },
       {
-        "id": 6,
+        "id": 2,
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
         "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711338074/wp3823892_ofpl4l.jpg",
         "title": "Grande Prêmio F1 Monza",
@@ -66,7 +44,7 @@
         "lodgings": 1
       },
       {
-        "id": 7,
+        "id": 3,
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
         "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710116836/mexico-city-wallpaper-9568-10062dasdshd-wallpapers_ieqoab.webp",
         "title": "Grande Prêmio F1 México",
@@ -88,7 +66,7 @@
         "lodgings": 1
       },
       {
-        "id": 8,
+        "id": 4,
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
         "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709690723/raphael-nogueira-0phxdasdsaYpfFHpg-unsplash_nzshqd.jpg",
         "title": "Grande Prêmio F1 São Paulo",
@@ -108,6 +86,66 @@
         "nights": 4,
         "circuits": 1,
         "lodgings": 1
-      }
-      
+      },
+      {
+        "id": 5,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
+        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709690723/raphael-nogueira-0phxdasdsaYpfFHpg-unsplash_nzshqd.jpg",
+        "title": "Brasil: São Paulo Circuito Interlagos",
+        "country": "São Paulo",
+        "initialDate": "1 de novembro de 2024",
+        "finishDate": "4 de novembro de 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270567/brazil-friday4-678662_lqollg.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270652/gran-premio-de-brasil_862x485_jqwpit.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270694/ETjCPrGWC_2000x1500__1_1_b6jimx.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270724/16989969857466_1_kebrcg.jpg"
+        ],
+        "description": "Prepare-se para viver a Fórmula 1 no Brasil em 2024! De 1 a 4 de novembro, desfrute de uma experiência inesquecível no Circuito Interlagos em São Paulo. Este pacote inclui 5 noites de hospedagem no Hotel Bourbon Barra Funda com café da manhã, traslados privados e ingressos para os 3 dias do evento no setor N. Além disso, você terá um tour guiado na pista, uma foto com o troféu, uma visita aos boxes e um kit F1+ carry on personalizado. Não perca esta oportunidade única de viver a emoção da Fórmula 1 no Brasil!",
+        "persons": "2",
+        "nights": 5,
+        "circuits": 1,
+        "lodgings": 1
+    },
+    {
+      "id": 6,
+      "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
+      "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709690723/raphael-nogueira-0phxdasdsaYpfFHpg-unsplash_nzshqd.jpg",
+      "title": "Brasil: São Paulo Circuito Interlagos",
+      "country": "São Paulo",
+      "initialDate": "1 de novembro de 2024",
+      "finishDate": "4 de novembro de 2024",
+      "galleryImages": [
+          "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270724/16989969857466_1_kebrcg.jpg",
+          "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270652/gran-premio-de-brasil_862x485_jqwpit.jpg",
+          "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270694/ETjCPrGWC_2000x1500__1_1_b6jimx.jpg",
+          "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270567/brazil-friday4-678662_lqollg.jpg"
+      ],
+      "description": "Desfrute da Fórmula 1 no Brasil 2024 no icônico Circuito Interlagos em São Paulo de 1 a 4 de novembro! Este pacote exclusivo inclui 4 noites de hospedagem com café da manhã, traslados de chegada e saída e ingressos para os 3 dias do evento no setor A. Além disso, você receberá um KIT F1 para aproveitar ao máximo a experiência. Não perca a oportunidade de fazer parte deste emocionante evento no mundo do automobilismo!",
+      "persons": "2",
+      "nights": 4,
+      "circuits": 1,
+      "lodgings": 1
+  },
+  {
+    "id": 7,
+    "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
+    "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709690723/raphael-nogueira-0phxdasdsaYpfFHpg-unsplash_nzshqd.jpg",
+    "title": "Brasil: São Paulo Circuito Interlagos",
+    "country": "São Paulo",
+    "initialDate": "1 de novembro de 2024",
+    "finishDate": "4 de novembro de 2024",
+    "galleryImages": [
+        "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270694/ETjCPrGWC_2000x1500__1_1_b6jimx.jpg",
+        "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270652/gran-premio-de-brasil_862x485_jqwpit.jpg",
+        "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270724/16989969857466_1_kebrcg.jpg",
+        "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270567/brazil-friday4-678662_lqollg.jpg"
+    ],
+    "description": "Viva a emoção da Fórmula 1 no Brasil 2024 no Circuito Interlagos em São Paulo de 1 a 4 de novembro! Este incrível pacote inclui 3 noites de hospedagem com café da manhã, traslados de chegada e saída e ingressos para os 3 dias do evento no setor G. Além disso, você receberá um exclusivo KIT F1 para melhorar ainda mais sua experiência. Não perca esta oportunidade única de desfrutar da Fórmula 1 em um dos circuitos mais emocionantes do mundo!",
+    "persons": "2",
+    "nights": 3,
+    "circuits": 1,
+    "lodgings": 1
+}
+
 ]
