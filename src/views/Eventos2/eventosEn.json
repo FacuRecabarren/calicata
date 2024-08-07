@@ -63,5 +63,25 @@
         "nights": 4,
         "circuits": 1,
         "lodgings": 1
+    },
+    {
+        "id": 9,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1723071793/somos-29_1_lljgee.jpg",
+        "title": "Joaquín Sabina",
+        "country": "Argentina",
+        "initialDate": "April 4th, 2025",
+        "finishDate": "April 5th, 2025",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1723071535/joaquin-sabina_qufe6q.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1723071881/M5ApBdRBo_2000x1500__1_1_e9yp6o.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1723071887/632b1e335476c_1_ozg9vp.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1723071894/2a3a24e0-7712-4c68-a7e0-743618221b12_16-9-discover-aspect-ratio_default_0_1_a8y9lk.jpg"
+        ],
+        "description": "Experience an unforgettable night with Joaquín Sabina at the Movistar Arena in Buenos Aires on April 4, 2025! Enjoy an exclusive package that includes a one-night stay at a comfortable 3-star hotel, where you will start your days with a delicious breakfast. We offer transfers to the event so you don’t have to worry about anything, plus a middle-field ticket to enjoy the concert like never before. And for your peace of mind, we include travel assistance, ensuring your experience is perfect from start to finish. Don’t miss this unique opportunity to experience live music from one of the greats. Book now!",
+        "persons": "2",
+        "nights": 1,
+        "circuits": 1,
+        "lodgings": 1
     }
+    
 ]

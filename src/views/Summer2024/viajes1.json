@@ -167,5 +167,43 @@
         "nights": 8,
         "circuits": 0,
         "lodgings": 1
-    } 
+    },
+    {
+        "id": 42,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1723070233/slider_universalstudiosresort_1_k6luny.jpg",
+        "title": "Universal",
+        "country": "Estados Unidos",
+        "initialDate": "24 de noviembre 2024",
+        "finishDate": "7 de diciembre 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1723070055/universal-parks-globe-b-crop_fogkbb.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1723070168/Islands-of-Adventure-Park-Map-23_1_aqdaxl.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1723070353/universal-studios-tickets-orlando-600x475_rwbaik.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1723070358/e15c8d25ae6ebb0958932eabe2efddd4_1_cvhekj.jpg"
+        ],
+        "description": "Embárcate en una aventura inolvidable con nuestro paquete Universal del 24 de noviembre de 2024. Disfruta de 13 días de viaje, con aéreos desde Buenos Aires y equipaje incluido. Te alojarás en el Hotel Universal Explorer y tendrás acceso durante 14 días a los 3 parques con el pase Universal Explorer. Los precios mostrados son por persona en base doble. ¡No te pierdas esta oportunidad de vivir la magia de Universal en su máximo esplendor!",
+        "persons": "2",
+        "nights": 12,
+        "circuits": 0,
+        "lodgings": 1
+    },
+    {
+        "id": 43,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1723070233/slider_universalstudiosresort_1_k6luny.jpg",
+        "title": "Orlando con Espíritu Navideño",
+        "country": "Estados Unidos",
+        "initialDate": "10 de diciembre 2024",
+        "finishDate": "18 de diciembre 2024",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1723070569/15626429_778449425640117_5850854793141076897_o_1_xdcqwg.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1723070770/339656-Downtown-Miami_1_fpgyp3.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1723070847/caption_1_papx7n.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1723070358/e15c8d25ae6ebb0958932eabe2efddd4_1_cvhekj.jpg"
+        ],
+        "description": "Sumérgete en el espíritu navideño con nuestro paquete 'Orlando con Espíritu Navideño'. Del 10 al 18 de diciembre, disfruta de 6 noches en Orlando y 2 noches en Miami. Tendrás un auto por 8 días para explorar a tu ritmo. Incluye 4 días de parque en Disney con el Plan Hopper y 2 días de parque en Universal con el acceso Park to Park. Family Plan. ¡Vive una Navidad mágica y llena de diversión en familia!",
+        "persons": "2",
+        "nights": 7,
+        "circuits": 0,
+        "lodgings": 2
+    }
 ]
