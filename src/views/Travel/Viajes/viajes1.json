@@ -1,5 +1,31 @@
 [
     {
+        "id": 1,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1725318844/C430_Visual_Costa_Fascinosa_Desktop_1680x786_ynjolp.webp",
+        "title": "Costa Favolosa",
+        "country": "Uruguay y Brasil",
+        "initialDate": "6 febrero 2025",
+        "finishDate": "14 febrero 2025",
+        "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1725318749/AEREA-Costa-Favolosa-Popa_otvmmx.webp","https://res.cloudinary.com/dfschbyq2/image/upload/v1725318883/costa-favolosa-0yqw25xxkqc4ybja5xn3gh3hx8_ldsefz.webp","https://res.cloudinary.com/dfschbyq2/image/upload/v1725318994/crucero-costa-favolosajpg_b4iwyb.webp","https://res.cloudinary.com/dfschbyq2/image/upload/v1725319049/https___tr2storage.blob.core.windows.net_cruise-images_ist-cruise-image-137306_tewaue.webp"],
+        "description": "Embárcate en una aventura inolvidable a bordo del Costa Favolosa, explorando las maravillas de Uruguay y Brasil en un crucero internacional. Zarpamos el 6 de febrero desde Buenos Aires para una travesía de 8 noches con pensión completa, donde cada día será una nueva experiencia de lujo y confort. Disfruta de una cómoda cabina interna mientras te deleitas con vistas impresionantes y actividades a bordo. Además, para tu tranquilidad, incluimos asistencia al viajero, asegurando que tu única preocupación sea disfrutar al máximo. ¡Reserva tu lugar en esta experiencia única y descubre la magia del mar!",
+        "persons": "1",
+        "nights": 8,
+        "circuits": 0,
+        "lodgings": 1
+    },
+    {
+        "id": 2,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1725319439/MSC_SPLENDIDA__20037774212_vvzbq6.jpg",
+        "title": "MSC SPLENDIDA",
+        "country": "Uruguay y Brasil",
+        "initialDate": "3, 10, 17 y 24 febrero 2025",
+        "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1725319455/image_2484_zhlmfe.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1725319443/sp_public_area_yc_concierge_reception_04_zozwqh.avif","https://res.cloudinary.com/dfschbyq2/image/upload/v1725319447/sp_balcony_06_bsjn0g.avif","https://res.cloudinary.com/dfschbyq2/image/upload/v1725319451/sp_entertainment_teens_toboga_04_vctmnu.avif"],
+        "description": "Embárcate en una travesía espectacular a bordo del MSC Splendida con salidas el 3, 10, 17, y 24 de febrero de 2025. Vive la experiencia de un todo incluido de bebidas mientras recorres los destinos más deslumbrantes de Sudamérica. Partiendo desde Buenos Aires, descubrirás la belleza de Punta del Este, el encanto de Itajaí y la vibrante ciudad de Santos antes de regresar a Buenos Aires. Cada momento a bordo está diseñado para tu máximo confort, con todo lo que necesitas al alcance de tu mano. ¡No pierdas la oportunidad de vivir esta experiencia única en alta mar!",
+        "persons": "2",
+        "circuits": 0,
+        "lodgings": 1
+    },
+    {
         "id": 7,
         "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710448542/san-andres-is-a-colombian-coral-island-in-the-caribbean-sea-desktop-hd-wallpaper-2560_1440-wallpaper-preview_dughmo.jpg",
         "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710448542/san-andres-is-a-colombian-coral-island-in-the-caribbean-sea-desktop-hd-wallpaper-2560_1440-wallpaper-preview_dughmo.jpg",

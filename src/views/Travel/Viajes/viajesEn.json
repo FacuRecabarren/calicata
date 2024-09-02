@@ -1,5 +1,41 @@
 [
     {
+        "id": 1,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1725318844/C430_Visual_Costa_Fascinosa_Desktop_1680x786_ynjolp.webp",
+        "title": "Costa Favolosa",
+        "country": "Uruguay and Brazil",
+        "initialDate": "February 6, 2025",
+        "finishDate": "February 14, 2025",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1725318749/AEREA-Costa-Favolosa-Popa_otvmmx.webp",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1725318883/costa-favolosa-0yqw25xxkqc4ybja5xn3gh3hx8_ldsefz.webp",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1725318994/crucero-costa-favolosajpg_b4iwyb.webp",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1725319049/https___tr2storage.blob.core.windows.net_cruise-images_ist-cruise-image-137306_tewaue.webp"
+        ],
+        "description": "Embark on an unforgettable adventure aboard the Costa Favolosa, exploring the wonders of Uruguay and Brazil on an international cruise. We set sail on February 6 from Buenos Aires for an 8-night journey with full board, where each day will be a new experience of luxury and comfort. Enjoy a cozy interior cabin while delighting in breathtaking views and onboard activities. Additionally, for your peace of mind, we include travel assistance, ensuring that your only concern is to enjoy to the fullest. Book your spot on this unique experience and discover the magic of the sea!",
+        "persons": "1",
+        "nights": 8,
+        "circuits": 0,
+        "lodgings": 1
+    },
+    {
+        "id": 2,
+        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1725319439/MSC_SPLENDIDA__20037774212_vvzbq6.jpg",
+        "title": "MSC SPLENDIDA",
+        "country": "Uruguay and Brazil",
+        "initialDate": "February 3, 10, 17 and 24, 2025",
+        "galleryImages": [
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1725319455/image_2484_zhlmfe.jpg",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1725319443/sp_public_area_yc_concierge_reception_04_zozwqh.avif",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1725319447/sp_balcony_06_bsjn0g.avif",
+            "https://res.cloudinary.com/dfschbyq2/image/upload/v1725319451/sp_entertainment_teens_toboga_04_vctmnu.avif"
+        ],
+        "description": "Embark on a spectacular journey aboard the MSC Splendida with departures on February 3, 10, 17, and 24, 2025. Experience an all-inclusive beverage package while exploring the most dazzling destinations in South America. Departing from Buenos Aires, you'll discover the beauty of Punta del Este, the charm of Itajaí, and the vibrant city of Santos before returning to Buenos Aires. Every moment onboard is designed for your utmost comfort, with everything you need at your fingertips. Don't miss the opportunity to experience this unique adventure at sea!",
+        "persons": "2",
+        "circuits": 0,
+        "lodgings": 1
+    },    
+    {
         "id": 7,
         "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710448542/san-andres-is-a-colombian-coral-island-in-the-caribbean-sea-desktop-hd-wallpaper-2560_1440-wallpaper-preview_dughmo.jpg",
         "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710448542/san-andres-is-a-colombian-coral-island-in-the-caribbean-sea-desktop-hd-wallpaper-2560_1440-wallpaper-preview_dughmo.jpg",
