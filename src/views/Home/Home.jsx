@@ -24,7 +24,7 @@ const Home = () => {
       <Hero/>
       <div className='bg-white'>
         <Services/>
-        <Promos/>
+        {/* <Promos/> */}
         <Nosotros/>
         <Testimonial/>
         <ContactUs/>

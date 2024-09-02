@@ -1,21 +1,4 @@
 [
-
-    {
-        "id": 6,
-        "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710447181/6400d42e53852_ei90bw.jpg",
-        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710447181/6400d42e53852_ei90bw.jpg",
-        "title": "Egipto 2x1",
-        "country": "El Cairo, Crucero: Asuan, Kom Ombo, Edfu y Luxor, El Cairo",
-        "initialDate": "9 abril 2024",
-        "finishDate": "junio 2024",
-        "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1710446811/paseo-por-egipto__1280x720_fdquny.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1710446887/piramide-esfinge-antiguo.egipto_vp3bhd.webp","https://res.cloudinary.com/dfschbyq2/image/upload/v1710446950/el-cairo-m_q397zs.avif","https://res.cloudinary.com/dfschbyq2/image/upload/v1710447039/egipto-nilo_d9xhcr.jpg"],
-        "description": "Embárcate en una aventura fascinante por la milenaria tierra de Egipto con nuestra increíble oferta de 2x1. Disfruta de 4 noches en El Cairo, explorando los misterios y maravillas de esta ciudad emblemática, seguidas de 3 noches a bordo de un crucero por el majestuoso río Nilo. Este viaje te llevará a través de una experiencia única, recorriendo lugares emblemáticos como Asuán, Kom Ombo, Edfu y Luxor. Con salidas disponibles los martes y domingos desde el 9 de abril hasta el 30 de septiembre, tienes la oportunidad perfecta para sumergirte en la historia y la cultura de esta tierra legendaria. Nuestro paquete incluye todo lo necesario para que disfrutes al máximo: desde vuelos domésticos y traslados hasta el alojamiento en hoteles y el crucero, además de visitas guiadas para descubrir los tesoros de Egipto con la asistencia de expertos locales. No te pierdas esta oportunidad única de explorar Egipto con un compañero de viaje, ¡reserva ahora y vive una experiencia inolvidable!",
-        "price": 1699,
-        "persons": "2",
-        "nights": 7,
-        "circuits": 1,
-        "lodgings": 1
-    },
     {
         "id": 7,
         "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710448542/san-andres-is-a-colombian-coral-island-in-the-caribbean-sea-desktop-hd-wallpaper-2560_1440-wallpaper-preview_dughmo.jpg",
@@ -33,21 +16,6 @@
         "lodgings": 1
     },
     {
-        "id": 8,
-        "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710449456/4b75b-portada_capadocia_l4mlzz.jpg",
-        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710449456/4b75b-portada_capadocia_l4mlzz.jpg",
-        "title": "Grecia y Turquía",
-        "country": "Estambul, Capadocia, Pamukkale, Éfeso, Atenas, Mykonos, Santorini y Patmos",
-        "initialDate": "31 de mayo 2024",
-        "finishDate": "12 de junio 2024",
-        "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1710449272/globos-aerostaticos-volando-sobre-capadocia-turquia-globos-aerostaticos-volando-sobre-espectacular-capadocia-generado-ia_538213-6301_secota.avif","https://res.cloudinary.com/dfschbyq2/image/upload/v1710449561/681d7fbbfe7ae57e14a38c44727c17fa_mwp929.png","https://res.cloudinary.com/dfschbyq2/image/upload/v1710449571/wp12436642_umpeld.webp","https://res.cloudinary.com/dfschbyq2/image/upload/v1710449581/blue-mosque-istanbul-turkey-uhd-4k-wallpaper_m9gbln.jpg"],
-        "description": "Embárcate en una travesía inolvidable por Grecia y Turquía con nuestro emocionante paquete turístico de 12 noches, partiendo el 31 de mayo de 2024 desde Ezeiza con Turkish Airlines. Este viaje te llevará a descubrir los tesoros culturales y naturales de dos países fascinantes. Comenzando en Turquía, explorarás Estambul, la cautivadora Capadocia, la impresionante Pamukkale y las ruinas de Éfeso, todo ello acompañado de hoteles de calidad, traslados y visitas guiadas. Además, disfrutarás de un emocionante vuelo a Capadocia para una experiencia única. Pero la aventura no termina ahí: te embarcarás en un lujoso crucero de 4 días que te llevará a Atenas, Mykonos, Santorini y Patmos, donde disfrutarás de la pensión completa y serás testigo de la belleza incomparable de las islas griegas. Con desayuno incluido durante todo el recorrido y 4 cenas en Turquía, junto con la asistencia de un guía acompañante en destino (excepto durante el crucero) y asistencia al viajero, este paquete te ofrece todo lo necesario para una experiencia de viaje sin preocupaciones y llena de momentos inolvidables. ¡Prepárate para vivir una experiencia única en Grecia y Turquía!",
-        "price": 6800,
-        "persons": "2",
-        "nights": 12,
-        "lodgings": 1
-    },
-    {
         "id": 9,
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
         "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709775098/michael-discenza-5omwdasdAMDxmkU-unsplash_1_ojonhf.webp",
@@ -62,27 +30,6 @@
         "nights": 10,
         "circuits": 0,
         "lodgings": 1
-    },
-    {
-        "id": 10,
-        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
-        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709775098/michael-discenza-5omwdasdAMDxmkU-unsplash_1_ojonhf.webp",
-        "title": "Turquía",
-        "country": "Turquía",
-        "initialDate": "Mayo 2024",
-        "finishDate": "Octubre 2024",
-        "galleryImages": [
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1710450090/4k-sultan-ahmed-mosque-istanbul-turkey-wallpaper-preview_rbbep7.jpg",
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1710449456/4b75b-portada_capadocia_l4mlzz.jpg",
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1710450205/925436_lnk4ao.jpg",
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1710450284/pamukkale-turkey-wallpaper-preview_vieanx.jpg"
-        ],
-        "description": "Billete de avión en clase turista de Turkish Airlines. Circuito visitando Estambul, Capadocia, Pamukkale y Kusadasi. 9 noches de alojamiento en hoteles de 4 estrellas. Traslados. Visitas panorámicas en Capadocia, Pamukkale, Éfeso y Bursa.",
-        "price": 4500,
-        "persons": "2",
-        "nights": 9,
-        "circuits": 0,
-        "lodgings": 9
     },
     {
         "id": 11,
