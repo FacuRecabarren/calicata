@@ -1,21 +1,5 @@
 [
     {
-        "id": 6,
-        "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710447181/6400d42e53852_ei90bw.jpg",
-        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710447181/6400d42e53852_ei90bw.jpg",
-        "title": "Egypt 2x1",
-        "country": "Cairo, Cruise: Aswan, Kom Ombo, Edfu and Luxor, Cairo",
-        "initialDate": "April 9, 2024",
-        "finishDate": "June 2024",
-        "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1710446811/paseo-por-egipto__1280x720_fdquny.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1710446887/piramide-esfinge-antiguo.egipto_vp3bhd.webp","https://res.cloudinary.com/dfschbyq2/image/upload/v1710446950/el-cairo-m_q397zs.avif","https://res.cloudinary.com/dfschbyq2/image/upload/v1710447039/egipto-nilo_d9xhcr.jpg"],
-        "description": "Embark on a fascinating adventure through the ancient land of Egypt with our amazing 2x1 offer. Enjoy 4 nights in Cairo, exploring the mysteries and wonders of this iconic city, followed by 3 nights aboard a cruise on the majestic Nile River. This trip will take you through a unique experience, visiting iconic places like Aswan, Kom Ombo, Edfu, and Luxor. With departures available on Tuesdays and Sundays from April 9 to September 30, you have the perfect opportunity to immerse yourself in the history and culture of this legendary land. Our package includes everything you need to enjoy to the fullest: from domestic flights and transfers toaccommodation in hotels and the cruise, as well as guided tours to discover the treasures of Egypt with the assistance of local experts. Don't miss this unique opportunity to explore Egypt with a travel companion. Book now and live an unforgettable experience!",
-        "price": 1699,
-        "persons": "2",
-        "nights": 7,
-        "circuits": 1,
-        "lodgings": 1
-    },
-    {
         "id": 7,
         "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710448542/san-andres-is-a-colombian-coral-island-in-the-caribbean-sea-desktop-hd-wallpaper-2560_1440-wallpaper-preview_dughmo.jpg",
         "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710448542/san-andres-is-a-colombian-coral-island-in-the-caribbean-sea-desktop-hd-wallpaper-2560_1440-wallpaper-preview_dughmo.jpg",
@@ -28,22 +12,6 @@
         "price": 2600,
         "persons": "2",
         "nights": 7,
-        "circuits": 0,
-        "lodgings": 1
-    },
-    {
-        "id": 8,
-        "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710449456/4b75b-portada_capadocia_l4mlzz.jpg",
-        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710449456/4b75b-portada_capadocia_l4mlzz.jpg",
-        "title": "Grecia y Turquía",
-        "country": "Estambul, Capadocia, Pamukkale, Éfeso, Atenas, Mykonos, Santorini y Patmos",
-        "initialDate": "May 31, 2024",
-        "finishDate": "June 12, 2024",
-        "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1710449272/globos-aerostaticos-volando-sobre-capadocia-turquia-globos-aerostaticos-volando-sobre-espectacular-capadocia-generado-ia_538213-6301_secota.avif","https://res.cloudinary.com/dfschbyq2/image/upload/v1710449561/681d7fbbfe7ae57e14a38c44727c17fa_mwp929.png","https://res.cloudinary.com/dfschbyq2/image/upload/v1710449571/wp12436642_umpeld.webp","https://res.cloudinary.com/dfschbyq2/image/upload/v1710449581/blue-mosque-istanbul-turkey-uhd-4k-wallpaper_m9gbln.jpg"],
-        "description": "Embark on an unforgettable journey through Greece and Turkey with our exciting 12-night tour package, departing May 31, 2024 from Ezeiza with Turkish Airlines. This trip will take you to discover the cultural and natural treasures of two fascinating countries. Starting in Turkey, you'll explore Istanbul, captivating Cappadocia, stunning Pamukkale and the ruins of Ephesus, all accompanied by quality hotels, transfers and guided tours. In addition, you will enjoy an exciting flight to Cappadocia for a unique experience. But the adventure doesn't end there: you will embark on a luxurious 4-day cruise that will take you to Athens, Mykonos, Santorini and Patmos, where you will enjoy full board and witness the incomparable beauty of the Greek islands. With breakfast included throughout the tour and 4 dinners in Turkey, along with the assistance of an escort guide at the destination (except during the cruise) and traveler assistance, this package offers you everything you need for a worry-free and fulfilling travel experience. of unforgettable moments. Get ready to live a unique experience in Greece and Türkiye!",
-        "price": 3390,
-        "persons": "2",
-        "nights": 12,
         "circuits": 0,
         "lodgings": 1
     },
@@ -62,26 +30,6 @@
         "nights": 10,
         "circuits": 0,
         "lodgings": 1
-    },
-    {
-        "id": 10,
-        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
-        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709775098/michael-discenza-5omwdasdAMDxmkU-unsplash_1_ojonhf.webp",
-        "title": "Turkey",
-        "country": "Turkey",
-        "initialDate": "May 2024",
-        "finishDate": "October 2024",
-        "galleryImages": [
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1710450090/4k-sultan-ahmed-mosque-istanbul-turkey-wallpaper-preview_rbbep7.jpg",
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1710449456/4b75b-portada_capadocia_l4mlzz.jpg",
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1710450205/925436_lnk4ao.jpg",
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1710450284/pamukkale-turkey-wallpaper-preview_vieanx.jpg"
-        ],
-        "description": "Turkish Airlines economy class airfare. Circuit visiting Istanbul, Cappadocia, Pamukkale, and Kusadasi. 9 nights accommodation in 4-star hotels. Transfers. Panoramic tours in Cappadocia, Pamukkale, Ephesus, and Bursa.",
-        "price": 4500,
-        "persons": "2",
-        "nights": 9,
-        "lodgings": 9
     },
     {
         "id": 11,

@@ -3,6 +3,8 @@ import { useTranslation } from 'react-i18next'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
+import { AereosSlider } from '../ui/images-slider-aereos';
+import promos from "../../utils/aereos.json"
 
 const Services = () => {
 
@@ -58,7 +60,10 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className='flex flex-col justify-center gap-10'>
+      <div className='flex justify-center items-center px-10 transform duration-300'>
+        <AereosSlider promos={promos}/>
+      </div>
+      <div className='flex flex-col justify-center gap-10 pt-10'>
         <h2 className='text-center text-lg font-semibold text-black opacity-80 p-3  bg-opacity-60 hover:animate-bouncing cursor-default italic'>{t("travelAssistance")}</h2>
         <div className='lg:flex lg:flex-row flex flex-col justify-center items-center gap-20'>
           <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1722529574/Agencia%20viajes/Imagen_de_WhatsApp_2024-07-18_a_las_16.36.21_daa9cdb8_zruore.jpg" alt="" className='w-[25rem] h-[25rem] object-cover'/>
