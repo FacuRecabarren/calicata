@@ -18,6 +18,10 @@ const Services = () => {
 
   return (
     <div id='servicios' className='pt-20 relative lg:bg-[url(https://res.cloudinary.com/dreso9ye9/image/upload/v1709125624/Group_13_1_vgyvfn.svg)] bg-cover bg-no-repeat bg-bottom bg-[url(https://res.cloudinary.com/dreso9ye9/image/upload/v1709083896/Group_13_zsavu4.svg)]'>
+      <Link to='/sports/formula1'>
+        <img  data-aos='fade-up' src="https://res.cloudinary.com/dfschbyq2/image/upload/v1725930278/Calicata_te_lleva_a_ver_a_COLAPINTO_1_eo9reb.png" alt="" className='pb-20'/>
+      </Link>
+    
       <div className='flex flex-col justify-center items-center gap-10 lg:gap-10 px-10 pb-10'>
         <div data-aos='fade-up' className='w-full h-full rounded-xl flex flex-col lg:flex-row justify-between gap-5'>  
           <div className="transform hover:scale-[1.02] duration-300 rounded-xl h-[30rem] z-10 flex flex-col justify-center items-center gap-4 w-full bg-[url('https://res.cloudinary.com/dfschbyq2/image/upload/v1718400887/pedro-monteiro-HfIex7qwTlI-unsplash_2_lojunb.jpg')] bg-cover bg-center">

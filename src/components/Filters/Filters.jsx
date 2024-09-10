@@ -1,11 +1,10 @@
-import React from 'react';
+/* eslint-disable react/prop-types */
 import { IoBedOutline , IoMoonOutline  } from "react-icons/io5";
-import { TbPigMoney } from "react-icons/tb";
 import { FiMapPin } from "react-icons/fi";
 import { useTranslation } from 'react-i18next';
 
 
-const Filters = ({ onFilterChange, countries, filters, setFilters }) => {
+const Filters = ({ onFilterChange, countries, filters }) => {
   const handleInputChange = (e, filterType) => {
     const value = e.target.checked; // Obtener el estado del checkbox
     const value2 = e.target.value; 
@@ -13,7 +12,7 @@ const Filters = ({ onFilterChange, countries, filters, setFilters }) => {
   };
 
 
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
 
   return (
