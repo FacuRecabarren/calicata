@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaExternalLinkAlt } from "react-icons/fa";
@@ -19,7 +20,7 @@ export const AereosSlider = ({
     
     let message;
      if(i18n.language === 'en'){
-        message = `Hello, how are you? I would like to have more information about the package "${promos[currentIndex].description}"`;
+        message = `Hello, how are you? I would like to have more information about the "${promos[currentIndex].description}" package`;
     }else if(i18n.language === 'port'){
         message = `Olá, como você está? Gostaria de ter mais informações sobre o pacote "${promos[currentIndex].description}"`;
     } else if(i18n.language === 'es'){
