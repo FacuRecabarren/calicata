@@ -2,50 +2,6 @@
     {
         "id": 1,
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
-        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710115681/Budapest-city-Hungary-bridgedasd-cityscape-river-1883845-wallhere.com_utc3ce.webp",
-        "title": "Hungary F1 Grand Prix",
-        "country": "Budapest",
-        "initialDate": "July 2024",
-        "finishDate": "July 2024",
-        "galleryImages": [
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711337009/directo-f1-libres-entrenamientos-gp-hungria-2021-1627647935_3_720x440_rsxp1q.webp",
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711337336/f.elconfidencial.com_original_961_449_01e_96144901e878833cfa4fb9be6b1e4681_mb4biv.jpg",
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711337373/chain-bridge-budapest-hungary-europe-wallpaper-preview_peklw2.jpg",
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711337768/1237666_1_z26mrw.jpg"
-        ],
-        "description": "Get ready to experience an unforgettable time at the Hungary F1 Grand Prix with our exclusive 3-night package! Enjoy the majestic Budapest while staying at the prestigious 4-star Hotel Novotel Danube, where each day starts with a delicious breakfast preparing you for the circuit excitement. With our guaranteed circuit transfer service on Saturdays and Sundays, you'll arrive at the event worry-free and ready to enjoy the race's thrill. Additionally, with our 'RED BULL GRANDSTAND' ticket, you'll have a privileged view of the track, immersing yourself in the action with style and comfort. Don't forget you can also check availability in other sectors to further personalize your experience! Secure your spot in this thrilling race and live the Hungary F1 Grand Prix like never before. Book now and join us for an unforgettable adventure in the speed and glamour of Formula 1!",
-        "price": 2064,
-        "totalPrice": 4127,
-        "persons": "2",
-        "nights": 3,
-        "circuits": 1,
-        "lodgings": 1
-    },
-    {
-        "id": 2,
-        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
-        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711338074/wp3823892_ofpl4l.jpg",
-        "title": "Monza F1 Grand Prix",
-        "country": "Milan",
-        "initialDate": "August 2024",
-        "finishDate": "September 2024",
-        "galleryImages": [
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711338134/220043-italian-gp-saturday-gallery_dz7lgp.jpg",
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711338172/sundayitaly3-945260_icna5i.jpg",
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711338269/7e48b61ffc7796dec47991460ff7e5ba_ueu7re.png",
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1711337957/wp3823939_ng7sgo.webp"
-        ],
-        "description": "Get ready to experience the passion of Formula 1 at the legendary Monza F1 Grand Prix with our exclusive 4-night package! From August 30th to September 1st, immerse yourself in the vibrant atmosphere of this iconic race while staying at a cozy 3-star hotel with bed and breakfast included. With our 'CENTRALE GRANDSTAND' ticket, you'll have a privileged view of the track action on Fridays, Saturdays, and Sundays, ensuring an unforgettable experience at every moment of the race. Additionally, our circuit transfer service on Fridays, Saturdays, and Sundays guarantees you arrive there comfortably and worry-free. Don't miss the chance to live the excitement of the Monza F1 Grand Prix with us! Book now and secure your spot at this thrilling event full of speed and adrenaline.",
-        "price": 3247,
-        "totalPrice": 6494,
-        "persons": "2",
-        "nights": 4,
-        "circuits": 1,
-        "lodgings": 1
-    },
-    {
-        "id": 3,
-        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
         "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710116836/mexico-city-wallpaper-9568-10062dasdshd-wallpapers_ieqoab.webp",
         "title": "Mexico F1 Grand Prix",
         "country": "Mexico City",
@@ -66,7 +22,7 @@
         "lodgings": 1
     },
     {
-        "id": 4,
+        "id": 2,
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
         "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709690723/raphael-nogueira-0phxdasdsaYpfFHpg-unsplash_nzshqd.jpg",
         "title": "Sao Paulo F1 Grand Prix",
@@ -88,7 +44,7 @@
         "lodgings": 1
     },  
     {
-        "id": 5,
+        "id": 3,
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
         "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709690723/raphael-nogueira-0phxdasdsaYpfFHpg-unsplash_nzshqd.jpg",
         "title": "Brasil: Sao Paulo Circuito Interlagos",
@@ -108,7 +64,7 @@
         "lodgings": 1
     },
     {
-        "id": 6,
+        "id": 4,
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
         "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709690723/raphael-nogueira-0phxdasdsaYpfFHpg-unsplash_nzshqd.jpg",
         "title": "Brasil: Sao Paulo Circuito Interlagos",
@@ -128,7 +84,7 @@
         "lodgings": 1
     },
     {
-        "id": 7,
+        "id": 5,
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
         "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709690723/raphael-nogueira-0phxdasdsaYpfFHpg-unsplash_nzshqd.jpg",
         "title": "Brasil: Sao Paulo Circuito Interlagos",

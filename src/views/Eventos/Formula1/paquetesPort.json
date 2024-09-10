@@ -1,134 +1,50 @@
 [
-      {
-        "id": 1,
-        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
-        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710115681/Budapest-city-Hungary-bridgedasd-cityscape-river-1883845-wallhere.com_utc3ce.webp",
-        "title": "Grande Prêmio F1 Hungria",
-        "country": "Budapeste",
-        "initialDate": "julho de 2024",
-        "finishDate": "julho de 2024",
-        "galleryImages": [
-          "https://res.cloudinary.com/dfschbyq2/image/upload/v1711337009/directo-f1-libres-entrenamientos-gp-hungria-2021-1627647935_3_720x440_rsxp1q.webp",
-          "https://res.cloudinary.com/dfschbyq2/image/upload/v1711337336/f.elconfidencial.com_original_961_449_01e_96144901e878833cfa4fb9be6b1e4681_mb4biv.jpg",
-          "https://res.cloudinary.com/dfschbyq2/image/upload/v1711337373/chain-bridge-budapest-hungary-europe-wallpaper-preview_peklw2.jpg",
-          "https://res.cloudinary.com/dfschbyq2/image/upload/v1711337768/1237666_1_z26mrw.jpg"
-        ],
-        "description": "Prepare-se para viver uma experiência inesquecível no Grande Prêmio F1 Hungria com nosso pacote exclusivo de 3 noites! Desfrute da majestosa Budapeste enquanto se hospeda no prestigioso Hotel Novotel Danube de 4 estrelas, onde cada dia começa com um delicioso café da manhã que o preparará para a emoção do circuito. Com nosso serviço de transporte garantido para o circuito aos sábados e domingos, você chegará ao evento sem preocupações e pronto para desfrutar da emoção da corrida. Além disso, com nosso ingresso para a 'TRIBUNA RED BULL', você terá uma vista privilegiada da pista, mergulhando na ação com estilo e conforto. Não se esqueça de que também pode verificar a disponibilidade em outros setores para personalizar ainda mais sua experiência! Garanta seu lugar nesta corrida emocionante e viva o Grande Prêmio F1 Hungria como nunca antes. Reserve agora e junte-se a nós para uma aventura inesquecível na velocidade e glamour da Fórmula 1!",
-        "price": 2064,
-        "totalPrice": 4127,
-        "persons": "2",
-        "nights": 3,
-        "circuits": 1,
-        "lodgings": 1
-      },
-      {
-        "id": 2,
-        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
-        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711338074/wp3823892_ofpl4l.jpg",
-        "title": "Grande Prêmio F1 Monza",
-        "country": "Milão",
-        "initialDate": "agosto de 2024",
-        "finishDate": "setembro de 2024",
-        "galleryImages": [
-          "https://res.cloudinary.com/dfschbyq2/image/upload/v1711338134/220043-italian-gp-saturday-gallery_dz7lgp.jpg",
-          "https://res.cloudinary.com/dfschbyq2/image/upload/v1711338172/sundayitaly3-945260_icna5i.jpg",
-          "https://res.cloudinary.com/dfschbyq2/image/upload/v1711338269/7e48b61ffc7796dec47991460ff7e5ba_ueu7re.png",
-          "https://res.cloudinary.com/dfschbyq2/image/upload/v1711337957/wp3823939_ng7sgo.webp"
-        ],
-        "description": "Prepare-se para viver a paixão da Fórmula 1 no lendário Grande Prêmio F1 Monza com nosso pacote exclusivo de 4 noites! De 30 de agosto a 01 de setembro, mergulhe na atmosfera vibrante desta corrida icônica enquanto se hospeda em um acolhedor hotel 3 estrelas com acomodação e café da manhã inclusos. Com nosso ingresso na CATEGORIA TRIBUNA CENTRALE, você terá uma vista privilegiada da ação na pista na sexta-feira, sábado e domingo, garantindo uma experiência inesquecível a cada momento da corrida. Além disso, nosso serviço de transporte para o circuito às sextas, sábados e domingos garante que você chegue lá com conforto e sem preocupações. Não perca a oportunidade de viver a emoção do Grande Prêmio F1 Monza conosco! Reserve agora e garanta seu lugar neste emocionante evento cheio de velocidade e adrenalina.",
-        "price": 3247,
-        "totalPrice": 6494,
-        "persons": "2",
-        "nights": 4,
-        "circuits": 1,
-        "lodgings": 1
-      },
-      {
-        "id": 3,
-        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
-        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710116836/mexico-city-wallpaper-9568-10062dasdshd-wallpapers_ieqoab.webp",
-        "title": "Grande Prêmio F1 México",
-        "country": "Cidade do México",
-        "initialDate": "outubro de 2024",
-        "finishDate": "outubro de 2024",
-        "galleryImages": [
-          "https://res.cloudinary.com/dfschbyq2/image/upload/v1711338725/imago-1282302-1-180246-1024x576_o02hjg.jpg",
-          "https://res.cloudinary.com/dfschbyq2/image/upload/v1711338710/GettyImages-495275510_20_2_t1r3og.webp",
-          "https://res.cloudinary.com/dfschbyq2/image/upload/v1711338660/138975_vp692v.webp",
-          "https://res.cloudinary.com/dfschbyq2/image/upload/v1711338592/istockphoto-1064307584-170667a_ejrbrs.webp"
-        ],
-        "description": "¡Prepare-se para uma experiência emocionante no Grande Prêmio F1 México com nosso pacote completo de 5 dias, de 24 a 28 de outubro de 2024! Desde sua chegada, mimaremos você com nosso serviço de transporte aeroporto-hotel-aeroporto, garantindo seu conforto desde o primeiro momento. Desfrute de um alojamento de primeira classe durante sua estadia, com café da manhã incluído para que você comece cada dia com energia. Com nosso ingresso para o Setor Tribuna 15 no Foro Sol, você terá uma vista privilegiada da pista durante os três dias de ação. Além disso, nosso serviço de traslados regulares o levará do hotel ao autódromo e de volta, garantindo que você não perca nenhum momento da emoção na pista nas sextas-feiras, sábados e domingos. Não perca esta oportunidade de viver a paixão da Fórmula 1 no México! Reserve agora e junte-se a nós para um fim de semana inesquecível cheio de velocidade e emoção.",
-        "price": 3163,
-        "totalPrice": 6325,
-        "persons": "2",
-        "nights": 4,
-        "circuits": 1,
-        "lodgings": 1
-      },
-      {
-        "id": 4,
-        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
-        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709690723/raphael-nogueira-0phxdasdsaYpfFHpg-unsplash_nzshqd.jpg",
-        "title": "Grande Prêmio F1 São Paulo",
-        "country": "São Paulo",
-        "initialDate": "outubro de 2024",
-        "finishDate": "outubro de 2024",
-        "galleryImages": [
-          "https://res.cloudinary.com/dfschbyq2/image/upload/v1711339104/como-ver-gp-brasil-2019_0_ujvyxz.webp",
-          "https://res.cloudinary.com/dfschbyq2/image/upload/v1711339947/NFW4BZ6EQN2TKX5KWTB4TIZ23U_lkpjl0.jpg",
-          "https://res.cloudinary.com/dfschbyq2/image/upload/v1711340032/360_F_388638071_eGYb1eOSBW06YnluAOwYMoweOlkBkHzF_wcauin.jpg",
-          "https://res.cloudinary.com/dfschbyq2/image/upload/v1711340082/2a0c9319-6599-4c14-98e5-e74d13eab669_qirhbk.webp"
-        ],
-        "description": "¡Prepare-se para uma emocionante experiência no Grande Prêmio F1 São Paulo com nosso pacote exclusivo de 4 noites! De 24 a 28 de outubro, você ficará hospedado em um confortável hotel 3 estrelas em São Paulo, onde todas as manhãs será servido um delicioso café da manhã para te energizar para o dia. Com nossos ingressos para o 'SETOR G' do circuito, você terá uma vista privilegiada da ação na pista nas sextas-feiras, sábados e domingos, garantindo que não perca um único momento da emoção. Além disso, nossos traslados para o circuito o levarão de ida e volta nas sextas-feiras, sábados e domingos, garantindo que você chegue confortavelmente e a tempo para desfrutar de toda a ação na pista. Não perca a oportunidade de viver a paixão da Fórmula 1 em São Paulo! Reserve agora e junte-se a nós para um fim de semana inesquecível cheio de velocidade e emoção.",
-        "price": 1590,
-        "totalPrice": 3180,
-        "persons": "2",
-        "nights": 4,
-        "circuits": 1,
-        "lodgings": 1
-      },
-      {
-        "id": 5,
-        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
-        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709690723/raphael-nogueira-0phxdasdsaYpfFHpg-unsplash_nzshqd.jpg",
-        "title": "Brasil: São Paulo Circuito Interlagos",
-        "country": "São Paulo",
-        "initialDate": "1 de novembro de 2024",
-        "finishDate": "4 de novembro de 2024",
-        "galleryImages": [
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270567/brazil-friday4-678662_lqollg.jpg",
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270652/gran-premio-de-brasil_862x485_jqwpit.jpg",
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270694/ETjCPrGWC_2000x1500__1_1_b6jimx.jpg",
-            "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270724/16989969857466_1_kebrcg.jpg"
-        ],
-        "description": "Prepare-se para viver a Fórmula 1 no Brasil em 2024! De 1 a 4 de novembro, desfrute de uma experiência inesquecível no Circuito Interlagos em São Paulo. Este pacote inclui 5 noites de hospedagem no Hotel Bourbon Barra Funda com café da manhã, traslados privados e ingressos para os 3 dias do evento no setor N. Além disso, você terá um tour guiado na pista, uma foto com o troféu, uma visita aos boxes e um kit F1+ carry on personalizado. Não perca esta oportunidade única de viver a emoção da Fórmula 1 no Brasil!",
-        "persons": "2",
-        "nights": 5,
-        "circuits": 1,
-        "lodgings": 1
-    },
-    {
-      "id": 6,
-      "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
-      "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709690723/raphael-nogueira-0phxdasdsaYpfFHpg-unsplash_nzshqd.jpg",
-      "title": "Brasil: São Paulo Circuito Interlagos",
-      "country": "São Paulo",
-      "initialDate": "1 de novembro de 2024",
-      "finishDate": "4 de novembro de 2024",
-      "galleryImages": [
-          "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270724/16989969857466_1_kebrcg.jpg",
-          "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270652/gran-premio-de-brasil_862x485_jqwpit.jpg",
-          "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270694/ETjCPrGWC_2000x1500__1_1_b6jimx.jpg",
-          "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270567/brazil-friday4-678662_lqollg.jpg"
-      ],
-      "description": "Desfrute da Fórmula 1 no Brasil 2024 no icônico Circuito Interlagos em São Paulo de 1 a 4 de novembro! Este pacote exclusivo inclui 4 noites de hospedagem com café da manhã, traslados de chegada e saída e ingressos para os 3 dias do evento no setor A. Além disso, você receberá um KIT F1 para aproveitar ao máximo a experiência. Não perca a oportunidade de fazer parte deste emocionante evento no mundo do automobilismo!",
-      "persons": "2",
-      "nights": 4,
-      "circuits": 1,
-      "lodgings": 1
+  {
+    "id": 1,
+    "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
+    "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710116836/mexico-city-wallpaper-9568-10062dasdshd-wallpapers_ieqoab.webp",
+    "title": "Grande Prêmio F1 México",
+    "country": "Cidade do México",
+    "initialDate": "outubro de 2024",
+    "finishDate": "outubro de 2024",
+    "galleryImages": [
+      "https://res.cloudinary.com/dfschbyq2/image/upload/v1711338725/imago-1282302-1-180246-1024x576_o02hjg.jpg",
+      "https://res.cloudinary.com/dfschbyq2/image/upload/v1711338710/GettyImages-495275510_20_2_t1r3og.webp",
+      "https://res.cloudinary.com/dfschbyq2/image/upload/v1711338660/138975_vp692v.webp",
+      "https://res.cloudinary.com/dfschbyq2/image/upload/v1711338592/istockphoto-1064307584-170667a_ejrbrs.webp"
+    ],
+    "description": "¡Prepare-se para uma experiência emocionante no Grande Prêmio F1 México com nosso pacote completo de 5 dias, de 24 a 28 de outubro de 2024! Desde sua chegada, mimaremos você com nosso serviço de transporte aeroporto-hotel-aeroporto, garantindo seu conforto desde o primeiro momento. Desfrute de um alojamento de primeira classe durante sua estadia, com café da manhã incluído para que você comece cada dia com energia. Com nosso ingresso para o Setor Tribuna 15 no Foro Sol, você terá uma vista privilegiada da pista durante os três dias de ação. Além disso, nosso serviço de traslados regulares o levará do hotel ao autódromo e de volta, garantindo que você não perca nenhum momento da emoção na pista nas sextas-feiras, sábados e domingos. Não perca esta oportunidade de viver a paixão da Fórmula 1 no México! Reserve agora e junte-se a nós para um fim de semana inesquecível cheio de velocidade e emoção.",
+    "price": 3163,
+    "totalPrice": 6325,
+    "persons": "2",
+    "nights": 4,
+    "circuits": 1,
+    "lodgings": 1
   },
   {
-    "id": 7,
+    "id": 2,
+    "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
+    "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709690723/raphael-nogueira-0phxdasdsaYpfFHpg-unsplash_nzshqd.jpg",
+    "title": "Grande Prêmio F1 São Paulo",
+    "country": "São Paulo",
+    "initialDate": "outubro de 2024",
+    "finishDate": "outubro de 2024",
+    "galleryImages": [
+      "https://res.cloudinary.com/dfschbyq2/image/upload/v1711339104/como-ver-gp-brasil-2019_0_ujvyxz.webp",
+      "https://res.cloudinary.com/dfschbyq2/image/upload/v1711339947/NFW4BZ6EQN2TKX5KWTB4TIZ23U_lkpjl0.jpg",
+      "https://res.cloudinary.com/dfschbyq2/image/upload/v1711340032/360_F_388638071_eGYb1eOSBW06YnluAOwYMoweOlkBkHzF_wcauin.jpg",
+      "https://res.cloudinary.com/dfschbyq2/image/upload/v1711340082/2a0c9319-6599-4c14-98e5-e74d13eab669_qirhbk.webp"
+    ],
+    "description": "¡Prepare-se para uma emocionante experiência no Grande Prêmio F1 São Paulo com nosso pacote exclusivo de 4 noites! De 24 a 28 de outubro, você ficará hospedado em um confortável hotel 3 estrelas em São Paulo, onde todas as manhãs será servido um delicioso café da manhã para te energizar para o dia. Com nossos ingressos para o 'SETOR G' do circuito, você terá uma vista privilegiada da ação na pista nas sextas-feiras, sábados e domingos, garantindo que não perca um único momento da emoção. Além disso, nossos traslados para o circuito o levarão de ida e volta nas sextas-feiras, sábados e domingos, garantindo que você chegue confortavelmente e a tempo para desfrutar de toda a ação na pista. Não perca a oportunidade de viver a paixão da Fórmula 1 em São Paulo! Reserve agora e junte-se a nós para um fim de semana inesquecível cheio de velocidade e emoção.",
+    "price": 1590,
+    "totalPrice": 3180,
+    "persons": "2",
+    "nights": 4,
+    "circuits": 1,
+    "lodgings": 1
+  },
+  {
+    "id": 3,
     "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
     "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709690723/raphael-nogueira-0phxdasdsaYpfFHpg-unsplash_nzshqd.jpg",
     "title": "Brasil: São Paulo Circuito Interlagos",
@@ -136,16 +52,55 @@
     "initialDate": "1 de novembro de 2024",
     "finishDate": "4 de novembro de 2024",
     "galleryImages": [
-        "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270694/ETjCPrGWC_2000x1500__1_1_b6jimx.jpg",
-        "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270652/gran-premio-de-brasil_862x485_jqwpit.jpg",
-        "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270724/16989969857466_1_kebrcg.jpg",
-        "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270567/brazil-friday4-678662_lqollg.jpg"
+      "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270567/brazil-friday4-678662_lqollg.jpg",
+      "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270652/gran-premio-de-brasil_862x485_jqwpit.jpg",
+      "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270694/ETjCPrGWC_2000x1500__1_1_b6jimx.jpg",
+      "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270724/16989969857466_1_kebrcg.jpg"
+    ],
+    "description": "Prepare-se para viver a Fórmula 1 no Brasil em 2024! De 1 a 4 de novembro, desfrute de uma experiência inesquecível no Circuito Interlagos em São Paulo. Este pacote inclui 5 noites de hospedagem no Hotel Bourbon Barra Funda com café da manhã, traslados privados e ingressos para os 3 dias do evento no setor N. Além disso, você terá um tour guiado na pista, uma foto com o troféu, uma visita aos boxes e um kit F1+ carry on personalizado. Não perca esta oportunidade única de viver a emoção da Fórmula 1 no Brasil!",
+    "persons": "2",
+    "nights": 5,
+    "circuits": 1,
+    "lodgings": 1
+  },
+  {
+    "id": 4,
+    "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
+    "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709690723/raphael-nogueira-0phxdasdsaYpfFHpg-unsplash_nzshqd.jpg",
+    "title": "Brasil: São Paulo Circuito Interlagos",
+    "country": "São Paulo",
+    "initialDate": "1 de novembro de 2024",
+    "finishDate": "4 de novembro de 2024",
+    "galleryImages": [
+      "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270724/16989969857466_1_kebrcg.jpg",
+      "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270652/gran-premio-de-brasil_862x485_jqwpit.jpg",
+      "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270694/ETjCPrGWC_2000x1500__1_1_b6jimx.jpg",
+      "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270567/brazil-friday4-678662_lqollg.jpg"
+    ],
+    "description": "Desfrute da Fórmula 1 no Brasil 2024 no icônico Circuito Interlagos em São Paulo de 1 a 4 de novembro! Este pacote exclusivo inclui 4 noites de hospedagem com café da manhã, traslados de chegada e saída e ingressos para os 3 dias do evento no setor A. Além disso, você receberá um KIT F1 para aproveitar ao máximo a experiência. Não perca a oportunidade de fazer parte deste emocionante evento no mundo do automobilismo!",
+    "persons": "2",
+    "nights": 4,
+    "circuits": 1,
+    "lodgings": 1
+  },
+  {
+    "id": 5,
+    "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
+    "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709690723/raphael-nogueira-0phxdasdsaYpfFHpg-unsplash_nzshqd.jpg",
+    "title": "Brasil: São Paulo Circuito Interlagos",
+    "country": "São Paulo",
+    "initialDate": "1 de novembro de 2024",
+    "finishDate": "4 de novembro de 2024",
+    "galleryImages": [
+      "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270694/ETjCPrGWC_2000x1500__1_1_b6jimx.jpg",
+      "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270652/gran-premio-de-brasil_862x485_jqwpit.jpg",
+      "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270724/16989969857466_1_kebrcg.jpg",
+      "https://res.cloudinary.com/dfschbyq2/image/upload/v1721270567/brazil-friday4-678662_lqollg.jpg"
     ],
     "description": "Viva a emoção da Fórmula 1 no Brasil 2024 no Circuito Interlagos em São Paulo de 1 a 4 de novembro! Este incrível pacote inclui 3 noites de hospedagem com café da manhã, traslados de chegada e saída e ingressos para os 3 dias do evento no setor G. Além disso, você receberá um exclusivo KIT F1 para melhorar ainda mais sua experiência. Não perca esta oportunidade única de desfrutar da Fórmula 1 em um dos circuitos mais emocionantes do mundo!",
     "persons": "2",
     "nights": 3,
     "circuits": 1,
     "lodgings": 1
-}
-
+  }
 ]

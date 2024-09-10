@@ -1,36 +1,7 @@
 [
+    
     {
         "id": 1,
-        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
-        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710115681/Budapest-city-Hungary-bridgedasd-cityscape-river-1883845-wallhere.com_utc3ce.webp",
-        "title": "Gran Premio F1 Hungría",
-        "country": "Budapest",
-        "initialDate": "julio 2024",
-        "finishDate": "julio 2024",
-        "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1711337009/directo-f1-libres-entrenamientos-gp-hungria-2021-1627647935_3_720x440_rsxp1q.webp","https://res.cloudinary.com/dfschbyq2/image/upload/v1711337336/f.elconfidencial.com_original_961_449_01e_96144901e878833cfa4fb9be6b1e4681_mb4biv.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1711337373/chain-bridge-budapest-hungary-europe-wallpaper-preview_peklw2.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1711337768/1237666_1_z26mrw.jpg"],
-        "description": "¡Prepárate para vivir una experiencia inolvidable en el Gran Premio F1 Hungría con nuestro exclusivo paquete de 3 noches! Disfruta de la majestuosa Budapest mientras te hospedas en el prestigioso Hotel Novotel Danube de 4 estrellas, donde cada día comienza con un desayuno delicioso que te preparará para la emoción del circuito. Con nuestro servicio de traslado al circuito garantizado los sábados y domingos, llegarás al evento sin preocupaciones y listo para disfrutar de la emoción de la carrera. Además, con nuestra entrada a la 'TRIBUNA RED BULL', tendrás una vista privilegiada de la pista, sumergiéndote en la acción con estilo y comodidad. ¡No olvides que también puedes consultar la disponibilidad en otros sectores para personalizar aún más tu experiencia! Asegura tu lugar en esta emocionante carrera y vive el Gran Premio F1 Hungría como nunca antes. ¡Reserva ahora y únete a nosotros para una aventura inolvidable en la velocidad y el glamour de la Fórmula 1!",
-        "persons": "2",
-        "nights": 3,
-        "circuits": 1,
-        "lodgings": 1
-    },
-    {
-        "id": 2,
-        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
-        "coverImage": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711338074/wp3823892_ofpl4l.jpg",
-        "title": "Gran Premio F1 Monza",
-        "country": "Milan",
-        "initialDate": "agosto 2024",
-        "finishDate": "septiembre 2024",
-        "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1711338134/220043-italian-gp-saturday-gallery_dz7lgp.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1711338172/sundayitaly3-945260_icna5i.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1711338269/7e48b61ffc7796dec47991460ff7e5ba_ueu7re.png","https://res.cloudinary.com/dfschbyq2/image/upload/v1711337957/wp3823939_ng7sgo.webp"],
-        "description": "¡Prepárate para vivir la pasión de la Fórmula 1 en el legendario Gran Premio F1 Monza con nuestro paquete exclusivo de 4 noches! Del 30 de agosto al 01 de septiembre, sumérgete en la atmósfera vibrante de esta carrera icónica mientras te hospedas en un acogedor hotel de 3 estrellas con alojamiento y desayuno incluidos. Con nuestra entrada en la CATEGORÍA TRIBUNA CENTRALE, tendrás una vista privilegiada de la acción en la pista los viernes, sábados y domingos, asegurándote una experiencia inolvidable en cada momento de la carrera. Además, nuestro servicio de traslado al circuito los viernes, sábados y domingos te garantiza llegar allí con comodidad y sin preocupaciones. ¡No te pierdas la oportunidad de vivir la emoción del Gran Premio F1 Monza con nosotros! Reserva ahora y asegura tu lugar en este emocionante evento lleno de velocidad y adrenalina.",
-        "persons": "2",
-        "nights": 4,
-        "circuits": 1,
-        "lodgings": 1
-    },
-    {
-        "id": 3,
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
         "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710116836/mexico-city-wallpaper-9568-10062dasdshd-wallpapers_ieqoab.webp",
         "title": "Gran Premio F1 México",
@@ -45,7 +16,7 @@
         "lodgings": 1
     },
     {
-        "id": 4,
+        "id": 2,
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
         "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709690723/raphael-nogueira-0phxdasdsaYpfFHpg-unsplash_nzshqd.jpg",
         "title": "Gran Premio F1 San Pablo",
@@ -60,12 +31,12 @@
         "lodgings": 1
     },
     {
-        "id": 5,
+        "id": 3,
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
         "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709690723/raphael-nogueira-0phxdasdsaYpfFHpg-unsplash_nzshqd.jpg",
         "title": "Brasil: Sao Paulo Circuito Interlagos",
         "country": "Sao Paulo",
-        "initialDate": "1 de noviembre 2024",
+        "initialDate": "30 de noviembre 2024",
         "finishDate": "4 de noviembre 2024",
         "galleryImages": ["https://res.cloudinary.com/dfschbyq2/image/upload/v1721270567/brazil-friday4-678662_lqollg.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1721270652/gran-premio-de-brasil_862x485_jqwpit.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1721270694/ETjCPrGWC_2000x1500__1_1_b6jimx.jpg","https://res.cloudinary.com/dfschbyq2/image/upload/v1721270724/16989969857466_1_kebrcg.jpg"],
         "description": "¡Prepárate para vivir la Fórmula 1 en Brasil 2024! Del 1 al 4 de noviembre, disfruta de una experiencia inolvidable en el Circuito Interlagos de São Paulo. Este paquete incluye 5 noches de alojamiento en el Hotel Bourbon Barra Funda con desayuno, traslados privados, y tickets para los 3 días del evento en el sector N. Además, tendrás un tour guiado en pista, una foto con el trofeo, una visita a los boxes, y un kit F1+ carry on personalizado.¡No te pierdas esta oportunidad única de vivir la emoción de la Fórmula 1 en Brasil!",
@@ -75,7 +46,7 @@
         "lodgings": 1
     },
     {
-        "id": 6,
+        "id": 4,
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
         "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709690723/raphael-nogueira-0phxdasdsaYpfFHpg-unsplash_nzshqd.jpg",
         "title": "Brasil: Sao Paulo Circuito Interlagos",
@@ -90,7 +61,7 @@
         "lodgings": 1
     },
     {
-        "id": 7,
+        "id": 5,
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709307417/Hamilton_20Verstappen_20Imola_ktds2f.webp",
         "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1709690723/raphael-nogueira-0phxdasdsaYpfFHpg-unsplash_nzshqd.jpg",
         "title": "Brasil: Sao Paulo Circuito Interlagos",
