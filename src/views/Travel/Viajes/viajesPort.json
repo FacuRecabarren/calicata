@@ -434,6 +434,63 @@
         "nights": 8,
         "circuits": 0,
         "lodgings": 1
+    },
+    {
+        "id": 33,
+        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1729300583/Agencia%20viajes/CostaFavolosa-27-1_thu4rn.webp",
+        "title": "Costa Favolosa",
+        "country": "Brasil",
+        "initialDate": "29 de dezembro de 2024",
+        "finishDate": "",
+        "galleryImages": [
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1729300583/Agencia%20viajes/CostaFavolosa-27-1_thu4rn.webp",
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1729300586/Agencia%20viajes/costa-favolosa-0yqw25xxkqc4ybja5xn3gh3hx8_dsi3cf.webp",
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1729300591/Agencia%20viajes/C484_EntryPoint_1500x1000_firmss.jpg",
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1729300593/Agencia%20viajes/2951_Crucero_Costa_vhkfqh.jpg"
+        ],
+        "description": "Embarque de Buenos Aires. 9 dias - 8 noites, tudo incluído. Bebidas de cortesia.",
+        "persons": "2",
+        "nights": 8,
+        "circuits": 0,
+        "lodgings": 1
+    },
+    {
+        "id": 34,
+        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1729300583/Agencia%20viajes/CostaFavolosa-27-1_thu4rn.webp",
+        "title": "Natal a Bordo - Costa Favolosa",
+        "country": "Brasil - Uruguai",
+        "initialDate": "20 de dezembro de 2024",
+        "finishDate": "",
+        "galleryImages": [
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1729300583/Agencia%20viajes/CostaFavolosa-27-1_thu4rn.webp",
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1729300586/Agencia%20viajes/costa-favolosa-0yqw25xxkqc4ybja5xn3gh3hx8_dsi3cf.webp",
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1729300591/Agencia%20viajes/C484_EntryPoint_1500x1000_firmss.jpg",
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1729300593/Agencia%20viajes/2951_Crucero_Costa_vhkfqh.jpg"
+        ],
+        "description": "Embarque de Buenos Aires. 9 dias - 8 noites, tudo incluído. Bebidas de cortesia.",
+        "persons": "2",
+        "nights": 8,
+        "circuits": 0,
+        "lodgings": 1
+    },
+    {
+        "id": 35,
+        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1729300583/Agencia%20viajes/CostaFavolosa-27-1_thu4rn.webp",
+        "title": "Natal a Bordo - Costa Favolosa",
+        "country": "Punta del Este - Uruguai",
+        "initialDate": "10 de dezembro de 2024",
+        "finishDate": "",
+        "galleryImages": [
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1729300583/Agencia%20viajes/CostaFavolosa-27-1_thu4rn.webp",
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1729300586/Agencia%20viajes/costa-favolosa-0yqw25xxkqc4ybja5xn3gh3hx8_dsi3cf.webp",
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1729300591/Agencia%20viajes/C484_EntryPoint_1500x1000_firmss.jpg",
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1729300593/Agencia%20viajes/2951_Crucero_Costa_vhkfqh.jpg"
+        ],
+        "description": "Embarque de Buenos Aires. 4 dias - 3 noites, tudo incluído. Bebidas de cortesia.",
+        "persons": "2",
+        "nights": 3,
+        "circuits": 0,
+        "lodgings": 1
     }
             
 ]
