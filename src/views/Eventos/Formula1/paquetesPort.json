@@ -102,5 +102,25 @@
     "nights": 3,
     "circuits": 1,
     "lodgings": 1
+  },
+  {
+    "id": 6,
+    "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1729300031/Agencia%20viajes/moto-24group-photo-e1722389842638_i8pm2i.webp",
+    "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1729300031/Agencia%20viajes/moto-24group-photo-e1722389842638_i8pm2i.webp",
+    "title": "Grande Prêmio da Argentina",
+    "country": "Argentina",
+    "initialDate": "14 de março de 2025",
+    "finishDate": "17 de março de 2025",
+    "galleryImages": [
+        "https://res.cloudinary.com/dreso9ye9/image/upload/v1729300031/Agencia%20viajes/moto-24group-photo-e1722389842638_i8pm2i.webp",
+        "https://res.cloudinary.com/dreso9ye9/image/upload/v1729300035/Agencia%20viajes/images_iwnp0k.jpg",
+        "https://res.cloudinary.com/dreso9ye9/image/upload/v1729300036/Agencia%20viajes/images_ns9lnf.jpg",
+        "https://res.cloudinary.com/dreso9ye9/image/upload/v1729300041/Agencia%20viajes/images_jkf5xk.jpg"
+    ],
+    "description": "3 Noites em um hotel 3 estrelas em Rio Hondo. Café da manhã. Ingressos para o circuito. Traslados para o circuito.",
+    "persons": "2",
+    "nights": 3,
+    "circuits": 1,
+    "lodgings": 1
   }
 ]

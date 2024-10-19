@@ -31,5 +31,26 @@
         "nights": "-",
         "circuits": 1,
         "lodgings": 1
+    },
+    {
+        "id": 6,
+        "coverImage": "https://res.cloudinary.com/dreso9ye9/image/upload/v1729300307/Agencia%20viajes/juan-martin-del-potro-vs-novak-djokovic-fotos-reuterstony-obrien-ap-photokirsty-wigglesworth-2JJ4OCCBK5EQZCZ4VGMZI2EOCE_kkfvpl.avif",
+        "title": "Del Potro vs Djokovic",
+        "country": "Argentina - Buenos Aires",
+        "initialDate": "December 1, 2024",
+        "finishDate": "",
+        "galleryImages": [
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1729300307/Agencia%20viajes/juan-martin-del-potro-vs-novak-djokovic-fotos-reuterstony-obrien-ap-photokirsty-wigglesworth-2JJ4OCCBK5EQZCZ4VGMZI2EOCE_kkfvpl.avif",
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1729300317/Agencia%20viajes/images_mszy1s.jpg",
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1729300321/Agencia%20viajes/7Z7TVRCHBRDABON5Q5VPPTJOO4_tfcgoz.avif",
+            "https://res.cloudinary.com/dreso9ye9/image/upload/v1729300322/Agencia%20viajes/download_psbze3.jpg"
+        ],
+        "description": "One night of accommodation. Breakfast. High lateral seat C ticket. Transfer to the event.",
+        "price": 1235,
+        "totalPrice": 2470,
+        "persons": "2",
+        "nights": "1",
+        "circuits": 1,
+        "lodgings": 1
     }    
 ]
